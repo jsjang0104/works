@@ -1,6 +1,0 @@
-gradio
-pandas
-openpyxl
-torch
-transformers
-numpy
