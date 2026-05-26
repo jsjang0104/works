@@ -9,7 +9,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 1
   },
   {
     "src": "play your part in envisioning Singapore’s future!",
@@ -21,7 +22,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 2
   },
   {
     "src": "Singapore’s Largest All-Age Indoor Playground located at Suntec City Tower 2, SuperPark Singapore spans 25,000 sq ft across two levels.",
@@ -33,7 +35,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 3
   },
   {
     "src": "Specially designed kid-friendly playground arena consists of visually stunning interactive play elements to engage your child's sense of direction, motion and coordination",
@@ -45,7 +48,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 4
   },
   {
     "src": "Use your anaglyph glasses to compare between the Japanese and Allied perspectives of the battle right before the surrender",
@@ -57,7 +61,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 5
   },
   {
     "src": "Rediscover Singapore's rich cultural and historical heritage on the Marina Sightseeing route",
@@ -69,7 +74,8 @@
     "BLEURT new": 0.671832,
     "cometKiwi": 0.85645,
     "Qwen3-32B": 0.95,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 6
   },
   {
     "src": "at least 3 working days in advance",
@@ -81,7 +87,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 7
   },
   {
     "src": "Add-ons such as Breakfast in the Wild, Dinner at Ulu Ulu Safari Restaurant require a standalone reservation (in addition to the Admission ticket) and is subject to a 24-hour confirmation. Please make your reservations in advance.",
@@ -93,7 +100,8 @@
     "BLEURT new": 0.684768,
     "cometKiwi": 0.791035,
     "Qwen3-32B": 0.9,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 8
   },
   {
     "src": "Have fun at Kiztopia's Superhero themed bouncy castle play area, occupying 6,400 sq of space!",
@@ -105,7 +113,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 9
   },
   {
     "src": "A haven for young adventurers, Kiztopia Prestige is a brand new concept that promises premium experiences tailored for toddlers and preschoolers",
@@ -117,7 +126,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 10
   },
   {
     "src": "Housed in a 4,200 square foot facility at HomeTeamNS Bukit Batok, the specially crafted kid-friendly arena consists of spectacular designs and interactive play centres.",
@@ -129,7 +139,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 11
   },
   {
     "src": "Housed in a 4,200 square foot facility at HomeTeamNS Bukit Batok, the specially crafted kid-friendly arena consists of spectacular designs and interactive play centres.",
@@ -141,7 +152,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 12
   },
   {
     "src": "The Experience at Cloud Forest, where life-sized animatronic and sculpted dinosaurs roam amidst lush greenery.",
@@ -153,7 +165,8 @@
     "BLEURT new": 0.414172,
     "cometKiwi": 0.736769,
     "Qwen3-32B": 0.85,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 13
   },
   {
     "src": "Open ocean habitat",
@@ -165,55 +178,60 @@
     "BLEURT new": 0.677199,
     "cometKiwi": 0.812994,
     "Qwen3-32B": 1.0,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 14
   },
   {
     "src": "Paris Catacombs Half-Day Skip-the-Line Tour",
     "mistranslated": "파리 카타콤 반나절 우선 입장 투어",
     "type": "AWKWARD",
-    "tgt": null,
-    "ref": null,
+    "tgt": "파리 카타콤 반나절 패스트트랙 투어",
+    "ref": "파리 카타콤 반나절 줄 없이 입장 투어",
     "BLEURT old": 0.6717,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.691393,
+    "cometKiwi": 0.426281,
+    "Qwen3-32B": 1.0,
+    "state": "Declined",
+    "num": 15
   },
   {
     "src": "Paris Louvre Museum 2-Hour Small Group Tour",
     "mistranslated": "파리 루브르 박물관 반나절 소그룹 투어",
     "type": "MISTRANSLATION",
-    "tgt": null,
-    "ref": null,
+    "tgt": "파리 루브르 박물관 2시간 소규모 그룹 투어",
+    "ref": "파리 루브르 박물관 2시간 소규모 그룹 투어",
     "BLEURT old": 0.8205,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 1.037073,
+    "cometKiwi": 0.854687,
+    "Qwen3-32B": 1.0,
+    "state": "Declined",
+    "num": 16
   },
   {
     "src": "Eiffel Tower Sightseeing Tour with Optional Summit Access in Paris",
     "mistranslated": "파리 에펠탑 반나절 관광 투어",
     "type": "OMISSION",
-    "tgt": null,
-    "ref": null,
+    "tgt": "파리 에펠탑 전망 투어 (정상층 입장 선택 가능)",
+    "ref": "파리 에펠탑 관광 투어 (선택적 정상 입장 포함)",
     "BLEURT old": 0.5504,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.636173,
+    "cometKiwi": 0.79327,
+    "Qwen3-32B": 0.9,
+    "state": "Declined",
+    "num": 17
   },
   {
     "src": "Eiffel Tower Sightseeing Tour with Optional Summit Access in Paris",
     "mistranslated": "파리 에펠탑 반나절 관광 투어",
     "type": "ADDITION",
-    "tgt": null,
-    "ref": null,
+    "tgt": "파리 에펠탑 전망 투어 (정상 입장 선택 가능)",
+    "ref": "파리 에펠탑 관광 투어 (선택적 정상 입장 포함)",
     "BLEURT old": 0.5878,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.653088,
+    "cometKiwi": 0.772949,
+    "Qwen3-32B": 0.9,
+    "state": "Declined",
+    "num": 18
   },
   {
     "src": "Eiffel Tower Stair Climb with Summit Access Tour",
@@ -225,7 +243,8 @@
     "BLEURT new": 0.616094,
     "cometKiwi": 0.739559,
     "Qwen3-32B": 0.85,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 19
   },
   {
     "src": "Learn history and appreciate the dark chocolate",
@@ -237,79 +256,86 @@
     "BLEURT new": 0.974285,
     "cometKiwi": 0.872489,
     "Qwen3-32B": 0.95,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 20
   },
   {
     "src": "Discover Gothic details, including flying buttresses, gargoyles, and sculpted facades",
     "mistranslated": "플라잉 버트레스, 가고일, 조각된 외관 등 고딕 양식의 세부 사항을 발견하세요.",
     "type": "MISTRANSLATION",
-    "tgt": null,
-    "ref": null,
+    "tgt": "고딕 양식의 플라잉 버트레스, 가고일, 조각된 파사드 등 섬세한 디테일을 만나보세요.",
+    "ref": "플라잉 버트레스, 가고일, 조각된 파사드 등 고딕 양식의 세부 요소들을 발견하세요",
     "BLEURT old": 0.6754,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.648504,
+    "cometKiwi": 0.787952,
+    "Qwen3-32B": 0.9,
+    "state": "Declined",
+    "num": 21
   },
   {
     "src": "Swiss Chocolate Factory, Watch Museum & Neuchatel Castle Day Tour",
     "mistranslated": "레만 호 & Neuchâtel Castle 1일 가이드 & 관광 투어",
     "type": "Multiple",
-    "tgt": null,
-    "ref": null,
+    "tgt": "스위스 초콜릿 공장, 시계 박물관 & 뇌샤텔 성 (Neuchâtel Castle) 일일 투어",
+    "ref": "스위스 초콜릿 공장, 시계 박물관 & 뇌샤텔 성 당일 투어",
     "BLEURT old": 0.4074,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.52567,
+    "cometKiwi": 0.807868,
+    "Qwen3-32B": 0.9,
+    "state": "Declined",
+    "num": 22
   },
   {
     "src": "Follow the transformation of apples from orchard to glass, engaging your senses with the sights, aromas, and craftsmanship behind Calvados",
     "mistranslated": "사과가 과수원에서 유리잔으로 변신하는 과정을 따라가며 칼바도스에 담긴 볼거리, 향기, 장인 정신으로 감각을 깨워보세요.",
     "type": "AWKWARD",
-    "tgt": null,
-    "ref": null,
+    "tgt": "과수원에서 유리잔까지, 사과의 변신 과정을 따라가며 칼바도스(Calvados)를 만드는 풍경과 향기, 장인 정신을 오감으로 느껴보세요.",
+    "ref": "칼바도스 이면에 담긴 광경, 향기, 장인 정신으로 감각을 일깨우며 과수원에서 잔까지 사과의 변신 과정을 따라가 보세요",
     "BLEURT old": 0.7063,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.464171,
+    "cometKiwi": 0.792242,
+    "Qwen3-32B": 0.95,
+    "state": "Declined",
+    "num": 23
   },
   {
     "src": "Experience a flexible visit with a complimentary homemade audioguide, available on your device, and explore the cathedral’s exterior at your own pace",
     "mistranslated": "기기에서 제공되는 무료 수제 오디오 가이드로 유연한 방문을 경험하고, 원하는 속도로 성당 외부를 탐험하세요",
     "type": "AWKWARD",
-    "tgt": null,
-    "ref": null,
+    "tgt": "기기에서 제공되는 자체 제작 무료 오디오 가이드와 함께 원하는 시간에 방문하여, 대성당의 외관을 여유롭게 둘러보세요.",
+    "ref": "기기에서 이용 가능한 무료 자체 제작 오디오 가이드와 함께 자유롭게 방문하고, 원하는 속도로 대성당 외관을 탐험해 보세요",
     "BLEURT old": 0.6181,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Applied"
+    "BLEURT new": 0.513658,
+    "cometKiwi": 0.792635,
+    "Qwen3-32B": 0.9,
+    "state": "Applied",
+    "num": 24
   },
   {
     "src": "D-Day landing beaches private tour from Paris",
     "mistranslated": "파리 출발, D-Day 상륙 해변 프라이빗 투어",
     "type": "AWKWARD",
-    "tgt": null,
-    "ref": null,
+    "tgt": "파리 출발 노르망디 상륙작전 해변 프라이빗 투어",
+    "ref": "파리 출발 디데이 상륙 해변 프라이빗 투어",
     "BLEURT old": 0.7228,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.719758,
+    "cometKiwi": 0.46957,
+    "Qwen3-32B": 0.95,
+    "state": "Declined",
+    "num": 25
   },
   {
     "src": "Meet your expert caviste, who will share secrets on how to masterfully pair wine and cheese",
     "mistranslated": "와인과 치즈를 능숙하게 페어링하는 비법을 공유해 줄 전문 \"카비스트\"를 만나보세요.",
     "type": "AWKWARD",
-    "tgt": null,
-    "ref": null,
+    "tgt": "전문가 카비스트를 만나 와인과 치즈를 완벽하게 페어링하는 비법을 전수받아 보세요.",
+    "ref": "와인과 치즈를 능숙하게 페어링하는 비결을 나눠줄 전문 카비스트를 만나보세요",
     "BLEURT old": 0.8077,
-    "BLEURT new": null,
-    "cometKiwi": null,
-    "Qwen3-32B": null,
-    "state": "Declined"
+    "BLEURT new": 0.5311,
+    "cometKiwi": 0.846368,
+    "Qwen3-32B": 0.9,
+    "state": "Declined",
+    "num": 26
   },
   {
     "src": "Whether you’ first timer in the city, culture seeker, or foodie, this walking tour is the perfect way to see, taste, and feel the real Tbilisi — up close and personal.",
@@ -321,7 +347,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 27
   },
   {
     "src": "Mark your calendars for 28 and 29 March 2026 and prepare for a weekend of discovery, featuring immersive masterclasses led by sake and shochu educators and the most exciting lineup of food vendors, from Ye Olde Cow and Odem to Fatt Choy Eating House.",
@@ -333,7 +360,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 28
   },
   {
     "src": "Kumar Got Balls at Sands Theatre",
@@ -345,7 +373,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 29
   },
   {
     "src": "Experience Singapore’s first-ever gamified electric go-kart adventure at HyperDrive, located in The Palawan @ Sentosa",
@@ -357,7 +386,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 30
   },
   {
     "src": "A 50,000 sq.ft sanctuary of wellness and luxurious pampering, Willow Stream Spa has 35 treatment rooms with a relaxation lounge, sauna and steam rooms perfect for guests or a rejuvenating journey.",
@@ -369,7 +399,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 31
   },
   {
     "src": "It’s hot. It's hilarious.",
@@ -381,7 +412,8 @@
     "BLEURT new": 1.009567,
     "cometKiwi": 0.539019,
     "Qwen3-32B": 0.66,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 32
   },
   {
     "src": "Fall in love with the irresistibly funny tale of a mother, a daughter and three possible dads on a Greek island idyll, all unfolding to the magic of ABBA’s timeless songs.",
@@ -393,7 +425,8 @@
     "BLEURT new": 0.389366,
     "cometKiwi": 0.757781,
     "Qwen3-32B": 0.9,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 33
   },
   {
     "src": "Guided tours available: Choose expert-guided tours in English or Chinese for a deeper understanding of the Colosseum’s history",
@@ -405,7 +438,8 @@
     "BLEURT new": 0.509924,
     "cometKiwi": 0.856631,
     "Qwen3-32B": 0.9,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 34
   },
   {
     "src": "Colosseum, Roman Forum and Palatine Hill",
@@ -417,7 +451,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 35
   },
   {
     "src": "Learn about the rich history, fascinating curiosities, and intriguing legends of Basilica Sancta Maria ad Martyres",
@@ -429,7 +464,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 36
   },
   {
     "src": "7 Trips in 15 Days",
@@ -441,7 +477,8 @@
     "BLEURT new": 0.788575,
     "cometKiwi": 0.437805,
     "Qwen3-32B": 0.95,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 37
   },
   {
     "src": "You'll get a voucher to take part in each activity, so you can fill your days with joyful experiences",
@@ -453,7 +490,8 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Declined"
+    "state": "Declined",
+    "num": 38
   },
   {
     "src": "Travel from Rome to Venice in just over 3 hours on a high-speed train.",
@@ -465,6 +503,7 @@
     "BLEURT new": null,
     "cometKiwi": null,
     "Qwen3-32B": null,
-    "state": "Applied"
+    "state": "Applied",
+    "num": 39
   }
 ]
