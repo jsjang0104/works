@@ -28,7 +28,7 @@ def main():
     # ref가 있는 항목만 (tgt도 함께 있어야 함)
     targets = [
         (i, entry) for i, entry in enumerate(data)
-        if entry.get("ref") and entry.get("tgt")
+        if entry.get("ref") and entry.get("tgt") and entry.get("cometKiwi") is None
     ]
     print(f"Loaded {len(data)} entries, {len(targets)} have ref+tgt → scoring these")
 

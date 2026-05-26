@@ -27,7 +27,7 @@ def main():
 
     targets = [
         (i, entry) for i, entry in enumerate(data)
-        if entry.get("ref") and entry.get("tgt")
+        if entry.get("ref") and entry.get("tgt") and entry.get("BLEURT new") is None
     ]
     print(f"Loaded {len(data)} entries, {len(targets)} have ref+tgt → scoring these")
     print(f"Model: {MODEL_NAME}\n")
