@@ -1,0 +1,534 @@
+# 명사
+[-s]
+das Auto
+das Baby
+der Blog
+das Büro
+das Café
+die Cafeteria
+der Chef
+der Club
+der Comic
+das Doppelzimmer
+das E-Book
+die E-Mail
+der Fan
+das Foto
+das Handy
+das Hobby
+das Hotel
+das Interview
+der Job
+die Kamera
+das Kino
+der Krimi
+der Laptop
+der Link
+das Mobiltelefon
+das Parfum
+der Park
+die Party
+das Praktikum
+das Programm
+das Radio
+das Reisebüro
+das Restaurant
+das Sofa
+das Tablet
+das Taxi
+das Team
+der Tee
+das Ticket
+das Training
+das T-Shirt
+
+[-]
+der Artikel
+der Babysitter
+das Brötchen
+der Computer
+der Drucker
+der Empfänger
+das Essen
+das Fenster
+der Fernseher
+der Hamburger
+das Hähnchen
+der Keller
+der Koffer
+der Kuchen
+der Laden
+der Löffel
+das Mädchen
+der Mantel
+das Messer
+der Mitarbeiter
+das Mittagessen
+das Mittel
+der Motorroller
+der Pullover
+der Reiseführer
+der Rentner
+der Rücken
+der Rucksack
+der Schalter
+der Schirm
+der Schlüssel
+das Schlafzimmer
+der Stiefel
+der Teller
+das Theater
+der Wagen
+das Wohnzimmer
+das Zimmer
+der Zettel
+
+[-e]
+das Angebot
+der Anruf
+der Apparat
+der Arm
+der Ausweis
+der Balkon
+der Bahnsteig
+das Bein
+der Beruf
+der Besuch
+der Brief
+das Brot
+der Eingang
+der Eintritt
+das Fest
+der Film
+der Fisch
+das Gegenteil
+das Gerät
+das Gericht
+das Geschäft
+das Geschenk
+das Gespräch
+das Getränk
+das Gleis
+der Haushalt
+der Kontakt
+das Konzert
+das Öl
+das Paar
+das Paket
+das Papier
+der Pass
+das Plakat
+das Problem
+das Produkt
+das Projekt
+der Prospekt
+das Rätsel
+das Rezept
+der Ring
+das Salz
+der Satz
+der Schuh
+das Spiel
+der Sportplatz
+der Text
+das Tier
+der Tisch
+der Titel
+der Urlaub
+der Verein
+der Weg
+der Wein
+der Witz
+das Zelt
+das Ziel
+
+[-n]
+die Adresse
+die Ampel
+die Anzeige
+die Apotheke
+die Aufgabe
+das Auge
+die Banane
+der/die Bekannte
+die Birne
+die Blume
+die Bluse
+die Bohne
+die Ecke
+die Familie
+die Farbe
+die Flasche
+die Frage
+die Gabel
+die Garage
+die Geschichte
+die Gitarre
+die Größe
+die Gruppe
+die Halle
+die Haltestelle
+die Idee
+die Insel
+die Jacke
+der/die Jugendliche
+der Junge
+die Karte
+die Kartoffel
+die Kasse
+die Katze
+die Kette
+die Kirche
+der Kollege
+die Küche
+der Kunde
+die Lampe
+die Lüge
+die Maschine
+die Meinung
+die Menge
+die Messe
+die Miete
+die Mitte
+die Mode
+die Mütze
+der Nachbar
+die Note
+die Notiz
+die Nudel
+die Nummer
+die Orange
+die Ordnung
+die Pflanze
+die Reihe
+die Rose
+die Sache
+die Schere
+die Schule
+die Seife
+die Seite
+die Sendung
+die Situation
+die Sonne
+die Sprache
+die Straße
+die Suppe
+die Tafel
+die Tasche
+die Tasse
+die Toilette
+die Tomate
+die Torte
+die Wäsche
+die Wolke
+die Zitrone
+
+[-en]
+die Ahnung
+die Ankunft
+die Anmeldung
+die Antwort
+die Arbeit
+die Ausbildung
+die Ausstellung
+die Autobahn
+die Bäckerei
+das Bett
+die Bewerbung
+die Bibliothek
+die Bitte
+die Datei
+die Ehefrau
+die Einladung
+die Entschuldigung
+die Erfahrung
+die Ermäßigung
+die Firma
+die Frau
+die Führung
+die Heizung
+der Herr
+die Hochzeit
+die Information
+die Krankheit
+die Kreuzung
+die Kultur
+die Mailbox
+die Mannschaft
+der Mensch
+die Nachricht
+die Pause
+die Person
+die Qualität
+die Rechnung
+die Reinigung
+die Reparatur
+die Rezeption
+der Schmerz
+die Sehenswürdigkeit
+die Straßenbahn
+der Student
+die Tour
+der Tourist
+die Übersetzung
+die Universität
+die Unterschrift
+die Veranstaltung
+die Verspätung
+die Wohnung
+die Zahl
+die Zeitschrift
+die Zeitung
+
+[-er]
+das Bild
+das Ei
+das Fahrrad
+das Glas
+das Kind
+das Kleid
+das Lied
+das Schild
+
+[-se]
+der Bus
+das Erdgeschoss
+das Ergebnis
+das Zeugnis
+
+[-nen]
+die Ärztin
+die Chefin
+die Freundin
+die Kollegin
+die Kundin
+die Nachbarin
+die Partnerin
+die Rentnerin
+die Schülerin
+die Studentin
+die Touristin
+
+[ä-]
+der Apfel
+der Flughafen
+der Kindergarten
+der Vater
+
+[ä, -e]
+der Anfang
+die Angst
+die Bank
+der Ball
+der Gast
+der Plan
+der Saft
+die Stadt
+der Traum
+der Unfall
+der Vertrag
+
+[ä, -er]
+das Bad
+das Fach
+das Land
+das Schloss
+
+[ü-]
+der Bruder
+die Mutter
+
+[ü, -e]
+die Auskunft
+der Aufzug
+der Ausflug
+der Fuß
+der Gruß
+die Kunst
+der Wunsch
+der Zug
+
+[ü, -er]
+das Buch
+das Tuch
+
+[ö, -e]
+der Bahnhof
+der Kopf
+der Rock
+
+[ö, -er]
+das Dorf
+das Wort
+
+[sg.]
+das Alter
+der Appetit
+das Ausland
+die Butter
+der Dank
+der Durst
+das Eis
+das Fleisch
+die Freizeit
+das Frühstück
+das Gemüse
+das Geld
+das Gepäck
+die Gesundheit
+die Grippe
+die Heimat
+das Internet
+der Käse
+die Kleidung
+die Kosmetik
+das Licht
+die Lust
+das Mineralwasser
+die Milch
+der Müll
+die Musik
+das Obst
+die Polizei
+die Post
+das Quiz
+der Regen
+der Reis
+die Ruhe
+der Schnee
+die Schokolade
+der Service
+der Spaß
+das Studium
+der Stress
+das Tennis
+der Unterricht
+das Wasser
+das Wetter
+der Zucker
+
+[pl.]
+die Eltern
+die Ferien
+die Fundsachen
+die Jeans
+die Kenntnisse
+die Lebensmittel
+die Leute
+die Möbel
+die Papiere
+die Pommes frites
+die Süßigkeiten
+
+# 형용사
+aktuell
+aktiv
+automatisch
+beliebt
+bequem
+berühmt
+billig
+blond
+böse
+bunt
+dankbar
+deutlich
+dick
+digital
+direkt
+dringend
+dumm
+dunkel
+dünn
+ehrlich
+einsam
+einverstanden
+elektrisch
+elektronisch
+elegant
+eng
+fantastisch
+faul
+fett
+fleißig
+freiwillig
+fremd
+freundlich
+frisch
+furchtbar
+gefährlich
+gesund
+glücklich
+groß
+günstig
+hart
+hässlich
+heiß
+hell
+herzlich
+hoch
+international
+jung
+kalt
+kaputt
+klar
+klein
+klug
+komisch
+kostenlos
+krank
+kühl
+kurz
+lang
+leer
+leicht
+leise
+lustig
+männlich
+modern
+möglich
+nass
+natürlich
+neblig
+nervös
+nett
+neu
+normal
+notwendig
+nützlich
+offen
+praktisch
+preiswert
+privat
+pünktlich
+reich
+richtig
+romantisch
+ruhig
+sauber
+sauer
+schädlich
+scharf
+schlecht
+schlimm
+schmutzig
+schnell
+schriftlich
+schwach
+schwanger
+schwer
+schwierig
+sicher
+sonnig
+spannend
+sportlich
+stark
+stressig
+streng
+super
+sympathisch
+tief
+toll
+tot
+traurig
+typisch
