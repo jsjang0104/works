@@ -1,6 +1,6 @@
-# archive-jisoo
+# Works
 
-Personal archive of Jisoo | Undergraduate Researcher @ HUFS DILab
+Jisoo Jang | Undergraduate Researcher @ HUFS DILab
 
 ```
 └── projects/        # 개인 프로젝트, 수업 과제 등
