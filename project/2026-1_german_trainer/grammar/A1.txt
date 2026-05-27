@@ -1,353 +1,345 @@
 # 명사
 [-s]
-das Auto
-das Baby
-die Band
-der Blog
-die CD
-der Chat
-der Comic
-die Disco
-das Foto
-das Handy
-die Homepage
-die Kamera
-das Kino
-der Laptop
-die Mail
-der Park
-der Radiergummi
-das Radio
-das Restaurant
-das Smartphone
-der Tee
-der Test
-das T-Shirt
+das Auto, 자동차
+das Baby, 아기
+die Band, 밴드
+der Blog, 블로그
+die CD, CD
+der Chat, 채팅
+der Comic, 만화
+die Disco, 디스코
+das Foto, 사진
+das Handy, 휴대폰
+die Homepage, 홈페이지
+die Kamera, 카메라
+das Kino, 영화관
+der Laptop, 노트북
+die Mail, 메일
+der Park, 공원
+der Radiergummi, 지우개
+das Radio, 라디오
+das Restaurant, 식당
+das Smartphone, 스마트폰
+der Tee, 차
+der Test, 시험
+das T-Shirt, 티셔츠
 
 [-]
-der Antwortbogen
-das Brötchen
-der Computer
-das Essen
-der Fehler
-das Fenster
-der Kuchen
-der Kugelschreiber
-das Mädchen
-der Morgen
-der Onkel
-das Poster
-der Pullover
-das Rätsel
-das Theater
-das Wiedersehen
-das Wohnzimmer
-das Zimmer
+der Antwortbogen, 답안지
+das Brötchen, 롤빵
+der Computer, 컴퓨터
+das Essen, 음식
+der Fehler, 실수
+das Fenster, 창문
+der Kuchen, 케이크
+der Kugelschreiber, 볼펜
+das Mädchen, 소녀
+der Morgen, 아침
+der Onkel, 삼촌
+das Poster, 포스터
+der Pullover, 풀오버
+das Rätsel, 수수께끼
+das Theater, 극장
+das Wiedersehen, 재회
+das Wohnzimmer, 거실
+das Zimmer, 방
 
 [-e]
-der Abend
-der Anruf
-der Arm
-der Bahnsteig
-das Beispiel
-der Beruf
-der Bleistift
-der Brief
-das Brot
-der Film
-der Fisch
-das Flugzeug
-der Fotoapparat
-der Freund
-der Geburtstag
-das Geschäft
-das Geschenk
-das Gespräch
-das Gleis
-das Haar
-das Heft
-das Jahr
-der Kiosk
-das Klavier
-das Kreuz
-der Kurs
-das Mal
-der Mittag
-der Ohrring
-das Paket
-das Pferd
-das Problem
-der Ring
-der Salat
-das Schiff
-das Spiel
-das Stück
-der Tag
-der Text
-das Tier
-der Tisch
+der Abend, 저녁
+der Anruf, 전화
+der Arm, 팔
+der Bahnsteig, 승강장
+das Beispiel, 예시
+der Beruf, 직업
+der Bleistift, 연필
+der Brief, 편지
+das Brot, 빵
+der Film, 영화
+der Fisch, 생선
+das Flugzeug, 비행기
+der Fotoapparat, 카메라
+der Freund, 친구
+der Geburtstag, 생일
+das Geschäft, 가게
+das Geschenk, 선물
+das Gespräch, 대화
+das Gleis, 선로
+das Haar, 머리카락
+das Heft, 공책
+das Jahr, 해
+der Kiosk, 가판대
+das Klavier, 피아노
+das Kreuz, 십자가
+der Kurs, 강의
+das Mal, 번
+der Mittag, 정오
+der Ohrring, 귀걸이
+das Paket, 소포
+das Pferd, 말
+das Problem, 문제
+der Ring, 반지
+der Salat, 샐러드
+das Schiff, 배
+das Spiel, 게임
+das Stück, 조각
+der Tag, 날
+der Text, 텍스트
+das Tier, 동물
+der Tisch, 테이블
 
 [-n]
-die Adresse
-die Apotheke
-die Aufgabe
-das Auge
-die Banane
-die Blume
-die Bluse
-der/die Erwachsene
-die Fahrkarte
-die Familie
-der Familienname
-die Flasche
-die Frage
-die Geschichte
-die Haltestelle
-die Hausaufgabe
-die Idee
-die Insel
-die Jacke
-der/die Jugendliche
-der Junge
-die Karte
-die Kartoffel
-die Katze
-die Klasse
-die Küche
-die Lampe
-die Marmelade
-die Minute
-der Name
-die Note
-die Nummer
-die Pause
-die Postkarte
-die Reise
-die Sache
-die Schwester
-der See
-die Seite
-die Sprache
-die Straße
-die Stunde
-die Suppe
-die Tante
-die Tasche
-die Tasse
-die Toilette
-der Vorname
-die Woche
+die Adresse, 주소
+die Apotheke, 약국
+die Aufgabe, 과제
+das Auge, 눈
+die Banane, 바나나
+die Blume, 꽃
+die Bluse, 블라우스
+der/die Erwachsene, 어른
+die Fahrkarte, 승차권
+die Familie, 가족
+der Familienname, 성
+die Flasche, 병
+die Frage, 질문
+die Geschichte, 이야기
+die Haltestelle, 정류장
+die Hausaufgabe, 숙제
+die Idee, 아이디어
+die Insel, 섬
+die Jacke, 재킷
+der/die Jugendliche, 청소년
+der Junge, 소년
+die Karte, 카드
+die Kartoffel, 감자
+die Katze, 고양이
+die Klasse, 학급
+die Küche, 주방
+die Lampe, 램프
+die Marmelade, 잼
+die Minute, 분
+der Name, 이름
+die Note, 점수
+die Nummer, 번호
+die Pause, 쉬는 시간
+die Postkarte, 엽서
+die Reise, 여행
+die Sache, 물건
+die Schwester, 자매
+der See, 호수
+die Seite, 페이지
+die Sprache, 언어
+die Straße, 거리
+die Stunde, 시간
+die Suppe, 수프
+die Tante, 이모
+die Tasche, 가방
+die Tasse, 컵
+die Toilette, 화장실
+der Vorname, 이름
+die Woche, 주
 
 [-en]
-die Ahnung
-die Antwort
-die Arbeit
-das Bett
-die Bibliothek
-die Einladung
-die Entschuldigung
-die Frau
-die Information
-die Klassenarbeit
-die Lösung
-die Nachricht
-die Ordnung
-die Pizza
-der Schmerz
-das Thema
-die Tür
-die U-Bahn
-die Uhr
-die Wohnung
-die Zeit
-die Zeitung
+die Ahnung, 짐작
+die Antwort, 대답
+die Arbeit, 일
+das Bett, 침대
+die Bibliothek, 도서관
+die Einladung, 초대
+die Entschuldigung, 사과
+die Frau, 여자
+die Information, 정보
+die Klassenarbeit, 학급 시험
+die Lösung, 해결책
+die Nachricht, 소식
+die Ordnung, 질서
+die Pizza, 피자
+der Schmerz, 통증
+das Thema, 주제
+die Tür, 문
+die U-Bahn, 지하철
+die Uhr, 시계
+die Wohnung, 집
+die Zeit, 시간
+die Zeitung, 신문
 
 [-er]
-das Ei
-das Kind
-das Kleid
+das Ei, 달걀
+das Kind, 아이
+das Kleid, 드레스
 
 [-se]
-der Bus
+der Bus, 버스
 
 [-nen]
-die Freundin
+die Freundin, 여자 친구
 
 [ä-]
-der Apfel
-der Flughafen
-der Garten
-der Mantel
-das Mineralwasser
-der Vater
+der Apfel, 사과
+der Flughafen, 공항
+der Garten, 정원
+der Mantel, 외투
+das Mineralwasser, 미네랄 워터
+der Vater, 아버지
 
 [ä, -e]
-der Anfang
-die Angst
-der Ball
-der Basketball
-der Bauch
-der Baum
-der Fahrplan
-der Fußball
-der Hals
-der Kühlschrank
-der Markt
-der Marktplatz
-die Nacht
-der Platz
-der Rucksack
-der Saft
-der Spielplatz
-die Stadt
-der Strand
-der Supermarkt
-der Zahn
+der Anfang, 시작
+die Angst, 두려움
+der Ball, 공
+der Basketball, 농구
+der Bauch, 배
+der Baum, 나무
+der Fahrplan, 시간표
+der Fußball, 축구
+der Hals, 목
+der Kühlschrank, 냉장고
+der Markt, 시장
+der Marktplatz, 시장 광장
+die Nacht, 밤
+der Platz, 광장
+der Rucksack, 배낭
+der Saft, 주스
+der Spielplatz, 놀이터
+die Stadt, 도시
+der Strand, 해변
+der Supermarkt, 슈퍼마켓
+der Zahn, 이
 
 [ä, -er]
-das Bad
-das Fach
-das Fahrrad
-das Glas
-das Haus
-das Krankenhaus
-das Land
-der Mann
-das Rad
-das Schwimmbad
-der Wald
+das Bad, 욕실
+das Fach, 과목
+das Fahrrad, 자전거
+das Glas, 유리잔
+das Haus, 집
+das Krankenhaus, 병원
+das Land, 나라
+der Mann, 남자
+das Rad, 바퀴
+das Schwimmbad, 수영장
+der Wald, 숲
 
 [ü-]
-der Bruder
-die Mutter
+der Bruder, 남자 형제
+die Mutter, 어머니
 
 [ü, -e]
-der Ausflug
-der Fluss
-der Fuß
-der Glückwunsch
-der Gruß
-die Wurst
-der Zug
+der Ausflug, 소풍
+der Fluss, 강
+der Fuß, 발
+der Glückwunsch, 축하
+der Gruß, 인사
+die Wurst, 소시지
+der Zug, 기차
 
 [ü, -er]
-das Buch
-das Wörterbuch
+das Buch, 책
+das Wörterbuch, 사전
 
 [ö, -e]
-der Bahnhof
-der Kopf
+der Bahnhof, 기차역
+der Kopf, 머리
 
 [ö, -er]
-das Wort
+das Wort, 단어
 
 [sg.]
-der Dank
-der Durst
-die Eins
-das Eis
-das Ende
-das Fernsehen
-das Fleisch
-das Frühstück
-das Geld
-das Gemüse
-das Gepäck
-das Glück
-das Internet
-der Kaffee
-der Kakao
-der Käse
-die Lust
-die Milch
-die Musik
-das Obst
-die Post
-der Quatsch
-das Quiz
-der Regen
-die Schokolade
-der Spaß
-der Sport
-das Taschengeld
-der Unterricht
-das Wasser
-
-[pl.]
-die Eltern
-die Ferien
-die Großeltern
-die Jeans
-die Leute
-die Süßigkeiten
+der Dank, 감사
+der Durst, 갈증
+die Eins, 1점
+das Eis, 아이스크림
+das Ende, 끝
+das Fernsehen, 텔레비전
+das Fleisch, 고기
+das Frühstück, 아침 식사
+das Geld, 돈
+das Gemüse, 채소
+das Gepäck, 짐
+das Glück, 행운
+das Internet, 인터넷
+der Kaffee, 커피
+der Kakao, 코코아
+der Käse, 치즈
+die Lust, 욕구
+die Milch, 우유
+die Musik, 음악
+das Obst, 과일
+die Post, 우체국
+der Quatsch, 헛소리
+das Quiz, 퀴즈
+der Regen, 비
+die Schokolade, 초콜릿
+der Spaß, 재미
+der Sport, 스포츠
+das Taschengeld, 용돈
+der Unterricht, 수업
+das Wasser, 물
 
 # 형용사
-alt
-besetzt
-billig
-blau
-blond
-blöd
-braun
-dick
-dumm
-einfach
-falsch
-frei
-freundlich
-froh
-früh
-geboren
-gelb
-gemütlich
-gleich
-glücklich
-grau
-grün
-groß
-gut
-interessant
-jung
-kalt
-kaputt
-klar
-klein
-krank
-kurz
-lang
-langsam
-langweilig
-leicht
-lieb
-lustig
-möglich
-müde
-nett
-neu
-normal
-offen
-pünktlich
-richtig
-rot
-ruhig
-schade
-schlecht
-schnell
-schön
-schwarz
-schwer
-sicher
-spät
-süß
-sympathisch
-teuer
-toll
-traurig
-verrückt
-wahr
-warm
-weit
-wichtig
-willkommen
-wunderbar
-weiß
+alt, 오래된
+besetzt, 사용 중인
+billig, 싼
+blau, 파란
+blond, 금발의
+blöd, 바보 같은
+braun, 갈색의
+dick, 뚱뚱한
+dumm, 멍청한
+einfach, 간단한
+falsch, 틀린
+frei, 자유로운
+freundlich, 친절한
+froh, 기쁜
+früh, 이른
+geboren, 태어난
+gelb, 노란
+gemütlich, 아늑한
+gleich, 같은
+glücklich, 행복한
+grau, 회색의
+grün, 초록의
+groß, 큰
+gut, 좋은
+interessant, 흥미로운
+jung, 젊은
+kalt, 차가운
+kaputt, 고장난
+klar, 명확한
+klein, 작은
+krank, 아픈
+kurz, 짧은
+lang, 긴
+langsam, 느린
+langweilig, 지루한
+leicht, 가벼운
+lieb, 사랑스러운
+lustig, 재미있는
+möglich, 가능한
+müde, 피곤한
+nett, 친절한
+neu, 새로운
+normal, 보통의
+offen, 열린
+pünktlich, 시간을 지키는
+richtig, 올바른
+rot, 빨간
+ruhig, 조용한
+schade, 아쉬운
+schlecht, 나쁜
+schnell, 빠른
+schön, 아름다운
+schwarz, 검은
+schwer, 무거운
+sicher, 안전한
+spät, 늦은
+süß, 달콤한
+sympathisch, 호감 가는
+teuer, 비싼
+toll, 멋진
+traurig, 슬픈
+verrückt, 미친
+wahr, 진실한
+warm, 따뜻한
+weit, 넓은
+wichtig, 중요한
+willkommen, 환영받는
+wunderbar, 훌륭한
+weiß, 흰

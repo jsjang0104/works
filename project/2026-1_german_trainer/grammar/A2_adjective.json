@@ -1,0 +1,335 @@
+[
+  {
+    "aktuell": "최신의"
+  },
+  {
+    "aktiv": "활동적인"
+  },
+  {
+    "automatisch": "자동의"
+  },
+  {
+    "beliebt": "인기 있는"
+  },
+  {
+    "bequem": "편안한"
+  },
+  {
+    "berühmt": "유명한"
+  },
+  {
+    "billig": "싼"
+  },
+  {
+    "blond": "금발의"
+  },
+  {
+    "böse": "화난"
+  },
+  {
+    "bunt": "다채로운"
+  },
+  {
+    "dankbar": "감사하는"
+  },
+  {
+    "deutlich": "명확한"
+  },
+  {
+    "dick": "뚱뚱한"
+  },
+  {
+    "digital": "디지털의"
+  },
+  {
+    "direkt": "직접적인"
+  },
+  {
+    "dringend": "긴급한"
+  },
+  {
+    "dumm": "멍청한"
+  },
+  {
+    "dunkel": "어두운"
+  },
+  {
+    "dünn": "얇은"
+  },
+  {
+    "ehrlich": "솔직한"
+  },
+  {
+    "einsam": "외로운"
+  },
+  {
+    "einverstanden": "동의하는"
+  },
+  {
+    "elektrisch": "전기의"
+  },
+  {
+    "elektronisch": "전자의"
+  },
+  {
+    "elegant": "우아한"
+  },
+  {
+    "eng": "좁은"
+  },
+  {
+    "fantastisch": "환상적인"
+  },
+  {
+    "faul": "게으른"
+  },
+  {
+    "fett": "기름진"
+  },
+  {
+    "fleißig": "부지런한"
+  },
+  {
+    "freiwillig": "자발적인"
+  },
+  {
+    "fremd": "낯선"
+  },
+  {
+    "freundlich": "친절한"
+  },
+  {
+    "frisch": "신선한"
+  },
+  {
+    "furchtbar": "끔찍한"
+  },
+  {
+    "gefährlich": "위험한"
+  },
+  {
+    "gesund": "건강한"
+  },
+  {
+    "glücklich": "행복한"
+  },
+  {
+    "groß": "큰"
+  },
+  {
+    "günstig": "저렴한"
+  },
+  {
+    "hart": "딱딱한"
+  },
+  {
+    "hässlich": "못생긴"
+  },
+  {
+    "heiß": "뜨거운"
+  },
+  {
+    "hell": "밝은"
+  },
+  {
+    "herzlich": "진심 어린"
+  },
+  {
+    "hoch": "높은"
+  },
+  {
+    "international": "국제적인"
+  },
+  {
+    "jung": "젊은"
+  },
+  {
+    "kalt": "차가운"
+  },
+  {
+    "kaputt": "고장난"
+  },
+  {
+    "klar": "명확한"
+  },
+  {
+    "klein": "작은"
+  },
+  {
+    "klug": "영리한"
+  },
+  {
+    "komisch": "이상한"
+  },
+  {
+    "kostenlos": "무료의"
+  },
+  {
+    "krank": "아픈"
+  },
+  {
+    "kühl": "시원한"
+  },
+  {
+    "kurz": "짧은"
+  },
+  {
+    "lang": "긴"
+  },
+  {
+    "leer": "텅 빈"
+  },
+  {
+    "leicht": "가벼운"
+  },
+  {
+    "leise": "조용한"
+  },
+  {
+    "lustig": "재미있는"
+  },
+  {
+    "männlich": "남성의"
+  },
+  {
+    "modern": "현대적인"
+  },
+  {
+    "möglich": "가능한"
+  },
+  {
+    "nass": "젖은"
+  },
+  {
+    "natürlich": "자연적인"
+  },
+  {
+    "neblig": "안개 낀"
+  },
+  {
+    "nervös": "긴장한"
+  },
+  {
+    "nett": "친절한"
+  },
+  {
+    "neu": "새로운"
+  },
+  {
+    "normal": "보통의"
+  },
+  {
+    "notwendig": "필요한"
+  },
+  {
+    "nützlich": "유용한"
+  },
+  {
+    "offen": "열린"
+  },
+  {
+    "praktisch": "실용적인"
+  },
+  {
+    "preiswert": "가성비 좋은"
+  },
+  {
+    "privat": "개인적인"
+  },
+  {
+    "pünktlich": "시간을 지키는"
+  },
+  {
+    "reich": "부유한"
+  },
+  {
+    "richtig": "올바른"
+  },
+  {
+    "romantisch": "낭만적인"
+  },
+  {
+    "ruhig": "조용한"
+  },
+  {
+    "sauber": "깨끗한"
+  },
+  {
+    "sauer": "신"
+  },
+  {
+    "schädlich": "해로운"
+  },
+  {
+    "scharf": "날카로운"
+  },
+  {
+    "schlecht": "나쁜"
+  },
+  {
+    "schlimm": "심각한"
+  },
+  {
+    "schmutzig": "더러운"
+  },
+  {
+    "schnell": "빠른"
+  },
+  {
+    "schriftlich": "서면의"
+  },
+  {
+    "schwach": "약한"
+  },
+  {
+    "schwanger": "임신한"
+  },
+  {
+    "schwer": "무거운"
+  },
+  {
+    "schwierig": "어려운"
+  },
+  {
+    "sicher": "안전한"
+  },
+  {
+    "sonnig": "햇살이 좋은"
+  },
+  {
+    "spannend": "흥미진진한"
+  },
+  {
+    "sportlich": "운동을 좋아하는"
+  },
+  {
+    "stark": "강한"
+  },
+  {
+    "stressig": "스트레스가 많은"
+  },
+  {
+    "streng": "엄격한"
+  },
+  {
+    "super": "훌륭한"
+  },
+  {
+    "sympathisch": "호감 가는"
+  },
+  {
+    "tief": "깊은"
+  },
+  {
+    "toll": "멋진"
+  },
+  {
+    "tot": "죽은"
+  },
+  {
+    "traurig": "슬픈"
+  },
+  {
+    "typisch": "전형적인"
+  }
+]
