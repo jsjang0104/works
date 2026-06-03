@@ -1,0 +1,594 @@
+# A1-A2 명사 분류 (준기 ver.)
+
+ = = = [-s] 카테고리 = = =
+
+[m. -s]
+der Blog
+der Chef
+der Chat
+der Club
+der Comic
+der Fan
+der Job
+der Laptop
+der Link
+der Park
+der Radiergummi
+der Team
+der Tee
+der Test
+
+[n. -s]
+das Auto
+das Baby
+das Büro
+das Café
+das E-Book
+das Foto
+das Handy
+das Hobby
+das Hotel
+das Interview
+das Kino
+das Krimi
+das Mobiltelefon
+das Parfum
+das Programm
+das Radio
+das Reisebüro
+das Restaurant
+das Smartphone
+das Sofa
+das Tablet
+das Taxi
+das Ticket
+das Training
+das T-Shirt
+
+[f. -s]
+die Band
+die Cafeteria
+die CD
+die Disco
+die E-Mail
+die Homepage
+die Kamera
+die Mail
+die Party
+die Pizza
+
+ = = = = = = = = = = = =
+
+ = = = [-] 카테고리 = = =
+
+[m. -]
+der Antwortbogen
+der Artikel
+der Babysitter
+der Computer
+der Drucker
+der Empfänger
+der Fernseher
+der Fehler
+der Hamburger
+der Keller
+der Koffer
+der Kuchen
+der Kugelschreiber
+der Löffel
+der Mitarbeiter
+der Morgen
+der Motorroller
+der Onkel
+der Pullover
+der Reiseführer
+der Rentner
+der Rücken
+der Schalter
+der Schirm
+der Schlüssel
+der Schüler
+der Stiefel
+der Teller
+der Wagen
+der Zettel
+
+[m. -”]
+der Apfel
+der Flughafen
+der Garten
+der Kindergarten
+der Laden
+der Mantel
+der Vater
+der Rock
+der Bruder
+
+[n. -]
+das Brötchen
+das Doppelzimmer
+das Essen
+das Fenster
+das Hähnchen
+das Mädchen
+das Messer
+das Mittagessen
+das Mittel
+das Poster
+das Rätsel
+das Schlafzimmer
+das Theater
+das Wiedersehen
+das Wohnzimmer
+das Zimmer
+
+[n. -”]
+das Mineralwasser
+
+[f. -”]
+die Mutter
+
+ = = = = = = = = = = = =
+
+ = = = [-e] 카테고리 = = =
+
+[m. -e]
+der Abend
+der Anruf
+der Apparat
+der Arm
+der Ausweis
+der Balkon
+der Bahnsteig
+der Beruf
+der Besuch
+der Bleistift
+der Brief
+der Eintritt
+der Film
+der Fisch
+der Fotoapparat
+der Freund
+der Geburtstag
+der Haushalt
+der Kontakt
+der Kiosk
+der Kurs
+der Mittag
+der Ohrring
+der Prospekt
+der Ring
+der Salat
+der Schuh
+der Tag
+der Text
+der Tisch
+der Titel
+der Urlaub
+der Verein
+der Weg
+der Wein
+der Witz
+
+[m. -e (단모음 명시)]
+der Bus
+
+[m. -e”]
+der Anfang
+der Ausflug
+der Ball
+der Basketball
+der Bauch
+der Baum
+der Eingang
+der Fahrplan
+der Fluss
+der Fuß
+der Fußball
+der Gast
+der Glückwunsch
+der Gruß
+der Hals
+der Kühlschrank
+der Markt
+der Marktplatz
+der Pass
+der Plan
+der Platz
+der Rucksack
+der Saft
+der Spielplatz
+der Sportplatz
+der Strand
+der Supermarkt
+der Unfall
+der Vertrag
+der Rucksack
+der Ausflug
+der Fuß
+der Gruß
+der Wunsch
+der Zahn
+der Zug
+der Bahnhof
+der Kopf
+der Satz
+der Aufzug
+der Traum
+
+[n. -e]
+das Angebot
+das Bein
+das Beispiel
+das Brot
+das Erdgeschoss
+das Fest
+das Flugzeug
+das Gegenteil
+das Gerät
+das Gericht
+das Geschäft
+das Geschenk
+das Gespräch
+das Getränk
+das Gleis
+das Haar
+das Heft
+das Jahr
+das Konzert
+das Klavier
+das Kreuz
+das Mal
+das Öl
+das Paar
+das Paket
+das Papier
+das Pferd
+das Plakat
+das Problem
+das Produkt
+das Projekt
+das Rätsel
+das Rezept
+das Salz
+das Schiff
+das Spiel
+das Stück
+das Tier
+das Zelt
+das Ziel
+
+[n. -e (단모음 명시)]
+das Ergebnis
+das Zeugnis
+
+[f. -e”]
+die Angst
+die Ankunft
+die Auskunft
+die Bank
+die Kunst
+die Nacht
+die Stadt
+die Wurst
+
+ = = = = = = = = = = = =
+
+ = = = [-er] 카테고리 = = =
+
+[n. -er]
+das Bild
+das Ei
+das Kind
+das Kleid
+das Lied
+das Schild
+
+[n. -er”]
+das Bad
+das Fach
+das Fahrrad
+das Glas
+das Haus
+das Krankenhaus
+das Land
+das Rad
+das Schloss
+das Schwimmbad
+das Buch
+das Tuch
+das Dorf
+das Wort
+das Wörterbuch
+
+[m. -er”]
+der Mann
+der Wald
+
+ = = = = = = = = = = = =
+
+ = = = [-n] 카테고리 = = =
+
+[m. 혼합]
+der See
+der Schmerz
+
+[m. 혼합-LA]
+der Rhythmus
+
+[n. 혼합]
+das Auge
+das Bett
+
+[n. 혼합-LA]
+das Praktikum
+das Studium
+das Thema
+
+[f. 약]
+die Adresse
+die Ampel
+die Anzeige
+die Apotheke
+die Aufgabe
+die Banane
+die Birne
+die Blume
+die Bluse
+die Bohne
+die Ecke
+die Fahrkarte
+die Familie
+die Farbe
+die Flasche
+die Frage
+die Gabel
+die Garage
+die Geschichte
+die Gitarre
+die Größe
+die Gruppe
+die Halle
+die Haltestelle
+die Hausaufgabe
+die Idee
+die Insel
+die Jacke
+die Karte
+die Kartoffel
+die Kasse
+die Katze
+die Kette
+die Kirche
+die Klasse
+die Küche
+die Lampe
+die Lüge
+die Marmelade
+die Maschine
+die Meinung
+die Menge
+die Messe
+die Miete
+die Minute
+die Mitte
+die Mode
+die Mütze
+die Note
+die Notiz
+die Nudel
+die Nummer
+die Orange
+die Ordnung
+die Pflanze
+die Pause
+die Postkarte
+die Reihe
+die Reise
+die Rose
+die Sache
+die Schere
+die Schule
+die Schwester
+die Seife
+die Seite
+die Sendung
+die Situation
+die Sonne
+die Sprache
+die Straße
+die Stunde
+die Suppe
+die Tante
+die Tafel
+die Tasche
+die Tasse
+die Toilette
+die Tomate
+die Torte
+die Wäsche
+die Woche
+die Wolke
+die Zitrone
+die Ahnung
+die Anmeldung
+die Antwort
+die Arbeit
+die Ausbildung
+die Ausstellung
+die Autobahn
+die Bäckerei
+die Bewerbung
+die Bibliothek
+die Bitte
+die Datei
+die Ehefrau
+die Einladung
+die Entschuldigung
+die Erfahrung
+die Ermäßigung
+die Frau
+die Führung
+die Heizung
+die Hochzeit
+die Information
+die Klassenarbeit
+die Krankheit
+die Kreuzung
+die Kultur
+die Lösung
+die Mailbox
+die Mannschaft
+die Nachricht
+die Ordnung
+die Person
+die Qualität
+die Rechnung
+die Reinigung
+die Reparatur
+die Rezeption
+die Sehenswürdigkeit
+die Straßenbahn
+die Tour
+die Tür
+die Übersetzung
+die Uhr
+die Universität
+die Unterschrift
+die U-Bahn
+die Veranstaltung
+die Verspätung
+die Wohnung
+die Zahl
+die Zeit
+die Zeitschrift
+die Zeitung
+
+[f. 약 (단모음 명시)]
+die Ärztin
+die Chefin
+die Freundin
+die Kollegin
+die Kundin
+die Nachbarin
+die Partnerin
+die Rentnerin
+die Schülerin
+die Studentin
+die Touristin
+
+[f. 약-LA]
+die Firma
+
+ = = = = = = = = = = =
+
+ = = = 사람변화류 카테고리 = = =
+
+[m. 약]
+der Junge
+der Kollege
+der Kunde
+der Mensch
+der Nachbar
+der Student
+der Tourist
+
+[m. 약+혼합]
+der Herr (des Herrn, die Herren)
+
+[m. 약+s]
+der Familienname
+der Gedanke
+der Name
+der Vorname
+
+[m./f. 형용사적]
+der/die Bekannte
+der/die Erwachsene
+der/die Jugendliche
+
+ = = = = = = = = = = =
+
+ = = = 단수전용 카테고리 = = =
+
+[m. 단수전용]
+der Appetit
+der Dank
+der Durst
+der Müll
+der Quatsch
+der Regen
+der Schnee
+
+[n. 단수전용]
+das Ausland
+das Eis
+das Fernsehen
+das Fleisch
+das Glück
+das Internet
+das Obst
+das Tennis
+das Wetter
+
+[f. 단수전용]
+die Butter
+die Eins
+die Freizeit
+die Gesundheit
+die Post
+die Ruhe
+
+[m. -s (주로 단수전용)]
+der Kaffee
+der Kakao
+der Service
+
+[m. - (주로 단수전용)]
+der Käse
+der Zucker
+
+[m. -e” (주로 단수전용)]
+der Spaß
+
+[m. -e (주로 단수전용)]
+der Reis
+der Sport
+der Stress
+der Unterricht
+
+[n. 혼합 (주로 단수전용)]
+das Ende
+
+[n. -e (주로 단수전용)]
+das Frühstück
+das Gepäck
+
+[n. -er (주로 단수전용)]
+das Geld
+das Licht
+das Taschengeld
+
+[n. - (주로 단수전용)]
+das Alter
+das Gemüse
+das Quiz
+
+[n. -” (주로 단수전용)]
+das Mineralwasser
+das Wasser
+
+[f. -e” (주로 단수전용)]
+die Lust
+
+[f. -e (주로 단수전용)]
+die Milch
+
+[f. 약 (주로 단수전용)]
+die Grippe
+die Heimat
+die Kleidung
+die Kosmetik
+die Musik
+die Polizei
+die Schokolade
