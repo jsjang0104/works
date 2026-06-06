@@ -1,5 +1,6 @@
 import json
 import random
+import re
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -299,11 +300,14 @@ def generate_phrase() -> dict:
 
     plural_kr    = '들' if num == 'pl' else ''
     full_noun_kr = noun_kr + plural_kr
+    particle     = kr_suffix(case, full_noun_kr)
 
     return {
-        'korean': f"{ARTICLE_KR[art_type]} {adj_kr} {full_noun_kr}{kr_suffix(case, full_noun_kr)}",
-        'german': f"{article_de} {adj_declined} {noun_de}",
-        'hint':   [f"{art_type}-", f"{adj_de}-", noun['sg.1']],
+        'korean':   f"{ARTICLE_KR[art_type]} {adj_kr} {full_noun_kr}{particle}",
+        'particle': particle,
+        'german':   f"{article_de} {adj_declined} {noun_de}",
+        'hint':     [("diese-" if art_type == "dieser" else "ein-"), f"{adj_de}-", noun['sg.1']],
+        'tag':      re.sub(r'\[(m|f|n)\.', '[pl.', tag) if num == 'pl' else tag,
     }
 
 

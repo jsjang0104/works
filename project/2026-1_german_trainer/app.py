@@ -1,28 +1,36 @@
-import gradio as gr
-import sys
+"""
+독일어 명사구 발음 트레이너 - Gradio 인터페이스
+
+사용:  python app.py
+모델:  jsjang0104/whisper-tiny-german (HF Hub)
+문법:  grammar/declension.py → generate_phrase()
+"""
+
 import os
 import re
+import sys
+
+import gradio as gr
+import numpy as np
 import torch
+from transformers import WhisperForConditionalGeneration, WhisperProcessor
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(BASE_DIR, "grammar"))
-from declension import generate_phrase
+sys.path.insert(0, os.path.join(BASE_DIR, "grammar"))
+from declension import generate_phrase  # noqa: E402
 
-# ── Whisper ───────────────────────────────────────────────────────────────────
-import whisper
+# ── 모델 로드 ──────────────────────────────────────────────────────────────────
 
-_device = "cuda" if torch.cuda.is_available() else "cpu"
-_model  = whisper.load_model("tiny", device=_device)
-# fine-tuning 완료 후 아래로 교체:
-# _model = whisper.load_model("/path/to/finetuned_tiny_model", device=_device)
+MODEL_DIR   = "jsjang0104/whisper-tiny-german"
+SAMPLE_RATE = 16000
 
+device    = "cuda" if torch.cuda.is_available() else "cpu"
+processor = WhisperProcessor.from_pretrained(MODEL_DIR)
+model     = WhisperForConditionalGeneration.from_pretrained(MODEL_DIR).to(device)
+model.eval()
+print(f"[app] model on {device} | {MODEL_DIR}")
 
-def transcribe(audio_path: str) -> str:
-    if not audio_path:
-        return ""
-    result = _model.transcribe(audio_path, language="de", fp16=(_device == "cuda"))
-    return result["text"].strip()
-
+# ── 헬퍼 ──────────────────────────────────────────────────────────────────────
 
 def normalize(text: str) -> str:
     text = text.lower()
@@ -30,187 +38,329 @@ def normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def hint_str(hint: list) -> str:
-    return "  ·  ".join(f"`{w}`" for w in hint)
+BLUE = "#2563eb"
 
 
-# ── 이벤트 핸들러 ──────────────────────────────────────────────────────────────
-
-def start(n: int):
-    qs = [generate_phrase() for _ in range(n)]
-    q  = qs[0]
-    return (
-        qs,                                          # state_qs
-        0,                                           # state_idx
-        0,                                           # state_score
-        gr.update(visible=False),                    # setup_col
-        gr.update(visible=True),                     # quiz_col
-        gr.update(visible=False),                    # result_col
-        "",                                          # final_md
-        f"**1 / {n}**",                              # progress_md
-        f"## {q['korean']}",                         # korean_md
-        hint_str(q['hint']),                         # hint_md
-        None,                                        # audio_in (reset)
-        "",                                          # text_in (reset)
-        gr.update(value="", visible=False),          # result_md
-        gr.update(visible=False),                    # next_btn
-    )
+def html_highlight(base: str, inflected: str) -> str:
+    """공통 접두사 이후 어미를 파란색으로 강조."""
+    i = 0
+    b, f = base.lower(), inflected.lower()
+    while i < len(b) and i < len(f) and b[i] == f[i]:
+        i += 1
+    stem, ending = inflected[:i], inflected[i:]
+    if ending:
+        return f'{stem}<span style="color:{BLUE};font-weight:800">{ending}</span>'
+    return stem
 
 
-def submit(audio, text, questions, idx, score):
-    q = questions[idx]
+def highlight_phrase(phrase: dict) -> str:
+    words = phrase["german"].split()
+    bases = [phrase["hint"][0][:-1], phrase["hint"][1][:-1], phrase["hint"][2]]
+    parts = [html_highlight(b, w) for b, w in zip(bases, words)]
+    parts += words[len(bases):]
+    return " ".join(parts)
 
-    if audio:
-        user_ans = transcribe(audio)
-    elif text.strip():
-        user_ans = text.strip()
+
+def korean_html(phrase: dict) -> str:
+    """한국어 문장 HTML — 조사를 파란색으로 강조."""
+    text     = phrase["korean"]
+    particle = phrase.get("particle", "")
+    if particle and text.endswith(particle):
+        base    = text[: -len(particle)]
+        content = f'{base}<span style="color:{BLUE};font-weight:800">{particle}</span>'
     else:
-        return (
-            score,
-            gr.update(value="⚠️ 마이크로 말하거나 텍스트를 입력하세요.", visible=True),
-            gr.update(visible=False),
-        )
-
-    correct   = normalize(user_ans) == normalize(q["german"])
-    new_score = score + (1 if correct else 0)
-
-    if correct:
-        feedback = f"✅ **정답!**\n\n> {q['german']}"
-    else:
-        feedback = f"❌ **오답**\n\n내 답변: `{user_ans}`\n\n정답: **{q['german']}**"
-
+        content = text
     return (
-        new_score,
-        gr.update(value=feedback, visible=True),
-        gr.update(visible=True),
+        f'<div style="font-size:3.2em;font-weight:700;text-align:center;padding:28px 0">'
+        f'{content}</div>'
     )
 
 
-def next_question(questions, idx, score):
-    new_idx = idx + 1
-    n       = len(questions)
-
-    if new_idx >= n:
-        pct     = score / n * 100
-        comment = (
-            "🎉 완벽해요!"           if pct == 100 else
-            "👍 잘했어요!"           if pct >= 80  else
-            "😊 조금 더 연습해봐요!" if pct >= 60  else
-            "📚 계속 연습하면 늘 거예요!"
-        )
-        final = f"# 결과\n\n**{score} / {n}** 정답 ({pct:.0f}점)\n\n{comment}"
-        return (
-            new_idx, score,
-            gr.update(visible=False),               # quiz_col
-            gr.update(visible=True),                # result_col
-            final,
-            "", "", "",                             # progress / korean / hint
-            None, "",
-            gr.update(value="", visible=False),
-            gr.update(visible=False),
-        )
-
-    q = questions[new_idx]
-    return (
-        new_idx, score,
-        gr.update(visible=True),                    # quiz_col
-        gr.update(visible=False),                   # result_col
-        "",
-        f"**{new_idx + 1} / {n}**",
-        f"## {q['korean']}",
-        hint_str(q['hint']),
-        None, "",
-        gr.update(value="", visible=False),
-        gr.update(visible=False),
-    )
+def compute_ll(audio_tuple, ref_text: str):
+    if audio_tuple is None:
+        return None
+    sr, audio = audio_tuple
+    if audio.dtype == np.int16:
+        audio = audio.astype(np.float32) / 32768.0
+    elif audio.dtype != np.float32:
+        audio = audio.astype(np.float32)
+    if sr != SAMPLE_RATE:
+        try:
+            import librosa
+            audio = librosa.resample(audio, orig_sr=sr, target_sr=SAMPLE_RATE)
+        except ImportError:
+            pass
+    inputs    = processor(audio, sampling_rate=SAMPLE_RATE, return_tensors="pt").to(device)
+    label_ids = processor.tokenizer(
+        normalize(ref_text), return_tensors="pt"
+    ).input_ids.to(device)
+    with torch.no_grad():
+        loss = model(input_features=inputs.input_features, labels=label_ids).loss
+    return round(-loss.item(), 4)
 
 
-def restart():
-    return (
-        [], 0, 0,
-        gr.update(visible=True),
-        gr.update(visible=False),
-        gr.update(visible=False),
-    )
+def ll_label(ll: float) -> str:
+    if ll >= -0.5:  return "🌟 매우 좋음"
+    if ll >= -1.0:  return "✅ 좋음"
+    if ll >= -2.0:  return "🔶 보통"
+    return "❌ 개선 필요"
 
 
-# ── UI ────────────────────────────────────────────────────────────────────────
+LL_PASS = -1.0
 
-with gr.Blocks(title="독일어 명사구 퀴즈", theme=gr.themes.Soft()) as demo:
+# ── Gradio UI ─────────────────────────────────────────────────────────────────
 
-    state_qs    = gr.State([])
-    state_idx   = gr.State(0)
-    state_score = gr.State(0)
+INIT_STATE = {
+    "n_questions": 10, "phrases": [], "current_idx": 0,
+    "results": [], "hint_text": "", "pending_score": False,
+}
 
-    # ── Setup 화면 ──────────────────────────────────────────────────────────
+CSS = """
+#site-header           { text-align:center; padding:24px 0 16px; border-bottom:1px solid #e0e0e0; margin-bottom:8px; }
+#site-header h1        { font-size:1.55em; font-weight:700; margin:0 0 6px; }
+#site-header .creators { font-size:0.95em; color:#555; margin:0 0 3px; }
+#site-header .dept     { font-size:0.82em; color:#888; margin:0; }
+
+#korean-text  { font-size:3.2em; font-weight:700; text-align:center; padding:28px 0; }
+#hint-box     { font-size:1.2em; letter-spacing:0.08em; color:#888; text-align:center; }
+#score-box    { font-size:1.3em; text-align:center; padding:16px 0; }
+#progress     { text-align:right; color:#aaa; }
+
+/* interactive=False인 ctx-btn은 완전히 숨김 (visibility 토글 버그 우회) */
+.ctx-btn:has(button:disabled) { display:none!important; }
+"""
+
+HEADER_HTML = """
+<div id="site-header">
+  <h1>Speech-Based German Declension Training System</h1>
+  <p class="creators">Created by: Joonki Hong (Concept &amp; Linguistics) &middot; Jisoo Jang (Digital Implementation)</p>
+  <p class="dept">Department of German, Hankuk University of Foreign Studies</p>
+</div>
+"""
+
+with gr.Blocks(title="German Declension Trainer") as demo:
+    state = gr.State(dict(INIT_STATE))
+
+    gr.HTML(HEADER_HTML)
+
+    # ── 1. 설정 화면 ───────────────────────────────────────────────────────────
     with gr.Column(visible=True) as setup_col:
-        gr.Markdown("# 🇩🇪 독일어 명사구 퀴즈")
-        gr.Markdown("격변화(Deklination) 연습 — 한국어를 보고 독일어로 말하거나 쓰세요.")
-        gr.Markdown("### 몇 개 연습할까요?")
-        with gr.Row():
-            cnt_btns = [
-                gr.Button(str(n), variant="primary", scale=1)
-                for n in [10, 20, 30, 40, 50]
-            ]
+        gr.Markdown(
+            "제시된 **한국어 문장**을 독일어로 발음하세요.  \n"
+            "파인튜닝된 Whisper 모델이 발음의 정확도를 채점합니다."
+        )
+        gr.Markdown(
+            "> ⏳ 첫 번째 문제 채점은 AI 모델 로딩으로 인해 약간 시간이 걸릴 수 있습니다.  \n"
+            "> 한 번 모델이 로드되면, 이후에는 정상 속도로 채점이 진행됩니다."
+        )
+        n_radio   = gr.Radio(choices=[10, 20, 30], value=10, label="문제 수 선택")
+        start_btn = gr.Button("시작하기 →", variant="primary", size="lg")
 
-    # ── 퀴즈 화면 ──────────────────────────────────────────────────────────
+    # ── 2. 퀴즈 + 결과 화면 (단일 컬럼) ──────────────────────────────────────
+    # result_col을 별도로 두지 않고 quiz_col 안에서 전환.
+    # visible=False → True 전환 버그를 피하기 위해 결과 섹션도 항상 DOM에 존재.
     with gr.Column(visible=False) as quiz_col:
-        progress_md = gr.Markdown("**1 / 10**")
-        korean_md   = gr.Markdown("## ...")
-        with gr.Accordion("💡 단어 힌트 (클릭하여 열기)", open=False):
-            hint_md = gr.Markdown("...")
-        with gr.Tabs():
-            with gr.Tab("🎤 마이크"):
-                audio_in = gr.Audio(
-                    sources=["microphone"],
-                    type="filepath",
-                    label="독일어로 말하세요",
-                )
-            with gr.Tab("⌨️ 타이핑"):
-                text_in = gr.Textbox(placeholder="독일어로 입력하세요...", label="")
-        submit_btn = gr.Button("제출", variant="primary", size="lg")
-        result_md  = gr.Markdown("", visible=False)
-        next_btn   = gr.Button("다음 →", visible=False)
 
-    # ── 결과 화면 ──────────────────────────────────────────────────────────
-    with gr.Column(visible=False) as result_col:
-        final_md    = gr.Markdown("")
-        restart_btn = gr.Button("다시 시작", variant="primary")
+        # ── 퀴즈 섹션 ────────────────────────────────────────────────────────
+        progress_md   = gr.Markdown("", elem_id="progress")
+        korean_md     = gr.HTML("", elem_id="korean-text")
+        hint_md       = gr.Markdown("", elem_id="hint-box")
+        hint_btn      = gr.Button("💡 힌트", size="lg", elem_classes=["ctx-btn"])
+        gr.Markdown("---")
+        go_record_btn = gr.Button("🎙 녹음하기", variant="primary", size="lg", elem_classes=["ctx-btn"])
+        audio_input   = gr.Audio(
+            sources=["microphone"], type="numpy", label="녹음", visible=False,
+        )
+        score_btn  = gr.Button("채점하기", variant="primary", size="lg", interactive=False, elem_classes=["ctx-btn"])
+        score_box  = gr.HTML("", elem_id="score-box")
+        next_btn   = gr.Button("다음 문제 →", variant="secondary", interactive=False, elem_classes=["ctx-btn"])
 
-    # ── 이벤트 연결 ─────────────────────────────────────────────────────────
+        # ── 결과 섹션 (항상 DOM 존재, 퀴즈 중엔 비어있음) ────────────────────
+        result_md   = gr.Markdown("")
+        restart_btn = gr.Button("처음으로", variant="secondary", interactive=False, elem_classes=["ctx-btn"])
 
-    start_outs = [
-        state_qs, state_idx, state_score,
-        setup_col, quiz_col, result_col,
-        final_md, progress_md, korean_md, hint_md,
-        audio_in, text_in, result_md, next_btn,
-    ]
-    for btn, n in zip(cnt_btns, [10, 20, 30, 40, 50]):
-        btn.click(fn=lambda n=n: start(n), inputs=[], outputs=start_outs)
+    # ── 이벤트 핸들러 ──────────────────────────────────────────────────────────
 
-    submit_btn.click(
-        fn=submit,
-        inputs=[audio_in, text_in, state_qs, state_idx, state_score],
-        outputs=[state_score, result_md, next_btn],
-    )
-
-    next_outs = [
-        state_idx, state_score,
-        quiz_col, result_col, final_md,
+    # 공통 출력 목록
+    QUIZ_OUTS = [
+        state, setup_col, quiz_col,
         progress_md, korean_md, hint_md,
-        audio_in, text_in, result_md, next_btn,
+        hint_btn, go_record_btn, audio_input,
+        score_btn, score_box, next_btn,
+        result_md, restart_btn,
     ]
-    next_btn.click(
-        fn=next_question,
-        inputs=[state_qs, state_idx, state_score],
-        outputs=next_outs,
+
+    def _to_question(new_state, n, idx, phrase):
+        """질문 화면 업데이트 튜플 (QUIZ_OUTS 순서)."""
+        return (
+            new_state,
+            gr.update(visible=False),             # setup_col
+            gr.update(visible=True),              # quiz_col
+            f"**{idx + 1} / {n}**",              # progress_md
+            korean_html(phrase),                 # korean_md
+            "",                                  # hint_md
+            gr.update(interactive=True),          # hint_btn      (CSS로 표시)
+            gr.update(interactive=True),          # go_record_btn (CSS로 표시)
+            gr.update(visible=False, value=None), # audio_input
+            gr.update(interactive=False),         # score_btn     (CSS로 숨김)
+            gr.update(value=""),                  # score_box
+            gr.update(interactive=False),         # next_btn      (CSS로 숨김)
+            "",                                  # result_md (비움)
+            gr.update(interactive=False),         # restart_btn   (CSS로 숨김)
+        )
+
+    def on_start(n_questions, _state):
+        phrases   = [generate_phrase() for _ in range(n_questions)]
+        new_state = {**INIT_STATE, "n_questions": n_questions, "phrases": phrases}
+        return _to_question(new_state, n_questions, 0, phrases[0])
+
+    def on_hint(st):
+        phrase = st["phrases"][st["current_idx"]]
+        parts  = "  ".join(phrase["hint"])
+        tag    = phrase.get("tag", "")
+        text   = f"**힌트:** {parts}" + (f"  `{tag}`" if tag else "")
+        return text, {**st, "hint_text": text}
+
+    def on_go_record(st):
+        hint_text = st.get("hint_text", "")
+        return (
+            gr.update(interactive=False),       # go_record_btn  (CSS로 숨김)
+            gr.update(interactive=False),       # hint_btn       (CSS로 숨김)
+            gr.update(visible=True, value=None),# audio_input
+            gr.update(interactive=True),        # score_btn      (CSS로 표시)
+            hint_text,                          # hint_md (힌트 유지)
+            gr.update(value=""),                # score_box
+            gr.update(interactive=False),       # next_btn       (CSS로 숨김)
+        )
+
+    def _do_score(audio, st):
+        phrase = st["phrases"][st["current_idx"]]
+        ll     = compute_ll(audio, phrase["german"])
+        if ll is None:
+            return (
+                gr.update(value="<p>⚠️ 채점 중 오류가 발생했습니다.</p>"),
+                gr.update(interactive=False),
+                st,
+            )
+        label   = ll_label(ll)
+        passed  = ll >= LL_PASS
+        result  = {
+            "idx": st["current_idx"], "korean": phrase["korean"],
+            "german": phrase["german"], "ll": ll, "passed": passed, "label": label,
+        }
+        new_state   = {**st, "pending_score": False, "results": st["results"] + [result]}
+        highlighted = highlight_phrase(phrase)
+        html = f"""
+<div style="text-align:center;padding:20px 0">
+  <div style="font-size:1.8em;margin-bottom:14px">{label}</div>
+  <div style="font-size:1.25em;margin-bottom:10px"><b>Log-Likelihood: {ll:.4f}</b></div>
+  <div style="font-size:1.35em">정답: <span style="font-style:italic">{highlighted}</span></div>
+</div>"""
+        return (gr.update(value=html), gr.update(interactive=True), new_state)
+
+    def on_score_if_pending(audio, st):
+        if not st.get("pending_score") or audio is None:
+            return gr.update(), gr.update(), st
+        return _do_score(audio, st)
+
+    def on_mark_pending(st):
+        return {**st, "pending_score": True}
+
+    def on_next(st):
+        new_idx = st["current_idx"] + 1
+        n       = st["n_questions"]
+
+        if new_idx >= n:
+            results = st["results"]
+            passed  = sum(1 for r in results if r["passed"])
+            avg_ll  = sum(r["ll"] for r in results) / len(results) if results else 0
+            rows    = "\n".join(
+                f"| {r['idx']+1} | {r['korean']} | {r['german']} "
+                f"| {r['ll']:.4f} | {r['label']} |"
+                for r in results
+            )
+            summary = (
+                f"## 🎉 {passed} / {n} 통과  (평균 Log-Likelihood: {avg_ll:.4f})\n\n"
+                f"| # | 한국어 | 독일어 정답 | Log-Likelihood | 결과 |\n"
+                f"|---|--------|-----------|----------------|------|\n"
+                f"{rows}"
+            )
+            return (
+                {**st, "current_idx": new_idx},
+                gr.update(visible=False),             # setup_col
+                gr.update(visible=True),              # quiz_col (유지)
+                gr.update(value=""),                  # progress_md (clear)
+                gr.update(value=""),                  # korean_md (clear)
+                gr.update(value=""),                  # hint_md
+                gr.update(interactive=False),          # hint_btn      (CSS로 숨김)
+                gr.update(interactive=False),          # go_record_btn (CSS로 숨김)
+                gr.update(visible=False, value=None),  # audio_input   (명시적 숨김)
+                gr.update(interactive=False),          # score_btn     (CSS로 숨김)
+                gr.update(value=""),                   # score_box
+                gr.update(interactive=False),          # next_btn      (CSS로 숨김)
+                summary,                               # result_md
+                gr.update(interactive=True),           # restart_btn   (CSS로 표시)
+            )
+
+        phrase    = st["phrases"][new_idx]
+        new_state = {**st, "current_idx": new_idx, "hint_text": ""}
+        return _to_question(new_state, n, new_idx, phrase)
+
+    def on_restart(_state):
+        return (
+            dict(INIT_STATE),
+            gr.update(visible=True),    # setup_col
+            gr.update(visible=False),   # quiz_col
+        )
+
+    # ── 이벤트 연결 ────────────────────────────────────────────────────────────
+
+    start_btn.click(on_start, inputs=[n_radio, state], outputs=QUIZ_OUTS)
+
+    hint_btn.click(on_hint, inputs=[state], outputs=[hint_md, state])
+
+    go_record_btn.click(
+        on_go_record,
+        inputs=[state],
+        outputs=[go_record_btn, hint_btn, audio_input, score_btn,
+                 hint_md, score_box, next_btn],
+    ).then(
+        fn=None,
+        js="""() => {
+            setTimeout(() => {
+                const btn = document.querySelector('.record-button')
+                         || document.querySelector('button[aria-label="Record"]')
+                         || document.querySelector('button.record');
+                if (btn) btn.click();
+            }, 800);
+        }""",
     )
+
+    score_btn.click(
+        fn=on_mark_pending,
+        inputs=[state],
+        outputs=[state],
+        js="() => { const s = document.querySelector('.stop-button'); if (s && getComputedStyle(s).display !== 'none') s.click(); }",
+    ).then(
+        fn=on_score_if_pending,
+        inputs=[audio_input, state],
+        outputs=[score_box, next_btn, state],
+    )
+
+    audio_input.stop_recording(
+        fn=on_score_if_pending,
+        inputs=[audio_input, state],
+        outputs=[score_box, next_btn, state],
+    )
+
+    next_btn.click(on_next, inputs=[state], outputs=QUIZ_OUTS)
 
     restart_btn.click(
-        fn=restart,
-        inputs=[],
-        outputs=[state_qs, state_idx, state_score, setup_col, quiz_col, result_col],
+        on_restart,
+        inputs=[state],
+        outputs=[state, setup_col, quiz_col],
     )
 
+
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(css=CSS, theme=gr.themes.Soft(), ssr_mode=False)

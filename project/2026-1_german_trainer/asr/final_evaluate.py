@@ -1,8 +1,12 @@
 """
-원본 Whisper-tiny로 실제 발화 평가 (fine-tuned 모델과 비교용)
+파인튜닝된 Whisper-tiny로 실제 발화 평가
 데이터: data/human/{speaker}/wav/ + data/human/recording_list.csv
-출력:   asr/baseline_result.json
-        asr/baseline_eval.png
+출력:   asr/final_result.json
+        asr/final_eval.png
+
+화자 그룹
+  good : hw_ha, jk_hong, mk_cho, mc_park
+  poor : js_jang, jw_choi
 
 score 열이 채워진 경우 DA score vs WER / LL Spearman 상관관계를 추가로 계산합니다.
 """
@@ -23,16 +27,16 @@ from transformers import WhisperForConditionalGeneration, WhisperProcessor
 
 # ── 설정 ──────────────────────────────────────────────────────────────────────
 
-MODEL_ID    = "openai/whisper-tiny"
 LANGUAGE    = "german"
 TASK        = "transcribe"
 SAMPLE_RATE = 16000
 
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR   = os.path.join(BASE_DIR, "whisper-tiny-german")
 HUMAN_DIR   = os.path.join(BASE_DIR, "..", "data", "human")
 LIST_CSV    = os.path.join(HUMAN_DIR, "recording_list.csv")
-RESULT_PATH = os.path.join(BASE_DIR, "baseline_result.json")
-PLOT_PATH   = os.path.join(BASE_DIR, "baseline_eval.png")
+RESULT_PATH = os.path.join(BASE_DIR, "final_result.json")
+PLOT_PATH   = os.path.join(BASE_DIR, "final_eval.png")
 
 GROUPS = {
     "hw_ha":   "good", "jk_hong": "good",
@@ -55,10 +59,10 @@ def normalize(text: str) -> str:
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"[device] {device}")
 
-processor = WhisperProcessor.from_pretrained(MODEL_ID, language=LANGUAGE, task=TASK)
-model     = WhisperForConditionalGeneration.from_pretrained(MODEL_ID).to(device)
+processor = WhisperProcessor.from_pretrained(MODEL_DIR)
+model     = WhisperForConditionalGeneration.from_pretrained(MODEL_DIR).to(device)
 model.eval()
-print(f"[model] {MODEL_ID} loaded")
+print(f"[model] {MODEL_DIR} loaded")
 
 # ── 추론 & log-likelihood ──────────────────────────────────────────────────────
 
@@ -171,7 +175,7 @@ else:
 # ── 결과 저장 ─────────────────────────────────────────────────────────────────
 
 result = {
-    "timestamp": datetime.now().isoformat(), "model": MODEL_ID,
+    "timestamp": datetime.now().isoformat(), "model": os.path.abspath(MODEL_DIR),
     "overall_wer": round(overall_wer, 6) if overall_wer else None,
     "overall_wer_pct": round(overall_wer * 100, 2) if overall_wer else None,
     "overall_log_likelihood": overall_ll,
@@ -194,7 +198,7 @@ n_plots = 4 if len(all_scores) >= 3 else 2
 fig, axes = plt.subplots(1, n_plots, figsize=(6 * n_plots, 5))
 if n_plots == 2:
     axes = list(axes)
-fig.suptitle("Whisper-tiny (original) · Human Speech Evaluation", fontsize=13)
+fig.suptitle("Whisper-tiny (fine-tuned) · Human Speech Evaluation", fontsize=13)
 
 for ax, vals, ylabel, title in [
     (axes[0], wer_vals, "WER (%)",           "Word Error Rate"),

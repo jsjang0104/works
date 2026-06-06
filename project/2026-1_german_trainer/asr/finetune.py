@@ -2,21 +2,24 @@
 Whisper tiny 독일어 파인튜닝
 데이터: data/noun-phrases/train/ (학습), data/noun-phrases/val/ (검증)
 출력:   asr/whisper-tiny-german/
+        asr/training_history.json
 """
 
 import csv
+import json
 import os
 import re
 from dataclasses import dataclass
 from typing import Any, Dict, List
 
-import numpy as np
 import soundfile as sf
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import DataLoader, Dataset
 from transformers import (
+    EarlyStoppingCallback,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
+    TrainerCallback,
     WhisperForConditionalGeneration,
     WhisperProcessor,
 )
@@ -29,11 +32,14 @@ LANGUAGE    = "german"
 TASK        = "transcribe"
 SAMPLE_RATE = 16000
 
-BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
-NP_DIR      = os.path.join(BASE_DIR, "..", "data", "noun-phrases")
-TRAIN_DIR   = os.path.join(NP_DIR, "train")
-VAL_DIR     = os.path.join(NP_DIR, "val")
-OUTPUT_DIR  = os.path.join(BASE_DIR, "whisper-tiny-german")
+BASE_DIR     = os.path.dirname(os.path.abspath(__file__))
+NP_DIR       = os.path.join(BASE_DIR, "..", "data", "noun-phrases")
+TRAIN_DIR    = os.path.join(NP_DIR, "train")
+VAL_DIR      = os.path.join(NP_DIR, "val")
+OUTPUT_DIR   = os.path.join(BASE_DIR, "whisper-tiny-german")
+HISTORY_PATH = os.path.join(BASE_DIR, "training_history.json")
+
+EARLY_STOP_PATIENCE = 3  # val_wer가 N 에포크 연속 개선 없으면 중단
 
 # ── 텍스트 정규화 ──────────────────────────────────────────────────────────────
 
@@ -92,6 +98,79 @@ class DataCollator:
         batch["labels"] = labels
         return batch
 
+# ── 에포크별 메트릭 수집 콜백 ─────────────────────────────────────────────────
+
+class EpochMetricsCallback(TrainerCallback):
+    """매 에포크 평가 후 train/val loss+WER을 JSON으로 저장."""
+
+    def __init__(self, train_dataset, processor, collator, save_path):
+        self.train_dataset = train_dataset
+        self.processor     = processor
+        self.collator      = collator
+        self.save_path     = save_path
+        self.history       = []
+
+    def on_evaluate(self, args, state, control, metrics, model=None, **kwargs):
+        epoch = round(state.epoch)
+
+        # train loss: 해당 에포크 구간 step loss 평균
+        prev_epoch  = epoch - 1
+        step_losses = [
+            log["loss"] for log in state.log_history
+            if "loss" in log
+            and log.get("epoch", 0) > prev_epoch
+            and log.get("epoch", 0) <= epoch
+        ]
+        avg_train_loss = round(sum(step_losses) / len(step_losses), 6) if step_losses else None
+
+        # train WER: generate로 직접 계산 (trainer를 거치지 않아 콜백 재진입 없음)
+        train_wer_score = self._compute_wer(model)
+
+        entry = {
+            "epoch":      epoch,
+            "train_loss": avg_train_loss,
+            "train_wer":  round(train_wer_score, 6),
+            "val_loss":   round(metrics.get("eval_loss", 0), 6),
+            "val_wer":    round(metrics.get("eval_wer",  0), 6),
+        }
+        self.history.append(entry)
+
+        with open(self.save_path, "w", encoding="utf-8") as f:
+            json.dump(self.history, f, ensure_ascii=False, indent=2)
+
+        tl = f"{entry['train_loss']:.4f}" if entry["train_loss"] is not None else "N/A"
+        print(
+            f"\n[epoch {epoch:>2}] "
+            f"train_loss={tl}  train_wer={entry['train_wer']*100:.2f}%  "
+            f"val_loss={entry['val_loss']:.4f}  val_wer={entry['val_wer']*100:.2f}%"
+        )
+
+    def _compute_wer(self, model) -> float:
+        device = next(model.parameters()).device
+        loader = DataLoader(self.train_dataset, batch_size=16, collate_fn=self.collator)
+
+        refs, hyps = [], []
+        model.eval()
+        with torch.no_grad():
+            for batch in loader:
+                input_features = batch["input_features"].to(device)
+                labels         = batch["labels"].to(device)
+
+                pred_ids = model.generate(
+                    input_features,
+                    language=LANGUAGE,
+                    task=TASK,
+                    max_new_tokens=225,
+                )
+
+                label_ids = labels.clone()
+                label_ids[label_ids == -100] = self.processor.tokenizer.pad_token_id
+
+                hyps.extend(self.processor.tokenizer.batch_decode(pred_ids,   skip_special_tokens=True))
+                refs.extend(self.processor.tokenizer.batch_decode(label_ids,  skip_special_tokens=True))
+
+        return float(jiwer_wer(refs, hyps))
+
 # ── 모델 & 프로세서 로드 ──────────────────────────────────────────────────────
 
 print(f"[model] Loading {MODEL_ID} ...")
@@ -101,14 +180,15 @@ model.generation_config.language           = LANGUAGE
 model.generation_config.task               = TASK
 model.generation_config.forced_decoder_ids = None
 
-# ── 데이터셋 로드 ─────────────────────────────────────────────────────────────
+# ── 데이터셋 & 콜레이터 ───────────────────────────────────────────────────────
 
 print("[data] Loading datasets ...")
+collator      = DataCollator(processor=processor)
 train_dataset = GermanASRDataset(TRAIN_DIR, processor)
 val_dataset   = GermanASRDataset(VAL_DIR,   processor)
 print(f"[data] train={len(train_dataset)}, val={len(val_dataset)}")
 
-# ── WER 평가 함수 ─────────────────────────────────────────────────────────────
+# ── WER 평가 함수 (val, trainer 내부용) ───────────────────────────────────────
 
 def compute_metrics(pred):
     pred_ids  = pred.predictions
@@ -125,11 +205,11 @@ def compute_metrics(pred):
 training_args = Seq2SeqTrainingArguments(
     output_dir=OUTPUT_DIR,
     per_device_train_batch_size=16,
-    per_device_eval_batch_size=8,
+    per_device_eval_batch_size=16,
     gradient_accumulation_steps=1,
     learning_rate=1e-5,
     warmup_steps=100,
-    num_train_epochs=5,
+    num_train_epochs=20,
     bf16=True,
     predict_with_generate=True,
     generation_max_length=225,
@@ -143,14 +223,20 @@ training_args = Seq2SeqTrainingArguments(
     report_to="none",
 )
 
+metrics_cb = EpochMetricsCallback(train_dataset, processor, collator, HISTORY_PATH)
+
 trainer = Seq2SeqTrainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,
     eval_dataset=val_dataset,
-    data_collator=DataCollator(processor=processor),
+    data_collator=collator,
     compute_metrics=compute_metrics,
     processing_class=processor.feature_extractor,
+    callbacks=[
+        metrics_cb,
+        EarlyStoppingCallback(early_stopping_patience=EARLY_STOP_PATIENCE),
+    ],
 )
 
 # ── 학습 시작 ─────────────────────────────────────────────────────────────────
@@ -163,4 +249,5 @@ trainer.train()
 print(f"[save] Saving model to {OUTPUT_DIR} ...")
 trainer.save_model(OUTPUT_DIR)
 processor.save_pretrained(OUTPUT_DIR)
+print(f"[history] {HISTORY_PATH}")
 print("Done.")
