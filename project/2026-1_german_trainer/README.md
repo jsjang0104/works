@@ -26,7 +26,7 @@ ASR 모델 → 텍스트 변환
 
 ## 기능
 
-- A1~B2 수준 단어 범위 내에서 관사·형용사·명사 조합을 랜덤 출제
+- A1, A2 수준 단어 범위 내에서 관사·형용사·명사 조합을 랜덤 출제
 - 화면에 한국어 문장 제시 (예: `이 작은 개가`) → 사용자가 독일어로 발화 (예: `dieser kleine Hund`)
 - ASR로 발화 인식 후 규칙 기반 정답과 비교하여 정/오 판정
 - Confusion matrix 기반 모델 평가
@@ -41,16 +41,10 @@ german-declension-trainer/
 │   ├── finetune.py           # Whisper fine-tuning
 │   └── evaluate.py           # confusion matrix 평가
 │
-├── grammar/
-│   ├── txt/           # A1~B1 명사, 형용사 목록 (성, 어미변화 태그)
-│   ├── pdf/           # Goethe-Zertifikat 제공 Wortliste 원본
-│   ├── json/          # A1~B1 명사, 형용사 목록 (수,격에 따른 어미 변화 형태)
-│   └── declension.py         # 규칙 기반 정답 생성 로직
+├── grammar/ 
 │
 ├── app.py               # Gradio UI
 │
-├── data/
-│   └── ...                   # 학습 데이터
 │
 ├── README.md
 └── requiremnets.txt
@@ -60,15 +54,13 @@ german-declension-trainer/
 
 | 구성요소 | 내용 |
 |---------|------|
-| ASR 모델 | Whisper (small 베이스, 독일어 fine-tuning) |
+| ASR 모델 | Whisper (tiny 베이스, 독일어 fine-tuning) |
 | 정답 생성 | 규칙 기반 (강변화/약변화/혼합변화 테이블) |
 | UI | Gradio |
 | 배포 | Hugging Face Spaces |
 
 ## 데이터셋
 
-- [Mozilla Common Voice](https://datacollective.mozillafoundation.org) - 독일어 (Mozilla Data Collective 통해 신청)
-- 직접 녹음 데이터 (어미변화 패턴 특화, 소량)
 
 ## 개발 순서
 
