@@ -263,14 +263,17 @@ def run_human_eval():
         r_ll, _  = spearmanr(all_scores, all_ll)
         r_wer, _ = spearmanr(all_scores, all_sample_wer)
 
+        ll_by_score  = [[ll for s, ll in zip(all_scores, all_ll) if s == score] for score in (1, 2, 3)]
+        wer_by_score = [[w * 100 for s, w in zip(all_scores, all_sample_wer) if s == score] for score in (1, 2, 3)]
+
         ax = axes[2]
-        ax.scatter(all_scores, all_ll, alpha=0.6, color="steelblue")
+        ax.boxplot(ll_by_score, positions=[1, 2, 3], widths=0.5)
         ax.set_xlabel("DA Score"); ax.set_ylabel("Log-Likelihood")
         ax.set_title(f"Score vs LL  (ρ={r_ll:.3f})")
         ax.set_xticks([1, 2, 3]); ax.grid(alpha=0.3)
 
         ax = axes[3]
-        ax.scatter(all_scores, [w * 100 for w in all_sample_wer], alpha=0.6, color="tomato")
+        ax.boxplot(wer_by_score, positions=[1, 2, 3], widths=0.5)
         ax.set_xlabel("DA Score"); ax.set_ylabel("WER (%)")
         ax.set_title(f"Score vs WER  (ρ={r_wer:.3f})")
         ax.set_xticks([1, 2, 3]); ax.grid(alpha=0.3)
