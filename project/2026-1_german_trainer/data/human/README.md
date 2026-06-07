@@ -6,7 +6,7 @@
 
 | num | 화자 ID | 독일어 숙련도 | 성별 |
 |-----|---------|------|------|
-| 01  | jk_hong | advanced | 남 |
+| 01  | jg_hong | advanced | 남 |
 | 02  | hw_ha   | advanced | 남 |
 | 03  | mk_cho  | advanced | 남 |
 | 04  | mc_park | advanced | 여 |
