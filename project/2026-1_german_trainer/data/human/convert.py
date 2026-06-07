@@ -6,7 +6,7 @@
     python convert.py js_jang jw_choi hw_ha
 
 - 화자 폴더 내 오디오 파일(m4a / mp3 / wav)을 파일명 기준 알파벳 순으로 정렬
-- wav/ 서브폴더에 0000.wav, 0001.wav, ... 로 저장
+- wav/ 서브폴더에 기존 파일명을 유지한 채 확장자만 .wav로 바꿔 저장 (예: mk_cho_1.m4a → mk_cho_1.wav)
 - ffmpeg 필요 (sudo apt install ffmpeg)
 """
 
@@ -55,9 +55,11 @@ def convert_speaker(speaker: str):
     os.makedirs(wav_dir, exist_ok=True)
     print(f"[{speaker}] {len(files)}개 변환 시작 → {wav_dir}")
 
-    for i, fname in enumerate(files):
+    for fname in files:
+        stem    = os.path.splitext(fname)[0]
+        out_name = f"{stem}.wav"
         src  = os.path.join(speaker_dir, fname)
-        dst  = os.path.join(wav_dir, f"{i:04d}.wav")
+        dst  = os.path.join(wav_dir, out_name)
 
         audio = AudioSegment.from_file(src)
         audio = audio.set_channels(1).set_frame_rate(SAMPLE_RATE)
@@ -65,7 +67,7 @@ def convert_speaker(speaker: str):
         audio.export(dst, format="wav")
 
         duration = len(audio) / 1000
-        print(f"  {fname} → {i:04d}.wav  ({duration:.2f}s)")
+        print(f"  {fname} → {out_name}  ({duration:.2f}s)")
 
     print(f"[{speaker}] 완료\n")
 

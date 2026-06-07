@@ -120,9 +120,14 @@ def log_likelihood(audio, ref_text):
 def run_human_eval():
     speaker_data = defaultdict(list)
     with open(LIST_CSV, encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            score = int(row["score"]) if row.get("score", "").strip() else None
-            speaker_data[row["speaker"]].append((row["KR"], row["DE"], score))
+        reader   = csv.DictReader(f)
+        speakers = [c for c in reader.fieldnames if c not in ("num", "KR", "DE")]
+        for row in reader:
+            num = int(row["num"])
+            for speaker in speakers:
+                raw   = row.get(speaker, "").strip()
+                score = int(raw) if raw else None
+                speaker_data[speaker].append((num, row["KR"], row["DE"], score))
 
     print(f"[data] human {len(speaker_data)}명: {list(speaker_data.keys())}")
 
@@ -136,8 +141,9 @@ def run_human_eval():
         wav_dir = os.path.join(HUMAN_DIR, speaker, "wav")
         refs, hyps, records = [], [], []
 
-        for i, (korean, german, score) in enumerate(phrases):
-            wav_path = os.path.join(wav_dir, f"{i:04d}.wav")
+        for num, korean, german, score in phrases:
+            fname    = f"{speaker}_{num}.wav"
+            wav_path = os.path.join(wav_dir, fname)
             if not os.path.exists(wav_path):
                 continue
 
@@ -149,7 +155,7 @@ def run_human_eval():
 
             refs.append(ref)
             hyps.append(hyp)
-            records.append({"id": i, "file": f"{i:04d}.wav", "KR": korean,
+            records.append({"id": num, "file": fname, "KR": korean,
                             "ref": ref, "hyp": hyp,
                             "log_likelihood": ll, "sample_wer": round(sample_wer, 4),
                             "score": score})
