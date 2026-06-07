@@ -13,8 +13,8 @@
 | js_jang | intermediate | 여 |
 | jw_choi | basic | 남 |
 | jw_kim  | advanced | 여 |
-| kj_lee  | intermediate | 여 |
-| ts_ham  | intermediate | 여 |
+| kj_lee  | intermediate | 남 |
+| ts_ham  | intermediate | 남 |
 
 
 ## 디렉토리 구조
