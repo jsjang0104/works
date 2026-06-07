@@ -1,5 +1,3 @@
-# 학습 체크포인트 및 대용량 모델 가중치 (GitHub 100MB 제한 초과, HF Hub에서 관리)
+# 학습 체크포인트 (GitHub 100MB 제한 초과, HF Hub에서 관리)
 asr/whisper-tiny-german/checkpoint-*/
-asr/whisper-tiny-german/model.safetensors
-*.safetensors
 optimizer.pt
