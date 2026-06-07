@@ -4,18 +4,20 @@
 
 ## 화자 정보
 
-| num | 화자 ID | 독일어 숙련도 | 성별 |
-|-----|---------|------|------|
-| 01  | jg_hong | advanced | 남 |
-| 02  | hw_ha   | advanced | 남 |
-| 03  | mk_cho  | advanced | 남 |
-| 04  | mc_park | advanced | 여 |
-| 05  | jw_kim  | advanced | 여 |
-| 06  | js_jang | intermediate | 여 |
-| 07  | kj_lee  | intermediate | 남 |
-| 08  | ts_ham  | intermediate | 남 |
-| 09  | ys_nam  | basic | 남 |
-| 10  | jw_choi | basic | 남 |
+| num | 화자 ID | 독일어 숙련도 | 성별 | 평균 점수 |
+|-----|---------|------|------|------|
+| 01  | BLIND | advanced | 남 | 3.00 |
+| 02  | BLIND | advanced | 남 | 2.44 |
+| 03  | BLIND | advanced | 남 | 2.36 |
+| 04  | BLIND | advanced | 여 | 2.56 |
+| 05  | BLIND | advanced | 여 | 2.32 |
+| 06  | BLIND | intermediate | 여 | 2.00 |
+| 07  | BLIND | intermediate | 남 | - |
+| 08  | BLIND | intermediate | 남 | 1.68 |
+| 09  | BLIND | basic | 남 | 1.24 |
+| 10  | BLIND | basic | 남 | 1.16 |
+
+평균 점수는 `recording_list.csv`의 25개 문장 점수 합 ÷ 25 (DA 1~3점). `07`은 미평가로 `-` 표시.
 
 
 ## 디렉토리 구조
