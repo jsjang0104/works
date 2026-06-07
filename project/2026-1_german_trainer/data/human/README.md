@@ -4,17 +4,18 @@
 
 ## 화자 정보
 
-| 화자 ID | 독일어 숙련도 | 성별 |
-|---------|------|------|
-| hw_ha   | advanced | 남 |
-| jk_hong | advanced | 남 |
-| mk_cho  | advanced | 남 |
-| mc_park | advanced | 여 |
-| js_jang | intermediate | 여 |
-| jw_choi | basic | 남 |
-| jw_kim  | advanced | 여 |
-| kj_lee  | intermediate | 남 |
-| ts_ham  | intermediate | 남 |
+| num | 화자 ID | 독일어 숙련도 | 성별 |
+|-----|---------|------|------|
+| 01  | jk_hong | advanced | 남 |
+| 02  | hw_ha   | advanced | 남 |
+| 03  | mk_cho  | advanced | 남 |
+| 04  | mc_park | advanced | 여 |
+| 05  | jw_kim  | advanced | 여 |
+| 06  | js_jang | intermediate | 여 |
+| 07  | kj_lee  | intermediate | 남 |
+| 08  | ts_ham  | intermediate | 남 |
+| 09  | ys_nam  | basic | 남 |
+| 10  | jw_choi | basic | 남 |
 
 
 ## 디렉토리 구조
@@ -23,18 +24,19 @@
 human/
 ├── recording_list.csv   # 녹음 목록 (num / KR / DE / 화자별 점수)
 ├── convert.py           # m4a 등 원본 음성을 16kHz mono WAV로 변환 (wav/ 생성)
-├── hw_ha/wav/
-├── jk_hong/wav/
-├── js_jang/wav/
-├── jw_choi/wav/
-├── jw_kim/wav/
-├── kj_lee/wav/
-├── mc_park/wav/
-├── mk_cho/wav/
-└── ts_ham/wav/
+├── 01/wav/
+├── 02/wav/
+├── 03/wav/
+├── 04/wav/
+├── 05/wav/
+├── 06/wav/
+├── 07/wav/
+├── 08/wav/
+├── 09/wav/
+└── 10/wav/
 ```
 
-각 화자 폴더의 원본 음성 파일명은 `{화자ID}_{번호}.m4a` (번호는 `recording_list.csv`의 `num`과 대응), `convert.py` 실행 시 같은 이름으로 `wav/{화자ID}_{번호}.wav`에 변환·저장된다 (예: `mk_cho_5.m4a` → `wav/mk_cho_5.wav`).
+각 화자 폴더명은 위 화자 정보 표의 `num`(01~10)을 사용한다. 원본 음성 파일명은 `{화자 num}_{문장 번호}.m4a` (문장 번호는 `recording_list.csv`의 `num`과 대응), `convert.py` 실행 시 같은 이름으로 `wav/{화자 num}_{문장 번호}.wav`에 변환·저장된다 (예: `03/03_5.m4a` → `03/wav/03_5.wav`).
 
 ## recording_list.csv
 
@@ -43,7 +45,7 @@ human/
 | `num` | 문장 번호 (1~25, 모든 화자 공통) |
 | `KR` | 한국어 문장 (발화 지시문) |
 | `DE` | 독일어 명사구 정답 (ground truth) |
-| `hw_ha` ~ `ts_ham` | 화자별 발화 품질 점수 (Direct Assessment, 1~3, 미평가 시 빈 값) |
+| `01` ~ `10` | 화자별 발화 품질 점수 (Direct Assessment, 1~3, 미평가 시 빈 값, 화자 num은 위 화자 정보 표 참고) |
 
 문장당 1행, 총 25행. 모든 화자가 동일한 25개 문장을 녹음한다 (행 = 문장, 열 = 화자).
 

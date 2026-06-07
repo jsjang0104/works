@@ -1,0 +1,3206 @@
+{
+  "timestamp": "2026-06-07T17:23:50.244451",
+  "model": "/home/hufs/Workspace/Works/project/2026-1_german_trainer/asr/whisper-tiny-german",
+  "data": "tts_test",
+  "num_samples": 355,
+  "overall_wer": 0.012207,
+  "overall_wer_pct": 1.22,
+  "overall_log_likelihood": -0.028561,
+  "records": [
+    {
+      "id": 0,
+      "file": "0000.wav",
+      "korean": "이 보통의 피아노를",
+      "ref": "dieses normale klavier",
+      "hyp": "dieses normale klavier",
+      "log_likelihood": -0.002744,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 1,
+      "file": "0001.wav",
+      "korean": "이 긴 아침 식사를",
+      "ref": "dieses lange frühstück",
+      "hyp": "dieses lange frühstück",
+      "log_likelihood": -0.006576,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 2,
+      "file": "0002.wav",
+      "korean": "이 틀린 축하를",
+      "ref": "diesen falschen glückwunsch",
+      "hyp": "diesen falschen glückwunsch",
+      "log_likelihood": -0.001068,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 3,
+      "file": "0003.wav",
+      "korean": "이 필요한 도서관들에게",
+      "ref": "diesen notwendigen bibliotheken",
+      "hyp": "diesen notwendigen bibliotheken",
+      "log_likelihood": -0.00098,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 4,
+      "file": "0004.wav",
+      "korean": "한 흥미진진한 소풍에게",
+      "ref": "einem spannenden ausflug",
+      "hyp": "einem spannenden ausflug",
+      "log_likelihood": -0.00277,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 5,
+      "file": "0005.wav",
+      "korean": "이 자동의 배낭을",
+      "ref": "diesen automatischen rucksack",
+      "hyp": "diesen automatischen rucksack",
+      "log_likelihood": -0.001819,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 6,
+      "file": "0006.wav",
+      "korean": "한 강한 성에게",
+      "ref": "einem starken familienname",
+      "hyp": "einem starken familienname",
+      "log_likelihood": -0.002023,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 7,
+      "file": "0007.wav",
+      "korean": "한 안개 낀 날씨가",
+      "ref": "ein nebliges wetter",
+      "hyp": "ein nebliges wetter",
+      "log_likelihood": -0.665371,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 8,
+      "file": "0008.wav",
+      "korean": "이 아쉬운 지하철의",
+      "ref": "dieser schaden ubahn",
+      "hyp": "dieser schaden ubahn",
+      "log_likelihood": -0.013607,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 9,
+      "file": "0009.wav",
+      "korean": "이 늦은 코코아가",
+      "ref": "dieser späte kakao",
+      "hyp": "dieser späte kakao",
+      "log_likelihood": -0.002734,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 10,
+      "file": "0010.wav",
+      "korean": "한 넓은 친구의",
+      "ref": "eines weiten freunds",
+      "hyp": "eines weiten freunds",
+      "log_likelihood": -0.063439,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 11,
+      "file": "0011.wav",
+      "korean": "한 환상적인 게임에게",
+      "ref": "einem fantastischen spiel",
+      "hyp": "einem fantastischen spiel",
+      "log_likelihood": -0.000717,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 12,
+      "file": "0012.wav",
+      "korean": "이 저렴한 코코아가",
+      "ref": "dieser günstige kakao",
+      "hyp": "dieser günstige kakao",
+      "log_likelihood": -0.002539,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 13,
+      "file": "0013.wav",
+      "korean": "이 이상한 과목들이",
+      "ref": "diese komischen fächer",
+      "hyp": "diese komischen fächer",
+      "log_likelihood": -0.016249,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 14,
+      "file": "0014.wav",
+      "korean": "이 어려운 빛이",
+      "ref": "dieses schwierige licht",
+      "hyp": "dieses schwierige licht",
+      "log_likelihood": -0.002917,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 15,
+      "file": "0015.wav",
+      "korean": "한 명확한 기차역을",
+      "ref": "einen deutlichen bahnhof",
+      "hyp": "einen deutlichen bahnhof",
+      "log_likelihood": -0.008762,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 16,
+      "file": "0016.wav",
+      "korean": "한 훌륭한 축하에게",
+      "ref": "einem superen glückwunsch",
+      "hyp": "einem superen glückwunsch",
+      "log_likelihood": -0.037427,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 17,
+      "file": "0017.wav",
+      "korean": "이 진실한 선물들을",
+      "ref": "diese wahren geschenke",
+      "hyp": "diese wahren geschenke",
+      "log_likelihood": -0.00932,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 18,
+      "file": "0018.wav",
+      "korean": "한 죽은 도서관에게",
+      "ref": "einer toten bibliothek",
+      "hyp": "einer toten bibliothek",
+      "log_likelihood": -0.001635,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 19,
+      "file": "0019.wav",
+      "korean": "한 짧은 차고가",
+      "ref": "eine kurze garage",
+      "hyp": "eine kurze garage",
+      "log_likelihood": -0.004252,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 20,
+      "file": "0020.wav",
+      "korean": "한 더러운 관광객이",
+      "ref": "ein schmutziger tourist",
+      "hyp": "ein schmutziger tourist",
+      "log_likelihood": -0.010705,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 21,
+      "file": "0021.wav",
+      "korean": "한 가벼운 십자가가",
+      "ref": "ein leichtes kreuz",
+      "hyp": "ein leichtes kreuz",
+      "log_likelihood": -0.003106,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 22,
+      "file": "0022.wav",
+      "korean": "한 무거운 인사의",
+      "ref": "eines schweren grußes",
+      "hyp": "eines schweren grußes",
+      "log_likelihood": -0.019401,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 23,
+      "file": "0023.wav",
+      "korean": "한 죽은 시장 광장을",
+      "ref": "einen toten marktplatz",
+      "hyp": "einen toten marktplatz",
+      "log_likelihood": -0.003868,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 24,
+      "file": "0024.wav",
+      "korean": "이 실용적인 제목이",
+      "ref": "dieser praktische titel",
+      "hyp": "dieser praktische titel",
+      "log_likelihood": -0.018473,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 25,
+      "file": "0025.wav",
+      "korean": "이 스트레스가 많은 시간표가",
+      "ref": "dieser stressige fahrplan",
+      "hyp": "dieser stressige fahrplan",
+      "log_likelihood": -0.004908,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 26,
+      "file": "0026.wav",
+      "korean": "이 현대적인 칼의",
+      "ref": "dieses modernen messers",
+      "hyp": "dieses modernen messers",
+      "log_likelihood": -0.002024,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 27,
+      "file": "0027.wav",
+      "korean": "이 흰 유치원들을",
+      "ref": "diese weißen kindergärten",
+      "hyp": "diese weißen kindergärten",
+      "log_likelihood": -0.036428,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 28,
+      "file": "0028.wav",
+      "korean": "이 우아한 가판대들을",
+      "ref": "diese eleganten kioske",
+      "hyp": "diese eleganten kioske",
+      "log_likelihood": -0.002865,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 29,
+      "file": "0029.wav",
+      "korean": "이 현대적인 목표의",
+      "ref": "dieses modernen ziels",
+      "hyp": "dieses modernen ziels",
+      "log_likelihood": -0.023489,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 30,
+      "file": "0030.wav",
+      "korean": "한 얇은 문제가",
+      "ref": "ein dünnes problem",
+      "hyp": "ein dünnes problem",
+      "log_likelihood": -0.002806,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 31,
+      "file": "0031.wav",
+      "korean": "한 위험한 소원에게",
+      "ref": "einem gefährlichen wunsch",
+      "hyp": "einem gefährlichen wunsch",
+      "log_likelihood": -0.003781,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 32,
+      "file": "0032.wav",
+      "korean": "한 이른 반대의",
+      "ref": "eines frühen gegenteils",
+      "hyp": "eines frühen gegenteils",
+      "log_likelihood": -0.00971,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 33,
+      "file": "0033.wav",
+      "korean": "이 유명한 월세를",
+      "ref": "diese berühmte miete",
+      "hyp": "diese berühmte miete",
+      "log_likelihood": -0.006571,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 34,
+      "file": "0034.wav",
+      "korean": "한 오래된 신문을",
+      "ref": "eine alte zeitung",
+      "hyp": "eine alte zeitung",
+      "log_likelihood": -0.007766,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 35,
+      "file": "0035.wav",
+      "korean": "이 어려운 레시피들을",
+      "ref": "diese schwierigen rezepte",
+      "hyp": "diese schwierigen rezepte",
+      "log_likelihood": -0.061574,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 36,
+      "file": "0036.wav",
+      "korean": "한 가능한 포크가",
+      "ref": "eine mögliche gabel",
+      "hyp": "eine mögliche gabel",
+      "log_likelihood": -0.001998,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 37,
+      "file": "0037.wav",
+      "korean": "한 중요한 학급의",
+      "ref": "einer wichtigen klasse",
+      "hyp": "einer wichtigen klasse",
+      "log_likelihood": -0.07234,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 38,
+      "file": "0038.wav",
+      "korean": "이 저렴한 광장에게",
+      "ref": "diesem günstigen platz",
+      "hyp": "diesem günstigen platz",
+      "log_likelihood": -0.025818,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 39,
+      "file": "0039.wav",
+      "korean": "이 흥미진진한 병이",
+      "ref": "diese spannende krankheit",
+      "hyp": "diese spannende krankheit",
+      "log_likelihood": -0.013422,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 40,
+      "file": "0040.wav",
+      "korean": "한 저렴한 은행의",
+      "ref": "einer günstigen bank",
+      "hyp": "einer günstigen bank",
+      "log_likelihood": -0.002588,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 41,
+      "file": "0041.wav",
+      "korean": "한 필요한 그룹을",
+      "ref": "eine notwendige gruppe",
+      "hyp": "eine notwendige gruppe",
+      "log_likelihood": -0.001487,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 42,
+      "file": "0042.wav",
+      "korean": "한 큰 품질의",
+      "ref": "einer großen qualität",
+      "hyp": "einer großen qualität",
+      "log_likelihood": -0.000519,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 43,
+      "file": "0043.wav",
+      "korean": "한 심각한 구석을",
+      "ref": "eine schlimme ecke",
+      "hyp": "eine schlimme ecke",
+      "log_likelihood": -0.003819,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 44,
+      "file": "0044.wav",
+      "korean": "한 심각한 수업에게",
+      "ref": "einem schlimmen unterricht",
+      "hyp": "einem schlimmen unterricht",
+      "log_likelihood": -0.001356,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 45,
+      "file": "0045.wav",
+      "korean": "한 어두운 텔레비전을",
+      "ref": "einen dunklen fernseher",
+      "hyp": "einen dunklen fernseher",
+      "log_likelihood": -0.001847,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 46,
+      "file": "0046.wav",
+      "korean": "한 비싼 상점이",
+      "ref": "ein teurer laden",
+      "hyp": "ein teurer laden",
+      "log_likelihood": -0.016411,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 47,
+      "file": "0047.wav",
+      "korean": "한 자유로운 책에게",
+      "ref": "einem freien buch",
+      "hyp": "einem freien buch",
+      "log_likelihood": -0.002293,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 48,
+      "file": "0048.wav",
+      "korean": "이 안전한 생일들에게",
+      "ref": "diesen sicheren geburtstagen",
+      "hyp": "diesen sicheren geburtagen",
+      "log_likelihood": -0.319256,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 49,
+      "file": "0049.wav",
+      "korean": "이 높은 달걀들의",
+      "ref": "dieser hohen eier",
+      "hyp": "dieser hohen eier",
+      "log_likelihood": -0.078264,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 50,
+      "file": "0050.wav",
+      "korean": "이 전형적인 밤들에게",
+      "ref": "diesen typischen nächten",
+      "hyp": "diesen typischen nächten",
+      "log_likelihood": -1.093093,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 51,
+      "file": "0051.wav",
+      "korean": "한 국제적인 성적표가",
+      "ref": "ein internationales zeugnis",
+      "hyp": "ein internationales zeugnis",
+      "log_likelihood": -0.002189,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 52,
+      "file": "0052.wav",
+      "korean": "한 중요한 비행기의",
+      "ref": "eines wichtigen flugzeugs",
+      "hyp": "eines wichtigen flugzolks",
+      "log_likelihood": -0.085056,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 53,
+      "file": "0053.wav",
+      "korean": "한 기름진 예시에게",
+      "ref": "einem fetten beispiel",
+      "hyp": "einem fetten beispiel",
+      "log_likelihood": -0.003917,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 54,
+      "file": "0054.wav",
+      "korean": "이 죽은 발들에게",
+      "ref": "diesen toten füßen",
+      "hyp": "diesen toten füßen",
+      "log_likelihood": -0.00756,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 55,
+      "file": "0055.wav",
+      "korean": "이 무료의 약국들이",
+      "ref": "diese kostenlosen apotheken",
+      "hyp": "diese kostenlosen apotheken",
+      "log_likelihood": -0.001198,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 56,
+      "file": "0056.wav",
+      "korean": "한 시간을 지키는 여관광객에게",
+      "ref": "einer pünktlichen touristin",
+      "hyp": "einer pünktlichen touristin",
+      "log_likelihood": -0.003459,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 57,
+      "file": "0057.wav",
+      "korean": "한 국제적인 상황이",
+      "ref": "eine internationale situation",
+      "hyp": "eine internationale situation",
+      "log_likelihood": -0.001667,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 58,
+      "file": "0058.wav",
+      "korean": "이 따뜻한 공책들이",
+      "ref": "diese warmen hefte",
+      "hyp": "diese warmen hefte",
+      "log_likelihood": -0.16171,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 59,
+      "file": "0059.wav",
+      "korean": "이 유명한 귀걸이들의",
+      "ref": "dieser berühmten ohrringe",
+      "hyp": "dieser berühmten ohrringe",
+      "log_likelihood": -0.018509,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 60,
+      "file": "0060.wav",
+      "korean": "이 조용한 농담들이",
+      "ref": "diese leisen witze",
+      "hyp": "diese leisen witze",
+      "log_likelihood": -0.031035,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 61,
+      "file": "0061.wav",
+      "korean": "이 심각한 극장들에게",
+      "ref": "diesen schlimmen theatern",
+      "hyp": "diesen schlimmen theaters",
+      "log_likelihood": -0.100607,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 62,
+      "file": "0062.wav",
+      "korean": "한 환상적인 관광 명소가",
+      "ref": "eine fantastische sehenswürdigkeit",
+      "hyp": "eine fantastische sehenswürdigkeit",
+      "log_likelihood": -0.01106,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 63,
+      "file": "0063.wav",
+      "korean": "한 가성비 좋은 기기를",
+      "ref": "einen preiswerten apparat",
+      "hyp": "einen preiswerten apparat",
+      "log_likelihood": -0.717297,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 64,
+      "file": "0064.wav",
+      "korean": "이 자유로운 배낭이",
+      "ref": "dieser freie rucksack",
+      "hyp": "dieser freie rucksack",
+      "log_likelihood": -0.00325,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 65,
+      "file": "0065.wav",
+      "korean": "이 시간을 지키는 자매를",
+      "ref": "diese pünktliche schwester",
+      "hyp": "diese pünktliche schwester",
+      "log_likelihood": -0.01574,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 66,
+      "file": "0066.wav",
+      "korean": "한 전형적인 카드에게",
+      "ref": "einer typischen karte",
+      "hyp": "einer typischen karte",
+      "log_likelihood": -0.003085,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 67,
+      "file": "0067.wav",
+      "korean": "한 뚱뚱한 문제에게",
+      "ref": "einem dicken problem",
+      "hyp": "einem dicken problem",
+      "log_likelihood": -0.000789,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 68,
+      "file": "0068.wav",
+      "korean": "이 올바른 서명의",
+      "ref": "dieser richtigen unterschrift",
+      "hyp": "dieser richtigen unterschrift",
+      "log_likelihood": -0.001775,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 69,
+      "file": "0069.wav",
+      "korean": "이 디지털의 재미가",
+      "ref": "dieser digitale spaß",
+      "hyp": "dieser digitale spaß",
+      "log_likelihood": -0.00925,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 70,
+      "file": "0070.wav",
+      "korean": "한 안전한 남자 형제의",
+      "ref": "eines sicheren bruders",
+      "hyp": "eines sicheren bruders",
+      "log_likelihood": -0.005149,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 71,
+      "file": "0071.wav",
+      "korean": "한 좋은 물건에게",
+      "ref": "einer guten sache",
+      "hyp": "einer guten sache",
+      "log_likelihood": -0.002756,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 72,
+      "file": "0072.wav",
+      "korean": "한 같은 초대의",
+      "ref": "einer gleichen einladung",
+      "hyp": "einer gleichen einladung",
+      "log_likelihood": -0.007014,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 73,
+      "file": "0073.wav",
+      "korean": "한 오래된 헛소리가",
+      "ref": "ein alter quatsch",
+      "hyp": "ein alter quatsch",
+      "log_likelihood": -0.002972,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 74,
+      "file": "0074.wav",
+      "korean": "이 올바른 숟가락들이",
+      "ref": "diese richtigen löffel",
+      "hyp": "diese richtigen löffel",
+      "log_likelihood": -0.011793,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 75,
+      "file": "0075.wav",
+      "korean": "한 국제적인 우체국의",
+      "ref": "einer internationalen post",
+      "hyp": "einer internationalen post",
+      "log_likelihood": -0.000348,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 76,
+      "file": "0076.wav",
+      "korean": "한 위험한 스포츠가",
+      "ref": "ein gefährlicher sport",
+      "hyp": "ein gefährlicher sport",
+      "log_likelihood": -0.000876,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 77,
+      "file": "0077.wav",
+      "korean": "한 깊은 카메라가",
+      "ref": "ein tiefer fotoapparat",
+      "hyp": "ein tiefer fotoapparat",
+      "log_likelihood": -0.004349,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 78,
+      "file": "0078.wav",
+      "korean": "이 멋진 시간표를",
+      "ref": "diesen tollen fahrplan",
+      "hyp": "diesen tollen fahrplan",
+      "log_likelihood": -0.005961,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 79,
+      "file": "0079.wav",
+      "korean": "한 유명한 편지가",
+      "ref": "ein berühmter brief",
+      "hyp": "ein berühmter brief",
+      "log_likelihood": -0.00154,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 80,
+      "file": "0080.wav",
+      "korean": "이 어려운 밤들이",
+      "ref": "diese schwierigen nächte",
+      "hyp": "diese schwierigen nächte",
+      "log_likelihood": -0.002369,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 81,
+      "file": "0081.wav",
+      "korean": "한 낯선 테이블의",
+      "ref": "eines fremden tischs",
+      "hyp": "eines fremden tischs",
+      "log_likelihood": -0.004526,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 82,
+      "file": "0082.wav",
+      "korean": "이 유명한 바퀴들에게",
+      "ref": "diesen berühmten rädern",
+      "hyp": "diesen berühmten rädern",
+      "log_likelihood": -0.014719,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 83,
+      "file": "0083.wav",
+      "korean": "한 강한 스트레스에게",
+      "ref": "einem starken stress",
+      "hyp": "einem starken stress",
+      "log_likelihood": -0.000899,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 84,
+      "file": "0084.wav",
+      "korean": "한 무료의 소원을",
+      "ref": "einen kostenlosen wunsch",
+      "hyp": "einen kostenlosen wunsch",
+      "log_likelihood": -0.003315,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 85,
+      "file": "0085.wav",
+      "korean": "한 긴급한 자동차를",
+      "ref": "ein dringendes auto",
+      "hyp": "ein dringendes auto",
+      "log_likelihood": -0.003559,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 86,
+      "file": "0086.wav",
+      "korean": "이 밝은 학생을",
+      "ref": "diesen hellen studenten",
+      "hyp": "diesen hellen studenten",
+      "log_likelihood": -0.002012,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 87,
+      "file": "0087.wav",
+      "korean": "이 환영받는 꿈들이",
+      "ref": "diese willkommenen träume",
+      "hyp": "diese willkommenen träume",
+      "log_likelihood": -0.003123,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 88,
+      "file": "0088.wav",
+      "korean": "한 같은 입장료가",
+      "ref": "ein gleicher eintritt",
+      "hyp": "ein gleicher eintritt",
+      "log_likelihood": -0.002387,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 89,
+      "file": "0089.wav",
+      "korean": "이 스트레스가 많은 아침 식사가",
+      "ref": "dieses stressige frühstück",
+      "hyp": "dieses stressige frühstück",
+      "log_likelihood": -0.004918,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 90,
+      "file": "0090.wav",
+      "korean": "이 빨간 여은퇴자들을",
+      "ref": "diese roten rentnerinnen",
+      "hyp": "diese roten rentnerinnen",
+      "log_likelihood": -0.004133,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 91,
+      "file": "0091.wav",
+      "korean": "한 유명한 마을에게",
+      "ref": "einem berühmten dorf",
+      "hyp": "einem berühmten dorf",
+      "log_likelihood": -0.031945,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 92,
+      "file": "0092.wav",
+      "korean": "한 보통의 번호가",
+      "ref": "eine normale nummer",
+      "hyp": "eine normale nummer",
+      "log_likelihood": -0.009615,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 93,
+      "file": "0093.wav",
+      "korean": "이 해로운 칠판들을",
+      "ref": "diese schädlichen tafeln",
+      "hyp": "diese schädlichen tafeln",
+      "log_likelihood": -0.015638,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 94,
+      "file": "0094.wav",
+      "korean": "이 낭만적인 대학 공부의",
+      "ref": "dieses romantischen studiums",
+      "hyp": "dieses romantischen studiums",
+      "log_likelihood": -0.001404,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 95,
+      "file": "0095.wav",
+      "korean": "이 아름다운 수수께끼를",
+      "ref": "dieses schöne rätsel",
+      "hyp": "dieses schöne rätsel",
+      "log_likelihood": -0.051898,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 96,
+      "file": "0096.wav",
+      "korean": "한 무거운 상황이",
+      "ref": "eine schwere situation",
+      "hyp": "eine schwere situation",
+      "log_likelihood": -0.004123,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 97,
+      "file": "0097.wav",
+      "korean": "이 스트레스가 많은 선로가",
+      "ref": "dieses stressige gleis",
+      "hyp": "dieses stressige gleis",
+      "log_likelihood": -0.002261,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 98,
+      "file": "0098.wav",
+      "korean": "한 늦은 귀걸이에게",
+      "ref": "einem späten ohrring",
+      "hyp": "einem späten ohrring",
+      "log_likelihood": -0.005857,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 99,
+      "file": "0099.wav",
+      "korean": "이 직접적인 국수들을",
+      "ref": "diese direkten nudeln",
+      "hyp": "diese direkten nudeln",
+      "log_likelihood": -0.002662,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 100,
+      "file": "0100.wav",
+      "korean": "한 게으른 팬이",
+      "ref": "ein fauler fan",
+      "hyp": "ein fauler fan",
+      "log_likelihood": -0.054336,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 101,
+      "file": "0101.wav",
+      "korean": "이 따뜻한 물이",
+      "ref": "dieses warme wasser",
+      "hyp": "dieses warme wasser",
+      "log_likelihood": -0.008808,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 102,
+      "file": "0102.wav",
+      "korean": "이 편안한 카페를",
+      "ref": "dieses bequeme café",
+      "hyp": "dieses bequeme kaffee",
+      "log_likelihood": -0.097371,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 103,
+      "file": "0103.wav",
+      "korean": "이 올바른 그룹에게",
+      "ref": "dieser richtigen gruppe",
+      "hyp": "dieser richtigen gruppe",
+      "log_likelihood": -0.00288,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 104,
+      "file": "0104.wav",
+      "korean": "한 빨간 칠판이",
+      "ref": "eine rote tafel",
+      "hyp": "eine rote tafel",
+      "log_likelihood": -0.049002,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 105,
+      "file": "0105.wav",
+      "korean": "한 어두운 라디오의",
+      "ref": "eines dunklen radios",
+      "hyp": "eines dunklen radios",
+      "log_likelihood": -0.00085,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 106,
+      "file": "0106.wav",
+      "korean": "이 같은 천들의",
+      "ref": "dieser gleichen tücher",
+      "hyp": "dieser gleichen tücher",
+      "log_likelihood": -0.003874,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 107,
+      "file": "0107.wav",
+      "korean": "이 어려운 갈증의",
+      "ref": "dieses schwierigen dursts",
+      "hyp": "dieses schwierigen dursts",
+      "log_likelihood": -0.002384,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 108,
+      "file": "0108.wav",
+      "korean": "이 조용한 카드들이",
+      "ref": "diese ruhigen karten",
+      "hyp": "diese ruhigen katten",
+      "log_likelihood": -0.162564,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 109,
+      "file": "0109.wav",
+      "korean": "한 오래된 지우개가",
+      "ref": "ein alter radiergummi",
+      "hyp": "ein alter radiergummi",
+      "log_likelihood": -0.003848,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 110,
+      "file": "0110.wav",
+      "korean": "이 좁은 저녁들의",
+      "ref": "dieser engen abende",
+      "hyp": "dieser engen abende",
+      "log_likelihood": -0.008678,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 111,
+      "file": "0111.wav",
+      "korean": "이 싼 시간표가",
+      "ref": "dieser billige fahrplan",
+      "hyp": "dieser billige fahrplan",
+      "log_likelihood": -0.003489,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 112,
+      "file": "0112.wav",
+      "korean": "한 자발적인 수신자에게",
+      "ref": "einem freiwilligen empfänger",
+      "hyp": "einem freiwilligen empfänger",
+      "log_likelihood": -0.012322,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 113,
+      "file": "0113.wav",
+      "korean": "한 명확한 회사에게",
+      "ref": "einer deutlichen firma",
+      "hyp": "einer deutlichen firma",
+      "log_likelihood": -0.000885,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 114,
+      "file": "0114.wav",
+      "korean": "이 환영받는 광고들을",
+      "ref": "diese willkommenen anzeigen",
+      "hyp": "diese willkommenen anzeigen",
+      "log_likelihood": -0.001553,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 115,
+      "file": "0115.wav",
+      "korean": "한 새로운 휴대폰을",
+      "ref": "ein neues handy",
+      "hyp": "ein neues handy",
+      "log_likelihood": -0.002991,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 116,
+      "file": "0116.wav",
+      "korean": "이 무거운 발들에게",
+      "ref": "diesen schweren füßen",
+      "hyp": "diesen schweren füßen",
+      "log_likelihood": -0.008944,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 117,
+      "file": "0117.wav",
+      "korean": "이 초록의 텐트들의",
+      "ref": "dieser grünen zelte",
+      "hyp": "dieser grünen zelte",
+      "log_likelihood": -0.009718,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 118,
+      "file": "0118.wav",
+      "korean": "한 낭만적인 햄버거를",
+      "ref": "einen romantischen hamburger",
+      "hyp": "einen romantischen hamburger",
+      "log_likelihood": -0.001851,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 119,
+      "file": "0119.wav",
+      "korean": "이 긴 조각들의",
+      "ref": "dieser langen stücke",
+      "hyp": "dieser langen stücke",
+      "log_likelihood": -0.022847,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 120,
+      "file": "0120.wav",
+      "korean": "이 최신의 발에게",
+      "ref": "diesem aktuellen fuß",
+      "hyp": "diesem aktuellen fuß",
+      "log_likelihood": -0.00358,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 121,
+      "file": "0121.wav",
+      "korean": "이 디지털의 노트북이",
+      "ref": "dieser digitale laptop",
+      "hyp": "dieser digitale laptop",
+      "log_likelihood": -0.00565,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 122,
+      "file": "0122.wav",
+      "korean": "이 무거운 음료를",
+      "ref": "dieses schwere getränk",
+      "hyp": "dieses schwere getränk",
+      "log_likelihood": -0.004902,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 123,
+      "file": "0123.wav",
+      "korean": "이 싼 영화관이",
+      "ref": "dieses billige kino",
+      "hyp": "dieses billige kino",
+      "log_likelihood": -0.006564,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 124,
+      "file": "0124.wav",
+      "korean": "이 노란 고속도로들을",
+      "ref": "diese gelben autobahnen",
+      "hyp": "diese gelben autobahnen",
+      "log_likelihood": -0.005901,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 125,
+      "file": "0125.wav",
+      "korean": "한 빨간 향수에게",
+      "ref": "einem roten parfum",
+      "hyp": "einem roten parfum",
+      "log_likelihood": -0.002978,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 126,
+      "file": "0126.wav",
+      "korean": "이 필요한 짐작들에게",
+      "ref": "diesen notwendigen ahnungen",
+      "hyp": "diesen notwendigen ahnungen",
+      "log_likelihood": -0.002345,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 127,
+      "file": "0127.wav",
+      "korean": "이 아쉬운 호수가",
+      "ref": "dieser schade see",
+      "hyp": "dieser schade see",
+      "log_likelihood": -0.007592,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 128,
+      "file": "0128.wav",
+      "korean": "이 죽은 클럽을",
+      "ref": "diesen toten club",
+      "hyp": "diesen toten club",
+      "log_likelihood": -0.002121,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 129,
+      "file": "0129.wav",
+      "korean": "이 국제적인 어른을",
+      "ref": "diesen internationalen erwachsenen",
+      "hyp": "diesen internationalen erwachsenen",
+      "log_likelihood": -0.00331,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 130,
+      "file": "0130.wav",
+      "korean": "이 흥미진진한 용돈에게",
+      "ref": "diesem spannenden taschengeld",
+      "hyp": "diesem spannenden taschengeld",
+      "log_likelihood": -0.013888,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 131,
+      "file": "0131.wav",
+      "korean": "한 뚱뚱한 시간표의",
+      "ref": "eines dicken fahrplans",
+      "hyp": "eines dicken fahrplans",
+      "log_likelihood": -0.010812,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 132,
+      "file": "0132.wav",
+      "korean": "한 새로운 화장품에게",
+      "ref": "einer neuen kosmetik",
+      "hyp": "einer neuen kosmetik",
+      "log_likelihood": -0.001518,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 133,
+      "file": "0133.wav",
+      "korean": "한 중요한 채소의",
+      "ref": "eines wichtigen gemüses",
+      "hyp": "eines wichtigen gemüses",
+      "log_likelihood": -0.002425,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 134,
+      "file": "0134.wav",
+      "korean": "이 좋은 쓰레기에게",
+      "ref": "diesem guten müll",
+      "hyp": "diesem guten müll",
+      "log_likelihood": -0.008237,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 135,
+      "file": "0135.wav",
+      "korean": "한 깊은 여대생의",
+      "ref": "einer tiefen studentin",
+      "hyp": "einer tiefen studentin",
+      "log_likelihood": -0.003718,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 136,
+      "file": "0136.wav",
+      "korean": "한 좁은 레몬을",
+      "ref": "eine enge zitrone",
+      "hyp": "eine enge zitrone",
+      "log_likelihood": -0.007532,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 137,
+      "file": "0137.wav",
+      "korean": "한 넓은 와인이",
+      "ref": "ein weiter wein",
+      "hyp": "ein weiter wein",
+      "log_likelihood": -0.045772,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 138,
+      "file": "0138.wav",
+      "korean": "한 작은 기계의",
+      "ref": "einer kleinen maschine",
+      "hyp": "einer kleinen maschine",
+      "log_likelihood": -0.002018,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 139,
+      "file": "0139.wav",
+      "korean": "한 개인적인 사무실이",
+      "ref": "ein privates büro",
+      "hyp": "ein privates büro",
+      "log_likelihood": -0.009926,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 140,
+      "file": "0140.wav",
+      "korean": "한 좁은 대답의",
+      "ref": "einer engen antwort",
+      "hyp": "einer engen antwort",
+      "log_likelihood": -0.00056,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 141,
+      "file": "0141.wav",
+      "korean": "한 훌륭한 주소의",
+      "ref": "einer wunderbaren adresse",
+      "hyp": "einer wunderbaren adresse",
+      "log_likelihood": -0.000854,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 142,
+      "file": "0142.wav",
+      "korean": "한 무거운 링크를",
+      "ref": "einen schweren link",
+      "hyp": "einen schweren link",
+      "log_likelihood": -0.00056,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 143,
+      "file": "0143.wav",
+      "korean": "이 전기의 기타가",
+      "ref": "diese elektrische gitarre",
+      "hyp": "diese elektrische gitarre",
+      "log_likelihood": -0.005422,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 144,
+      "file": "0144.wav",
+      "korean": "이 좋은 방문들을",
+      "ref": "diese guten besuche",
+      "hyp": "diese guten besuche",
+      "log_likelihood": -0.002261,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 145,
+      "file": "0145.wav",
+      "korean": "한 간단한 가족이",
+      "ref": "eine einfache familie",
+      "hyp": "eine einfache familie",
+      "log_likelihood": -0.002057,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 146,
+      "file": "0146.wav",
+      "korean": "한 아쉬운 시간표가",
+      "ref": "ein schader fahrplan",
+      "hyp": "ein schader fahrplan",
+      "log_likelihood": -0.006914,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 147,
+      "file": "0147.wav",
+      "korean": "한 오래된 입장료에게",
+      "ref": "einem alten eintritt",
+      "hyp": "einem alten eintritt",
+      "log_likelihood": -0.001152,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 148,
+      "file": "0148.wav",
+      "korean": "한 조용한 퀴즈에게",
+      "ref": "einem leisen quiz",
+      "hyp": "einem leisen quiz",
+      "log_likelihood": -0.007115,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 149,
+      "file": "0149.wav",
+      "korean": "이 유용한 예시의",
+      "ref": "dieses nützlichen beispiels",
+      "hyp": "dieses nützlichen beispiels",
+      "log_likelihood": -0.053142,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 150,
+      "file": "0150.wav",
+      "korean": "이 아늑한 소년을",
+      "ref": "diesen gemütlichen jungen",
+      "hyp": "diesen gemütlichen jungen",
+      "log_likelihood": -0.001037,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 151,
+      "file": "0151.wav",
+      "korean": "한 스트레스가 많은 포스터를",
+      "ref": "ein stressiges poster",
+      "hyp": "ein stressiges poster",
+      "log_likelihood": -0.001844,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 152,
+      "file": "0152.wav",
+      "korean": "이 느린 마을의",
+      "ref": "dieses langsamen dorfs",
+      "hyp": "dieses langsamen dorfs",
+      "log_likelihood": -0.009337,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 153,
+      "file": "0153.wav",
+      "korean": "한 깊은 언어의",
+      "ref": "einer tiefen sprache",
+      "hyp": "einer tiefen sprache",
+      "log_likelihood": -0.001219,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 154,
+      "file": "0154.wav",
+      "korean": "한 시원한 팔의",
+      "ref": "eines kühlen arms",
+      "hyp": "eines kühlen ahms",
+      "log_likelihood": -0.278587,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 155,
+      "file": "0155.wav",
+      "korean": "이 자유로운 승강장이",
+      "ref": "dieser freie bahnsteig",
+      "hyp": "dieser freie bahnsteig",
+      "log_likelihood": -0.006359,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 156,
+      "file": "0156.wav",
+      "korean": "한 긴 창문이",
+      "ref": "ein langes fenster",
+      "hyp": "ein langes fenster",
+      "log_likelihood": -0.003516,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 157,
+      "file": "0157.wav",
+      "korean": "한 자유로운 수업의",
+      "ref": "eines freien unterrichts",
+      "hyp": "eines freien unterrichts",
+      "log_likelihood": -0.015391,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 158,
+      "file": "0158.wav",
+      "korean": "한 낭만적인 기타의",
+      "ref": "einer romantischen gitarre",
+      "hyp": "einer romantischen gitarre",
+      "log_likelihood": -0.00139,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 159,
+      "file": "0159.wav",
+      "korean": "한 서면의 게임을",
+      "ref": "ein schriftliches spiel",
+      "hyp": "ein schriftliches spiel",
+      "log_likelihood": -0.001353,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 160,
+      "file": "0160.wav",
+      "korean": "한 노란 카페테리아를",
+      "ref": "eine gelbe cafeteria",
+      "hyp": "eine gelbe cafeteria",
+      "log_likelihood": -0.003555,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 161,
+      "file": "0161.wav",
+      "korean": "이 스트레스가 많은 나이가",
+      "ref": "dieses stressige alter",
+      "hyp": "dieses stressige alter",
+      "log_likelihood": -0.001526,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 162,
+      "file": "0162.wav",
+      "korean": "이 갈색의 귀걸이들에게",
+      "ref": "diesen braunen ohrringen",
+      "hyp": "diesen braunen ohrringen",
+      "log_likelihood": -0.025298,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 163,
+      "file": "0163.wav",
+      "korean": "한 최신의 품질에게",
+      "ref": "einer aktuellen qualität",
+      "hyp": "einer aktuellen qualität",
+      "log_likelihood": -0.000826,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 164,
+      "file": "0164.wav",
+      "korean": "이 멍청한 팬을",
+      "ref": "diesen dummen fan",
+      "hyp": "diesen dummen fan",
+      "log_likelihood": -0.011929,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 165,
+      "file": "0165.wav",
+      "korean": "한 보통의 차의",
+      "ref": "eines normalen tees",
+      "hyp": "eines normalen tees",
+      "log_likelihood": -0.005914,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 166,
+      "file": "0166.wav",
+      "korean": "한 활동적인 상사를",
+      "ref": "einen aktiven chef",
+      "hyp": "einen aktiven chef",
+      "log_likelihood": -0.005491,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 167,
+      "file": "0167.wav",
+      "korean": "이 뚱뚱한 대화가",
+      "ref": "dieses dicke gespräch",
+      "hyp": "dieses dicke gespräch",
+      "log_likelihood": -0.002035,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 168,
+      "file": "0168.wav",
+      "korean": "이 해로운 섬이",
+      "ref": "diese schädliche insel",
+      "hyp": "diese schädliche insel",
+      "log_likelihood": -0.001188,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 169,
+      "file": "0169.wav",
+      "korean": "한 진실한 드레스가",
+      "ref": "ein wahres kleid",
+      "hyp": "ein wahres kleid",
+      "log_likelihood": -0.009171,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 170,
+      "file": "0170.wav",
+      "korean": "한 깊은 수신자가",
+      "ref": "ein tiefer empfänger",
+      "hyp": "ein tiefer empfänger",
+      "log_likelihood": -0.007253,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 171,
+      "file": "0171.wav",
+      "korean": "한 행복한 고객에게",
+      "ref": "einem glücklichen kunden",
+      "hyp": "einem glücklichen kunden",
+      "log_likelihood": -0.003127,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 172,
+      "file": "0172.wav",
+      "korean": "이 깨끗한 여대생들에게",
+      "ref": "diesen sauberen studentinnen",
+      "hyp": "diesen sauberen studentinnen",
+      "log_likelihood": -0.001519,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 173,
+      "file": "0173.wav",
+      "korean": "한 느린 평온에게",
+      "ref": "einer langsamen ruhe",
+      "hyp": "einer langsamen ruhe",
+      "log_likelihood": -0.00674,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 174,
+      "file": "0174.wav",
+      "korean": "이 같은 음료들이",
+      "ref": "diese gleichen getränke",
+      "hyp": "diese gleichen getränke",
+      "log_likelihood": -0.000815,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 175,
+      "file": "0175.wav",
+      "korean": "이 밝은 정류장들의",
+      "ref": "dieser hellen haltestellen",
+      "hyp": "dieser hellen haltestellen",
+      "log_likelihood": -0.004963,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 176,
+      "file": "0176.wav",
+      "korean": "이 얇은 훈련들의",
+      "ref": "dieser dünnen trainings",
+      "hyp": "dieser dünnen trainings",
+      "log_likelihood": -0.001704,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 177,
+      "file": "0177.wav",
+      "korean": "한 자연적인 재미의",
+      "ref": "eines natürlichen spaßes",
+      "hyp": "eines natürlichen spaßes",
+      "log_likelihood": -0.013494,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 178,
+      "file": "0178.wav",
+      "korean": "이 우아한 페이지들에게",
+      "ref": "diesen eleganten seiten",
+      "hyp": "diesen eleganten seiten",
+      "log_likelihood": -0.007807,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 179,
+      "file": "0179.wav",
+      "korean": "이 틀린 칼의",
+      "ref": "dieses falschen messers",
+      "hyp": "dieses falschen messers",
+      "log_likelihood": -0.001119,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 180,
+      "file": "0180.wav",
+      "korean": "한 필요한 도시의",
+      "ref": "einer notwendigen stadt",
+      "hyp": "einer notwendigen stadt",
+      "log_likelihood": -0.00678,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 181,
+      "file": "0181.wav",
+      "korean": "한 차가운 티켓의",
+      "ref": "eines kalten tickets",
+      "hyp": "eines kalten tickets",
+      "log_likelihood": -0.002242,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 182,
+      "file": "0182.wav",
+      "korean": "이 서면의 바퀴의",
+      "ref": "dieses schriftlichen rads",
+      "hyp": "dieses schriftlichen rads",
+      "log_likelihood": -0.017055,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 183,
+      "file": "0183.wav",
+      "korean": "이 중요한 노래를",
+      "ref": "dieses wichtige lied",
+      "hyp": "dieses wichtige lied",
+      "log_likelihood": -0.002642,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 184,
+      "file": "0184.wav",
+      "korean": "한 스트레스가 많은 계약이",
+      "ref": "ein stressiger vertrag",
+      "hyp": "ein stressiger vertrag",
+      "log_likelihood": -0.001923,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 185,
+      "file": "0185.wav",
+      "korean": "이 필요한 영화관들의",
+      "ref": "dieser notwendigen kinos",
+      "hyp": "dieser notwendigen kinos",
+      "log_likelihood": -0.004028,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 186,
+      "file": "0186.wav",
+      "korean": "이 좁은 가위들이",
+      "ref": "diese engen scheren",
+      "hyp": "diese engen scheren",
+      "log_likelihood": -0.003264,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 187,
+      "file": "0187.wav",
+      "korean": "한 초록의 이웃에게",
+      "ref": "einem grünen nachbarn",
+      "hyp": "einem grünen nachbarn",
+      "log_likelihood": -0.003728,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 188,
+      "file": "0188.wav",
+      "korean": "한 강한 인터넷이",
+      "ref": "ein starkes internet",
+      "hyp": "ein starkes internet",
+      "log_likelihood": -0.001387,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 189,
+      "file": "0189.wav",
+      "korean": "이 빠른 가운데의",
+      "ref": "dieser schnellen mitte",
+      "hyp": "dieser schnellen mitte",
+      "log_likelihood": -0.038258,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 190,
+      "file": "0190.wav",
+      "korean": "한 틀린 물건을",
+      "ref": "eine falsche sache",
+      "hyp": "eine falsche sache",
+      "log_likelihood": -0.004617,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 191,
+      "file": "0191.wav",
+      "korean": "한 좋은 날씨가",
+      "ref": "ein gutes wetter",
+      "hyp": "ein gutes wetter",
+      "log_likelihood": -0.003434,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 192,
+      "file": "0192.wav",
+      "korean": "이 강한 이웃의",
+      "ref": "dieses starken nachbarn",
+      "hyp": "dieses starken nachbarn",
+      "log_likelihood": -0.005502,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 193,
+      "file": "0193.wav",
+      "korean": "이 직접적인 열쇠에게",
+      "ref": "diesem direkten schlüssel",
+      "hyp": "diesem direkten schlüssel",
+      "log_likelihood": -0.002438,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 194,
+      "file": "0194.wav",
+      "korean": "한 회색의 드레스가",
+      "ref": "ein graues kleid",
+      "hyp": "ein graues kleid",
+      "log_likelihood": -0.008161,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 195,
+      "file": "0195.wav",
+      "korean": "이 늦은 등록의",
+      "ref": "dieser späten anmeldung",
+      "hyp": "dieser späten anmeldung",
+      "log_likelihood": -0.001383,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 196,
+      "file": "0196.wav",
+      "korean": "한 빠른 답안지를",
+      "ref": "einen schnellen antwortbogen",
+      "hyp": "einen schnellen antwortbogen",
+      "log_likelihood": -0.002097,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 197,
+      "file": "0197.wav",
+      "korean": "이 신선한 장치들의",
+      "ref": "dieser frischen geräte",
+      "hyp": "dieser frischen geräte",
+      "log_likelihood": -0.002899,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 198,
+      "file": "0198.wav",
+      "korean": "이 개인적인 번역을",
+      "ref": "diese private übersetzung",
+      "hyp": "diese private übersetzung",
+      "log_likelihood": -0.003845,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 199,
+      "file": "0199.wav",
+      "korean": "이 파란 상사들의",
+      "ref": "dieser blauen chefs",
+      "hyp": "dieser blauen chefs",
+      "log_likelihood": -0.017397,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 200,
+      "file": "0200.wav",
+      "korean": "이 좋은 블로그들에게",
+      "ref": "diesen guten blogs",
+      "hyp": "diesen guten blogs",
+      "log_likelihood": -0.0019,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 201,
+      "file": "0201.wav",
+      "korean": "한 파란 배의",
+      "ref": "eines blauen schiffs",
+      "hyp": "eines blauen schiffs",
+      "log_likelihood": -0.003574,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 202,
+      "file": "0202.wav",
+      "korean": "한 지루한 예시에게",
+      "ref": "einem langweiligen beispiel",
+      "hyp": "einem langweiligen beispiel",
+      "log_likelihood": -0.002722,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 203,
+      "file": "0203.wav",
+      "korean": "이 개인적인 강들의",
+      "ref": "dieser privaten flüsse",
+      "hyp": "dieser privaten flüsse",
+      "log_likelihood": -0.003551,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 204,
+      "file": "0204.wav",
+      "korean": "이 진실한 물에게",
+      "ref": "diesem wahren wasser",
+      "hyp": "diesem wahren wasser",
+      "log_likelihood": -0.002178,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 205,
+      "file": "0205.wav",
+      "korean": "이 싼 햄버거들이",
+      "ref": "diese billigen hamburger",
+      "hyp": "diese billigen hamburger",
+      "log_likelihood": -0.004909,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 206,
+      "file": "0206.wav",
+      "korean": "한 훌륭한 여상사를",
+      "ref": "eine wunderbare chefin",
+      "hyp": "eine wunderbare chefin",
+      "log_likelihood": -0.011411,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 207,
+      "file": "0207.wav",
+      "korean": "한 얇은 채팅이",
+      "ref": "ein dünner chat",
+      "hyp": "ein dünner chat",
+      "log_likelihood": -0.003699,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 208,
+      "file": "0208.wav",
+      "korean": "한 유용한 등록을",
+      "ref": "eine nützliche anmeldung",
+      "hyp": "eine nützliche anmeldung",
+      "log_likelihood": -0.003187,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 209,
+      "file": "0209.wav",
+      "korean": "이 실용적인 라디오에게",
+      "ref": "diesem praktischen radio",
+      "hyp": "diesem praktischen radio",
+      "log_likelihood": -0.001054,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 210,
+      "file": "0210.wav",
+      "korean": "한 기름진 팀이",
+      "ref": "ein fettes team",
+      "hyp": "ein fettes team",
+      "log_likelihood": -0.009541,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 211,
+      "file": "0211.wav",
+      "korean": "한 햇살이 좋은 병원에게",
+      "ref": "einem sonnigen krankenhaus",
+      "hyp": "einem sonnigen krankenhaus",
+      "log_likelihood": -0.006156,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 212,
+      "file": "0212.wav",
+      "korean": "이 임신한 관광객들을",
+      "ref": "diese schwangeren touristen",
+      "hyp": "diese schwangeren touristen",
+      "log_likelihood": -0.037383,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 213,
+      "file": "0213.wav",
+      "korean": "한 높은 아침 식사의",
+      "ref": "eines hohen frühstücks",
+      "hyp": "eines hohen frühstücks",
+      "log_likelihood": -0.004066,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 214,
+      "file": "0214.wav",
+      "korean": "한 긴 난방에게",
+      "ref": "einer langen heizung",
+      "hyp": "einer langen heizung",
+      "log_likelihood": -0.000872,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 215,
+      "file": "0215.wav",
+      "korean": "한 인기 있는 대답을",
+      "ref": "eine beliebte antwort",
+      "hyp": "eine beliebte antwort",
+      "log_likelihood": -0.001092,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 216,
+      "file": "0216.wav",
+      "korean": "한 사용 중인 카드의",
+      "ref": "einer besetzten karte",
+      "hyp": "einer besetzten karte",
+      "log_likelihood": -0.003666,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 217,
+      "file": "0217.wav",
+      "korean": "이 최신의 직업들의",
+      "ref": "dieser aktuellen jobs",
+      "hyp": "dieser aktuellen jobs",
+      "log_likelihood": -0.001406,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 218,
+      "file": "0218.wav",
+      "korean": "한 초록의 스마트폰의",
+      "ref": "eines grünen smartphones",
+      "hyp": "eines grünen smartphones",
+      "log_likelihood": -0.016489,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 219,
+      "file": "0219.wav",
+      "korean": "이 좁은 입구를",
+      "ref": "diesen engen eingang",
+      "hyp": "diesen engen eingang",
+      "log_likelihood": -0.002981,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 220,
+      "file": "0220.wav",
+      "korean": "한 아늑한 목걸이가",
+      "ref": "eine gemütliche kette",
+      "hyp": "eine gemütliche kette",
+      "log_likelihood": -0.002984,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 221,
+      "file": "0221.wav",
+      "korean": "이 환상적인 해결책들이",
+      "ref": "diese fantastischen lösungen",
+      "hyp": "diese fantastischen lösungen",
+      "log_likelihood": -0.006704,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 222,
+      "file": "0222.wav",
+      "korean": "한 미친 여고객의",
+      "ref": "einer verrückten kundin",
+      "hyp": "einer verrückten kundin",
+      "log_likelihood": -0.001762,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 223,
+      "file": "0223.wav",
+      "korean": "한 간단한 시장에게",
+      "ref": "einem einfachen markt",
+      "hyp": "einem einfachen markt",
+      "log_likelihood": -0.000987,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 224,
+      "file": "0224.wav",
+      "korean": "이 좋은 제목들에게",
+      "ref": "diesen guten titelen",
+      "hyp": "diesen guten titelen",
+      "log_likelihood": -0.078798,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 225,
+      "file": "0225.wav",
+      "korean": "한 끔찍한 계약이",
+      "ref": "ein furchtbarer vertrag",
+      "hyp": "ein furchtbarer vertrag",
+      "log_likelihood": -0.003453,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 226,
+      "file": "0226.wav",
+      "korean": "한 뚱뚱한 난방을",
+      "ref": "eine dicke heizung",
+      "hyp": "eine dicke heizung",
+      "log_likelihood": -0.002092,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 227,
+      "file": "0227.wav",
+      "korean": "이 올바른 전차들이",
+      "ref": "diese richtigen straßenbahnen",
+      "hyp": "diese richtigen straßenbahnen",
+      "log_likelihood": -0.012383,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 228,
+      "file": "0228.wav",
+      "korean": "이 좁은 서명들이",
+      "ref": "diese engen unterschriften",
+      "hyp": "diese engen unterschriften",
+      "log_likelihood": -0.001673,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 229,
+      "file": "0229.wav",
+      "korean": "한 느린 관광객을",
+      "ref": "einen langsamen touristen",
+      "hyp": "einen langsamen touristen",
+      "log_likelihood": -0.039734,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 230,
+      "file": "0230.wav",
+      "korean": "한 좁은 소금에게",
+      "ref": "einem engen salz",
+      "hyp": "einem engen salz",
+      "log_likelihood": -0.002673,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 231,
+      "file": "0231.wav",
+      "korean": "이 틀린 카드가",
+      "ref": "diese falsche karte",
+      "hyp": "diese falsche karte",
+      "log_likelihood": -0.004505,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 232,
+      "file": "0232.wav",
+      "korean": "이 딱딱한 우유를",
+      "ref": "diese harte milch",
+      "hyp": "diese harte milch",
+      "log_likelihood": -0.010548,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 233,
+      "file": "0233.wav",
+      "korean": "이 빨간 집들이",
+      "ref": "diese roten wohnungen",
+      "hyp": "diese roten wohnungen",
+      "log_likelihood": -0.003368,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 234,
+      "file": "0234.wav",
+      "korean": "한 위험한 소포의",
+      "ref": "eines gefährlichen pakets",
+      "hyp": "eines gefährlichen pakets",
+      "log_likelihood": -0.011585,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 235,
+      "file": "0235.wav",
+      "korean": "이 아늑한 입구들에게",
+      "ref": "diesen gemütlichen eingangen",
+      "hyp": "diesen gemütlichen eingangen",
+      "log_likelihood": -0.012554,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 236,
+      "file": "0236.wav",
+      "korean": "한 깊은 열쇠에게",
+      "ref": "einem tiefen schlüssel",
+      "hyp": "einem tiefen schlüssel",
+      "log_likelihood": -0.001742,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 237,
+      "file": "0237.wav",
+      "korean": "한 기름진 세탁소를",
+      "ref": "eine fette reinigung",
+      "hyp": "eine fette reinigung",
+      "log_likelihood": -0.005212,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 238,
+      "file": "0238.wav",
+      "korean": "이 끔찍한 1점에게",
+      "ref": "dieser furchtbaren eins",
+      "hyp": "dieser furchtbaren eins",
+      "log_likelihood": -0.001854,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 239,
+      "file": "0239.wav",
+      "korean": "한 따뜻한 요리를",
+      "ref": "ein warmes gericht",
+      "hyp": "ein warmes gericht",
+      "log_likelihood": -0.354948,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 240,
+      "file": "0240.wav",
+      "korean": "이 전형적인 대답들의",
+      "ref": "dieser typischen antworten",
+      "hyp": "dieser typischen antworten",
+      "log_likelihood": -0.001914,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 241,
+      "file": "0241.wav",
+      "korean": "이 검은 여권을",
+      "ref": "diesen schwarzen pass",
+      "hyp": "diesen schwarzen pass",
+      "log_likelihood": -0.002667,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 242,
+      "file": "0242.wav",
+      "korean": "한 훌륭한 식욕이",
+      "ref": "ein wunderbarer appetit",
+      "hyp": "ein wunderbarer appetit",
+      "log_likelihood": -0.084543,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 243,
+      "file": "0243.wav",
+      "korean": "한 흥미로운 지인의",
+      "ref": "einer interessanten bekannten",
+      "hyp": "einer interessanten bekannten",
+      "log_likelihood": -0.001679,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 244,
+      "file": "0244.wav",
+      "korean": "이 좋은 아침에게",
+      "ref": "diesem guten morgen",
+      "hyp": "diesem guten morgen",
+      "log_likelihood": -0.000584,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 245,
+      "file": "0245.wav",
+      "korean": "한 무거운 세탁소에게",
+      "ref": "einer schweren reinigung",
+      "hyp": "einer schweren reinigung",
+      "log_likelihood": -0.002676,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 246,
+      "file": "0246.wav",
+      "korean": "이 조용한 신분증을",
+      "ref": "diesen ruhigen ausweis",
+      "hyp": "diesen ruhigen ausweis",
+      "log_likelihood": -0.003493,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 247,
+      "file": "0247.wav",
+      "korean": "한 아늑한 조각이",
+      "ref": "ein gemütliches stück",
+      "hyp": "ein gemütliches stück",
+      "log_likelihood": -0.001317,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 248,
+      "file": "0248.wav",
+      "korean": "이 죽은 숫자들에게",
+      "ref": "diesen toten zahlen",
+      "hyp": "diesen toten zahlen",
+      "log_likelihood": -0.002801,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 249,
+      "file": "0249.wav",
+      "korean": "이 깊은 삼촌들의",
+      "ref": "dieser tiefen onkel",
+      "hyp": "dieser tiefen onkel",
+      "log_likelihood": -0.00621,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 250,
+      "file": "0250.wav",
+      "korean": "한 젊은 관광객이",
+      "ref": "ein junger tourist",
+      "hyp": "ein junger tourist",
+      "log_likelihood": -0.015637,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 251,
+      "file": "0251.wav",
+      "korean": "한 신선한 자전거에게",
+      "ref": "einem frischen fahrrad",
+      "hyp": "einem frischen fahrrad",
+      "log_likelihood": -0.004711,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 252,
+      "file": "0252.wav",
+      "korean": "한 무료의 자전거의",
+      "ref": "eines kostenlosen fahrrads",
+      "hyp": "eines kostenlosen fahrrads",
+      "log_likelihood": -0.01613,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 253,
+      "file": "0253.wav",
+      "korean": "이 낯선 십자가들의",
+      "ref": "dieser fremden kreuze",
+      "hyp": "dieser fremden kreize",
+      "log_likelihood": -0.826894,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 254,
+      "file": "0254.wav",
+      "korean": "한 시원한 사무실이",
+      "ref": "ein kühles büro",
+      "hyp": "ein kühlen spüro",
+      "log_likelihood": -0.133364,
+      "sample_wer": 0.6667
+    },
+    {
+      "id": 255,
+      "file": "0255.wav",
+      "korean": "한 밝은 전자책이",
+      "ref": "ein helles ebook",
+      "hyp": "ein helles ebook",
+      "log_likelihood": -0.017797,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 256,
+      "file": "0256.wav",
+      "korean": "한 디지털의 여자의",
+      "ref": "einer digitalen frau",
+      "hyp": "einer digitalen frau",
+      "log_likelihood": -0.001767,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 257,
+      "file": "0257.wav",
+      "korean": "이 위험한 배낭이",
+      "ref": "dieser gefährliche rucksack",
+      "hyp": "dieser gefährliche rucksack",
+      "log_likelihood": -0.00177,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 258,
+      "file": "0258.wav",
+      "korean": "이 환영받는 노트북들을",
+      "ref": "diese willkommenen laptops",
+      "hyp": "diese willkommenen laptops",
+      "log_likelihood": -0.000894,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 259,
+      "file": "0259.wav",
+      "korean": "한 좋은 끝을",
+      "ref": "ein gutes ende",
+      "hyp": "ein gutes ende",
+      "log_likelihood": -0.002985,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 260,
+      "file": "0260.wav",
+      "korean": "한 인기 있는 여행사에게",
+      "ref": "einem beliebten reisebüro",
+      "hyp": "einem beliebten reisebüro",
+      "log_likelihood": -0.012816,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 261,
+      "file": "0261.wav",
+      "korean": "이 사랑스러운 아기들이",
+      "ref": "diese lieben babys",
+      "hyp": "diese lieben babys",
+      "log_likelihood": -0.099284,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 262,
+      "file": "0262.wav",
+      "korean": "한 느린 훈련의",
+      "ref": "eines langsamen trainings",
+      "hyp": "eines langsamen trainings",
+      "log_likelihood": -0.00588,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 263,
+      "file": "0263.wav",
+      "korean": "한 전형적인 공의",
+      "ref": "eines typischen balls",
+      "hyp": "eines typischen balls",
+      "log_likelihood": -0.005562,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 264,
+      "file": "0264.wav",
+      "korean": "이 긴 서명을",
+      "ref": "diese lange unterschrift",
+      "hyp": "diese lange unterschrift",
+      "log_likelihood": -0.002984,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 265,
+      "file": "0265.wav",
+      "korean": "이 필요한 주에게",
+      "ref": "dieser notwendigen woche",
+      "hyp": "dieser notwendigen woche",
+      "log_likelihood": -0.003063,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 266,
+      "file": "0266.wav",
+      "korean": "한 슬픈 삼촌을",
+      "ref": "einen traurigen onkel",
+      "hyp": "einen traurigen onkel",
+      "log_likelihood": -0.006219,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 267,
+      "file": "0267.wav",
+      "korean": "한 최신의 의견에게",
+      "ref": "einer aktuellen meinung",
+      "hyp": "einer aktuellen meinung",
+      "log_likelihood": -0.000953,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 268,
+      "file": "0268.wav",
+      "korean": "이 유명한 감사의",
+      "ref": "dieses berühmten danks",
+      "hyp": "dieses berühmten danks",
+      "log_likelihood": -0.166631,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 269,
+      "file": "0269.wav",
+      "korean": "한 오래된 가방의",
+      "ref": "einer alten tasche",
+      "hyp": "einer alten tasche",
+      "log_likelihood": -0.001307,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 270,
+      "file": "0270.wav",
+      "korean": "이 기름진 베이비시터들에게",
+      "ref": "diesen fetten babysittern",
+      "hyp": "diesen fetten babysittern",
+      "log_likelihood": -0.035526,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 271,
+      "file": "0271.wav",
+      "korean": "한 끔찍한 음식에게",
+      "ref": "einem furchtbaren essen",
+      "hyp": "einem furchtbaren essen",
+      "log_likelihood": -0.00226,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 272,
+      "file": "0272.wav",
+      "korean": "이 훌륭한 정보들의",
+      "ref": "dieser superen äuskunfte",
+      "hyp": "dieser superen eiskunfte",
+      "log_likelihood": -0.518887,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 273,
+      "file": "0273.wav",
+      "korean": "이 무료의 질문을",
+      "ref": "diese kostenlose frage",
+      "hyp": "diese kostenlose frage",
+      "log_likelihood": -0.002205,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 274,
+      "file": "0274.wav",
+      "korean": "이 해로운 점수들에게",
+      "ref": "diesen schädlichen noten",
+      "hyp": "diesen schädlichen noten",
+      "log_likelihood": -0.000861,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 275,
+      "file": "0275.wav",
+      "korean": "한 나쁜 배의",
+      "ref": "einer schlechten birne",
+      "hyp": "einer schlechten birne",
+      "log_likelihood": -0.001517,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 276,
+      "file": "0276.wav",
+      "korean": "이 짧은 배의",
+      "ref": "dieses kurzen bauchs",
+      "hyp": "dieses kurzen bauchs",
+      "log_likelihood": -0.089603,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 277,
+      "file": "0277.wav",
+      "korean": "한 디지털의 기사를",
+      "ref": "einen digitalen artikel",
+      "hyp": "einen digitalen artikel",
+      "log_likelihood": -0.001629,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 278,
+      "file": "0278.wav",
+      "korean": "한 가능한 화장실의",
+      "ref": "einer möglichen toilette",
+      "hyp": "einer möglichen toilette",
+      "log_likelihood": -0.011502,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 279,
+      "file": "0279.wav",
+      "korean": "한 환영받는 감사를",
+      "ref": "einen willkommenen dank",
+      "hyp": "einen willkommenen dank",
+      "log_likelihood": -0.000647,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 280,
+      "file": "0280.wav",
+      "korean": "한 자연적인 프린터가",
+      "ref": "ein natürlicher drucker",
+      "hyp": "ein natürlicher drucker",
+      "log_likelihood": -0.000935,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 281,
+      "file": "0281.wav",
+      "korean": "한 국제적인 은퇴자를",
+      "ref": "einen internationalen rentner",
+      "hyp": "einen internationalen rentner",
+      "log_likelihood": -0.001984,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 282,
+      "file": "0282.wav",
+      "korean": "한 늦은 문이",
+      "ref": "eine späte tür",
+      "hyp": "eine späte tür",
+      "log_likelihood": -0.029196,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 283,
+      "file": "0283.wav",
+      "korean": "한 훌륭한 와인에게",
+      "ref": "einem wunderbaren wein",
+      "hyp": "einem wunderbaren wein",
+      "log_likelihood": -0.002719,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 284,
+      "file": "0284.wav",
+      "korean": "한 깊은 양을",
+      "ref": "eine tiefe menge",
+      "hyp": "eine tiefe menge",
+      "log_likelihood": -0.01595,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 285,
+      "file": "0285.wav",
+      "korean": "이 흰 동물에게",
+      "ref": "diesem weißen tier",
+      "hyp": "diesem weißen tier",
+      "log_likelihood": -0.005871,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 286,
+      "file": "0286.wav",
+      "korean": "한 위험한 목의",
+      "ref": "eines gefährlichen halsses",
+      "hyp": "eines gefährlichen halsses",
+      "log_likelihood": -0.014252,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 287,
+      "file": "0287.wav",
+      "korean": "이 좁은 품질에게",
+      "ref": "dieser engen qualität",
+      "hyp": "dieser engen qualität",
+      "log_likelihood": -0.00097,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 288,
+      "file": "0288.wav",
+      "korean": "이 영리한 학생들이",
+      "ref": "diese klugen studenten",
+      "hyp": "diese klogen studenten",
+      "log_likelihood": -0.128855,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 289,
+      "file": "0289.wav",
+      "korean": "이 필요한 종이의",
+      "ref": "dieses notwendigen papiers",
+      "hyp": "dieses notwendigen papiers",
+      "log_likelihood": -0.006197,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 290,
+      "file": "0290.wav",
+      "korean": "한 인기 있는 열쇠를",
+      "ref": "einen beliebten schlüssel",
+      "hyp": "einen beliebten schlüssel",
+      "log_likelihood": -0.002056,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 291,
+      "file": "0291.wav",
+      "korean": "이 전형적인 고양이들의",
+      "ref": "dieser typischen katzen",
+      "hyp": "dieser typischen katzen",
+      "log_likelihood": -0.001355,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 292,
+      "file": "0292.wav",
+      "korean": "이 고장난 자동차에게",
+      "ref": "diesem kaputten auto",
+      "hyp": "diesem kaputten auto",
+      "log_likelihood": -0.007422,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 293,
+      "file": "0293.wav",
+      "korean": "한 호감 가는 어른이",
+      "ref": "eine sympathische erwachsene",
+      "hyp": "eine sympathische erwachsene",
+      "log_likelihood": -0.314788,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 294,
+      "file": "0294.wav",
+      "korean": "이 위험한 팀에게",
+      "ref": "dieser gefährlichen mannschaft",
+      "hyp": "dieser gefährlichen mannschaft",
+      "log_likelihood": -0.003878,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 295,
+      "file": "0295.wav",
+      "korean": "이 필요한 아침 식사를",
+      "ref": "dieses notwendige frühstück",
+      "hyp": "dieses notwendige frühstück",
+      "log_likelihood": -0.001889,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 296,
+      "file": "0296.wav",
+      "korean": "한 간단한 질서에게",
+      "ref": "einer einfachen ordnung",
+      "hyp": "einer einfachen ordnung",
+      "log_likelihood": -0.001099,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 297,
+      "file": "0297.wav",
+      "korean": "이 자연적인 승강장들의",
+      "ref": "dieser natürlichen bahnsteige",
+      "hyp": "dieser natürlichen bahnsteige",
+      "log_likelihood": -0.00251,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 298,
+      "file": "0298.wav",
+      "korean": "한 심각한 1층이",
+      "ref": "ein schlimmes erdgeschoss",
+      "hyp": "ein schlimmes erdgeschoss",
+      "log_likelihood": -0.014056,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 299,
+      "file": "0299.wav",
+      "korean": "한 다채로운 상점의",
+      "ref": "eines bunten ladens",
+      "hyp": "eines bunten ladens",
+      "log_likelihood": -0.001731,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 300,
+      "file": "0300.wav",
+      "korean": "이 텅 빈 지원서들에게",
+      "ref": "diesen leren bewerbungen",
+      "hyp": "diesen leren bewerbungen",
+      "log_likelihood": -0.002131,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 301,
+      "file": "0301.wav",
+      "korean": "한 갈색의 음료를",
+      "ref": "ein braunes getränk",
+      "hyp": "ein braunes getränk",
+      "log_likelihood": -0.307855,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 302,
+      "file": "0302.wav",
+      "korean": "한 조용한 설탕이",
+      "ref": "ein ruhiger zucker",
+      "hyp": "ein ruhiger zucker",
+      "log_likelihood": -0.00428,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 303,
+      "file": "0303.wav",
+      "korean": "이 넓은 버스의",
+      "ref": "dieses weiten busses",
+      "hyp": "dieses weiten busses",
+      "log_likelihood": -0.006445,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 304,
+      "file": "0304.wav",
+      "korean": "한 나쁜 서명을",
+      "ref": "eine schlechte unterschrift",
+      "hyp": "eine schlechte unterschrift",
+      "log_likelihood": -0.001463,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 305,
+      "file": "0305.wav",
+      "korean": "이 간단한 파일을",
+      "ref": "diese einfache datei",
+      "hyp": "diese einfache datei",
+      "log_likelihood": -0.001454,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 306,
+      "file": "0306.wav",
+      "korean": "이 검은 여이웃들의",
+      "ref": "dieser schwarzen nachbarinnen",
+      "hyp": "dieser schwarzen nachbarinnen",
+      "log_likelihood": -0.002431,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 307,
+      "file": "0307.wav",
+      "korean": "한 가능한 답안지의",
+      "ref": "eines möglichen antwortbogens",
+      "hyp": "eines möglichen antwortbogens",
+      "log_likelihood": -0.012094,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 308,
+      "file": "0308.wav",
+      "korean": "이 저렴한 시계들이",
+      "ref": "diese günstigen uhren",
+      "hyp": "diese günstigen uhren",
+      "log_likelihood": -0.015464,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 309,
+      "file": "0309.wav",
+      "korean": "이 오래된 전차들을",
+      "ref": "diese alten straßenbahnen",
+      "hyp": "diese alten straßenbahnen",
+      "log_likelihood": -0.002993,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 310,
+      "file": "0310.wav",
+      "korean": "한 오래된 양에게",
+      "ref": "einer alten menge",
+      "hyp": "einer alten menge",
+      "log_likelihood": -0.018767,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 311,
+      "file": "0311.wav",
+      "korean": "한 친절한 지인이",
+      "ref": "eine nette bekannte",
+      "hyp": "eine nette bekannte",
+      "log_likelihood": -0.011778,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 312,
+      "file": "0312.wav",
+      "korean": "이 끔찍한 선로들이",
+      "ref": "diese furchtbaren gleise",
+      "hyp": "diese furchtbaren gleise",
+      "log_likelihood": -0.002727,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 313,
+      "file": "0313.wav",
+      "korean": "한 조용한 머리카락이",
+      "ref": "ein leises haar",
+      "hyp": "ein leises haar",
+      "log_likelihood": -0.049803,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 314,
+      "file": "0314.wav",
+      "korean": "이 텅 빈 여행 가이드들을",
+      "ref": "diese leren reiseführer",
+      "hyp": "diese leren reiseführer",
+      "log_likelihood": -0.003736,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 315,
+      "file": "0315.wav",
+      "korean": "이 해로운 경험들이",
+      "ref": "diese schädlichen erfahrungen",
+      "hyp": "diese schädlichen erfahrungen",
+      "log_likelihood": -0.002652,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 316,
+      "file": "0316.wav",
+      "korean": "한 강한 여파트너의",
+      "ref": "einer starken partnerin",
+      "hyp": "einer starken partnerin",
+      "log_likelihood": -0.000408,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 317,
+      "file": "0317.wav",
+      "korean": "한 부유한 메일에게",
+      "ref": "einer reichen mail",
+      "hyp": "einer reichen mail",
+      "log_likelihood": -0.001298,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 318,
+      "file": "0318.wav",
+      "korean": "이 멋진 자동차의",
+      "ref": "dieses tollen wagens",
+      "hyp": "dieses tollen wagens",
+      "log_likelihood": -0.002318,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 319,
+      "file": "0319.wav",
+      "korean": "한 밝은 집의",
+      "ref": "einer hellen wohnung",
+      "hyp": "einer hellen wohnung",
+      "log_likelihood": -0.002265,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 320,
+      "file": "0320.wav",
+      "korean": "이 안전한 질문들이",
+      "ref": "diese sicheren fragen",
+      "hyp": "diese sicheren fragen",
+      "log_likelihood": -0.006547,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 321,
+      "file": "0321.wav",
+      "korean": "이 중요한 문화가",
+      "ref": "diese wichtige kultur",
+      "hyp": "diese wichtige kulture",
+      "log_likelihood": -0.206914,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 322,
+      "file": "0322.wav",
+      "korean": "이 자유로운 수신자를",
+      "ref": "diesen freien empfänger",
+      "hyp": "diesen freien empfänger",
+      "log_likelihood": -0.007777,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 323,
+      "file": "0323.wav",
+      "korean": "이 가벼운 문을",
+      "ref": "diese leichte tür",
+      "hyp": "diese leichte tür",
+      "log_likelihood": -0.012195,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 324,
+      "file": "0324.wav",
+      "korean": "이 환영받는 목걸이에게",
+      "ref": "dieser willkommenen kette",
+      "hyp": "dieser willkommenen kette",
+      "log_likelihood": -0.007939,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 325,
+      "file": "0325.wav",
+      "korean": "한 조용한 소풍의",
+      "ref": "eines ruhigen ausflugs",
+      "hyp": "eines ruhigen ausflugs",
+      "log_likelihood": -0.001514,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 326,
+      "file": "0326.wav",
+      "korean": "이 강한 축제의",
+      "ref": "dieses starken fests",
+      "hyp": "dieses starken fests",
+      "log_likelihood": -0.085988,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 327,
+      "file": "0327.wav",
+      "korean": "한 화난 직업이",
+      "ref": "ein böser beruf",
+      "hyp": "ein böser beruf",
+      "log_likelihood": -0.052738,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 328,
+      "file": "0328.wav",
+      "korean": "이 새로운 문제들에게",
+      "ref": "diesen neuen problemen",
+      "hyp": "diesen neuen problemen",
+      "log_likelihood": -0.000733,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 329,
+      "file": "0329.wav",
+      "korean": "이 달콤한 동료를",
+      "ref": "diesen süßen kollegen",
+      "hyp": "diesen süßen kollegen",
+      "log_likelihood": -0.003281,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 330,
+      "file": "0330.wav",
+      "korean": "이 좋은 인터뷰들이",
+      "ref": "diese guten interviews",
+      "hyp": "diese guten interviews",
+      "log_likelihood": -0.00101,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 331,
+      "file": "0331.wav",
+      "korean": "이 차가운 여행사에게",
+      "ref": "diesem kalten reisebüro",
+      "hyp": "diesem kalten reisebüro",
+      "log_likelihood": -0.010872,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 332,
+      "file": "0332.wav",
+      "korean": "이 긴급한 침실이",
+      "ref": "dieses dringende schlafzimmer",
+      "hyp": "dieses dringende schlafzimmer",
+      "log_likelihood": -0.001815,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 333,
+      "file": "0333.wav",
+      "korean": "한 필요한 홈페이지를",
+      "ref": "eine notwendige homepage",
+      "hyp": "eine notwendige homepage",
+      "log_likelihood": -0.001481,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 334,
+      "file": "0334.wav",
+      "korean": "이 가벼운 카페들의",
+      "ref": "dieser leichten cafés",
+      "hyp": "dieser leichten kaffees",
+      "log_likelihood": -0.418504,
+      "sample_wer": 0.3333
+    },
+    {
+      "id": 335,
+      "file": "0335.wav",
+      "korean": "한 어두운 거리가",
+      "ref": "eine dunkle straße",
+      "hyp": "eine dunkle straße",
+      "log_likelihood": -0.002161,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 336,
+      "file": "0336.wav",
+      "korean": "이 명확한 버터의",
+      "ref": "dieser deutlichen butter",
+      "hyp": "dieser deutlichen butter",
+      "log_likelihood": -0.002289,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 337,
+      "file": "0337.wav",
+      "korean": "이 환상적인 생일에게",
+      "ref": "diesem fantastischen geburtstag",
+      "hyp": "diesem fantastischen geburtstag",
+      "log_likelihood": -0.001716,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 338,
+      "file": "0338.wav",
+      "korean": "한 자유로운 식욕에게",
+      "ref": "einem freien appetit",
+      "hyp": "einem freien appetit",
+      "log_likelihood": -0.002552,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 339,
+      "file": "0339.wav",
+      "korean": "한 나쁜 재회가",
+      "ref": "ein schlechtes wiedersehen",
+      "hyp": "ein schlechtes wiedersehen",
+      "log_likelihood": -0.002532,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 340,
+      "file": "0340.wav",
+      "korean": "이 시간을 지키는 목걸이들에게",
+      "ref": "diesen pünktlichen ketten",
+      "hyp": "diesen pünktlichen ketten",
+      "log_likelihood": -0.021007,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 341,
+      "file": "0341.wav",
+      "korean": "한 간단한 양이",
+      "ref": "eine einfache menge",
+      "hyp": "eine einfache menge",
+      "log_likelihood": -0.014283,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 342,
+      "file": "0342.wav",
+      "korean": "이 흥미로운 생일을",
+      "ref": "diesen interessanten geburtstag",
+      "hyp": "diesen interessanten geburtstag",
+      "log_likelihood": -0.002423,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 343,
+      "file": "0343.wav",
+      "korean": "한 검은 이모의",
+      "ref": "einer schwarzen tante",
+      "hyp": "einer schwarzen tante",
+      "log_likelihood": -0.001196,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 344,
+      "file": "0344.wav",
+      "korean": "한 신선한 가방을",
+      "ref": "eine frische tasche",
+      "hyp": "eine frische tasche",
+      "log_likelihood": -0.00299,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 345,
+      "file": "0345.wav",
+      "korean": "이 국제적인 메일들의",
+      "ref": "dieser internationalen mails",
+      "hyp": "dieser internationalen mails",
+      "log_likelihood": -0.025049,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 346,
+      "file": "0346.wav",
+      "korean": "이 이상한 과목들을",
+      "ref": "diese komischen fächer",
+      "hyp": "diese komischen fächer",
+      "log_likelihood": -0.01819,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 347,
+      "file": "0347.wav",
+      "korean": "한 짧은 용돈이",
+      "ref": "ein kurzes taschengeld",
+      "hyp": "ein kurzes taschengeld",
+      "log_likelihood": -0.004781,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 348,
+      "file": "0348.wav",
+      "korean": "한 좋은 엘리베이터의",
+      "ref": "eines guten aufzugs",
+      "hyp": "eines guten aufzugs",
+      "log_likelihood": -0.002913,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 349,
+      "file": "0349.wav",
+      "korean": "한 지루한 줄이",
+      "ref": "eine langweilige reihe",
+      "hyp": "eine langweilige reihe",
+      "log_likelihood": -0.003088,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 350,
+      "file": "0350.wav",
+      "korean": "한 개인적인 여행 가방의",
+      "ref": "eines privaten koffers",
+      "hyp": "eines privaten koffers",
+      "log_likelihood": -0.003091,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 351,
+      "file": "0351.wav",
+      "korean": "한 심각한 수프에게",
+      "ref": "einer schlimmen suppe",
+      "hyp": "einer schlimmen suppe",
+      "log_likelihood": -0.001012,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 352,
+      "file": "0352.wav",
+      "korean": "한 못생긴 학급에게",
+      "ref": "einer hässlichen klasse",
+      "hyp": "einer hässlichen klasse",
+      "log_likelihood": -0.064383,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 353,
+      "file": "0353.wav",
+      "korean": "이 위험한 욕구에게",
+      "ref": "dieser gefährlichen lust",
+      "hyp": "dieser gefährlichen lust",
+      "log_likelihood": -0.000517,
+      "sample_wer": 0.0
+    },
+    {
+      "id": 354,
+      "file": "0354.wav",
+      "korean": "한 위험한 헛소리가",
+      "ref": "ein gefährlicher quatsch",
+      "hyp": "ein gefährlicher quatsch",
+      "log_likelihood": -0.002229,
+      "sample_wer": 0.0
+    }
+  ]
+}

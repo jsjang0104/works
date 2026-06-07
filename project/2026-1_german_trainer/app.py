@@ -133,7 +133,7 @@ CSS = """
 HEADER_HTML = """
 <div id="site-header">
   <h1>Speech-Based German Declension Training System</h1>
-  <p class="creators">Created by: Joonki Hong (Concept &amp; Linguistics) &middot; Jisoo Jang (Digital Implementation)</p>
+  <p class="creators">Created by: Jungi Hong (Concept &amp; Linguistics) &middot; Jisoo Jang (Digital Implementation)</p>
   <p class="dept">Department of German, Hankuk University of Foreign Studies</p>
 </div>
 """

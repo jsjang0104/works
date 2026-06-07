@@ -12,9 +12,9 @@
         asr/eval/baseline_eval_{human|tts}.png
 
 화자 그룹 (human)
-  advanced     : hw_ha, jk_hong, mk_cho, mc_park, jw_kim
-  intermediate : js_jang, kj_lee, ts_ham
-  basic        : jw_choi
+  advanced     : 01, 02, 03, 04, 05
+  intermediate : 06, 07, 08
+  basic        : 09, 10
 
 human 모드에서 score 열이 채워진 경우 DA score vs WER / LL Spearman 상관관계를 추가로 계산합니다.
 
@@ -45,7 +45,7 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument(
     "--data", choices=["human", "tts"], default="human",
-    help="평가 데이터셋: human(실제 환경·발음 수준 그룹 비교) 또는 tts(다양한 문장 인식력)",
+    help="평가 데이터셋: human(실제 환경·발음 수준 그룹 비교) 또는 tts(General Recognition on Diverse Sentences)",
 )
 args = parser.parse_args()
 
@@ -69,11 +69,10 @@ RESULT_PATH = os.path.join(BASE_DIR, f"baseline_result_{args.data}.json")
 PLOT_PATH   = os.path.join(BASE_DIR, f"baseline_eval_{args.data}.png")
 
 GROUPS = {
-    "hw_ha":   "advanced", "jk_hong": "advanced",
-    "mk_cho":  "advanced", "mc_park": "advanced",
-    "jw_kim":  "advanced",
-    "js_jang": "intermediate", "kj_lee": "intermediate", "ts_ham": "intermediate",
-    "jw_choi": "basic",
+    "01": "advanced", "02": "advanced", "03": "advanced",
+    "04": "advanced", "05": "advanced",
+    "06": "intermediate", "07": "intermediate", "08": "intermediate",
+    "09": "basic", "10": "basic",
 }
 GROUP_COLOR = {"advanced": "steelblue", "intermediate": "orange", "basic": "tomato"}
 
@@ -117,11 +116,25 @@ def log_likelihood(audio, ref_text):
 
 # ── human: 화자별 / 발음 그룹별 평가 (통제된 동일 문장) ────────────────────────
 
+def shared_ylim(key, vals):
+    """baseline/final 결과를 함께 읽어 두 그림이 같은 y축 범위를 갖도록 (lo, hi)를 계산 (0을 기준점으로 포함)"""
+    all_vals = list(vals) + [0]
+    for prefix in ("baseline", "final"):
+        path = os.path.join(BASE_DIR, f"{prefix}_result_human.json")
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                other = json.load(f)
+            all_vals += [s[key] for s in other.get("speakers", {}).values()
+                         if s.get("num_samples", 0) > 0 and s.get(key) is not None]
+    lo, hi = min(all_vals), max(all_vals)
+    pad = (hi - lo) * 0.1 or 1.0
+    return lo - pad, hi + pad
+
 def run_human_eval():
     speaker_data = defaultdict(list)
     with open(LIST_CSV, encoding="utf-8") as f:
         reader   = csv.DictReader(f)
-        speakers = [c for c in reader.fieldnames if c not in ("num", "KR", "DE")]
+        speakers = sorted(c for c in reader.fieldnames if c not in ("num", "KR", "DE"))
         for row in reader:
             num = int(row["num"])
             for speaker in speakers:
@@ -129,7 +142,7 @@ def run_human_eval():
                 score = int(raw) if raw else None
                 speaker_data[speaker].append((num, row["KR"], row["DE"], score))
 
-    print(f"[data] human {len(speaker_data)}명: {list(speaker_data.keys())}")
+    print(f"[data] human {len(speaker_data)} speakers: {list(speaker_data.keys())}")
 
     all_refs, all_hyps = [], []
     group_refs         = defaultdict(list)
@@ -179,7 +192,7 @@ def run_human_eval():
         all_refs.extend(refs); all_hyps.extend(hyps)
         group_refs[group].extend(refs); group_hyps[group].extend(hyps)
 
-        print(f"[{speaker}({group})] WER={speaker_wer*100:.2f}%  LL={avg_ll:.4f}" if speaker_wer else f"[{speaker}] 파일 없음")
+        print(f"[{speaker}({group})] WER={speaker_wer*100:.2f}%  LL={avg_ll:.4f}" if speaker_wer else f"[{speaker}] no files")
 
     overall_wer = jiwer_wer(all_refs, all_hyps) if all_refs else None
     group_wer   = {g: jiwer_wer(group_refs[g], group_hyps[g]) for g in group_refs if group_refs[g]}
@@ -204,7 +217,7 @@ def run_human_eval():
         print(f"  score vs LL  : r={r_ll:.4f}  p={p_ll:.4f}")
         print(f"  score vs WER : r={r_wer:.4f}  p={p_wer:.4f}")
     else:
-        print("\n[DA correlation] score 미입력 — 건너뜀")
+        print("\n[DA correlation] score not provided — skipping")
 
     result = {
         "timestamp": datetime.now().isoformat(), "model": MODEL_ID,
@@ -231,11 +244,12 @@ def run_human_eval():
         axes = list(axes)
     fig.suptitle("Whisper-tiny (original) · Human Speech Evaluation", fontsize=13)
 
-    for ax, vals, ylabel, title in [
-        (axes[0], wer_vals, "WER (%)",           "Word Error Rate"),
-        (axes[1], ll_vals,  "Avg Log-Likelihood", "Log-Likelihood"),
+    for ax, vals, ylabel, title, key in [
+        (axes[0], wer_vals, "WER (%)",           "Word Error Rate",    "wer_pct"),
+        (axes[1], ll_vals,  "Avg Log-Likelihood", "Log-Likelihood",     "avg_log_likelihood"),
     ]:
         bars = ax.bar(speakers, vals, color=bar_colors, edgecolor="white", width=0.6)
+        ax.set_ylim(*shared_ylim(key, vals))
         for g, c in GROUP_COLOR.items():
             ax.bar(0, 0, color=c, label=f"{g} speakers")
         for bar, val in zip(bars, vals):
@@ -273,7 +287,7 @@ def run_tts_eval():
     with open(TTS_CSV, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
-    print(f"[data] tts test {len(rows)}개 문장")
+    print(f"[data] tts test {len(rows)} sentences")
 
     refs, hyps, records = [], [], []
     for row in rows:
@@ -314,7 +328,7 @@ def run_tts_eval():
     sample_lls  = [r["log_likelihood"] for r in records]
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    fig.suptitle("Whisper-tiny (original) · TTS Test Set (다양한 문장 인식력)", fontsize=13)
+    fig.suptitle("Whisper-tiny (original) · TTS Test Set (General Recognition on Diverse Sentences)", fontsize=13)
 
     axes[0].hist(sample_wers, bins=20, color="steelblue", edgecolor="white")
     axes[0].axvline(overall_wer * 100, color="tomato", linestyle="--", label=f"overall={overall_wer*100:.2f}%")

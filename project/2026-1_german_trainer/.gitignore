@@ -1,3 +1,5 @@
 # 학습 체크포인트 (GitHub 100MB 제한 초과, HF Hub에서 관리)
 asr/whisper-tiny-german/checkpoint-*/
 optimizer.pt
+
+__pycache__/

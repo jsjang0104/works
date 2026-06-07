@@ -2,11 +2,11 @@
 오디오 파일을 16kHz mono WAV로 변환하고 앞뒤 무음을 제거합니다.
 
 사용법:
-    python convert.py js_jang
-    python convert.py js_jang jw_choi hw_ha
+    python convert.py 06
+    python convert.py 06 10 02
 
 - 화자 폴더 내 오디오 파일(m4a / mp3 / wav)을 파일명 기준 알파벳 순으로 정렬
-- wav/ 서브폴더에 기존 파일명을 유지한 채 확장자만 .wav로 바꿔 저장 (예: mk_cho_1.m4a → mk_cho_1.wav)
+- wav/ 서브폴더에 기존 파일명을 유지한 채 확장자만 .wav로 바꿔 저장 (예: 03_1.m4a → 03_1.wav)
 - ffmpeg 필요 (sudo apt install ffmpeg)
 """
 
@@ -74,7 +74,7 @@ def convert_speaker(speaker: str):
 
 def main():
     parser = argparse.ArgumentParser(description="오디오 변환 스크립트")
-    parser.add_argument("speakers", nargs="+", help="화자 폴더명 (예: js_jang jw_choi)")
+    parser.add_argument("speakers", nargs="+", help="화자 폴더명 (예: 06 10)")
     args = parser.parse_args()
 
     for speaker in args.speakers:
