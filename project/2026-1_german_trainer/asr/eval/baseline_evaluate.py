@@ -76,6 +76,9 @@ GROUPS = {
 }
 GROUP_COLOR = {"advanced": "steelblue", "intermediate": "orange", "basic": "tomato"}
 
+# 시각화에서 화자를 나열할 순서 (왼쪽부터)
+SPEAKER_PLOT_ORDER = ["10", "09", "08", "06", "05", "03", "02", "04", "01"]
+
 # ── 텍스트 정규화 ──────────────────────────────────────────────────────────────
 
 def normalize(text: str) -> str:
@@ -132,7 +135,7 @@ def shared_ylim(key, vals):
 
 def run_human_eval():
     speaker_data = defaultdict(list)
-    with open(LIST_CSV, encoding="utf-8") as f:
+    with open(LIST_CSV, encoding="utf-8-sig") as f:
         reader   = csv.DictReader(f)
         speakers = sorted(c for c in reader.fieldnames if c not in ("num", "KR", "DE"))
         for row in reader:
@@ -233,7 +236,8 @@ def run_human_eval():
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"\n[saved] {RESULT_PATH}")
 
-    speakers   = [s for s in speaker_results if speaker_results[s]["num_samples"] > 0]
+    speakers   = [s for s in SPEAKER_PLOT_ORDER
+                  if s in speaker_results and speaker_results[s]["num_samples"] > 0]
     wer_vals   = [speaker_results[s]["wer_pct"] or 0 for s in speakers]
     ll_vals    = [speaker_results[s]["avg_log_likelihood"] or 0 for s in speakers]
     bar_colors = [GROUP_COLOR.get(GROUPS.get(s, ""), "gray") for s in speakers]
@@ -256,7 +260,7 @@ def run_human_eval():
             ax.text(bar.get_x() + bar.get_width() / 2,
                     bar.get_height() + (max(vals) - min(vals)) * 0.02,
                     f"{val:.2f}", ha="center", va="bottom", fontsize=9)
-        ax.set_xlabel("Speaker"); ax.set_ylabel(ylabel); ax.set_title(title)
+        ax.set_xlabel("Speaker ID"); ax.set_ylabel(ylabel); ax.set_title(title)
         ax.legend(); ax.grid(axis="y", alpha=0.3)
 
     if len(all_scores) >= 3:
