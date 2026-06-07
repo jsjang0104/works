@@ -108,6 +108,12 @@ def ll_label(ll: float) -> str:
 
 LL_PASS = -1.0
 
+IMAGES_DIR  = os.path.join(BASE_DIR, "images")
+ADJ_IMAGES  = [os.path.join(IMAGES_DIR, f"adj_{i}.png") for i in (1, 2, 3)]
+NOUN_IMAGES = [os.path.join(IMAGES_DIR, f"noun_{i}.png") for i in (1, 2, 3, 4, 5)]
+ADJ_PDF     = os.path.join(IMAGES_DIR, "adjective.pdf")
+NOUN_PDF    = os.path.join(IMAGES_DIR, "noun.pdf")
+
 # ── Gradio UI ─────────────────────────────────────────────────────────────────
 
 INIT_STATE = {
@@ -120,6 +126,10 @@ CSS = """
 #site-header h1        { font-size:1.55em; font-weight:700; margin:0 0 6px; }
 #site-header .creators { font-size:0.95em; color:#555; margin:0 0 3px; }
 #site-header .dept     { font-size:0.82em; color:#888; margin:0; }
+
+#grammar-btns { justify-content:center; gap:16px; margin-top:18px; }
+#grammar-hint { text-align:center; color:#888; font-size:0.92em; margin-top:14px; }
+#grammar-gallery .gallery { justify-content:center; }
 
 #korean-text  { font-size:3.2em; font-weight:700; text-align:center; padding:28px 0; }
 #hint-box     { font-size:1.2em; letter-spacing:0.08em; color:#888; text-align:center; }
@@ -146,15 +156,36 @@ with gr.Blocks(title="German Declension Trainer") as demo:
     # ── 1. 설정 화면 ───────────────────────────────────────────────────────────
     with gr.Column(visible=True) as setup_col:
         gr.Markdown(
-            "제시된 **한국어 문장**을 독일어로 발음하세요.  \n"
+            "주어지는 한국어 어구를 독일어로 번역해 발화하세요.  \n"
             "파인튜닝된 Whisper 모델이 발음의 정확도를 채점합니다."
         )
         gr.Markdown(
-            "> ⏳ 첫 번째 문제 채점은 AI 모델 로딩으로 인해 약간 시간이 걸릴 수 있습니다.  \n"
-            "> 한 번 모델이 로드되면, 이후에는 정상 속도로 채점이 진행됩니다."
+            "첫 번째 문제 채점은 AI 모델 로딩으로 인해 약간 시간이 걸릴 수 있습니다.  \n"
+            "한 번 모델이 로드되면, 이후에는 정상 속도로 채점이 진행됩니다."
         )
         n_radio   = gr.Radio(choices=[10, 20, 30], value=10, label="문제 수 선택")
         start_btn = gr.Button("시작하기 →", variant="primary", size="lg")
+
+        with gr.Row(elem_id="grammar-btns"):
+            adj_grammar_btn  = gr.Button("참고: 독일어 형용사류 어미변화 규칙")
+            noun_grammar_btn = gr.Button("참고: 독일어 명사 형태변화 유형")
+        grammar_hint_md = gr.Markdown(
+            "이미지를 클릭하면 확대됩니다", visible=False, elem_id="grammar-hint",
+        )
+        adj_gallery = gr.Gallery(
+            value=ADJ_IMAGES, visible=False, label="형용사류 어미변화",
+            columns=3, elem_id="grammar-gallery",
+        )
+        adj_pdf_file = gr.File(
+            value=ADJ_PDF, visible=False, label="📄 형용사류 어미변화 규칙 PDF 다운로드",
+        )
+        noun_gallery = gr.Gallery(
+            value=NOUN_IMAGES, visible=False, label="명사 형태변화",
+            columns=3, elem_id="grammar-gallery",
+        )
+        noun_pdf_file = gr.File(
+            value=NOUN_PDF, visible=False, label="📄 명사 형태변화 유형 PDF 다운로드",
+        )
 
     # ── 2. 퀴즈 + 결과 화면 (단일 컬럼) ──────────────────────────────────────
     # result_col을 별도로 두지 않고 quiz_col 안에서 전환.
@@ -314,6 +345,30 @@ with gr.Blocks(title="German Declension Trainer") as demo:
         )
 
     # ── 이벤트 연결 ────────────────────────────────────────────────────────────
+
+    def show_adj_grammar():
+        return (
+            gr.update(visible=True),   # grammar_hint_md
+            gr.update(visible=True),   # adj_gallery
+            gr.update(visible=True),   # adj_pdf_file
+            gr.update(visible=False),  # noun_gallery
+            gr.update(visible=False),  # noun_pdf_file
+        )
+
+    def show_noun_grammar():
+        return (
+            gr.update(visible=True),   # grammar_hint_md
+            gr.update(visible=False),  # adj_gallery
+            gr.update(visible=False),  # adj_pdf_file
+            gr.update(visible=True),   # noun_gallery
+            gr.update(visible=True),   # noun_pdf_file
+        )
+
+    GRAMMAR_TOGGLE_OUTS = [
+        grammar_hint_md, adj_gallery, adj_pdf_file, noun_gallery, noun_pdf_file,
+    ]
+    adj_grammar_btn.click(show_adj_grammar, outputs=GRAMMAR_TOGGLE_OUTS)
+    noun_grammar_btn.click(show_noun_grammar, outputs=GRAMMAR_TOGGLE_OUTS)
 
     start_btn.click(on_start, inputs=[n_radio, state], outputs=QUIZ_OUTS)
 
