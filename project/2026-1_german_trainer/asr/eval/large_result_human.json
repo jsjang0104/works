@@ -1,0 +1,2140 @@
+{
+  "timestamp": "2026-06-08T15:06:13.620599",
+  "model": "openai/whisper-large-v3",
+  "data": "human",
+  "overall_wer": 0.291852,
+  "overall_wer_pct": 29.19,
+  "overall_log_likelihood": -3.114292,
+  "group_wer": {
+    "advanced": 15.73,
+    "intermediate": 33.33,
+    "basic": 58.67
+  },
+  "da_correlation": {
+    "n": 225,
+    "spearman_score_vs_ll": {
+      "r": 0.1513,
+      "p": 0.0233
+    },
+    "spearman_score_vs_wer": {
+      "r": -0.45,
+      "p": 0.0
+    }
+  },
+  "speakers": {
+    "01": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.066667,
+      "wer_pct": 6.67,
+      "avg_log_likelihood": -3.004673,
+      "records": [
+        {
+          "id": 1,
+          "file": "01_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -3.129846,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "01_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "einer blühen person",
+          "log_likelihood": -2.888726,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "01_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nasser baum",
+          "log_likelihood": -2.9333,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "01_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.566391,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 5,
+          "file": "01_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -2.486547,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 6,
+          "file": "01_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -3.00393,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 7,
+          "file": "01_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -2.78795,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 8,
+          "file": "01_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -3.251352,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 9,
+          "file": "01_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.846456,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 10,
+          "file": "01_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem superen besuch",
+          "log_likelihood": -2.700166,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 11,
+          "file": "01_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -3.633267,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 12,
+          "file": "01_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -2.877891,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 13,
+          "file": "01_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -2.734742,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "01_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -3.604951,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "01_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -2.864975,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "01_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -3.181605,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 17,
+          "file": "01_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser tönen studentinnen",
+          "log_likelihood": -2.94482,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 18,
+          "file": "01_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -2.846772,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 19,
+          "file": "01_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reisendischlösseln",
+          "log_likelihood": -3.381517,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 20,
+          "file": "01_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -2.898748,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 21,
+          "file": "01_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -2.502095,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "01_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -2.801044,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "01_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -3.032718,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "01_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -3.43575,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "01_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -2.781256,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "02": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.08,
+      "wer_pct": 8.0,
+      "avg_log_likelihood": -3.204981,
+      "records": [
+        {
+          "id": 1,
+          "file": "02_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses brauen kinos",
+          "log_likelihood": -3.166643,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "02_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "einer blöden person",
+          "log_likelihood": -3.803145,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "02_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nasser baum",
+          "log_likelihood": -2.965852,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "02_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.927267,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 5,
+          "file": "02_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -3.04778,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 6,
+          "file": "02_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -2.947228,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "02_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -3.004783,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "02_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -2.856972,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "02_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -4.099236,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "02_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem superern besuch",
+          "log_likelihood": -3.131448,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 11,
+          "file": "02_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -4.188935,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 12,
+          "file": "02_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -3.138596,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 13,
+          "file": "02_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -2.897478,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "02_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -3.501801,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 15,
+          "file": "02_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -3.011765,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "02_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -3.679677,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "02_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dienen studentinnen",
+          "log_likelihood": -4.031994,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "02_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -3.401683,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "02_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlüsseln",
+          "log_likelihood": -2.285289,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 20,
+          "file": "02_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -3.041184,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "02_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -2.618443,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "02_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diese natürlichen seifen",
+          "log_likelihood": -2.978241,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "02_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborrene idee",
+          "log_likelihood": -2.752374,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 24,
+          "file": "02_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -3.623046,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "02_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -3.023669,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "03": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.093333,
+      "wer_pct": 9.33,
+      "avg_log_likelihood": -3.111864,
+      "records": [
+        {
+          "id": 1,
+          "file": "03_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -2.904217,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "03_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "einer blütenperson",
+          "log_likelihood": -3.823353,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "03_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nasser baum",
+          "log_likelihood": -3.064098,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "03_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.670834,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "03_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -2.969797,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "03_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -3.034363,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "03_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -2.925197,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "03_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -3.035185,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "03_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.711312,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "03_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem sporenbesuch",
+          "log_likelihood": -3.961222,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "03_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -3.384633,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 12,
+          "file": "03_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -2.884595,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 13,
+          "file": "03_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -2.701435,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "03_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -3.739686,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "03_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -2.991813,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "03_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -3.774188,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "03_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnen studentinnen",
+          "log_likelihood": -2.684222,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "03_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikeln",
+          "log_likelihood": -2.926983,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 19,
+          "file": "03_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlüssen",
+          "log_likelihood": -2.763783,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 20,
+          "file": "03_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -3.309138,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "03_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -2.595434,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "03_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -2.733031,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "03_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -3.131832,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "03_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -3.395527,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "03_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -2.680718,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "04": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.146667,
+      "wer_pct": 14.67,
+      "avg_log_likelihood": -3.086891,
+      "records": [
+        {
+          "id": 1,
+          "file": "04_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -2.874272,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "04_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "eine bloße person",
+          "log_likelihood": -2.84,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 3,
+          "file": "04_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "anna sapaum",
+          "log_likelihood": -2.96249,
+          "sample_wer": 1.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "04_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.931834,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "04_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tour",
+          "log_likelihood": -3.10948,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "04_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -3.074683,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "04_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -2.751647,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 8,
+          "file": "04_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -2.920107,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "04_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.621306,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 10,
+          "file": "04_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem superen besuch",
+          "log_likelihood": -2.754986,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 11,
+          "file": "04_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute gefährlichkeit",
+          "log_likelihood": -3.569697,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 12,
+          "file": "04_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -2.985504,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 13,
+          "file": "04_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -2.825351,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "04_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -3.517254,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "04_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiterwolken",
+          "log_likelihood": -3.937289,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 16,
+          "file": "04_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem dreckigen produkt",
+          "log_likelihood": -3.964449,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "04_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnen studentinnen",
+          "log_likelihood": -2.691571,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 18,
+          "file": "04_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikeln",
+          "log_likelihood": -2.961632,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 19,
+          "file": "04_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlüsseln",
+          "log_likelihood": -2.281213,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 20,
+          "file": "04_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -3.280916,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 21,
+          "file": "04_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -2.698871,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 22,
+          "file": "04_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -2.96749,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "04_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -2.993926,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "04_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -3.569984,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "04_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -3.086311,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "05": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.4,
+      "wer_pct": 40.0,
+      "avg_log_likelihood": -2.891775,
+      "records": [
+        {
+          "id": 1,
+          "file": "05_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses gaunen kino",
+          "log_likelihood": -2.943709,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 2,
+          "file": "05_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "einer blöden person",
+          "log_likelihood": -2.785326,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 3,
+          "file": "05_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassabaum",
+          "log_likelihood": -2.932328,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "05_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.46355,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "05_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -2.881147,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "05_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -2.648194,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "05_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -2.267628,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "05_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -2.740244,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "05_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.657681,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "05_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem so vergangt also",
+          "log_likelihood": -3.180625,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 11,
+          "file": "05_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "einer guten qualität",
+          "log_likelihood": -3.331647,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 12,
+          "file": "05_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese kommission tanzen",
+          "log_likelihood": -3.089286,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 13,
+          "file": "05_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -2.849671,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "05_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "eine roten bank",
+          "log_likelihood": -2.83521,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "05_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -2.302704,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "05_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -2.887378,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "05_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnenstudentinnen",
+          "log_likelihood": -2.812984,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 18,
+          "file": "05_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -2.949759,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 19,
+          "file": "05_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "dieser reichen schlüssel",
+          "log_likelihood": -2.643292,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 20,
+          "file": "05_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen panel",
+          "log_likelihood": -3.235303,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "05_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -2.358417,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "05_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diese natürlichen seifen",
+          "log_likelihood": -3.023904,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "05_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "einige morgener ihr die",
+          "log_likelihood": -3.507488,
+          "sample_wer": 1.3333,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "05_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -3.421937,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "05_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatz ist ein sehr guter ort für sport",
+          "log_likelihood": -2.544975,
+          "sample_wer": 2.6667,
+          "score": 2
+        }
+      ]
+    },
+    "06": {
+      "group": "intermediate",
+      "num_samples": 25,
+      "wer": 0.346667,
+      "wer_pct": 34.67,
+      "avg_log_likelihood": -3.179838,
+      "records": [
+        {
+          "id": 1,
+          "file": "06_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -2.807568,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "06_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "eine blöden person",
+          "log_likelihood": -3.221578,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "06_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassaubaum",
+          "log_likelihood": -3.498232,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "06_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.715592,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "06_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -3.069305,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "06_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen aufflug",
+          "log_likelihood": -3.050068,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "06_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines kommissiongeschenks",
+          "log_likelihood": -3.241902,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 8,
+          "file": "06_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -3.202034,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "06_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.710854,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 10,
+          "file": "06_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "eine chippeurenbesuch",
+          "log_likelihood": -3.475109,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "06_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -3.575279,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "06_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese kommissiontanten",
+          "log_likelihood": -3.727722,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "06_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesen wunderbaren getränk",
+          "log_likelihood": -2.430831,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "06_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "eine rotenbank",
+          "log_likelihood": -3.978933,
+          "sample_wer": 1.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "06_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -2.888901,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 16,
+          "file": "06_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -3.222855,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "06_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dünnen studentinnen",
+          "log_likelihood": -3.415616,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "06_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikeln",
+          "log_likelihood": -2.746099,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "06_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen griechenschlüssel",
+          "log_likelihood": -2.613027,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "06_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -3.058434,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "06_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diesen hühnenautobahnen",
+          "log_likelihood": -3.138127,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 22,
+          "file": "06_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -2.751852,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "06_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -3.181949,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 24,
+          "file": "06_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein kaiserltool",
+          "log_likelihood": -3.802837,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 25,
+          "file": "06_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses großen sportplatzes",
+          "log_likelihood": -2.971238,
+          "sample_wer": 0.3333,
+          "score": 2
+        }
+      ]
+    },
+    "07": {
+      "group": "intermediate",
+      "num_samples": 0,
+      "wer": null,
+      "wer_pct": null,
+      "avg_log_likelihood": null,
+      "records": []
+    },
+    "08": {
+      "group": "intermediate",
+      "num_samples": 25,
+      "wer": 0.32,
+      "wer_pct": 32.0,
+      "avg_log_likelihood": -3.073011,
+      "records": [
+        {
+          "id": 1,
+          "file": "08_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses gauen kinos",
+          "log_likelihood": -3.314827,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 2,
+          "file": "08_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "eine blöde person",
+          "log_likelihood": -3.250824,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 3,
+          "file": "08_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassau baum",
+          "log_likelihood": -2.993548,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 4,
+          "file": "08_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -2.667946,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "08_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "diese gemde tür",
+          "log_likelihood": -2.936637,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "08_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -2.790617,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "08_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -2.84017,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "08_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -2.908439,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "08_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.744533,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "08_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem sperrigen besuch",
+          "log_likelihood": -3.168896,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "08_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -3.443259,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "08_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "diese kommission tannten",
+          "log_likelihood": -3.074856,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "08_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesen wunderbaren getränk",
+          "log_likelihood": -2.734835,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 14,
+          "file": "08_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "i know hotenbaum",
+          "log_likelihood": -3.775661,
+          "sample_wer": 1.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "08_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -2.919365,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 16,
+          "file": "08_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten godok",
+          "log_likelihood": -3.578997,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 17,
+          "file": "08_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dünnen studentinnen",
+          "log_likelihood": -2.530006,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 18,
+          "file": "08_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "die sintifenaktiken",
+          "log_likelihood": -2.555438,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "08_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen gleichen schließen",
+          "log_likelihood": -3.02449,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "08_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -2.939651,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "08_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -2.412747,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 22,
+          "file": "08_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -3.261279,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 23,
+          "file": "08_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "einige brauchen eine idee",
+          "log_likelihood": -3.69024,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 24,
+          "file": "08_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein geiles auto",
+          "log_likelihood": -3.680652,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 25,
+          "file": "08_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen spottplatzes",
+          "log_likelihood": -2.587361,
+          "sample_wer": 0.3333,
+          "score": 1
+        }
+      ]
+    },
+    "09": {
+      "group": "basic",
+      "num_samples": 25,
+      "wer": 0.653333,
+      "wer_pct": 65.33,
+      "avg_log_likelihood": -3.328537,
+      "records": [
+        {
+          "id": 1,
+          "file": "09_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunentinos",
+          "log_likelihood": -3.111166,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 2,
+          "file": "09_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "eine blutende person",
+          "log_likelihood": -3.35323,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 3,
+          "file": "09_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein nationalpaarung",
+          "log_likelihood": -3.155697,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "09_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche frau kaffen",
+          "log_likelihood": -3.138223,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 5,
+          "file": "09_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "dies fremdet thür",
+          "log_likelihood": -3.35259,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 6,
+          "file": "09_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -2.77115,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 7,
+          "file": "09_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eins zwei drei vier",
+          "log_likelihood": -3.933181,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 8,
+          "file": "09_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein kronen ist papusum",
+          "log_likelihood": -3.676411,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 9,
+          "file": "09_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.586051,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "09_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem superempest hoch",
+          "log_likelihood": -3.27984,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "09_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -3.112623,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "09_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "dieses kormischen tantan",
+          "log_likelihood": -3.92359,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "09_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränke",
+          "log_likelihood": -2.876963,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 14,
+          "file": "09_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "einer lud den bank",
+          "log_likelihood": -3.802261,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 15,
+          "file": "09_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "dies weitentwurken",
+          "log_likelihood": -2.837956,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 16,
+          "file": "09_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesen direkten produkt",
+          "log_likelihood": -3.066365,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 17,
+          "file": "09_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnen ist zu däntigen",
+          "log_likelihood": -3.167084,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "09_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -2.999056,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "09_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "die sendreihe ist schon",
+          "log_likelihood": -3.382031,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "09_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen kloster in panhob",
+          "log_likelihood": -3.240369,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 21,
+          "file": "09_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "durchführenden autobahnen",
+          "log_likelihood": -3.264501,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 22,
+          "file": "09_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen der tunlichsten zeitung",
+          "log_likelihood": -4.18613,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 23,
+          "file": "09_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -3.133102,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 24,
+          "file": "09_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein kreis auto",
+          "log_likelihood": -3.697873,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 25,
+          "file": "09_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dies ist quotientzbootplatz",
+          "log_likelihood": -3.165981,
+          "sample_wer": 1.0,
+          "score": 1
+        }
+      ]
+    },
+    "10": {
+      "group": "basic",
+      "num_samples": 25,
+      "wer": 0.52,
+      "wer_pct": 52.0,
+      "avg_log_likelihood": -3.147063,
+      "records": [
+        {
+          "id": 1,
+          "file": "10_1.wav",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses frauenkinos",
+          "log_likelihood": -2.408773,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 2,
+          "file": "10_2.wav",
+          "ref": "einer blöden person",
+          "hyp": "eine wladen person",
+          "log_likelihood": -3.555269,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 3,
+          "file": "10_3.wav",
+          "ref": "ein nasser baum",
+          "hyp": "ein naseepump",
+          "log_likelihood": -3.456127,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 4,
+          "file": "10_4.wav",
+          "ref": "dieser reiche flughafen",
+          "hyp": "sie sehr reisevloghafen",
+          "log_likelihood": -2.905283,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 5,
+          "file": "10_5.wav",
+          "ref": "diese fremde tür",
+          "hyp": "dieses fremde tür",
+          "log_likelihood": -2.748604,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "10_6.wav",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -2.910503,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "10_7.wav",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines kommissiongeschenks",
+          "log_likelihood": -2.838502,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 8,
+          "file": "10_8.wav",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes verfügen",
+          "log_likelihood": -3.241261,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 9,
+          "file": "10_9.wav",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -3.370438,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "10_10.wav",
+          "ref": "einem superen besuch",
+          "hyp": "einem superren besuch",
+          "log_likelihood": -2.836573,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "10_11.wav",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -3.175622,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "10_12.wav",
+          "ref": "diese komischen tanten",
+          "hyp": "dieses kommisschen tanten",
+          "log_likelihood": -3.307236,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "10_13.wav",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diese wunde waren getrennt",
+          "log_likelihood": -3.007165,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 14,
+          "file": "10_14.wav",
+          "ref": "einer roten bank",
+          "hyp": "eine rote bank",
+          "log_likelihood": -3.432012,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 15,
+          "file": "10_15.wav",
+          "ref": "diese weiten wolken",
+          "hyp": "dieses weiten wolken",
+          "log_likelihood": -3.053599,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 16,
+          "file": "10_16.wav",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -3.109794,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 17,
+          "file": "10_17.wav",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "die dürren sind in tienen",
+          "log_likelihood": -3.827185,
+          "sample_wer": 1.6667,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "10_18.wav",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen taifenartikel",
+          "log_likelihood": -3.497465,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "10_19.wav",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen heißen schlüsseln",
+          "log_likelihood": -2.85893,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "10_20.wav",
+          "ref": "diesen großen bahnhof",
+          "hyp": "die den großen pfannhof",
+          "log_likelihood": -3.343917,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 21,
+          "file": "10_21.wav",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autowaren",
+          "log_likelihood": -2.699362,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 22,
+          "file": "10_22.wav",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen nachtrücklichen seifen",
+          "log_likelihood": -3.23324,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 23,
+          "file": "10_23.wav",
+          "ref": "eine geborene idee",
+          "hyp": "eine gewohrene idee",
+          "log_likelihood": -3.27254,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 24,
+          "file": "10_24.wav",
+          "ref": "ein freies auto",
+          "hyp": "ein freizes auto",
+          "log_likelihood": -3.685974,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 25,
+          "file": "10_25.wav",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen spaßpleitschiss",
+          "log_likelihood": -2.901191,
+          "sample_wer": 0.3333,
+          "score": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2365 @@
+{
+  "timestamp": "2026-06-08T14:26:17.921139",
+  "model": "openai/whisper-medium",
+  "data": "human",
+  "overall_wer": 0.373333,
+  "overall_wer_pct": 37.33,
+  "overall_log_likelihood": -6.450307,
+  "group_wer": {
+    "advanced": 18.67,
+    "intermediate": 46.0,
+    "basic": 75.33
+  },
+  "da_correlation": {
+    "n": 225,
+    "spearman_score_vs_ll": {
+      "r": 0.2286,
+      "p": 0.0006
+    },
+    "spearman_score_vs_wer": {
+      "r": -0.3832,
+      "p": 0.0
+    }
+  },
+  "speakers": {
+    "01": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.04,
+      "wer_pct": 4.0,
+      "avg_log_likelihood": -5.219709,
+      "records": [
+        {
+          "id": 1,
+          "file": "01_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -4.793005,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "01_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "einer blüden person",
+          "log_likelihood": -4.851249,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "01_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nasser baum",
+          "log_likelihood": -6.313129,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "01_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -4.311318,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 5,
+          "file": "01_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -4.992699,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 6,
+          "file": "01_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -4.096388,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 7,
+          "file": "01_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -4.794399,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 8,
+          "file": "01_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -4.789758,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 9,
+          "file": "01_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -6.502023,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 10,
+          "file": "01_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem superen besuch",
+          "log_likelihood": -4.432405,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 11,
+          "file": "01_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -5.519056,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 12,
+          "file": "01_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -6.445309,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 13,
+          "file": "01_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -4.549078,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "01_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -5.841459,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "01_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -4.749128,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "01_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -5.99871,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 17,
+          "file": "01_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnen studentinnen",
+          "log_likelihood": -4.30476,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 18,
+          "file": "01_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -5.450805,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 19,
+          "file": "01_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlössen",
+          "log_likelihood": -4.457986,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 20,
+          "file": "01_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -4.978759,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 21,
+          "file": "01_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -4.600106,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "01_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -4.871013,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "01_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -6.616732,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "01_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -5.477066,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "01_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -6.75639,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "02": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.12,
+      "wer_pct": 12.0,
+      "avg_log_likelihood": -6.496034,
+      "records": [
+        {
+          "id": 1,
+          "file": "02_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses brauen kinos",
+          "log_likelihood": -7.104739,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "02_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "einer blüden person",
+          "log_likelihood": -5.216605,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "02_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nasser baum",
+          "log_likelihood": -6.984457,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "02_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -4.576127,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 5,
+          "file": "02_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -4.942695,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 6,
+          "file": "02_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -6.265221,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "02_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines kommission geschenkt",
+          "log_likelihood": -7.080317,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "02_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -6.165018,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "02_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -9.123524,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "02_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem superen besuch",
+          "log_likelihood": -6.813829,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 11,
+          "file": "02_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -7.998967,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 12,
+          "file": "02_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -5.808537,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 13,
+          "file": "02_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -4.622843,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "02_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "eine roten bank",
+          "log_likelihood": -5.834378,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 15,
+          "file": "02_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -7.121489,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "02_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -8.218962,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "02_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dienen studentinnen",
+          "log_likelihood": -6.254353,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "02_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -6.199514,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "02_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlüsseln",
+          "log_likelihood": -5.813014,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 20,
+          "file": "02_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen grossen bahnhof",
+          "log_likelihood": -7.394276,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "02_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -5.875657,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "02_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diese natürlichen seifen",
+          "log_likelihood": -6.21925,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "02_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -6.765543,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 24,
+          "file": "02_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -7.230785,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "02_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -6.770747,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "03": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.146667,
+      "wer_pct": 14.67,
+      "avg_log_likelihood": -6.033949,
+      "records": [
+        {
+          "id": 1,
+          "file": "03_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -6.757853,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "03_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "einer blüdenperson",
+          "log_likelihood": -5.539191,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "03_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassabaum",
+          "log_likelihood": -5.307895,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "03_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -4.124876,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "03_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -4.697186,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "03_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -6.596209,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "03_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -6.749618,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "03_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -4.46625,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "03_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine tolle pause",
+          "log_likelihood": -8.477118,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "03_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem sporenbesuch",
+          "log_likelihood": -4.986959,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "03_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -7.973904,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 12,
+          "file": "03_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -5.56662,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 13,
+          "file": "03_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -4.747322,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "03_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "eine rote bank",
+          "log_likelihood": -5.973294,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "03_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -4.792742,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "03_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -7.423958,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "03_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnen studentinnen",
+          "log_likelihood": -6.182551,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "03_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -7.27015,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 19,
+          "file": "03_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlüssen",
+          "log_likelihood": -6.29194,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 20,
+          "file": "03_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -5.122373,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "03_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -6.255562,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "03_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -7.072125,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "03_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -4.724329,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "03_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -7.460032,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "03_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -6.288667,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "04": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.16,
+      "wer_pct": 16.0,
+      "avg_log_likelihood": -6.364002,
+      "records": [
+        {
+          "id": 1,
+          "file": "04_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braunen kinos",
+          "log_likelihood": -6.596147,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "04_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "eine blöden person",
+          "log_likelihood": -6.270547,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 3,
+          "file": "04_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "an nassau bauen",
+          "log_likelihood": -7.88056,
+          "sample_wer": 1.0,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "04_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -4.203213,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "04_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tour",
+          "log_likelihood": -5.404253,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "04_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -6.54394,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "04_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines komischen geschenks",
+          "log_likelihood": -4.42695,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 8,
+          "file": "04_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -6.701094,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "04_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -6.657538,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 10,
+          "file": "04_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem superen besuch",
+          "log_likelihood": -4.861206,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 11,
+          "file": "04_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -8.694797,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 12,
+          "file": "04_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "diese komischen tanten",
+          "log_likelihood": -6.95999,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 13,
+          "file": "04_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -4.778376,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "04_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -8.192004,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "04_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiterwolken",
+          "log_likelihood": -5.597756,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 16,
+          "file": "04_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem dreckigen produkt",
+          "log_likelihood": -6.537694,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "04_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "dieser dünnen studentinnen",
+          "log_likelihood": -6.581518,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 18,
+          "file": "04_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -7.161827,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 19,
+          "file": "04_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "die ist ein reichenschlüssel",
+          "log_likelihood": -6.476728,
+          "sample_wer": 1.3333,
+          "score": 3
+        },
+        {
+          "id": 20,
+          "file": "04_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -5.187322,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 21,
+          "file": "04_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -4.467295,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 22,
+          "file": "04_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -7.15698,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "04_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -7.54909,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "04_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein freies auto",
+          "log_likelihood": -7.588431,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "04_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -6.624789,
+          "sample_wer": 0.0,
+          "score": 3
+        }
+      ]
+    },
+    "05": {
+      "group": "advanced",
+      "num_samples": 25,
+      "wer": 0.466667,
+      "wer_pct": 46.67,
+      "avg_log_likelihood": -6.28399,
+      "records": [
+        {
+          "id": 1,
+          "file": "05_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braune kino",
+          "log_likelihood": -5.022141,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 2,
+          "file": "05_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "eine blöden persung",
+          "log_likelihood": -4.839353,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 3,
+          "file": "05_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassabaum",
+          "log_likelihood": -7.187807,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "05_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reiche flughafen",
+          "log_likelihood": -4.414202,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "05_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -7.259363,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "05_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -6.305026,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "05_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines kommissiones",
+          "log_likelihood": -6.941315,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "05_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -6.514178,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "05_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -8.631211,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "05_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem superkanpezo",
+          "log_likelihood": -7.600211,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 11,
+          "file": "05_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -7.558637,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 12,
+          "file": "05_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "die ist ein cormacientanz",
+          "log_likelihood": -6.081595,
+          "sample_wer": 1.3333,
+          "score": 2
+        },
+        {
+          "id": 13,
+          "file": "05_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -5.818079,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "05_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "eine rote bank",
+          "log_likelihood": -5.733863,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "05_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten folgen",
+          "log_likelihood": -7.13311,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 16,
+          "file": "05_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -7.602348,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "05_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dünnenstudentinnen",
+          "log_likelihood": -6.354046,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 18,
+          "file": "05_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen hat die kälte",
+          "log_likelihood": -5.218396,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 19,
+          "file": "05_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diese reichen schlüsseln",
+          "log_likelihood": -4.013814,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 20,
+          "file": "05_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "die senguosempanel",
+          "log_likelihood": -5.792884,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "05_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahnen",
+          "log_likelihood": -4.474369,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 22,
+          "file": "05_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diese natürlichen seifen",
+          "log_likelihood": -4.458887,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "05_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "ich nehm eine bordenei",
+          "log_likelihood": -7.75107,
+          "sample_wer": 1.3333,
+          "score": 3
+        },
+        {
+          "id": 24,
+          "file": "05_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein freier schautum",
+          "log_likelihood": -7.8313,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 25,
+          "file": "05_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -6.562538,
+          "sample_wer": 0.0,
+          "score": 2
+        }
+      ]
+    },
+    "06": {
+      "group": "intermediate",
+      "num_samples": 25,
+      "wer": 0.48,
+      "wer_pct": 48.0,
+      "avg_log_likelihood": -6.716834,
+      "records": [
+        {
+          "id": 1,
+          "file": "06_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses braun in kinos",
+          "log_likelihood": -6.48447,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 2,
+          "file": "06_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "eine blütenperson",
+          "log_likelihood": -5.02696,
+          "sample_wer": 1.0,
+          "score": 3
+        },
+        {
+          "id": 3,
+          "file": "06_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassobaum",
+          "log_likelihood": -7.85807,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "06_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "diese reiche flughafen",
+          "log_likelihood": -3.986154,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "06_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese fremde tür",
+          "log_likelihood": -7.047862,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "06_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen aufflug",
+          "log_likelihood": -6.664305,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "06_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines kommissiongeschenks",
+          "log_likelihood": -7.204048,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 8,
+          "file": "06_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfüm",
+          "log_likelihood": -6.444695,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "06_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine totepause",
+          "log_likelihood": -8.567019,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 10,
+          "file": "06_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "eine schupeurinbesuch",
+          "log_likelihood": -5.483669,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "06_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -8.003283,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "06_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "diese kommission tanten",
+          "log_likelihood": -7.630989,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "06_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesen wunderbaren getränk",
+          "log_likelihood": -4.560879,
+          "sample_wer": 0.3333,
+          "score": 3
+        },
+        {
+          "id": 14,
+          "file": "06_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "eine routenbank",
+          "log_likelihood": -8.44066,
+          "sample_wer": 1.0,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "06_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -6.906644,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 16,
+          "file": "06_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "dies im direkten produkt",
+          "log_likelihood": -6.655222,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 17,
+          "file": "06_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dünne studentinnen",
+          "log_likelihood": -6.556152,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "06_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -6.607011,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "06_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen reichen schlüssel",
+          "log_likelihood": -6.451173,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "06_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -5.035907,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "06_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diesen hünen autobahnen",
+          "log_likelihood": -7.016559,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 22,
+          "file": "06_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen seifen",
+          "log_likelihood": -6.582401,
+          "sample_wer": 0.0,
+          "score": 3
+        },
+        {
+          "id": 23,
+          "file": "06_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "eine geborene idee",
+          "log_likelihood": -6.813449,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 24,
+          "file": "06_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein kuckaier saut du",
+          "log_likelihood": -8.53761,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 25,
+          "file": "06_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses koste und sportplatz ist",
+          "log_likelihood": -7.355662,
+          "sample_wer": 1.3333,
+          "score": 2
+        }
+      ]
+    },
+    "07": {
+      "group": "intermediate",
+      "num_samples": 0,
+      "wer": null,
+      "wer_pct": null,
+      "avg_log_likelihood": null,
+      "records": []
+    },
+    "08": {
+      "group": "intermediate",
+      "num_samples": 25,
+      "wer": 0.44,
+      "wer_pct": 44.0,
+      "avg_log_likelihood": -7.004319,
+      "records": [
+        {
+          "id": 1,
+          "file": "08_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "dieses galenkinos",
+          "log_likelihood": -7.846343,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 2,
+          "file": "08_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "eine blöden personen",
+          "log_likelihood": -7.437809,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 3,
+          "file": "08_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassaubaum",
+          "log_likelihood": -5.224929,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 4,
+          "file": "08_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser freizeehepflughafen",
+          "log_likelihood": -5.850353,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 5,
+          "file": "08_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "diese gämme tür",
+          "log_likelihood": -7.933744,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "08_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -6.50135,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "08_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines coolen misschen geschenkt",
+          "log_likelihood": -6.914999,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 8,
+          "file": "08_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes parfum",
+          "log_likelihood": -4.814572,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 9,
+          "file": "08_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine totale pause",
+          "log_likelihood": -8.754652,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "08_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem sperren besuch",
+          "log_likelihood": -7.626173,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "08_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -8.436911,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "08_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "diese kommission tanten",
+          "log_likelihood": -5.609925,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "08_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesen wunderbaren getgang",
+          "log_likelihood": -7.43954,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 14,
+          "file": "08_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "ich weiß wie ich das machen kann",
+          "log_likelihood": -8.920247,
+          "sample_wer": 2.3333,
+          "score": 3
+        },
+        {
+          "id": 15,
+          "file": "08_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "diese weiten wolken",
+          "log_likelihood": -7.365197,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 16,
+          "file": "08_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -7.201287,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 17,
+          "file": "08_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "diese dünnen studentinnen",
+          "log_likelihood": -6.242156,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 18,
+          "file": "08_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen tiefen artikel",
+          "log_likelihood": -6.791027,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "08_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen kreischen schließen",
+          "log_likelihood": -6.999891,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "08_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen bahnhof",
+          "log_likelihood": -7.033633,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 21,
+          "file": "08_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobannen",
+          "log_likelihood": -6.743406,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 22,
+          "file": "08_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen naturlichen seifen",
+          "log_likelihood": -7.253593,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 23,
+          "file": "08_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "einige vorgeneide",
+          "log_likelihood": -8.080715,
+          "sample_wer": 1.0,
+          "score": 2
+        },
+        {
+          "id": 24,
+          "file": "08_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein skyes auto",
+          "log_likelihood": -5.517803,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 25,
+          "file": "08_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dieses kurzen sportplatzes",
+          "log_likelihood": -6.567716,
+          "sample_wer": 0.0,
+          "score": 1
+        }
+      ]
+    },
+    "09": {
+      "group": "basic",
+      "num_samples": 25,
+      "wer": 0.733333,
+      "wer_pct": 73.33,
+      "avg_log_likelihood": -7.571322,
+      "records": [
+        {
+          "id": 1,
+          "file": "09_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "this is brown and kinos",
+          "log_likelihood": -6.903867,
+          "sample_wer": 1.3333,
+          "score": 2
+        },
+        {
+          "id": 2,
+          "file": "09_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "ein brut und pesseln",
+          "log_likelihood": -6.220527,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 3,
+          "file": "09_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassalpaum",
+          "log_likelihood": -7.762082,
+          "sample_wer": 0.6667,
+          "score": 3
+        },
+        {
+          "id": 4,
+          "file": "09_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "dieser reichlich verhaften",
+          "log_likelihood": -7.042437,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 5,
+          "file": "09_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "das schremmendetool",
+          "log_likelihood": -7.772179,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 6,
+          "file": "09_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen horre auszupacken",
+          "log_likelihood": -7.162814,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 7,
+          "file": "09_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eispromission geschenkt",
+          "log_likelihood": -5.738023,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 8,
+          "file": "09_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein kronis papen",
+          "log_likelihood": -7.363572,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 9,
+          "file": "09_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine tote pause",
+          "log_likelihood": -8.390145,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "09_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem superlampensuch",
+          "log_likelihood": -7.307917,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "09_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -7.777162,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "09_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "das ist komischentanten",
+          "log_likelihood": -8.348807,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "09_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunderbaren getränk",
+          "log_likelihood": -7.209352,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 14,
+          "file": "09_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "eine rute im bank",
+          "log_likelihood": -8.427903,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 15,
+          "file": "09_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "dies weiter vorken",
+          "log_likelihood": -7.473875,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 16,
+          "file": "09_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkturprodukt",
+          "log_likelihood": -8.04355,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 17,
+          "file": "09_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "die sultanen studentinnen",
+          "log_likelihood": -7.603184,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "09_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "diesen kiffen artikel",
+          "log_likelihood": -7.602104,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "09_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "die sind heiße und schwöre",
+          "log_likelihood": -7.740765,
+          "sample_wer": 1.6667,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "09_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen kloster in panho",
+          "log_likelihood": -7.258871,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 21,
+          "file": "09_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "die neuen autobahnen",
+          "log_likelihood": -6.697983,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 22,
+          "file": "09_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "diesen natürlichen zerchen",
+          "log_likelihood": -9.041183,
+          "sample_wer": 0.3333,
+          "score": 2
+        },
+        {
+          "id": 23,
+          "file": "09_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "eine gebühle idee",
+          "log_likelihood": -7.664493,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 24,
+          "file": "09_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "ein preisauto",
+          "log_likelihood": -8.053862,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 25,
+          "file": "09_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "das ist futschensportplatz",
+          "log_likelihood": -8.676386,
+          "sample_wer": 1.0,
+          "score": 1
+        }
+      ]
+    },
+    "10": {
+      "group": "basic",
+      "num_samples": 25,
+      "wer": 0.773333,
+      "wer_pct": 77.33,
+      "avg_log_likelihood": -6.362603,
+      "records": [
+        {
+          "id": 1,
+          "file": "10_1.wav",
+          "KR": "이 갈색의 영화관의",
+          "ref": "dieses braunen kinos",
+          "hyp": "djs frauen in kinos",
+          "log_likelihood": -5.135363,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 2,
+          "file": "10_2.wav",
+          "KR": "한 바보 같은 사람에게",
+          "ref": "einer blöden person",
+          "hyp": "eine vredenpelzone",
+          "log_likelihood": -8.05759,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 3,
+          "file": "10_3.wav",
+          "KR": "한 젖은 나무가",
+          "ref": "ein nasser baum",
+          "hyp": "ein nassierpump",
+          "log_likelihood": -5.734448,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 4,
+          "file": "10_4.wav",
+          "KR": "이 부유한 공항이",
+          "ref": "dieser reiche flughafen",
+          "hyp": "ich werde heute flughafen",
+          "log_likelihood": -4.680559,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 5,
+          "file": "10_5.wav",
+          "KR": "이 낯선 문이",
+          "ref": "diese fremde tür",
+          "hyp": "sie haben die tür geschmissen",
+          "log_likelihood": -7.639019,
+          "sample_wer": 1.3333,
+          "score": 2
+        },
+        {
+          "id": 6,
+          "file": "10_6.wav",
+          "KR": "한 높은 소풍을",
+          "ref": "einen hohen ausflug",
+          "hyp": "einen hohen ausflug",
+          "log_likelihood": -6.77136,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 7,
+          "file": "10_7.wav",
+          "KR": "한 이상한 선물의",
+          "ref": "eines komischen geschenks",
+          "hyp": "eines kommission geschenks",
+          "log_likelihood": -5.027403,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 8,
+          "file": "10_8.wav",
+          "KR": "한 초록의 향수가",
+          "ref": "ein grünes parfum",
+          "hyp": "ein grünes perfum",
+          "log_likelihood": -4.400173,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 9,
+          "file": "10_9.wav",
+          "KR": "한 죽은 쉬는 시간이",
+          "ref": "eine tote pause",
+          "hyp": "eine totte faule",
+          "log_likelihood": -8.975013,
+          "sample_wer": 0.6667,
+          "score": 2
+        },
+        {
+          "id": 10,
+          "file": "10_10.wav",
+          "KR": "한 훌륭한 방문에게",
+          "ref": "einem superen besuch",
+          "hyp": "einem superen besuch",
+          "log_likelihood": -6.790231,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 11,
+          "file": "10_11.wav",
+          "KR": "한 좋은 품질이",
+          "ref": "eine gute qualität",
+          "hyp": "eine gute qualität",
+          "log_likelihood": -7.575777,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 12,
+          "file": "10_12.wav",
+          "KR": "이 이상한 이모들을",
+          "ref": "diese komischen tanten",
+          "hyp": "dieses kommission tanten",
+          "log_likelihood": -5.962124,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 13,
+          "file": "10_13.wav",
+          "KR": "이 훌륭한 음료에게",
+          "ref": "diesem wunderbaren getränk",
+          "hyp": "diesem wunder waren getrennt",
+          "log_likelihood": -6.735918,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 14,
+          "file": "10_14.wav",
+          "KR": "한 빨간 은행의",
+          "ref": "einer roten bank",
+          "hyp": "einer roten bank",
+          "log_likelihood": -7.676432,
+          "sample_wer": 0.0,
+          "score": 2
+        },
+        {
+          "id": 15,
+          "file": "10_15.wav",
+          "KR": "이 넓은 구름들을",
+          "ref": "diese weiten wolken",
+          "hyp": "djs fighting for vulcan",
+          "log_likelihood": -6.938857,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 16,
+          "file": "10_16.wav",
+          "KR": "이 직접적인 제품에게",
+          "ref": "diesem direkten produkt",
+          "hyp": "diesem direkten produkt",
+          "log_likelihood": -5.497359,
+          "sample_wer": 0.0,
+          "score": 1
+        },
+        {
+          "id": 17,
+          "file": "10_17.wav",
+          "KR": "이 얇은 여대생들의",
+          "ref": "dieser dünnen studentinnen",
+          "hyp": "die ist noch nicht in der zeit",
+          "log_likelihood": -5.568127,
+          "sample_wer": 2.3333,
+          "score": 1
+        },
+        {
+          "id": 18,
+          "file": "10_18.wav",
+          "KR": "이 깊은 기사를",
+          "ref": "diesen tiefen artikel",
+          "hyp": "die ist ein typhanartikel",
+          "log_likelihood": -5.742911,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 19,
+          "file": "10_19.wav",
+          "KR": "이 부유한 열쇠들에게",
+          "ref": "diesen reichen schlüsseln",
+          "hyp": "diesen heißen schlüssel",
+          "log_likelihood": -4.862214,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 20,
+          "file": "10_20.wav",
+          "KR": "이 큰 기차역을",
+          "ref": "diesen großen bahnhof",
+          "hyp": "diesen großen fan auf",
+          "log_likelihood": -5.779666,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 21,
+          "file": "10_21.wav",
+          "KR": "이 아름다운 고속도로들이",
+          "ref": "diese schönen autobahnen",
+          "hyp": "diese schönen autobahn",
+          "log_likelihood": -4.260875,
+          "sample_wer": 0.3333,
+          "score": 1
+        },
+        {
+          "id": 22,
+          "file": "10_22.wav",
+          "KR": "이 자연적인 비누들에게",
+          "ref": "diesen natürlichen seifen",
+          "hyp": "die gen notary",
+          "log_likelihood": -5.781818,
+          "sample_wer": 1.0,
+          "score": 1
+        },
+        {
+          "id": 23,
+          "file": "10_23.wav",
+          "KR": "한 태어난 아이디어를",
+          "ref": "eine geborene idee",
+          "hyp": "einige vor einem jahr",
+          "log_likelihood": -7.61437,
+          "sample_wer": 1.3333,
+          "score": 1
+        },
+        {
+          "id": 24,
+          "file": "10_24.wav",
+          "KR": "한 자유로운 자동차를",
+          "ref": "ein freies auto",
+          "hyp": "und preises auto",
+          "log_likelihood": -7.930702,
+          "sample_wer": 0.6667,
+          "score": 1
+        },
+        {
+          "id": 25,
+          "file": "10_25.wav",
+          "KR": "이 짧은 운동장의",
+          "ref": "dieses kurzen sportplatzes",
+          "hyp": "dj skrute und spouse plates",
+          "log_likelihood": -7.926771,
+          "sample_wer": 1.6667,
+          "score": 1
+        }
+      ]
+    }
+  }
+}
