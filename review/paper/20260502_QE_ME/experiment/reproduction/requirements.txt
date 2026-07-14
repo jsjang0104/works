@@ -1,0 +1,6 @@
+# get_translation.py
+sacrebleu 
+torch 
+datasets 
+tqdm 
+transformers

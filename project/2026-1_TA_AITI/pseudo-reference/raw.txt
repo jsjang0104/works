@@ -1,0 +1,961 @@
+On the Way
+To give a coherent account of the whole of the theoretical work of an economist who has not attempted to do so himself is sometimes a useful task. But the proof of its worthwhileness must be that the attempt at systematization leads beyond the point where the author discussed left off. On this standard Professor O'Driscoll, if the task he has undertaken was worth doing at all, has done it very well indeed.
+
+It is a curious fact that a student of complex phenomena may long himself remain unaware of how his views of different problems hang together and perhaps never fully succeed in clearly stating the guiding ideas which led him in the treatment of particulars. I must confess that I was occasionally myself surprised when I found in Professor O'Driscoll's account side by side statements I made at the interval of many years and on quite different problems, which still implied the same general approach. That it seems in principle possible to recast a great part of economic theory in terms of the approach which I had found useful in dealing with such different problems as those of industrial fluctuations and the running of a socialist economy was the more gratifying to me as what I had done had often seemed to me more to point out barriers to further advance on the path chosen by others than to supply new ideas which opened the path to further development. Professor O'Driscoll has almost persuaded me that I ought to have continued with the work I had been doing in the 1930s and 1940s rather than let myself be drawn away to other problems which I felt to be more important. I cannot now really regret it, however, when I see that not only he but also a few others are pushing beyond the point where my own impetus had flagged; in fact their efforts are doing more to make me think again about those problems than I would otherwise have done.
+
+F. A. Hayek
+Obergurgl, Austria
+September, 1975
+
+PREFACE
+In writing this book, I decided in general not to consult with Professor Hayek. If the reinterpretation was to be authentic and worthwhile, it would necessarily involve my piecing together his ideas as they were presented and available. I wanted to assess Hayek's contributions, not what Hayek himself recalled contributing, or intended to contribute. I was thus especially pleased that when he gave me his impressions of the penultimate draft in the form of a foreword, he found my interpretation satisfactory.
+
+There are many people who deserve thanks for the assistance that they have rendered. If it is possible to make such a judgement, my greatest intellectual debt is to Axel Leijonhufvud. This debt is far greater than the usual one to the chairman of one's dissertation committee. During the period of time I was at U.C.L.A., he was always available to give advice on a wide range of problems. He seemed to have an infinite supply of time, and a way of avoiding the inessentials and moving right to the heart of a problem. Much of what is worthwhile in this book is due to what I learned in and out of the classroom from him, and to his stern criticisms of earlier drafts of my Ph.D. dissertation. He is to be especially absolved from responsibility for any remaining errors, as I am quite aware of the areas where we disagree.
+
+Professor Robert Clower was also willing to give of his time whenever asked for assistance. Since Professor Clower does not have the dubious distinction of ever having been officially associated with this project, he is certainly protected from all blame. But my appreciation for his assistance, rendered at critical junctures, cannot be adequately expressed. I would also like to thank the other members of my dissertation committee, Professors Sam Peltzman and Thomas Sowell, for the help they rendered along the way.
+
+My experience at U.C.L.A. provided great intellectual stimulation. The constellation of great minds was truly awe inspiring. One had the sense of economics being once again made a lively and interesting field in which to work. This sense of excitement was infectious, and the graduate students greatly benefited. It would be impossible to name all of the faculty and staff who, in discussions and otherwise, provided help and stimulation.
+
+The economics department at Iowa State University proved to be a very congenial place in which to carry forth the preparation of this book from my dissertation. Dudley Luckett has helped in ways he undoubtedly does not realize, by his willingness to discuss subjects whose connection with this book he could not then have known. I early learned that the cognoscenti in the department attended Charles Meyer's informal luncheon seminars in the Cardinal Room. I have benefited immensely from the many discussions he and I have had over lunch and at other times.
+
+Professor Israel Kirzner gave encouragement and aid for this project at a time when they were both needed. Professor Ludwig M. Lachmann was also kind enough to read and comment on my dissertation. I very much appreciate the help that both of them have rendered.
+
+The Liberty Fund provided me with a fellowship for the summer of 1975, for which I am profoundly grateful. This fellowship not only enabled me to attend to my typescript full time, but put me in the company of other scholars interested in the same general area. As part of the fellowship, I spent the summer at the Institute for Humane Studies in Menlo Park, California. I benefited from the helpful comments of the other fellows, including Roger Garrison, Richard Ebeling, and Gary and Eugenie Short. Miss Sudha R. Shenoy, in particular, deserves thanks for having read and edited the dissertation in its entirety. George Pearson and Kenneth S. Templeton, Jr., of the Institute for Humane Studies arranged for this program. Neil McLeod of the Liberty Fund saw to the funding. And the staff of the Institute, particularly Ellen Burton and Martha Heitkamp, saw to it that all went smoothly. I wish to thank all of them.
+
+The Liberty Fund's summer program enabled me to meet Professor Hayek for the first time, as he was a Senior Fellow in the program. It was particularly stimulating to meet him at that time, as he was in the midst of writing his three volume magnum opus, Law, Legislation and Liberty.
+
+Professor Murray N. Rothbard is largely responsible for interesting me in the contributions of the Austrian school. One might say that he predisposed me to write this work. He himself has contributed to the tradition, and his works were often valuable sources for further references. He also read and commented on my dissertation, for which I am especially grateful.
+
+As the deadline for delivery of the typescript approached, the third floor typing staff in the economics department at Iowa State University performed heroic feats, beyond the call of duty. Mrs. Betty Ingham organized a veritable typing brigade. Denise Collins, Diana Grimm, Mrs. John Kooistra, and she typed furiously and efficiently, even at night and on weekends. There is no way that I can express my appreciation for what they did. And I am most grateful to the department for providing such fine support.
+
+My wife, Lyla, was more than the proverbial constant source of support. She took an active part in editing and rewriting at various stages. And she did this despite the fact that she at all times had her own work to do. I gratefully dedicate this book to her.
+
+Gerald P. O'Driscoll, Jr.
+Santa Barbara, California
+February 1976
+
+INTRODUCTION
+Axel Leijonhufvud first suggested to me that reexamining Hayek's contributions might be worthwhile. From the start, I sensed that Hayek's theories were misunderstood in important respects. One major reason was the tidal wave of the Keynesian revolution. Contributing to the eager acceptance of Keynes's message was a desperate desire for a cure for the economic ills of the Great Depression.
+
+The orthodox economics of the 1930s seemed incapable of guiding policymakers, although even the textbooks of the day did deal with the problem of unemployment which was of so much concern to policymakers (see J. Ronnie Davis, The New Economics and the Old Economists [Ames, Ia.: Iowa State University Press, 1971]). Then, however, as now in crisis situations economists were more likely to abandon economic principles entirely than to reformulate them.
+
+Without becoming embroiled in the Keynes and the Keynesians debate (see Axel Leijonhufvud, On Keynesian Economics and the Economics of Keynes [New York: Oxford University Press, 1968]), I believe it is important to point out how most economists—particularly most American economists—received Keynes's message. With the adoption of Keynesian economics, the difficult problems of monetary and capital theory that occupied the profession during the entire post-World War I period would be simplified. By supposing that aggregate consumption is a function of current (national) income and that savings and investment together determine the level of national income, the world suddenly was made intelligible in very simple terms. Such issues as “forced saving,” the difference between the money and natural rates of interest, and the investment period became irrelevant.
+
+I cannot overemphasize that the Keynesian revolution also had profound and unfortunate effects on economic research. The profession lost interest in a whole range of issues to which the major theorists of the day had made important contributions (see Fritz Machlup, “Friedrich von Hayek's Contribution to Economics,” Swedish Journal of Economics 76 [1974]: 508–509). Consequently, in the nine years between the publication of Keynes's General Theory and the end of World War II, the fortunes of various economists changed remarkably. These changes occurred much more rapidly, for instance, than did the acceptance of the so-called marginal revolution at the end of the nineteenth century (see Mark Blaug, “Kuhn versus Lakatos, or Paradigms Versus Research Programmes in the History of Economics,” History of Political Economy 7 [Winter 1975]: 399–433).
+
+In the Keynesian revolution Hayek was not merely misunderstood—he was victimized by myth making. With the acceptance of Keynesian economics, the history of economics was rewritten. Economics was divided into pre—Keynesian and Keynesian thought (and now we speak of post—Keynesian economics). Accepting Keynes's own solecistic usage, economists perceived Keynes's predecessors—with a few exceptions—as “classical” economists. In keeping with Keynes's original suggestion, Oskar Lange pictured economists before Keynes as believing in Say's law of markets (Oskar Lange, “Say's Law: A Restatement and Criticism,” in Oskar Lange et al. eds., Studies in Mathematical Economics and Econometrics [Chicago: University of Chicago Press, 1942]). Belief in Say's law became, then, the hallmark of the classical system and the alleged source of all the great classical errors. Say's law not only was reinterpreted in a way that made it scarcely recognizable to an authentic classical economist, but also was made into a proposition that only a fool would accept. This defamation of Keynes's predecessors is what, I believe, Keynes and, even more, his followers accomplished in a decade (see W. H. Hutt, A Rehabilitation of Say's Law [Athens, Ohio: Ohio University Press, 1974]).
+
+Classificatory schema of the “Keynesian—classical” variety are suspect to say the least. The lumping together of virtually all Keynes's predecessors obscures what distinguishes economists between the Marginal Revolution and the Keynesian revolution. Overlooked in particular are the many and diverse contributions to the theory of economic fluctuations by monetary specialists from the end of the nineteenth century to the 1930s and beyond. These economists include, inter alia, Ludwig von Mises, Gunnar Myrdal, D. H. Robertson, Hayek, and even Keynes himself in his Treatise on Money (1st ed., 1930 in The Collected Writings of John Maynard Keynes, vols. 5 and 6 [London: Macmillan & Co., 1971]). Each of these economists pointed to the failings of the quantity theory and offered revisions. They also contributed to the development of the theory of economic fluctuations. It is therefore misleading to describe them as classical or pre—Keynesian. Also these theorists developed certain parts of what is termed Keynes's critique of monetary economics to a greater extent than Keynes himself did.
+
+There are, then, two basic reasons for reexamining Hayek's work today. First, a reassessment of his position in the development of economics is long overdue. His positive contributions to contemporary economic theory have not been fully appreciated. His ideas, which were pushed into the shadows of the Keynesian revolution, are no longer summarized in the leading textbooks. Second, the failure of current Keynesian or post—Keynesian theories of economic fluctuations to explain satisfactorily the simultaneous occurence of inflation and unemployment makes what Hayek said about this phenomenon seem more important.
+
+My claim that Hayek was misunderstood by his contemporaries requires amplification. The Austrian school (of which Hayek was the leading representative at that time in Britain) had a foreign flavor to which British economists were unaccustomed. Furthermore, the lack of understanding led to a failure among Anglo—American economists to comprehend the larger import of Hayek's message. Hayek called for an entire restructuring of economic theory. In part, he was attempting to counter the revived interest in the general equilibrium theories—the neo—Walrasian and neo—Paretian theories of the 1930s as found, for example, in John R. Hicks's writings. However, economics, even before the widespread adoption of general equilibrium models, had unfortunately become virtually a branch of mechanics. The important problem of finding the social institutions that best coordinate economic activities had been lost sight of. Adam Smith, in his notion of the “invisible hand,” called attention to the complex manner in which a prosperous social order is produced, although no one individual (or group of individuals) designed that order or intended that it be produced. Building on Smith, Carl Menger, the founder of the Austrian school, defined economics (and social science in general) as the study of the unintended consequences of human action. Hayek here followed in Smith's and Menger's footsteps.
+
+In Hayek's view, economics begins where direct observation leaves off. The immediate impact of most economic decisions is apparent even to the untrained: a legal control holding price below the market-clearing price makes goods less expensive (in money terms); a minimum wage set above the market—clearing level raises the income of (employed) workers. Economics deals with the hidden aspects of these problems, or phenomena not readily understood to be aspects of these problems (for example, shortages and unemployment).
+
+In this view, economics is intimately concerned with institutions—social, political, and economic; for it is these institutions that shape the operative economic forces and determine the outcome. Economics must then be theoretical and institutional if it is to elucidate social phenomena. Whether a satisfactory economic order will emerge depends on the operation of these institutions and thus on their precise nature. Individual decision making and market prices may or may not produce coordinated results; the outcome depends on the functioning of these institutions. Economic systems, market or otherwise, simply do not work in isolation. These insights have gained wider acceptance in recent years. But the realization that institutions matter all too often involves grafting ad hoc observations on to a theory in which institutions are not strictly relevant.
+
+Economic institutions exist largely to facilitate the dissemination of information among actors. The study of the development of economic order depends, then, on assumptions concerning the flow of information. Standard theorems of resource allocation are only the starting point. Hayek often criticized economists for generally ignoring this institutional—informational problem.
+
+In his lectures at the University of London in 1931 (Friedrich A. Hayek, Prices and Production, 2d ed. [London: Routledge & Kegan Paul, 1935]), Hayek appeared to be discussing recondite matters in monetary and capital theory. His subject matter, however, was unusually topical in light of the Great Depression. While his conclusions were provocative, these lectures were apparently unrelated to the wider problems of economic planning or to his other work on economic information. Yet they were intimately related, although writers continue to compartmentalize his work rather than study it in its entirety.
+
+Hayek himself never demonstrated how all his ideas “hang together.” Although this study is restricted to his economic writing, Hayek's later work on political and legal philosophy and even on the philosophy of perception is consistent with his earlier work on technical economics. A comprehensive treatment of Hayek's contributions might demonstrate that his book on economic fluctuations in 1931 led him to write Law, Legislation, and Liberty in the 1970s!
+
+Secondary source material proved a poor guide for understanding Hayek's ideas. While I do not ignore the secondary source material, I restrict myself to what I consider to be the important errors of interpretation. I have also avoided any direct discussion of the Hayek—Frank H. Knight debates on the meaning and definition of capital. These debates are ancillary to the main theme of this book, though by no means irrelevant. Furthermore, Knight did not offer a theory of capital at all, in the sense of a theory of adjustment and investment in disequilibrium (see M. Northrup Buechner, “Frank Knight on Capital as the Only Factor of Production,” Journal of Economic Issues 10 [September 1976]: 598–617). Rather, Knight's central argument about capital—that no sense can be made of a period of production or investment because of the simultaneity of production and consumption—really involved a series of tautologous propositions about the stationary state. Many have made this point, but none more forcefully than Fritz Machlup, who, moreover, pointed out that when Knight conceded—as he did—that disinvestment is possible, he conceded the whole argument to the Austrians (see Fritz Machlup, “Professor Knight and the ‘Period of Production’,” Journal of Political Economy 43 [October 1935]: 579–80).
+
+In order that my remark that Knight's theory is not a theory of capital be understood, I shall quote from Hayek's own characterization of his endeavor in The Pure Theory of Capital:
+
+Our main concern will be to discuss in general terms what type of equipment it will be most profitable to create under various conditions, and how the equipment existing at any moment will be used, rather than to explain the factors which determined the value of a given stock of productive equipment and of the income that will be derived from it. [P. 3]
+
+Whatever Knight's “theory of capital” was, it was not a theory of capital in this sense. To offer it as an alternative to Hayek's theory is akin to offering a theory of supply as an alternative to a theory of demand. As Ludwig M. Lachmann has reminded us, we still do not have a theory of capital, though interest theories, misnamed “theories of capital,” do go under this title (see L. M. Lachmann, “Reflections on Hayekian Capital Theory” [New York: mimeographed, 1975]).
+
+To reiterate, the main theme of this book is the coordination of economic activities. Hayek's work is seen as variations of this theme. And taken together, his work is viewed as providing a basis for a radical alternative to the “neoclassical” paradigm of efficient allocation with timeless production, perfect anticipations, costless exchanges, (almost) instantaneous attainment of equilibrium, and a world of no institutions. In many ways, Hayek and his fellow Austrians harked back to classical political economy. But being subjective-value theorists and methodological individualists, they rejected the objective-value theory and methodological holism of Ricardian political economy. In doing so, they advanced the basic research program of Adam Smith. They shared with the Institutionalists a concern for the evolution of market institutions, but viewed this study as complementary to, rather than a substitute for, economic theory. They were foremost among the theorists of their day, but resisted limiting economics to the pure theory of equilibrium states. In the pages that follow, I hope to support these characterizations by explicating both the specific contributions and general approach of Hayek in particular. In doing so I will emphasize his monetary economics, wherein lie his greatest technical contributions. But since to do so would virtually falsify my own thesis, I will by no means limit myself to monetary economics. Instead, I will attempt to connect his many and diverse contributions to economics, and to show that they evidence an overall conception of economics as the study of decentralized planning and market coordination.
+
+1 The Controversies of the 1920s
+Cultivation of the history of thought is more necessary in economics than in the natural sciences because earlier discoveries in economics are more in danger of being forgotten; maintaining a cumulative growth of knowledge is more difficult. In the natural sciences, discoveries get embodied not only in further advances in pure knowledge but also into technology, many of whose users have a profit—and—loss incentive to get things straight. The practitioners of economic technology are largely politicians with rather different motives. (Analogies between the market test and the ballot—box test have been fashionable in recent years, but the differences should not be forgotten.) In economics, consequently, we need scholars who specialize in keeping us aware of earlier contributions and so enable us to recognize earlier successes—and earlier mistakes—when they surface as supposedly new ideas. By exerting a needed discipline, specialists in the history of thought can contribute to the cumulative character of economics (Leland B. Yeager, “The Keynesian Diversion,” Western Economic Journal 11 [June 1973:1]63).
+
+INTRODUCTION
+The name John Maynard Keynes and the brand of economics that is called “Keynesian” are known to every practicing economist and economics student today. In contrast the work of Friedrich A. Hayek is practically unknown to the present generation. To older economists the name “Hayek” is but a reminder of past debates. Until the 1974 award of the Nobel Memorial Prize in economics (jointly to Professors Hayek and Myrdal) economists had lost interest in his works. Sir John Hicks commented on the neglect of Hayek's work:
+
+When the definitive history of economic analysis during the nineteen-thirties comes to be written, a leading character in the drama (and it was quite a drama) will be Professor Hayek. Hayek's economic writings...are almost unknown to the modern student; it is hardly remembered that there was a time when the new theories of Hayek were the principal rival of the new theories of Keynes. Which was right, Keynes or Hayek? There are still living teachers of economics, and practical economists, who have passed through a time when they had to make up their minds on the question; and there are many of them (including the present writer) who took quite a time to make up their minds.
+
+Hicks asked, “How was it that this happened?” I feel that there is ample reason to take up Hicks's query, quite apart from an interest in the development of contemporary economic theory or in the reasons for present-day neglect of research problems once considered important. Such an inquiry may reveal new knowledge or, more precisely, as Yeager pointed out, may rediscover what the profession as a whole has forgotten.
+
+Scientific development is typically viewed as a cumulative process of hypothesis formation, empirical testing, hypothesis reformulation, retesting, and so on. This process systematically rejects unsubstantiated hypotheses and accepts hypotheses not found inconsistent with the evidence. Over time, textbooks in each field incorporate important discoveries and delete past errors. At any given time a particular science embodies all ideas and theories currently known to be true and excludes those known to be untrue.
+
+It has been argued that this description of scientific discovery is inaccurate. In a pathfinding work, T. S. Kuhn suggested that a science develops by a way of “revolutions.”
+ Day-to-day scientific activity is seen as “filling the empty boxes” of accepted theory with empirical content. An accepted body of theory together with an accepted research methodology constitutes what Kuhn called a “scientific paradigm.”
+
+Kuhn's view recognizes the impossibility of treating all preconceptions and theorems as propositions subject to rejection at any time. In any science, then, there is a “core,” a body of theory not subject to dispute and a body of factual information accepted as true. One need only speculate on the state of economic knowledge if supply—and—demand analyses were treated as hypotheses, ever subject to testing and rejection. On the other hand, the prevailing orthodoxy influences scientists' perceptions and judgements; some questions are not raised or, if raised, are not to be regarded as “scientifically proper.” As a consequence, certain avenues of investigation are unexplored, and theoretical errors go undiscovered.
+
+In Kuhn's analysis, the scientific paradigm is abandoned when anomalous research results make it increasingly difficult to maintain the paradigm intact. Such findings may at first be rejected because they do not fit into orthodox theory, though other reasons may be given. Indeed, the discoverers may find themselves beyond the pale of science precisely because their findings are anomalous. Eventually, however, the paradigm cannot be maintained in the face of ever—increasing evidence. A new paradigm must be constructed, and since the resources of the profession are devoted to debating paradigms, scientific progress is retarded until a new orthodoxy emerges.
+
+If this Kuhnian view is correct, there are two disturbing consequences. First, in the rejection of an established paradigm some knowledge may be lost; all verities in the old paradigm need not necessarily be incorporated into a new paradigm. Second, a paradigm may be rejected on the basis of anomalous findings although these findings can be made consistent with that paradigm. These insights will be made use of in this book.
+
+Work by economists reexamining the so-called Keynes—versus—the—classics debate has led to another debate, one that might be termed the Keynes—and—the—Keynesians debate.
+
+ Economists refer to both Keynes's General Theory and the ensuing debates as the Keynesian Revolution. The word revolution implies a radical break with previous tradition. Early work on this revolution dealt with what Keynes was really saying and with how much and where it differed in general terms from what his predecessors had said. Interest then shifted to what Keynes's predecessors really said: was there truly a “classical economics” or was this simply a straw man to make Keynes's writings look significant.
+
+
+An early finding of the original Keynes—versus—the—classics debate was that classical economics had never produced a consistent theory on macro issues. Hicks pointed this out as early as 1937, though writers of macro textbooks have since shown great ingenuity in constructing a “classical economics” out of whole cloth. As a result of these investigations, it can be argued that Keynes not only made no major theoretical contributions but also made no original policy prescriptions. Indeed, Axel Leijonhufvud suggested that Keynes broke with the established paradigm of economics insofar as he focused on “income—constrained” processes, but that his theoretical contributions were perhaps not as innovative as his more exuberant followers would have it.
+
+ For one, Keynes remained at heart a Marshallian; Marshallian economics was the only economics he really knew well. Leijonhufvud also argued that the innovative aspect of Keynes's work lay elsewhere than in the areas covered in a standard Keynesian work. Keynes was innovative in his broad conception of how a market system operates and how it may break down.
+
+
+Keynes was not the only economist to challenge the orthodoxy of the time, and the General Theory was not the only important work to do so. As Hayek wrote in a slightly different context: “We all had similar ideas in the 1920's.”
+
+ Leijonhufvud pointed out that to describe the General Theory as a “clean break” is to miss the clear progression from the ideas of the Treatise.
+
+
+A major premise of this work is that Hayek was correct in his contention that the ideas that bore fruit in the late depression period were conceived in the boom of the twenties. I shall reexamine the contribution of Hayek to this period of intense questioning of economic orthodoxy, especially in relation to the problem of the business cycle in a decentralized market economy.
+
+THE PROBLEM IN PERSPECTIVE
+Even before Hayek was awarded the Nobel Prize there was a revival of interest in his contributions to economics. Some credit for this revival belongs to Hicks, though he only examined Hayek's works dealing directly with business cycle theory (and erred in ignoring the analysis of the price mechanism as an information—transmitting device in a decentralized market economy). To Hayek, the price system, by disseminating available information to market participants at the least cost, tended to make mutually compatible the initially incompatible plans of individual actors in that system. His work forms a unified whole and must be appreciated as such.
+
+It is impossible to assess adequately Hayek's business cycle theory, as Hicks attempted, without considering his work on the foundations of economic theory and the operation of the price system. Hayek's conception of how the market economy operates is most evident in his theoretical work about prices as transmitters of information. Even the contributors to the recent Festschrift honoring Hayek did not attempt such a reintegration.
+
+G. L. S. Shackle summarized the prevailing view of economists during the 1920s that their science was the “human counterpart of celestial mechanics.” According to Shackle, a “Grand System of Economics,” an orthodoxy, emerged after 1870. Economics became a theory of “general, perfectly competitive, full—employment stationary (or better, timeless) equilibrium.” It was an economics in which, for instance, the existence of money made little sense.
+
+
+I consider Hayek's work a radical criticism of the “Grand System” concept of economics. In presenting an overview of the state of economic theory during the 1920s, it is necessary to contrast the economic theory prevailing in Great Britain (and, to some extent, the United States) with that on the Continent. Shackle's description of economics during the 1920s is more applicable to British classical economics (as modified by William Stanley Jevons, Alfred Marshall, A. C. Pigou, and others) than it is to Continental economics.
+
+According to most histories of economic thought, the writings of the three “discoverers” of the doctrine of marginal utility (that is, Jevons, Léon Walras, and Carl Menger) are essentially the same. The contributions of each were synthesized by Marshall with what was worthwhile in classical economics. For a variety of reasons, the Marshallian system was replaced with the Hicks—Samuelson, neo—Walrasian, general equilibrium approach. The “new” microeconomics was eventually blended with Keynesian macroeconomics, and the resulting core of economic theory is described as the “neoclassical synthesis.” This is clearly a solecism: a more accurate description of current economics would be neo-neoclassical. The neo-neoclassical economists were Jevons, Walras, Menger, and their followers. To insist that contemporary orthodox economics is founded on early marginalism is to minimize the influence of Hicks and Paul Samuelson and, by implication, to deny the revolutionary character of Keynes's work.
+
+This textbook view of economic thought is not only semantically inaccurate but also errs in claiming to capture the common denominator of the works by Jevons, Walras, and Menger. In effect the textbook approach emphasizes the conceptual similarities among these economists rather than the areas of disagreement. I maintain that the Marginal Revolution had three distinct phases, each developing along dissimilar lines in the twentieth century.
+
+ Indeed, the history of twentieth-century economic thought is best understood if the thesis of a unified neoclassical economics is rejected.
+
+
+In fact, regardless of one's attitude about the unity of neoclassical economics, it was the Austrian variant that dominated thinking on the Continent during the first half of this century. Thus Knut Wicksell wrote in 1924:
+
+Menger. . .was successful in establishing a school of enthusiastic and highly talented followers, the Austrian School, whose doctrines spread over the whole world, and for a period of fifty years set the course of all work and discussion in theoretical economics, and to some extent in fiscal theory too.
+
+
+I would amend Wicksell by saying that Menger's doctrines spread over the whole non—Anglo—Saxon world. Throughout the 1920s English economists remained largely ignorant of the Austrian school.
+
+ On the Continent, however, economists in Germany, Austria, and Sweden communicated with one another, and a separate intellectual tradition developed. Swedish and Austrian economists in particular were doing original research on monetary theory, the business cycle, and dynamic equilibrium analysis.
+
+Though there is undeniably a distinctly Austrian contribution, it is easier to specify aspects of this contribution than it is to determine what differentiated economists of the Austrian school from other economists. Hicks emphasized their unique contributions to capital theory and also Menger's important insights about the nature of money.
+
+ James Buchanan detailed the Austrian roots of the London School of Economics' tradition in cost theory—a tradition that consistently rejects the real cost doctrines that permeate many current discussions in economics.
+
+ But what, if anything, is peculiarly “Austrian”?
+
+From the beginning, that is, from the publication of Carl Menger's Grundsätze, economists identifying with the Austrian school insisted on following two procedures in economics: first, they were strict methodological individualists, and, second, they faithfully avoided injecting normative judgments into positive economic analysis.
+
+ A by-product of their adherence to methodological individualism was their adoption of subjectivism as fundamental to explanation and discovery in economics.
+
+ Their original advocacy of a sharp distinction between positive and normative economics is now widely accepted, no longer being peculiar to Austrian economics (though few economists are aware of the Austrian influence in this area). To the extent that individual economists compromised the principles of subjectivism and methodological individualism they became less distinctively Austrian.
+
+There is another characteristic of Austrian economics that distinguishes it from the Lausanne school in particular: Austrian contributions could not be subsumed into what Shackle described as the “Grand System” because they focused attention on the element of adjustment time and consequently adopted the causal—sequential analysis of classical economics rather than the technique of mutual determination.
+
+ This rejection of mutual determination has been taken as evidence that their intellectual contribution was outdated. Furthermore it has led to the spurious claim that they ignored the mutual interdependence of economic factors.
+
+ To the contrary, their approach was a by—product of a concern with market processes rather than equilibrium states, a concern that attained its fullest development in the writings of Mises and Hayek.
+
+ Many of the positions viewed as characteristically Austrian may be traced to the work of these writers, whose work nonetheless represents the fullest development of this tradition.
+
+Austrian and Swedish economists, familiar with the work of Menger and his disciples, pioneered the technique of dynamic analysis. Educated on the Continent, they, unlike their English counterparts, were aware of the Walras—Pareto tradition, and its limitations. Although the Swedish economists alone have been credited with “process analysis,” Hayek was working along similar lines at the same time. In essence, the Swedish and Austrian economists were recasting economic theory so as to focus on the market process, by which disparate plans of individuals are equilibrated, rather than on equilibrium states.
+
+In Sweden both Erik Lindahl and Gunnar Myrdal were refining the work of Wicksell; in Austria Mises and Hayek were extending the work of Eugen von Böhm—Bawerk and Wicksell. Thus in 1933 Hayek edited a work of non—German contributions, Beitrage zür Geldtheorie (Vienna, 1933), which contained articles by both Wicksell and Myrdal. Myrdal's contribution, “Der Gleichgewichtsbegriff als Instrument der Geldtheoretischen Analyse,” did not appear in English until 1939.
+
+Shackle argued for the simultaneity (if not the priority) of Myrdal's “Keynesian” analysis with Keynes's own; indeed, Shackle suggested that in some ways Myrdal's performance was more satisfying than that of Keynes in The General Theory. He also claimed priority for Myrdal in formulating and effectively employing the ex ante—ex post distinction.
+
+ But as a matter of priority in the history of thought, it is necessary to note the independent work of Hayek here; though, again, the Swedish and Austrian economists wrote under the common influence of the early Austrians.
+
+Before the 1930s English economists were as ignorant of these later Continental developments as they were of the earlier ones. Hayek thus could say of Keynes's Treatise that it contained nothing new for a Continental economist (adding that the presentation was somewhat confusing). At the time of the Treatise, Keynes was apparently unaware of Böhm—Bawerk's capital theory, a fact Hayek underscored in his 1931 review of the work.
+
+In Shackle's “Grand System,” economics deals with long-run phenomena. Whatever reasons economists may have had for couching their analyses in these terms, the result proved unsatisfactory for coping with the disequilibrium problems that increasingly occupied economists in the post—World War I period. It is to this set of short-run phenomena that I now turn.
+
+HAYEK ON EQUILIBRIUM
+Hayek argued that a successful analysis of economic disequilibrium required a reformulation of the concept of equilibrium. He devoted considerable energy to this task. Through the late 1930s and the 1940s he published articles on the price mechanism and the social function of prices in transmitting knowledge. From one viewpoint, these articles are a continuation of the debate about economic calculation in a Socialist economy. From another, these writings, together with his work on economic calculation and on monetary theory, attempt to come to grips on different levels with a single basic problem; for his price theory may be interpreted as an extension of his business cycle theory.
+
+ All Hayek's work may thus be seen as flowing from a conception of social interaction with emphasis on economic allocation.
+
+Is it proper to assess Hayek's lifework as the logical development of a single idea? Although much of his work on monetary theory and the business cycle was written before that on price theory, my impression is that he was systematically working out the basic assumptions of his monetary theories in response to criticisms and misunderstandings.
+
+ On several occasions Hayek expressed surprise that his English readers were not familiar with areas of economic knowledge that to him were commonplace.
+
+Schumpeter's insight that a man's work depends on his total conception of the economic problem is apropos.
+
+ Thus, the purpose of this work is to elucidate Hayek's conception of the market process. Among other things, this elucidation may assist in the reformulation of macroeconomics.
+
+ CHRONOLOGY OF WORKS
+Prices and Production (for complete citations see bibliography at the end of this book) was Hayek's first major work in English. First published in 1931, Prices and Production brought Hayek widespread recognition in England and introduced the Austrian business cycle theory to the British. Monetary Theory and the Trade Cycle was not translated and published until 1933, though it appeared in German in 1928. Expressing, as it does, Hayek's views on monetary theory in more detail, Monetary Theory and the Trade Cycle should be read before Prices and Production. Yet English readers did not have access to the earlier work until two years after the publication of Prices and Production.
+
+Hayek was a major participant in the Socialist calculation debate and edited a volume on the subject in 1935 entitled Collectivist Economic Planning. Concomitantly, he was presenting his monetary, capital, and business cycle theory in journals. These researches on the business cycle and on the Socialist calculation question suggested the need for a firmer foundation for price theory. Hayek believed that the crucial role of prices in resource allocation was not fully appreciated. In a series of articles written between 1936 and 1946, he emphasized that prices serve two important functions: They communicate information about the relative scarcity of resources, and under certain assumptions they improve coordination of the plans of transactors.
+
+
+The connection between Hayek's work on the price system and on resource allocation in a centrally planned economy is readily apparent. The connection that exists between work on monetary theory and on the theory of economic fluctuations may be less clear. However, Hayek saw the business cycle as resulting from the noncorrespondence of plans of savers and investors when important market signals—relative prices—are falsified by previous monetary disturbances.
+
+Hayek restated his business cycle theory in 1939.
+ However, his magnum opus on capital theory, The Pure Theory of Capital, was not published until 1941. Again, this work elucidated the foundations for work that had been published years earlier.
+
+In the 1940s Hayek turned his attention to other matters. He began working in the philosophy of science and the social sciences in general, on political philosophy, and on the theory of perception. Hayek confessed that by the 1950s he had lost interest in monetary theory.
+
+This book will end where Hayek's interests changed. It will thus examine only about half of his total output. But to examine that half, we have to read Hayek in logical rather than chronological order.
+
+2 The Coordination Problem
+The proper field of economic study is, in the first instance, the type of relationship into which men spontaneously enter, when they find that they can best further their own purposes by approaching them indirectly (Philip H. Wicksteed, “The Scope and Method of Political Economy” [1914].)
+
+THE PROBLEM TODAY
+Progress in science occurs more slowly than many modern chroniclers would have us believe.
+
+ In economics the persistence of problems, for example, economic disequilibrium, makes progress an elusive goal. The theoretical problem here is twofold: first, the theory must be applicable to nonequilibrium situations, and second, a description must be offered of the behavior of transactors when the price and quantity variables have other than equilibrium values.
+
+Thinking “Walrasianly” has not promoted progress here.
+
+ Robert Clower pointed out that neo—Walrasian theory has proved even less conducive to the integration of monetary and value theory.
+
+ The theoretical issues surrounding the business cycle (the practical economic problem after World War I as it had been after the Napoleonic Wars) are again in center stage. The question now, as then, is “the extent to which the economy, or at least its market sectors, may properly be regarded as a self—regulating system.”
+
+Whether and to what extent a market economy is a “self—regulating” system depends on the information available to transactors.
+
+ Disequilibrium is the result of less than perfect information. Neo—Walrasian economic theory is not concerned with other than equilibrium values for the endogenous variables.
+
+ In neo—Walrasian general equilibrium theory, there can be no information problems. Not unexpectedly, attempts to integrate monetary and value theory are aborted, inasmuch as the presence of money is an indication of uncertainty about the future.
+
+There is an uneasy alliance between microeconomics and macroeconomics, and “general economic theory [is] split down the middle.”
+
+ The neo—Walrasian theory of price determination and the Keynesian theory of unemployment are united in what has been called “the Grand Neoclassical Synthesis.”
+
+ That synthesis is a source of confusion for the teacher as well as the student of modern economics.
+
+
+During the interlude between the two World Wars, these same issues were debated, and out of this debate the current state of economic theory evolved. The fundamental issues were never resolved.
+
+In this debate Hayek criticized both Marshallian economics (then dominant in Great Britain) and neo—Walrasian economics (to become dominant in Anglo-American economics). Hayek argued that neither of these orthodox paradigms gives adequate attention to the information problem inherent in economic activity.
+
+In writings on the price system as a transmitter of information, Hayek developed a concept of equilibrium that referred to the consistency of the plans of transactors and to the information required to attain this consistency. Hayek also analyzed the problem of the allocation of resources over time. To some extent, Hayek set forth his conception of the role of prices to amplify his theory of the business cycle. Yet the relevance of his work on prices and markets to this theory of cyclical fluctuations has not been made explicit in the literature.
+
+REVOLUTION AND COUNTERREVOLUTION IN ECONOMICS
+The revolution against what G. L. S. Shackle called the “Grand System” was carried on by a number of protagonists including Keynes. The final victory was won by the counterrevolution effected by J. R. Hicks and Paul Samuelson. Robert Eisner spoke of the “neo—classical resurgence,” which purged growth theory of its Keynesian content.
+
+ Clower argued that the basic properties of neo—Walrasian general equilibrium theory rule out Keynesian income constrained processes, because Walrasian economics is concerned only with equilibrium states.
+
+
+Throughout the 1930s and 1940s, Hayek was a major critic of the emerging professional consensus on economic research. In particular, he tried to separate the theoretical from the empirical (as he phrased it) in economics and delimit the tautological propositions of economic analysis from the potentially empirical elements. He argued that the tendency to limit economic theory to the development of static analysis would make it impossible to deal with disequilibrium conditions. His arguments often anticipated current criticisms of the cavalier treatment of disequilibrium states by economists.
+
+Marshallian theory was dominant in Great Britain until the 1930s, particularly at Cambridge. However, iconoclasts and independent thinkers at the London School of Economics were not enamored with Marshall. Lionel Robbins recorded a resentment toward Cambridge for constantly arguing that “it's all in Marshall!” Cambridge appeared almost impervious to “foreign” intellectual influences, there being a general ignorance of developments in languages other than the “king's tongue.”
+
+
+Probably the London School's lack of a theoretical tradition led to its becoming the locus for the introduction of Walrasian (and Paretian) economics by Hicks, and of Austrian economics, first by Lionel Robbins and later by Hayek. Interest in Walrasian economics was revived amid the general upheaval in economics, though many of the ideas were “in the air” earlier, especially at the London School.
+
+ Hicks's revision in demand analysis has had more far-reaching consequences than were foreseen at the time.
+
+Walras nowhere described the processes in an existing market; his theory of general equilibrium is a skeleton construction, since his purpose was other than that of analyzing actual market behavior. Marshall, on the other hand, retained the flavor of the competitive market process. The procedure chosen by Walras is not necessarily less acceptable than the one chosen by Marshall. In projecting in a logically tight fashion (or in a “mathematical” manner) the equilibrium conditions of a competitive system, Walras deliberately relied on a number of “fictions” (in part to prevent the production of “false quantities”).
+
+ His summary references to the efficiency of the Bourse are more an expression of a belief in markets than an actual theory of markets and how they operate: a belief that markets react with sufficient rapidity that observed shortages and surpluses will be eliminated by a speedy adjustment in prices, and that nothing prevents the attainment of competitive equilibrium.
+
+To describe Hayek's views on the nature and character of formal theory as an attack on formal theory per se would be incorrect.
+ Walras necessarily streamlined his theoretical edifice. Given his purpose, problems of short-run market behavior were ignored.
+
+ Walras was not only an innovator in applying mathematical analysis to economic theory but also in introducing the concept of general equilibrium, along with a reconstruction of the entire classical edifice. The additional construction of a theory of disequilibria would have been more than could be reasonably expected in such a pioneering work.
+
+Hayek believed that his contemporaries were not always in touch with the “fictions” and limitations inherent in general equilibrium theory and were prone to confuse statements about equilibrium with the theory of the approach to equilibrium.
+
+ To assert that it is as if “so and so is true” is not to construct a theory of what in fact does occur in markets. Indeed, the assertion may be a way to avoid analyzing the adjustment process in order to concentrate on another problem altogether.
+
+HAYEK ON THE PURE LOGIC OF CHOICE
+Hayek did not object to the use of mathematics in the development of formal economic theory. In fact he treated the pure theory of consumer choice as a basically logical system that would be particularly susceptible to mathematical formalization. He contended that the purpose of formalizing theory was sometimes forgotten:
+
+My criticism of the recent tendencies to make economic theory more and more formal is not that they have gone too far but that they have not yet been carried far enough to complete the isolation of this branch of logic [“the Pure Logic of Choice”] and to restore to its rightful place the investigation of causal processes, using formal economic theory as a tool in the same way as mathematics.
+
+
+His objection was not to the progressive refinement of static theory but to “an excessive preoccupation with problems of the pure theory of stationary equilibrium.”
+
+ This preoccupation was responsible for lack of attention to “causal processes” in the coordination of economic activity. Hayek's critique, though less strident and more succinct, was similar to Keynes's attack on A. C. Pigou. It is incorrect to assume that the actual market economy makes use of “logical implication” when “solving” problems in the context of general equilibrium analysis: “To assume all the knowledge to be given to a single mind in the same manner in which we assume it to be given to us as the explaining economists is to assume the problem away and to disregard everything that is important and significant in the real world.”
+
+
+Any analysis of disequilibrium or of adjustment behavior involves the factor of anticipations. Interest in this subject in the 1920s and 1930s suggests a relationship between problems of incomplete information and disequilibrium and those of expectations. Two Americans, Irving Fisher and Frank H. Knight, laid the groundwork. Hayek, building on the work of his teacher Ludwig von Mises, brought their contributions as well as those of the Swedish economists Gunnar Myrdal and Erik Lindahl to the attention of both his German and his English readers.
+
+The trend of economic theory did not carry over. After World War II interest in expectations faded. The factors of expectations and incomplete information were excluded from hypotheses. As a result, economic theory was devoid of much empirical content (and any Keynesian content); little consideration was given to the conditions under which equilibrium would be attained in the real world. This weakness in economic theory subsequently led Hayek into more detailed analysis of economic models (particularly that of perfect competition). Because the essential outlines of the (now) orthodox economic paradigm were already visible by the late 1930s, his critical analysis is especially relevant today.
+
+As is now widely recognized, the theory of perfect competition ignores the adjustment process required to attain equilibrium. Nor does the theory guarantee the attainment of that state (in the absence of some remarkably stringent assumptions). The theory of perfect competition is restricted because it only defines equilibrium values. The conventional (that is, neo—Walrasian) theory of value and price may be termed equilibrium theory. Recent work has attempted to extend economic theory to disequilibrium situations.
+
+Hayek's early diagnosis of the problem has been largely ignored. Yet consideration of his diagnosis would, on the one hand, have speeded the development of theories of market adjustment; and, on the other hand, it would have helped theorists avoid the intellectual dead-end of attempting to develop such theories basically within an equilibrium model.
+
+Using the “competitive case” as an example Hayek considered the standard assumptions in economic theory:
+
+1. Complete knowledge of the relevant facts on the part of all transactors in the market
+2. Free entry—that is, the absence of restraints or artifically imposed costs on the movement of resources and prices
+3. A homogeneous commodity being supplied and demanded by a large number of potential sellers and buyers, none of whom expects to affect prices to any extent
+
+Hayek commented on this approach as follows:
+
+It will be obvious...that nothing is solved when we assume everybody to know everything and that the real problem is rather how it can be brought about that as much of the available knowledge as possible is used. This raises for a competitive society the question, not how we can ‘find’ the people who know best, but rather what institutional arrangements are necessary in order that the unknown persons who have knowledge suited to a particular task are most likely to be attracted to that task.
+
+
+The world that economists are ostensibly studying is that of the competitive process in motion. Yet the standard assumptions of price theory apply to the conclusion of this competitive process. While it is sometimes useful to assume that the economy is in long-run equilibrium, a study of the market process gets nowhere if the process is assumed to be finished. The key is the discovery of the institutional arrangements most likely to result in the wide dispersal of knowledge and free entry that is assumed to exist to begin with in the theory of competition.
+
+The influence of Lionel Robbins's interpretation of economics as the science that studies the allocation of scarce means among competing ends cannot be overestimated, although he can scarcely be held responsible for the drift of economics subsequent to the publication of his Essay.
+
+ Yet in concentrating exclusively on Robbinsian maximizing behavior, economists have inhibited investigation into the market process.
+
+ According to Kirzner,
+
+This analytical vision of economizing, maximizing, or efficiency—intent individual market participants is, in significant respects, misleadingly incomplete. It has led to a view of the market as made up of a multitude of economizing individuals, each making his decisions with respect to given series of ends and means. And in my opinion this view of the market is responsible for the harmful exclusive emphasis upon equilibrium situations.... A multitude of economizing individuals each choosing with respect to given ends and means cannot, without the introduction of further exogenous elements, generate a market process (which involves systematically changing series of means available to market participants).
+
+
+In this criticism, Kirzner followed Hayek's lead. Hayek concentrated on the first assumption in the theory of competition, that of perfect knowledge. In saying that knowledge of opportunities is “given,” economists fail to specify to whom that knowledge is given.
+
+As Hayek observed:
+
+Datum means, of course, something given, but the question which is left open, and which in the social sciences is capable of two different answers, is to whom the facts are supposed to be given. Economists appear subconsciously always to have been somewhat uneasy about this point and to have reassured themselves against the feeling that they did not quite know to whom the facts were given by underlining the fact that they were given—even by using such pleonastic expressions as “given data.” But this does not answer the question whether the facts referred to are supposed to be given to the observing economist or to the persons whose actions he wants to explain, and, if to the latter, whether it is assumed that the same facts are known to all the different persons in the system or whether the “data” for the different persons may be different.
+
+
+After invoking “perfect knowledge,” economists then proceed to what is termed the “economic problem.” All relevant information about alternatives, preferences, and the state of the arts are “known.” The solution to this problem—the problem of allocating scarce but known means to (known) ends—is not an empirical one, but “purely one of logic.... The answer to the question...is implicit in our assumption.”
+
+ An analysis carried out with the aid of these assumptions produces expected consequences.
+
+An important consideration here is the use of the term equilibrium in economics: “Taking the word ‘equilibrium’ in its usual sense to mean an ‘absence of motion,’ we shall say that a market is in equilibrium if and only if market price and quantity traded are stationary over time.“
+
+ The informational structure is implicit in such treatments. For all markets to be in equilibrium implies that the plans of a multitude of disparate transactors are mutually compatible.
+
+ What then is the requirement for mutual compatibility of plans? According to Hayek, “It appears that the concept of equilibrium merely means that the foresight of the different members of the society is in a special sense correct.”
+
+
+Complete and perfect foresight is most unlikely.
+
+ With decentralized decision making, each transactor must consider the planned actions of all other transactors on the basis of their information. It is not sufficient for an individual to have complete knowledge of all objective conditions (technology, resources, and so on). A subtle, though fundamental change has now occurred in the problem. What was originally assumed “given” to participants in the market was information about objective conditions—facts only available to the mind of each transactor—and only those facts. But complete knowledge is now seen to entail perfect foresight about what others will do given their limited information. Walrasian general equilibrium theory, while ostensibly about decentralized decision making, really only makes sense in the context of a single planner. The whole analysis is more applicable to a system of central planning than to a market economy. Hayek termed the change in the problem “insidious.” The problem to be studied has been changed in a manner that maximizes the probability that no one will realize the “solution” is not a solution to the original problem, but to a new one altogether.
+
+
+Perfect knowledge means correct foresight. But, as Hayek put it:
+
+Correct foresight is then not, as it has sometimes been understood, a precondition which must exist in order that equilibrium may be arrived at. It is rather the defining characteristic of a state of equilibrium.
+
+
+The attainment of equilibrium is a coordination problem. But the problem has been phrased in a question—begging manner:
+
+The statement that, if people know everything, they are in equilibrium is true simply because that is how we define equilibrium. The assumption of a perfect market in this sense is just another way of saying that equilibrium exists but does not get us any nearer an explanation of when and how such a state will come about.
+
+
+Hayek's essays on the price system and markets are prolegomena to any future study of economic systems and dynamic processes. They display an erudition and a depth of scholarship often lacking in works that admittedly make use of more modern research techniques. They show an appreciation of the economic problem as an ongoing social process. Furthermore these essays represent the theoretical foundation for Hayek's work on economic fluctuations and reveal the continuity of his thought in the area now divided into micro and macro economics. His conception of economics as the study of an interpersonal coordination problem is nowhere more evident than in his essays “Economics and Knowledge,” “The Use of Knowledge in Society,” and “The Meaning of Competition.”
+
+STATIONARITY AND EQUILIBRIUM
+Lurking behind the assumption of “given knowledge” is another one important for the model of perfect competition. That is the notion of stationarity. The assumption that the market can actually attain stationary equilibrium involves an additional empirical hypothesis concerning the extent of change occurring at any moment. In Hayek's “vision” of a developed economy, the businessman is constantly struggling to keep costs from exceeding prices in the face of continuously changing conditions. Hayek noted how
+
+easy it is for an inefficient manager to dissipate the differentials on which profitability rests and that it is possible, with the same technical facilities, to produce with a great variety of costs are among the commonplaces of business experience which do not seem to be equally familiar in the study of the economist.
+
+
+In contrast with Hayek's view is the Schumpeterian one, in which recurring “clusters” of innovation require the attention of the entrepreneur from time to time. “Normal” conditions correspond to the usual construction of static equilibrium.
+
+
+Elaborating on his interpretation of the term competition, Hayek said that “competition is by its nature a dynamic process whose essential characteristics are assumed away by the assumptions underlying static analysis.”
+
+ The reason the economist's construct of competition ends up meaning “the absence of all competitive activities,” has to do with the assumption of stationarity.
+
+
+The assumption of stationary conditions, implicit or explicit, appears under a number of guises. Hayek attributed the wide-spread belief in the possibility of rational allocation without a functioning price system to this assumption.
+
+ Specifically, static cost theory is much less applicable to allocation problems than is usually supposed. The market process involves constant adjustment to ever—changing data; important information consists of the planned actions of other transactors. Costs are ephemeral, and profit is ever-present income.
+ Capital is seldom replaced by capital of the same type or of the same value. Returns to owners of existing capital are quasi—rents, and have no definite relation to market rates of interest except insofar as accounting procedures take account of implicit revaluations of assets. It is a world in which a “Lerner Rule” would be unusable.
+
+
+The alleged differences in the rates of return of industries of differing market concentration have been questioned. Some have asked whether the computed rates are merely “accounting” rates and without economic significance. Insufficient attention, however, has been paid to the cost-theoretic problem. Economists in practice either confuse a theoretical construct (i.e., general equilibrium) with a statement of fact, or they assume stationary conditions.
+
+
+Other difficulties in theory application result from presupposed stationary conditions.
+
+ But the point that will concern us is that it is impossible to transfer a stationary state or equilibrium view to a macroeconomic theory of short-run disequilibrium.
+
+PRICES AND EQUILIBRIUM OVER TIME
+The meaning of “equilibrium” can be understood with reference to the plans of a single transactor: his plans are mutually consistent.
+
+ But how is it that the plans of disparate, individual decision makers are made mutually consistent? Hayek proposed that we instead speak of a tendency for this compatibility to come about.
+
+ “The division of knowledge” is at least as important as “the division of labor,” yet the former has been “completely neglected, although it seems to me to be the really central problem of economics as a social science.”
+
+
+The problem which we pretend to solve is how the spontaneous interaction of a number of people, each possessing only bits of knowledge, brings about a state of affairs in which prices correspond to costs, etc., and which could be brought about by deliberate direction only by somebody who possessed the combined knowledge of all those individuals.
+
+
+The missing link in the chain of reasoning is the mechanism that tends to bring decisions into closer correspondence: the price system. Hayek, in a classic metaphor, suggested that “we must look at the price system as...a mechanism for communicating information if we want to understand its real function.”
+
+ The price system is the mechanism to be focused on in a study of the coordination problem.
+
+What particularly recommends the price system to Hayek is the “economy of knowledge” with which it operates. It is nothing short of a “marvel”:
+
+The marvel is that in a case like that of a scarcity of one raw material, without an order being issued, without more than perhaps a handful of people knowing the cause, tens of thousands of people whose identity could not be ascertained by months of investigation, are made to use the material or its products more sparingly; that is, they move in the right direction. This is enough of a marvel even if, in a constantly changing world, not all will hit it off so perfectly that their profit rates will always be maintained at the same even or “normal” level.
+
+
+The price system is a means of economically transmitting information among transactors: it produces information about changing market conditions.
+
+ The price system registers both the effects of changing objective conditions and the reactions of transactors to these changes. Most important, the price system is a mechanism—however imprecise—for registering the ever-changing expectations of market participants. What is important here is the argument that the price system is the cheapest possible system of resource allocation.
+
+Prices are inherently future oriented, precisely because every action in the market place ipso facto involves an expectation. Action is impossible except in the context of time; all action must therefore involve the formation of some expectations.
+
+ Action is the execution of a plan. To argue (as some have) against the efficiency of a market system because it lacks future markets is surely to miss the point. If there are prices, the expectations of all market participants are thereby reflected for all others to interpret.
+
+
+Consistency of plans does not depend on a spurious assumption of stationarity. Rather one focuses on how well the mechanism functions, and to what degree, and in what manner transactors come to anticipate change. But before a meaningful analysis may be made of coordination mechanism failure, the circumstances under which the mechanism performs must be analyzed: “Before we can explain why people commit mistakes, we must first explain why they should ever be right.”
+
+ Once it is realized that complete market coordination would involve complete knowledge by each actor of every other actor's plans, “imperfect” coordination is seen as an inevitable result of the fact that individuals differ. What remains to be explained by those enamored of such language is why the inevitable consequences of individual differences should be called “imperfections.” Would a world in which we were all alike be perfection?
+
+In the Socialist calculation debates, Hayek argued that the market system, with its relatively cheap communication network, is the best possible method of allocating resources. In his work on cyclical fluctuations, Hayek also focused on the coordination problem, this time to explain periodic breakdowns in a system that is susupposed to work. Throughout all his work he maintained his conception of the “economic problem” as a coordination problem, for the analysis of which the method of “logical implication” is the appropriate tool.
+
+3 The Monetary Theory
+Mr. Locke....has clearly seen that the abundance of money makes everything dear, but he has not considered how it does so. The great difficulty of this question consists in knowing in what way and in what proportion the increase of money raises prices (Richard Cantillon, Essai sur la nature du commerce en général [1755]).
+
+MONETARY THEORY AND THE NEO-QUANTITY THEORY
+Many of the lively monetary debates of the 1920s and 1930s concerned which issues come under the purview of monetary theory and what constitutes an adequate monetary explanation of cyclical fluctuations. To make sense of these debates, we must consider the differences between the conception of monetary theory then and now.
+
+Many of the participants in the early debates had a wider conception of monetary theory than do contemporary monetary theorists. This narrowing of interests among monetary theorists is partly attributable to the Keynesian revolution. After Keynes there was a loss of interest in monetary theory as a separate field of inquiry. To some extent, the Keynesian interpretation of the liquidity trap and other passages in the General Theory cast doubt on the effectiveness of monetary policy altogether.
+
+ Similarly, research waned in related areas, such as business cycle theory, in which monetary theorists had always taken an active interest.
+
+However, according to Harry Johnson, activity in monetary theory was again flourishing by 1962.
+
+ Increasing attention was paid to the work of the new monetary theorists. These theorists restricted their inquiry to three broad but interrelated areas: analysis of the demand for money, determination of the money stock (or the money supply function), and determination of aggregate nominal income.
+
+ Other important issues, such as those raised by the Patinkin debate having to do with the long—run neutrality of money, were generally abandoned.
+
+
+Milton Friedman's 1956 paper on the restatement of the quantity theory was a milestone in the revival of interest in monetary theory.
+
+ His formulation of the quantity theory is one that has greatly influenced the course of subsequent research. By in effect redefining the scope of monetary theory, he has successfully focused attention on a narrow range of issues in monetary theory and promoted the neglect of others.
+
+
+Friedman expressed his conception of the quantity theory as follows: “The quantity theory is in the first instance a theory of the demand for money. It is not a theory of output, or of money income, or of the price level.”
+
+ As he noted: “In order to have a complete model for the determination of money income, it would be necessary to specify the determinants of the structure of interest rates, of real income, and of the path of adjustment in the price level.”
+
+ But if interest rates and real income are determined by forces other than the demand and supply for money, then Friedman's restatement yields a theory of the equilibrium level of money income despite his original disclaimer.
+
+
+In successive restatements of his original thesis, Friedman consistently treated the determination of nominal income (in the short run) as the chief goal of monetary theory.
+
+ Moreover, the analysis of fluctuations in nominal income is carried out in terms of the effects of an excess demand for money.
+
+Critics of the neo—quantity theory often seem reluctant to call themselves “monetary theorists.” The tendency is to accept a neo—quantity theory explanation as the monetary explanation. Contemporary opponents of monetarists find themselves in a quandary as to what to call themselves.
+
+ Formal definitions of monetary theory also reflect this change.
+
+
+Actually, monetarists are following Hicks's famous “Suggestion for Simplifying the Theory of Money.”
+
+It could be argued that Hicks's suggestions are responsible for the change in monetary theory. But, as is often true of novel ideas, implementation of Hicks's approach was slow.
+
+Is there more to monetary theory than demand—and—supply analysis of money, or the determination of nominal income? In the post—World War I era monetary theory (specifically, the quantity theory) was criticized for overemphasizing the effects of an excess demand for money. According to Hayek and others, important phenomena were ignored if economists failed to significantly modify the analysis of the quantity theory, particularly in studying short-run economic fluctuations.
+
+A historical background is essential for an understanding of the quantity theory as it appeared to monetary theorists in the early part of this century. Hayek's criticism of the quantity theory becomes meaningful once the character of the older quantity theory is properly delineated. And to the degree that the neo—quantity theory has kept essential features of the older quantity theory, Hayek's criticisms have more relevance today.
+
+Hayek constructed his monetary theory upon the foundations laid by early British monetary theorists and Knut Wicksell and Ludwig von Mises. The specifically short-run character of Hayek's monetary analysis is significant, as is his use of the concept of the “neutrality of money.” Let us now turn our attention to this development, and to monetary theory as it was at the beginning of the century.
+
+THE QUANTITY THEORY
+At the end of the nineteenth century Wicksell concluded that the quantity theory was the only “specific” theory of money available. What was specific about it for Wicksell was the proportionality theorem—the unique relationship between the stock of money and the purchasing power of a single unit of money—which held that price changes are ultimately in direct proportion to changes in the quantity of money:
+
+Since, however, it is true of all commodities than [sic] an increase in supply in itself tends to lower their exchange value, there is nothing unusual in the quantity theory nor anything peculiar in money as such. The special peculiarity of the Quantity Theory consists in the proportionality required between the quantity of money and commodity prices.
+
+Thus, Wicksell argued that “the whole dispute” over the quantity theory “turns ultimately on...whether the velocity of circulation of money is of autonomous or merely subordinate significance for the currency system.”
+
+But regardless of the outcome of this dispute, it was the quantity theorists alone who had something approximating a systematic theory. He believed the quantity theory to be basically correct for an inflow of specie, the case for which it was first developed. However, Wicksell thought it needed to be supplemented when dealing with the phenomena of an increase in the money supply in the form of bank credit.
+
+Imprecision and lack of focus often characterize discussions of what the quantity theory is. Viewed as a ceteris paribus proposition the proportionality theorem is but a verbal presentation of the information in the equation of exchange: MV = PQ. I doubt whether quantity theorists ever intend only to assert this tautologous proposition.
+
+ While Wicksell suggested that the dispute over the validity of the quantity theory hinges on the question whether or not velocity is autonomous, Joseph Schumpeter, writing half a century later, suggested that the quantity theory should be defined in terms of four propositions: (1) that the quantity of money is autonomous with respect to prices and the physical volume of transactions; (2) that velocity is autonomous with respect to prices and the volume of transactions;
+
+ (3) that real output is unrelated to the quantity of money; and (4) that, ceteris paribus, variations in the quantity of money “act mechanically on prices,”irrespective of the manner in which the variations first occur.
+
+
+According to Schumpeter, the only “major writers” to advance this extreme form of the quantity theory were John Wheatley, David Ricardo, James Mill, and John R. McCulloch.
+
+ Schumpeter here offered a more precise statement of the assumptions behind what Wicksell termed the proportionality theorem.
+
+Wicksell cited few writers in his study. He relied mostly on Ricardo and J. S. Mill for statements of the proportionality version of the quantity theory. In the chapter “Of the Value of Money, as Dependent on Demand and Supply” in the Principles, Mill provided a straightforward account of the quantity theory.
+
+ Mill started with the case of “the arrival of a foreigner in a place, with a treasure of gold and silver.”
+
+ Prices eventually rise uniformly: “Prices would have risen in a certain ratio, and the value of money would have fallen in the same ratio.” The reader is told that “this ratio would be precisely that in which the quantity of money had been increased.”
+
+ The teachings of Ricardo and James Mill are evident in John Stuart Mill's work a generation later. But too much had taken place in the intervening years for the younger Mill to let the subject rest there. When he considered the effects of credit, he amended his previous analysis:
+
+The proposition which we have laid down respecting the dependence of general prices upon the quantity of money in circulation, must be understood as applying only to a state of things in which money, that is, gold or silver, is the exclusive instrument of exchange, and actually passes from hand to hand at every purchase, credit in any of its shapes being unknown. When credit comes into play as a means of purchasing, distinct from money in hand, we shall hereafter find that the connexion between prices and the amount of the circulating medium is much less distinct and intimate, and that such a connexion as does exist no longer admits of so simple a mode of expression.
+
+
+He concluded that the “sequel of our investigation will point out many qualifications...qualifications which, under a complex system of credit like that existing in England, render the proposition an extremely incorrect expression of the fact.”
+
+
+Mill stated, in effect, what he thought was a necessary condition for the proportionality theorem to be applicable: the absence of bank credit. Once he introduced bank credit, he deemphasized the mechanical linkage between a given change in the quantity of money and any subsequent change in prices.
+
+ Thus, in order to attribute a proportionality theorem to J. S. Mill, his observations on the determination of the “value of money” must be taken out of context.
+
+
+Let us grant, however, if not Mill then at least Ricardo was a genuine proponent of the quantity theory as defined by Wicksell and Schumpeter.
+
+ J. S. Mill's analysis of the “value of money,” as determined by demand and supply, gave exposure to the quantity theory in the form of a proportionality theorem. But the result is curious: the strict quantity theory in the form of the proportionality theorem was severely criticized by J. S. Mill. Given Mill's position in economics, this should have been sufficient to bury the theory for at least fifty years. A lot of energy has been spent on a theory that by the middle of the nineteenth century had been rendered untenable—at least when stated in an unqualified form.
+
+There is, however, another way to approach the controversy over the quantity theory—an approach that makes some sense out of this seemingly senseless dispute. Ricardo and his intellectual disciples were chiefly concerned with establishing comparative static propositions. The legacy of Adam Smith's treatment of the long run is evident in subsequent work. The long run, or natural price, “is, as it were, the central price, to which all the prices of all commodities are continually gravitating.”
+
+ But a country blessed by wise rulers, just laws, and fortuitous circumstances might resist for long periods this central tendency. This resistance is accomplished by growth, which in this context means population growth and the accumulation of capital. The accumulation of capital in turn keeps the labor market in permanent disequilibrium and maintains wage rates above their long-run level.
+
+ But it was a “golden rule” of growth over time that occupied the later classical economists (especially the Ricardians), not the disturbing fluctuations around this trend.
+
+
+In all situations Ricardians in particular focused on the ultimate effects of a given change.
+
+ It was just this emphasis in classical economics to which Wicksell objected. Wicksell initially characterized the debate over the quantity theory as essentially a question of feedback effects on velocity of changes in the money stock, or the volume of transactions. The debate has traditionally been treated in this way.
+
+But for some critics of the quantity theory the important issue is the focus of monetary theory—the ultimate effects of an increase of money on prices, or the process by which these changes occur. For Ricardo, the quantity theory was a tool to answer a specific question: what would be the results of a long period of increase in the quantity of banknotes? Ricardo treated the question as one of value theory and hence employed equilibrium analysis.
+
+ However, Henry Thornton, a contemporary of Ricardo's, wished to examine the process of adjustment to disequilibrium specifically in the loan market. Those who adopted this approach often focused on the effects of an increase in the quantity of money on borrowing and lending because the initial effects of a monetary disturbance are felt here. Quantity theorists, having adopted Ricardian thinking in monetary matters, focused on the increased spending in all markets (including the loan market) that eventually results. Thus quantity theorists asked whether prices will eventually rise uniformly as the result of a permanent change in the stock of money. Critics of the quantity theory approach were critical of the comparative static approach used in analyzing what are essentially disequilibrium situations. Beginning with Thornton and Malthus the critics focused on the loan market, for it was in the loan market that the new money entered the system.
+
+
+Malthus and Thornton made much the same point that the eighteenth—century critic Richard Cantillon made against John Locke's early formulation of the quantity theory.
+
+He [Locke ] realised well that the abundance of money makes everything dear, but he did not analyse how that takes place. The great difficulty of this analysis consists in discovering by what path and in what proportion the increase of money raises the prices of things.
+
+Ricardo endorsed the cruder formulations of Locke and Hume as against the more refined analysis of Cantillon and Thornton. Successive generations reaffirmed the quantity theory, without perceiving how naked it was without a supporting theory of the short-run adjustment process.
+
+To some critics, the crux of the quantity theory debate is the matter of velocity. However, few theorists subscribed to the view that velocity is constant, or that changes in the quantity of money automatically effect changes in prices. The differences among monetary theorists must lie elsewhere.
+
+“Quantity theorists” such as Hume, Ricardo, and J. S. Mill analyzed the impact of a change in the quantity of money on actual and desired cash balances. Even when the impact of credit was considered, as in J. S. Mill's analysis, it was treated only insofar as it affected spending in general.
+
+ Thus, later quantity theorists analyzed monetary disturbances in terms of aggregate purchasing power and aggregate spending.
+
+Any impact of changes in the supply of money or credit on the economy were regarded by quantity theorists as affecting spending directly. Henry Thornton is an example of someone who should not be classified as a “quantity theorist” because he did not conduct his monetary analysis in terms of the demand and supply of a subset of assets called “money.” In fact, Thornton's specific contribution to monetary economics, aside from his criticism of the “real bills” doctrine, was his analysis of the indirect mechanism by which a monetary disturbance affects real economic activity. J. S. Mill started his monetary analysis by supposing “that to every pound, or shilling, or penny, in the possession of any one, another pound, shilling, or penny, were suddenly added.”
+
+ Thornton, however, focused on monetary disturbance in capital markets and emphasized the gradual effects on spending by way of changes in the interest rates on marketable securities. “In order to ascertain how far the desire of obtaining loans at the bank may be expected at any time to be carried, we must enquire into the subject of the quantum of profit likely to be derived from borrowing there under the existing circumstances.”
+
+The chief difference between Thornton and the “quantity theorists” is that the latter adopted the Ricardian approach of analyzing the long-run effects of a disturbance.
+
+ Thornton, on the other hand, was interested in the initial impact of a disturbance and the mechanisms effecting the ultimate outcome.
+
+
+Schumpeter's comparative evaluation of Ricardo and Thornton in monetary economics is appropriate:
+
+In matters of monetary as of general theory, Ricardian teaching is a detour and...slowed up the advance of analysis, which could have been much quicker and smoother had Thornton's lead been followed—had Ricardo's force not prevailed over Thornton's insight.
+
+In Wicksell's initial analysis of the quantity theory the important question was the autonomy of velocity. But, as we shall emphasize in the next section, his emphasis in fact was, like Thornton's, on the transmission mechanism by which newly created money makes its way through the economy. Schumpeter, as already noted, presented four propositions to define the quantity theory.
+
+His second proposition was the velocity is autonomous with respect to prices and the volume of transactions. However, Schumpeter, in his fourth proposition, pointed out that the manner in which money is introduced into the system is not important. The quantity theorist insofar as he is a Ricardian is concerned only with the long-run effects of a monetary disturbance. Thus the quantity theory approach is an analysis in which the long-run effects of a monetary disturbance are the main concern, to which short-run effects are incidental.
+
+The business cycle was not the major policy problem to nineteenth-century classical economists. Economic growth and development was the prime policy concern.
+
+In classical analysis the quantity of money was unrelated to economic growth. The quantity of money in particular did not enter into the determination of the rate of interest and, hence, did not alter the rate of capital accumulation. Short-run effects of changes in the quantity of money were unimportant in the long run.
+
+The quantity theorist, then, focuses on the long-run effects of a monetary disturbance.
+ Although short-run effects are considered, the general tone of the analysis is to deemphasize them.
+
+
+It was against the quantity theory approach as described here that Wicksell and Hayek reacted. Their attitudes reflected the shift in emphasis from the study of economic growth to the study of cyclical fluctuations.
+
+THE CHAIN CONNECTING MONEY AND PRICES
+The theory Wicksell presented was not original though apparently he did develop it independently of other influences. There was a British tradition in monetary theory that sometimes paralleled and sometimes diverged from, but was quite independent of, Richardo's quantity theory. In this respect, Wicksell's failure to mention Henry Thornton is perhaps the most striking lacuna in the Lectures.
+
+ Yet much of Wicksell's analysis of the interaction of money, credit, the interest rate, and prices duplicated Thornton's.
+
+In his Introduction to Wicksell's Lectures, Lionel Robbins pointed out Wicksell's ignorance of this earlier tradition in British monetary theory. Wicksell apparently did not know of this tradition, save as it was embodied in a passage in Ricardo's High Price of Bullion, with which he became acquainted only after publication of his own work:
+
+I do not dispute, that if the Bank were to bring a large additional sum of notes into the market, and offer them on loan, but that they would for a time affect the rate of interest. The same effects would follow from the discovery of a hidden treasure of gold or silver coin.... It is only during the interval of the issues of the Banks, and their effect on prices, that we should be sensible of an abundance of money; interest would, during the interval, be under its natural level; but as soon as the additional sum of notes or of money became absorbed in the general circulation, the rate of interest would be as high.
+
+Ricardo's thesis is most uncanny in light of later developments. Yet he did not develop this short-run analysis any further.
+
+Wicksell would not have learned about Henry Thornton's work through J. S. Mill's Principles. Though J. S. Mill cited Thornton extensively he did so only regarding the real-bills doctrine, and Mill completely ignored Thornton's analysis of the effects of changes in the money stock (“paper credit”) on interest rates.
+
+
+To find “the right solution in this chaos of vague conceptions,” Wicksell started his analysis—much as had Henry Thornton—by examining the effects of a monetary disturbance on market rates of interest.
+
+ The important question now is how more money enters the system. A lowering of market interest rates by an injection of money in the form of bank credit leads to increased investment. Changes in the demand—and—supply condition in commodity markets must then follow and thus changes in composition of output. A larger fraction of national income is devoted to investment expenditures, and as a result the marginal productivity of investment declines.
+
+
+Wicksell did not completely separate this theory from the quantity theory in the Lectures. Even though his real contribution was to analyze the effects of monetary disturbances on relative prices, he did not carry it through to a final conclusion.
+
+
+The history of twentieth—century monetary theory cannot be told without consideration of the Ludwig von Mises's Theorie des Geldes und der Umlaufsmittel, a major yet neglected work of this century.
+
+ Building on Menger, Mises was the first to integrate monetary theory into general economic theory using marginal utility analysis. His work was a textbook on the Continent, though it was unknown in Great Britain before the translation under the title The Theory of Money and Credit.
+
+
+In an odd way the success of Mises's work hurt it. As Robbins noted, the ideas worked their way slowly into Anglo—Saxon monetary theory, despite the wide currency of his ideas on the Continent. By the 1930s English—speaking economists could no longer recognize the revolutionary character of The Theory of Money and Credit.
+
+Mises extended the Wicksellian theory by explicitly examining the differential impact on demand for consumption and capital goods brought about by a divergence between loan and natural interest rates. Most important, he distinguished between the effects on general and relative prices. But his business cycle theory is marred by the manner of presentation. Much of The Theory of Money and Credit deals with changes in the “inner value of money” (innere objektive Tauschwert), which, as Hayek noted, is a somewhat confusing way of dealing with the neutrality of money. The terminology was bound to engender confusion among English readers. The “building block” quality of German undoubtedly makes clear the distinction Mises intended, for those fluent in German.
+
+Mises's theory is literally buried in a conventional treatment of monetary inflation. The forced-savings theory follows a cycle theory based on changes in the value of money, in which certain contractual costs are “rigid” in the fact of rising prices. What appeared as an appendage at the time was a radically new theory of cyclical fluctuations.
+
+
+Mises himself commented obliquely on the disjointedness of his presentation in the Preface to the second German edition:
+
+I have come to the conclusion that the theory which I put forward as an elaboration and continuation of the doctrines of the Currency School is in itself a sufficient explanation of crisis and not merely a supplement to an explanation in terms of the theory of direct exchange, as I supposed in the first edition.
+
+
+Hayek referred to Mises's theory as the Wicksell—Mises's theory and stated that progress in monetary theory would depend “partly upon the foundations laid by Wicksell and partly upon criticism of his doctrine.”
+
+
+Hayek broke completely with the quantity-theory approach. The defect in the quantity theory lay in its comparative static approach, lack of attention to adjustment problems, and consequent focus on movements in the price level to the detriment of any analysis of real disturbances. Hayek's criticism thus paralleled Wicksell's.
+
+ Instead of viewing the proportionality theorem as essential to the quantity theory, he characterized the whole approach of the quantity theorists as “a positive hindrance to further progress.”
+
+ “Hardly any idea in contemporary monetary theory” was not known to writers in the early nineteenth century.
+
+ In forsaking the approach of microeconomics—“the ‘individualistic’ method” to which “we owe whatever understanding of economic phenomena we possess”—the quantity theorists were led astray.
+
+ The quantity-theory approach tended to lead to “three very erroneous opinions”:
+
+Firstly, that money acts upon prices and production only if the general price level changes, and, therefore, that prices and production are always unaffected by money,—that they are at their “natural” level,—if the price level remains stable. Secondly, that a rising price level tends always to cause an increase of production, and a falling price level always a decrease of production; and thirdly, that “monetary theory might even be described as nothing more than the theory of how the value of money is determined.”
+
+
+Here Hayek attacked the very idea to which J. S. Mill had subscribed: that changes in the quantity of money (or the velocity of its circulation) affect only general prices and not relative prices.
+
+ Hayek saw the proposition that monetary disturbances affect real activity through price level changes to be the logical extension of Mill's analysis. The next step would be to view the business cycle as largely a movement in price levels, with real economic activity being affected only insofar as adjustment to a changing price level is costly.
+
+One must be careful not to read more into the criticism than was there. Hayek regarded the quantity theory as unassailable as a comparative static proposition:
+
+I do not propose to quarrel with the positive content of this theory: I am even ready to concede that so far as it goes it is true, and that, from a practical point of view, it would be one of the worst things which would befall us if the general public should ever again cease to believe in the elementary propositions of the quantity theory.
+
+But like Wicksell, Thornton, Malthus, and many others before him, Hayek believed the quantity theory overlooked essential details. The quantity theory had “usurped the central place in monetary theory.... Not the least harmful effect of this particular theory is the present isolation of the theory of money from the main body of general economic theory.”
+
+
+Hayek deplored the lack of attention paid by quantity theorists to relative price changes. The title Prices and Production was surely chosen to emphasize this argument. Relative prices are what guide production, but, in the divorce of monetary theory from value theory, money is assumed to have no effect on relative prices. Thus by hypothesis money is viewed as having no influence on production. Such was the blind alley into which, Hayek argued, the quantity theory had led economists. Vestiges of the long-run, comparative static approach of classical value theory remained embedded in the quantity theory. It was to this barter model that ignored financial markets that Hayek objected.
+
+The introduction of money does not interfere with the operation of any of the Laws of Value.... The relation of commodities to one another remains unaltered by money: the only new relation introduced is their relation to money itself; how much or how little money they will exchange for; in other words, how the Exchange Value of Money itself is determined.
+
+Keynes also reacted against the division between monetary theory and value theory:
+
+So long as economists are concerned with what is called the Theory of Value, they have been accustomed to teach that prices are governed by the conditions of supply and demand; and, in particular, changes in marginal cost and the elasticity of short—period supply have played a prominent part. But when they pass in volume II, or more often in a separate treatise, to the Theory of Money and Prices, we hear no more of these homely but intelligible concepts and move into a world where prices are governed by the quantity of money, by its income—velocity, by the velocity of circulation relatively to the volume of transactions, by hoarding, by forced saving, by inflation and deflation et hoc genus omne, and little or no attempt is made to relate these vaguer phrases to our former notions of the elasticities of supply and demand.
+
+Indeed, Hayek had applauded Keynes's first faltering departure from the quantity—theory approach:
+
+That the new approach, which Mr. Keynes has adopted, which makes the rate of interest and its relation to saving and investment the central problem of monetary theory, is an enormous advance on this earlier position [the Cambridge cash—balance theory ], and that it directs the attention to what is really essential, seems to me to be beyond doubt.
+
+
+Again, Hayek's objection to the quantity—theory approach was not a criticism of its positive content, but was, to paraphrase Keynes, an objection to the failure to cast works in this tradition in terms of ordinary economic categories. The quantity theory was an “obstacle” for two reasons: First, from a theoretical view-point, couching a monetary theory of the business cycle in terms of changes in the price level would prejudice readers against other monetary explanations.
+
+ Thus, the explanation of cyclical fluctuations in terms of changes in the price level was a “naive quantity—theory” explanation,
+
+ and economists of the stature of Spiethoff rejected all monetary explanations because they identified them with the “naive” quantity theory.
+
+ Second, the quantity approach led its adherents to erroneously conclude that stabilizing the price level would automatically stabilize economic activity.
+
+ But, as will be seen, the major policy conclusion of the Austrian theory of the business cycle is that stabilizing the price level will not, in general, stabilize economic activity.
+
+Hayek saw Wicksell's and Mises's approach as one that permitted the intergration of monetary and value theory. The effect of money on pricing could be taken into account; moreover, money could be shown to have (short-run) effects because changes in the demand for or supply of money alter interest rates, intertemporal prices, and hence the allocation of resources. In current terminology, Hayek's was a theory in which “money mattered.”
+
+Hayek systematically criticized theories of cyclical fluctuations in which relative prices—particularly intertemporal prices—played no causal role. While at first he regarded the quantity theory as the chief impediment to progress, he subsequently shifted his attack to the Keynesian economics, or the income—expenditure approach. In Hayek's analysis, both the “naive quantity theory” and Keynesian macroeconomics are cut from the same cloth—the barter conception embodied in Mill's Principles. Both analyze economic disequilibrium with the tools of comparative static analysis. And both theories are inherently “macro”—they abstract from changes in relative prices.
+
+To Hayek, Keynes erred in attempting to establish macroeconomic relationships without regard to “the microeconomic structure.”
+
+ “The artifical simplification necessary for macrotheory...tends to conceal nearly all that really matters.”
+
+ Keynes's Marshallian and quantity-theory backgrounds lived on in the work that Keynes thought was a “clean break.”
+
+ NEUTRAL MONEY
+Because of Hayek's acceptance of the long-run connection between money and prices, he constructed his business cycle theory as he did. Given his insistence that increases in the money supply (initially) alter relative prices, he was encouraged to seek a mechanism that would restore the original set of relative prices once altered.
+
+ The theorems of equilibrium states are tools to aid the monetary theorist in analyzing market tendencies. Analysis of market adjustment processes indicates when those tendencies may be realized and when thwarted.
+
+Hayek initiated one of the great debates in monetary theory—the debate on the neutrality of money. Today, the concept of the neutrality of money is a bulwark of monetary theory. But the concept is taken to be about long-run effects. However, Hayek, like Keynes, Robertson, and others, wished to analyze the effects of monetary disturbances on economic activity before equilibrium is restored. Hayek, like Wicksell was concerned with “what occurs, in the first place, with the middle link in the final exchange of one good against another, which is formed by the demand of money for goods and the supply of goods against money.”
+
+Keynes might contend that “the importance of money essentially flows from its being a link between the present and the future.“
+
+ Myrdal might complain that “most theorists have their early gymnastics in stationary theory and have transferred loose habits of thought to their monetary analysis.”
+
+ And Shackle could describe money as “the refuge from specialized commitment, the postponer of the need to take far-reaching decisions.”
+
+ But all echoed Wicksell in his insistence that monetary analysis is concerned mainly with short-run adjustment; all were concerned with the economics of disequilibrium.
+
+Over the years, English economists, especially at Cambridge, demonstrated little sympathy with Wicksellian or Austrian analysis. Hayek's concept of the “neutrality of money” was also received with some hostility. Sraffa declared:
+
+If Dr. Hayek had adhered to his original intention, he would have seen at once that the differences between a monetary and a non—monetary economy can only be found in those characteristics which are set forth at the beginning of every text—book on money.
+
+To which Hayek responded: “I am, however, not quite sure whether Mr. Sraffa has perceived that the refutation of this idea is one of the central theses of my book.”
+
+Nevertheless, the concept of neutral money quickly attracted interest, undoubtedly because of possible applications to monetary policy for mitigating cyclical fluctuations. After the publication of The General Theory, interest in the neutrality of money waned.
+
+ Since Patinkin, economists have employed the concept to show that under stated conditions changes in the quantity of money do not, in the long run, affect either relative prices or real output.
+
+And yet, Hayek employed the very same concept to demonstrate how changes in the quantity of money ordinarily affect interest rates, relative prices, and real economic activity. Indeed, Hayek attracted attention because he demonstrated how monetary disturbances could be nonneutral in their effects.
+
+Hayek's analysis differs from that of contemporary monetary theorists because he focused attention on the short-run effects usually excluded, by assumption, from current theories. He maintained that monetary policy ordinarily has distributional effects that alter relative prices in a predictable way. In fact, an increased quantity of money will cause ex ante investment to be larger than ex ante saving. Ex post saving will equal ex ante investment. The difference between ex ante and ex post saving he termed “forced saving,” which leads to an excess accumulation of capital that cannot be maintained.
+
+Hayek's theory of economic fluctuations depends on the soundness of his argument about the nonneutrality of monetary policy; and his treatment of monetary disturbances is intelligible only in terms of his views on forced saving.
+
+FORCED SAVING
+Hayek, as an expert on the history of the concept of forced savings, noted that it was first offered in criticism of early quantity-theory analysis. Thus, in commenting on Ricardo's analysis, Malthus stated:
+
+Whenever, in the actual state of things, a fresh issue of notes comes into the hands of those who mean to employ them in the prosecution and extension of profitable business, a difference in the distribution of the circulating medium takes place, similar in kind to that which has been last supposed; and produces similar, though of course comparatively inconsiderable effects, in altering the proportion between capital and revenue in favour of the former. The new notes go into the market as so much additional capital, to purchase what is necessary for the conduct of the concern. But, before the produce of the country has been increased, it is impossible for one person to have more of it, without diminishing the shares of some others. This diminution is affected by the rise of prices, occasioned by the competition of the new notes, which puts it out of the power of those who are only buyers, and not sellers, to purchase as much of the annual produce as before: While all the industrious classes,—all those who sell as well as buy,—are, during the progressive rise of prices, making unusual profits; and even when this progression stops, are left with the command of a greater portion of the annual produce than they possessed previous to the new issues.
+
+Malthus's analysis contained insights that anticipated theoretical developments by Mises, Wicksell, Hayek, and others. An increased quantity of money represents an increased command over real resources. The new money units represent “so much additional capital” to entrepreneurs (“those who mean to employ them in the prosecution and extension of profitable business”). But at full employment, there is a resource constraint, and increased expenditures on capital goods must come at the expense of consumption. Consumers (“those who are only buyers”) cannot purchase as many consumer goods as they could before. The mechanism is “the competition of the new notes,” which leads to a rise in prices.
+
+Lord Lauderdale spoke of “bank increases [of ] the circulating medium of a country” leading to the creation of “a mass of fictitious capital.” Dugald Stewart, agreeing with Lord Lauderdale, argued that “the radical evil, in short, seems to be, not the mere over—issue of notes, considered as an addition to our currency, but the anomalous and unchecked extension of credit and its inevitable effect in producing a sudden augmentation of prices by a sudden augmentation of demand.”
+
+A single concept dominates virtually all discussions of forced saving. Entrepreneurs have an increased command over the scarce resources as the result of an increase in the quantity of money, which enters the system as an increase in credit. The prices of capital goods are bid up, and the production of capital goods is stimulated. Factor incomes are bid up; eventually, the demand for consumption goods increases. But only by this process and in this sequence, do changes in the quantity of money affect prices. That these changes eventually affect all prices was not in dispute; the issue was the mechanism by which money affects prices.
+
+Forced saving obviously refers to an ex post situation. Consumers find that they must consume less than they had planned at each level of income.
+
+ Consumer goods are not being produced at the rate at which consumers intend to consume them.
+
+The schedules in figure 3.1 refer to planned magnitudes. Ex post, investment (I) = I and saving (S) is equal in value to investment, I. Thus the forced saving is equal to the discrepancy between actual and planned saving (I — S).
+
+ Forced saving occurs during each period (in which the quantity of money increases) because of the nonneutral effects of the monetary disturbance. The assumption is that monetary expansion is primarily an increase in the amount of credit available to business.
+
+ As a consequence, the demand and supply functions that would exist in a barter situation are altered. As Hayek noted in an early work:
+
+The difference between the course of events described by static theory (which only permits movements toward an equilibrium, and which is deduced by directly contrasting the supply of and demand for goods) and the actual course of events [is explained ] by the fact that, with the introduction of money (or strictly speaking with the introduction of indirect exchange), a new determining cause is introduced. Money...does away with the rigid interdependence and self—sufficiency of the “closed” system of equilibrium, and makes possible movements which would be excluded from the latter.
+
+
+The concept of the neutrality of money (and thus, indirectly, the concept of forced saving) has frequently been criticized. Piero Sraffa's review of Prices and Production was hostile, as I have noted. Others, such as Koopmans and Classen grappled with the theoretical problems raised by the analysis.
+
+ Again, in the work of recent years dominated by The General Theory, that part of the Wicksellian tradition concerned with relative prices and so-called distributional effects of monetary policy has been virtually ignored. Of the efforts to save the concept of neutrality of money, Patinkin's is perhaps the most valiant among contemporary writers. But he was hoisted on his own petard. In any comparison between a barter and a money economy, the excess demand functions will necessarily differ. Patinkin considered a barter economy as the limiting case of a money economy, that is, one in which the money supply is progressively reduced to zero.
+
+As the nominal quantity of money approaches zero, so does the price level—and at the same rate. Hence the real quantity of money remains unaffected. Thus the limiting position that we have defined as a barter economy is one in which there exists the same real quantity of money as in a money economy.
+
+
+Originally neutrality was defined in terms of a congruence between the demand and the supply functions in a barter and a money economy. This comparison is obviously untenable: there is at least one commodity in a money world that is absent from a barter world.
+
+
+Friedrich Lutz correctly concluded that an important issue was raised by the early neutrality theorists, an issue that becomes obvious in analyzing the conditions under which a change in the supply of or demand for money will affect relative prices and quantities of nonmoney goods.
+
+As Lutz noted, key differences exist between the work of Wicksell and Hayek, and that of modern monetary economists. Today, neutrality of money follows from standard assumptions of macro models. For Hayek, neutrality of money was a policy goal in a world in which these assumptions did not and could not apply. An important difference exists between monetary theorists concerned with perfecting models (often merely exercises in logic) and earlier monetary theorists trying to explain the world as they perceived it.
+
+The logic of the argument of these more recent writers is unassailable. They have from the start excluded any possible effect of the reduced money rate of interest on the production process by their assumption of the “absence of distribution effects.” This assumption allows them to disregard the phenomenon of “forced saving” (which presupposes a shift in income distribution in favour of entrepreneurs or of profit-receivers), and hence to disregard also the related increase in real capital formation. It means that the problem to which earlier writers had attached paramount importance is simply dropped out of the picture. Once we assume that there are “distribution effects,” the question of what is the right monetary policy if it is desired to aim at the “neutrality” of money inevitably re-emerges.
+
+This reemerging question is the subject of subsequent chapters.
+
+KEYNES ON FORCED SAVING
+Keynes's occasional references to Hayek and the Austrians may seem curious, if not quaint—anachronistic discussions of work with no contemporary significance: grist for the mills of historians of thought.
+
+According to Keynes, “‘Forced saving’ has no meaning until we have specified some standard rate of saving.” The reasonable thing to do would be to select “the rate of saving which corresponds to an established state of full employment....’Forced saving is the excess of actual saving over what would be saved if there were full employment in a position of long—period equilibrium’.”
+
+ Keynes noted that to Hayek this definition was, in fact, the original meaning of the term.
+
+As Keynes pointed out, the analysis of forced saving needed “some explanation or qualification” to extend it to conditions of less than full employment. However, Keynes accused these theorists both of failing to extend the analysis to conditions of less than full employment and of doing so without regard to the needed qualifications.
+
+ Keynes seemed unable to distinguish between the methodological assumption of full employment and the assumption that in fact resources are always fully employed. This is an elementary distinction, concerning which Keynes was neither the first nor the last to be confused.
+
+Obviously, forced saving occurs only in disequilibrium. Hayek used the concept to analyze the impact of a monetary disturbance.
+
+ Forced saving is empirically important when the quantity of money is increased continually over a prolonged period of time, and the increases occur in the form of increases in the quantity of credit. Hayek investigated this kind of disturbance in Prices and Production, and it is to this analysis that we must now turn our attention.
+
+4 Money and Prices
+By the same act with which a bank increases the circulating medium of a country, it issues into the community a mass of fictitious capital, which serves not only as circulating medium but creates an additional quantity of capital to be employed in every mode in which capital can be employed (Lord Lauderdale, cited in Hayek, Profits, Interest, and Investment, p. 190).
+
+THE UNIVERSITY OF LONDON LECTURES
+Friedrich A. Hayek was invited to deliver the special university lectures at the London School of Economics during the 1930–31 session. In the space of four lectures, subsequently published under the title Prices and Production, he analyzed the microeconomics of the “typical nineteenth century business cycle.”
+
+ What he actually did in less than 150 pages was potentially even more far reaching: he integrated monetary theory and price theory more fully than had been done before.
+
+ The goal of current work in the integration of macrotheory and microtheory is essentially the same as Hayek's, and I believe progress would have been much greater had the contributions of Hayek not been lost sight of in the aftermath of the Keynesian revolution.
+
+The other major monetary theorists of the day were similarly engaged in a reexamination of business cycle theory. Notable among them were J. M. Keynes, D. H. Robertson, and R. G. Hawtrey in England; Irving Fisher and Henry Simons in the United States; Ludwig von Mises and Gunnar Myrdal on the Continent; and, indeed, virtually the entire membership of the Austrian and Swedish schools. The Continental and British monetary theorists—intellectually Hayek straddled these groups—were more intent than the Americans on finding microfoundations for their theories. These divergent thinkers had a common purpose: to achieve the integration of monetary and price theory.
+
+ All were profoundly dissatisfied with the state of monetary theory in its many variants.
+
+Hayek's business cycle theory, as presented to his English readers, was a blend of monetary theory, capital theory, and price theory. The lectures were first published in 1931. (His 1928 work on the monetary questions raised by the study of cyclical fluctuations was not translated into English until 1933 and was therefore unavailable to his English audience.)
+
+ Hayek viewed the price mechanism as a system of signals and the “economic problem” as one of social coordination. However, these conceptions were undeveloped until his contributions to the Socialist-calculation debates and the tetrad on economic coordination, of which “Economics and Knowledge” was the first.
+ These articles for the most part were written after his initial work on cyclical fluctuations was translated into English.
+
+Many of the substantive issues treated by Hayek can be examined without detailed development of Austrian capital theory. At times, Austrian capital theory can be so idiosyncratic that communication with those unfamiliar with it is impeded, as Hayek recognized in later writings.
+
+ Reference to its characteristic propositions will be made insofar as this aids in the subsequent analysis.
+
+ THE INFLATION PROCESS AND RESOURCE ALLOCATION
+To Hayek there was one essential fact about the business cycle to be explained by any theory of economic fluctuations:
+
+The task [of understanding the business cycle] is made rather easier by the fact that there does exist to-day, on at least one point, a far-reaching agreement among the different theories. They all regard the emergence of a disproportionality among the various productive groups, and in particular the excessive production of capital goods, as the first and main thing to be explained.
+
+Gottfried Haberler, more than a decade later, had a similar view, though he no longer accepted the particulars of the Mises-Hayek account. He stated that there are “two features which can be observed in every cycle, probably without exception, although they are not implied by our definition of the cycle.” They are (1) that cyclical fluctuations in production and employment are “accompanied by a parallel movement of the money value of production and transactions,” and (2) “that cyclical fluctuations are more marked in connection with the production of producer's goods than in connection with the production of consumers' goods.”
+
+Hayek expanded on the theories of Wicksell and Mises to account for a particular phenomenon—the so-called volatility of investment, or the “disproportionality” in production.
+
+ A process of inflation, or more precisely “cyclical expansion,” was seen to consist of a reallocation of resources from industries producing consumer goods (or “final output”) to those producing intermediate products. If a cyclical expansion starts from conditions of actual general resource unemployment, then expansion could, for a time, occur in all industries simultaneously. Hayek did not see the expansion as being uniform in practice, and his theory attempted to account for this nonuniformity. He developed a theory of the transmission mechanism of monetary disturbances, in which a change in the growth rate of the money stock depresses the complex of market interest rates below an equilibrium level.
+
+ Investment is stimulated, and through the augmentation in money expenditures on capital goods factor incomes are bid up, and finally the prices of consumption output rise. The complex allocation questions involved in this process are analyzed in Prices and Production.
+
+Hayek did not treat the “excessive production of capital goods” as the only feature of a business cycle, though he considered it the most important one. Any tendency for the prices of all goods to change was treated as a secondary phenomenon. He did not view changes in price levels as a necessary condition for a business cycle.
+
+
+Hayek perceived the necessity for explaining the emergence of resource unemployment in any theory of cyclical fluctuations. However, his approach in Prices and Production created a good deal of controversy: he started with an assumption of full employment, that is, long-run equilibrium. He did not, however, assume that the economy would remain at full employment. His object was to focus on certain processes that he thought would occur during any actual cyclical upswing as full employment was approached. Indeed, if Hayek's analysis of the impact of changes in the growth rate of the money stock is correct, these processes are inevitable in such expansions.
+
+In considering Hayek's approach, a distinction must be made between the methodological assumption of full employment and the empirical assumption of full employment. The methodological assumption of full employment has three distinct advantages. First, it is consistent with the general approach in other areas of economic theory. Starting from full employment (i.e., equilibrium) avoids attributing adjustments that would occur in any case to the disturbance under consideration. Next, it focuses attention on the problem to be analyzed—that of unemployment—and compels the theorist to deduce the emergence of unemployed resources rather than beg the question by assuming what needs to be explained.
+
+ Finally, it minimizes the possibility of constructing a theory—believed to be general—that is contingent on the existence of unemployed resources throughout the economy.
+
+ A number of critics, including a friendly expositor of Hayek's ideas, have failed to note the aforementioned distinction and Hayek's own strictures on the subject.
+
+Hayek was not the first to be attacked for assuming full employment. After Keynes set the example of reconstructing theories out of whole cloth, the classical economists became subject to this charge. While economists of the nineteenth century undoubtedly wrote as though there were ordinarily no unemployed resources, I know of no major figure who denied the existence of unemployed resources. Furthermore many attempted to explain the phenomenon, even though it was not their chief policy concern.
+
+Although older generations of economists had virtually no theoretical explanation for large-scale unemployment not due to wage controls or other direct market interventions, contemporary economic theory does little more. The worker-search hypothesis leaves much to be desired. As William H. Hutt noted, Keynesian macrotheory has not produced a theory of unemployment at all; at best it offers a theory of aggregate demand.
+
+Seldom has the ancient admonition regarding the throwing of stones in glass houses been more applicable than to critics of classical and allegedly classical treatments of unemployment.
+
+THE PRODUCTION PROCESS
+In Prices and Production Hayek developed a “goods in process” model, in which land and labor services pass through successive stages of production until consumer goods finally emerge. A “stage” consists of some productive activity (for example, stamping out parts with a mold). An entire process of production consists of many stages with the goods processed at each stage called intermediate products. A change in the number of stages or the real-location of factors among stages is described as a change in the structure of production.
+
+ A consumer good yields all its services in a single period; by this definition Hayek circumvented the durable-goods problem.
+
+ His purpose was to emphasize an aspect of capital to which he felt insufficient attention had been paid.
+
+ This is the distribution of capital goods in time. In Hayek's metaphorical analysis, intermediate products flow as from tributaries into successive stages of production, and the value of intermediate products at any point in the stream is a function of time, f(t). The total value of the intermediate products is thus the integral of this function over a period r, equal to the length of the adopted process of production. Beginning at time x, the total value of the intermediate products is:
+
+ According to Hayek, the output of consumer goods (that is, the rate at which consumer goods appear) is a function of this time interval, f(x+r). Thus the Hayek model is expressed purely in terms of flows. The reasons Hayek did not attempt to translate the model into one couched in terms of both stocks and flows are several.
+
+First, there is the inherent difficulty of including durable goods in a model of this type: “The different instalments of future services which such goods are expected to render will ... have to be imagined to belong to different ‘stages’ of production corresponding to the time interval which will elapse before these services mature.”
+
+ Hayek also initially assumed that at each stage the intermediate products are exchanged for money; there is no vertical integration. If durable capital goods were included, the individual must be assumed to be renting the capital goods from himself.
+
+ Finally, and most important, Hayek felt that in ordinary analysis too much attention is accorded to the durability of particular capital goods in explaining the effects of changes in the rate of interest on its value.
+
+It is not the individual durability of a particular good but the time that will elapse before the final services to which it contributes will mature that is regarded as the decisive factor. That is, it is not the attributes of the individual good but its position in the whole time structure of production that is regarded as relevant.
+
+The model of Prices and Production emphasizes the “time structure of production.” Hayek employed “Jevonian Investment Figures” as a pedagogic device to illustrate the production process:
+
+In figure 4.1 the horizontal side of the triangle represents the output of consumption goods f(x+r); the hypotenuse, the production function, f(t); and area, the integral that appears above.
+
+ The various stages of production—the horizontal segments of the diagram—consist of circulating capital (measured in value terms).
+
+Was Hayek attempting to measure the aggregate capital stock in Prices and Production? The answer is in doubt. Although he did not produce such a measure, he created the impression that there is some basis for doing so. Thus, he referred to the “proportion between the amount of intermediate products...and the amount of...output” increasing as the duration of the production process increases.
+
+ He also described production as becoming more “capitalistic” as “the average time interval between the application of the original means of production and the completion of the consumers' goods increases.”
+
+ While his use of “capitalistic” is loose, it suggests a capital-output ratio. What he actually measured was the value (in consumption output) to which an input will grow (that is, the compounded value of an investment).
+
+Hayek's lack of precision in Prices and Production on this matter is notable on several counts. Even in terms of his own endeavor, he had no need to make use of aggregate concepts; indeed, he disparaged such aggregative procedures. He generally objected to the treatment of capital goods as homogenous. In The Pure Theory of Capital he pointed out that in principle it is impossible to measure capital stock by reference to an average period of investment, even if the rate of interest is already given.
+
+I believe Hayek adopted a most “un—Hayekian” procedure in Prices and Production. He treated consumer goods as homogeneous if they are available in the same time period. Analysis applicable to the production of a particular consumer good is carried over to the aggregate output of consumer goods. He in effect adopted a one output-good model, though he was quite explicit at other places about the difficulties that arise from the existence of heterogeneous capital goods. Yet having treated consumption output as homogeneous, he also treated capital goods as inchoate consumer goods even though he specifically rejected this view at other times. In every other context Hayek was a trenchant critic of attempts to treat “capital” as a fund or as an amount of waiting.
+
+Hayek was quite open about the deficiencies of Prices and Production. He considered himself fortunate to have received an offer to deliver the University of London lectures when he did. When the invitation arrived, he was convinced the central ideas of Prices and Production were correct, and he presented them in their simplicity.
+
+In Prices and Production Hayek was almost offhand about the necessary conditions for equilibrium, or correspondence between the plans of consumers and producers: “The proportion of money spent for consumers' goods and money spent for intermediate products is equal to the proportion between the total demand for consumers' goods and the total demand for the intermediate product necessary for their continuous production.”
+
+ In a lecture delivered less than three years after the University of London lectures, he was far more precise about the conditions for equilibrium. Describing his theory as “the ‘Wicksellian’ theory of crises” he remarked that it is “quite independent of any idea of absolute changes in the quantity of capital and therefore of the concepts of saving and investment in their traditional sense.” Hayek continued:
+
+The starting point for a fully developed [business cycle] theory...would be (a) the intentions of all the consumers with respect to the way in which they wish to distribute at all the relevant dates all their resources (not merely their ‘income’) between current consumption and provision for future consumption, and (b) the separate and independent decisions of the entrepreneurs with respect to the amounts of consumers' goods which they plan to provide at these various dates. Correspondence between these two groups of decisions would be characteristic of the kind of equilibrium which we now usually describe as a state where savings are equal to investments and with which the idea of an equilibrium rate of interest is connected.
+
+For Hayek, the crucial question for business cycle theory was the mutual correspondence of the plans of savers and investors and those of consumers and producers. Before asking how an economy can be in disequilibrium, he sought to posit the theoretical conditions under which the system would be “in equilibrium.”
+
+An essential difference exists between a change in the structure of production resulting from increased saving and a change from an increase in the supply of money through bank loans to producers (at a lower rate of interest than previously was the case).
+
+ The alternative methods of financing the same increase in investment may be illustrated as a first approximation as follows:
+
+ If increased investment is the consequence of a change in the propensity to save, then savings (S) and investment (I) will be equalized at a market rate of interest, io, which will be equal to the natural, or equilibrium, rate, n. If the increased investment is financed, not by increased saving, but by an amount of bank credit being extended per period (equal to the difference between I and S), then the loan rate, i will be below the natural rate, n. This natural rate is the rate of interest at which the flow of consumer and producer goods being produced and sold on the market is the same as the flow of expenditures on such goods. It is the rate at which the ex ante decisions of producers and consumers are mutually consistent.
+
+This approach can, however, only be a beginning, for it is quintessentially macro in conception. Consequently, it ignores problems crucial to Hayek's analysis. The saving-investment analysis presented here involved the aggregation of the separate micro-investment functions. Hayek considered this procedure to be suspect in ignoring the shift effects on the separate investment demand curves of changes in the rate of interest (changes which merely move one down this constant aggregate investment function). Also according to Hayek:
+
+Whether we are able to decide what savings and what investment are depends...on whether we can give the idea of maintaining capital intact a clear and realistic meaning... As soon, however, as one makes any serious attempt to answer this question, one finds not only that the concept of the maintenance of capital has no definite meaning, but also that there is no reason to assume that even the most rational and intelligent entrepreneur will ever in dynamic conditions be either willing or able to keep his capital constant in any quantitative sense, that is with respect to any of the measurable properties of capital itself.
+
+To recast the saving-investment analysis in net terms, the concept of maintaining capital intact must be clarified; yet entrepreneurs do not necessarily keep the value of their capital intact. These difficulties with saving-investment analysis must be noted lest serious confusion arise as the result of what is said later.
+
+An increase in the propensity to save, according to Hayek, will not initiate a cyclical expansion.
+
+ Rather, the phenomenon is useful in explaining the movement of relative prices during a credit expansion (that is, when voluntary saving has not changed). Whether an increase in saving is necessarily transmitted into increased investment is not considered. Like Wicksell, Hayek assumed that the financial sector does nothing to impede this process.
+
+With an increase in saving, the impact of the concomitant decrease in consumption demand on producers who put the “final touches” on consumer goods is obvious—they find their receipts falling. However, along with the decreased receipts from current consumption there is an increase in funds available for future consumption output. In the final stages of production (that is, those nearest the production of consumer goods) the decrease in costs will not offset the decrease in receipts. Increased expenditures elsewhere maintain, even augment, factor costs. The price margin between output and input—from whence the return on capital emerges—narrows. Employment of funds in the final stage of production becomes less attractive than its employment at other stages. Funds will tend to be shifted to earlier stages of production at the same time new savings are being made available. The production stage preceding the final stage will also experience a narrowing of price margins, as will the stage prior to that, and so on. But more funds will be available in early stages, and at some point the tendency for a rise in the prices of the products of early stages (that is, those farthest in time from the production of consumption goods) will overcome the tendency for a fall in prices. Indeed, it will pay to begin new stages of production. An intertemporal reallocation of factor services occurs as a consequence of intertemporal changes in relative prices.
+
+A narrowing of price margins leads to a shifting of capital among stages. The investment period increases.
+
+ A switch to the longer investment period occurs because it is not profitable to employ the older and quicker production methods. Investment projects with lower yields relative to prevailing rates of return acquire a positive present value. Economic losses are incurred on some old investments.
+
+Hayek employed a discounted value of the marginal product theory of factor remuneration. Increased saving leads to a fall in the rate of interest. As a first approximation, the prices of land and labor services are bid up as the rate of interest falls. In this first approximation, land and particularly labor are treated as homogeneous.
+
+To Hayek, a decrease in the interest rate may be translated into the proposition that both wage rates and land rents have risen relative to the prices of the products they help produce. As the interest rate falls, price margins between stages narrow, for real factor costs are increasing. The fall in prices of the products of the later stages of production is partly responsible for this narrowing of price margins.
+
+Hayek's proposition must be distinguished from one particularly common misinterpretation. Were this a valid conceptual experiement, a fall in the rate of interest would, other things equal, increase the demand-price schedules for all assets. But formulating the experiment in ceteris paribus terms overlooks the mutatis mutandis conditions of the disturbance. The very process that affects the interest rate alters the size of the quasi-rents accruing to the heterogenous capital goods, which are combined according to particular expectations that will be falsified (by the assumed disturbance). This process is not to be relegated to the second order of magnitude, as is usually done.
+
+ In his criticism of Keynes's Treatise, Hayek observed:
+
+Capitalization is not so directly an effect of the rate of interest; it would be truer to say that both are effects of one common cause, viz. the scarcity or abundance of means available for investment, relative to the demand for those means. Only by changing this relative scarcity will a change in the Bank Rate also change the demand price for the services of fixed capital.
+
+Although fixed capital was excluded from the model of Prices and Production, the essence of the problem remained, that is, to demonstrate the effects of a change in intertemporal consumption demand—or an apparent change—and the consequent change in relative factor scarcities on the pattern of investment.
+
+In terms of Hayek's investment diagram, there will be a narrowing of the base and a lengthening of the vertical side. Increased investment will be distributed both as an increase in resources in early stages and an addition of new stages. Only by this process are rates of return on all investments equalized. The investment must take the form of capital “deepening” rather than capital “widening” in the absence of any unemployed land and labor.
+
+Ralph Hawtrey introduced the terms capital widening and capital deepening:
+
+The process of which the capital equipment of a community is increased may take two forms, a “widening” and a “deepening.” The widening of the capital equipment means the extension of productive capacity by the flotation of new enterprises, or the expansion of existing enterprises, without any change in the amount of capital employed for each unit of labour. The deepening means an increase in the amount of capital employed for each unit of labour.
+
+Hawtrey concluded that a reduction in the rate of interest “is a sign that the widening of capital is insufficient to use up the resources of the investment market.”
+
+The process of capital deepening will be accompanied by capital widening in particular industries. This fact is implied in the Hayek's schematic analysis in Prices and Production—more is invested in early stages and less in late stages. Capital deepening might be defined as capital narrowing in the later stages, concomitant with capital widening in earlier stages.
+
+Pace Hawtrey, capital deepening may be analyzed without reference to aggregate capital measure. One need only say that capital will be invested in different ways and in different goods (and outline in what general direction changes will be made). Hayek particularly did not need to refer to an aggregate capital measure. But as late as 1941 he spoke, as did Hawtrey, of “providing an unchanged number of workmen with more (or more elaborate) equipment.”
+
+ This situation results when the investment period tends to lengthen as a result of the same conditions that bring about a fall in interest rates. As interest rates fall, however, the relative prices of various capital goods change, and new types of capital goods are substituted. The units will be incommensurable, and we cannot be sure what will happen to the value of the capital stock.
+
+ Indeed, Hayek pointed out that changes in the structure of production may be analyzed without reference to aggregate capital stock or an average period of investment.
+
+ We need only speak of marginal adjustments in the pattern of investment.
+
+Hayek was more circumspect in The Pure Theory of Capital than in Prices and Production. He pointed out that “most of the changes in productive technique are likely to involve changes in the investment periods of different units of input to a different degree and perhaps in different directions.”
+
+ A “change in the length of the process” could be employed to describe a situation where changes are “predominantly in one direction.”
+
+ Though Hayek slipped into less precise and less guarded modes of expression, his final opinion was as follows: “For our present purposes we do not need to know whether a whole process as such is longer or shorter than another.”
+
+ Nor apparently do we need to know anything about the aggregate capital stock or capital per head.
+
+A critical question for Hayek is whether the effects of an increase in saving in a money economy are the same as in a barter situation. Of the effects of an increase in saving in a money economy, he observed: “The effect thus realized...is one which fulfills the object of saving and investing, and is identical with the effect which would have been produced if the savings were made in kind instead of in money.”
+
+ Of course, if the saving were made in kind, the process would not occur in the same way, unless we are to assume money does not facilitate exchange! “It is self-contradictory to discuss a proces which admittedly could not take place without money, and at the same time to assume that money is absent or has no effect.”
+
+ The justifiable conclusion of Prices and Production is that changes from the increase in saving lead to a new stable equilibrium. This is not necessarily the equilibrium that would obtain in a barter situation, assuming attaining equilibrium would be possible.
+
+THE EFFECTS OF CREDIT
+Hayek always treated the distinction between real and monetary changes as fundamental. Real changes (for example, a change in tastes, or in time preference) lead to changes in money expenditures, which in turn bring about equilibrium reallocations. On the other hand, he treated monetary changes (for example, a change in the money supply) as “self-reversing” and the temporary equilibria created by such changes as “inherently unstable.”
+
+ This is the principal thesis of Prices and Production, where Hayek contrasted the effects of an autonomous increase in the money stock with those of an increase in the rate of saving.
+
+The immediate impact of an increase in the money stock (which by assumption is an increase in bank credit) is the same for transactors as a shift in the savings function. The reason is that both disturbances generate the same signals in the loan market—the interest rates fall.
+
+ In the case of a shift in the savings function, the resulting changes involve a transition to a new equilibrium of the kind assumed in barter theory. If fluctuations in savings are violent and frequent, cyclical fluctuations may be observed in the absence of additional monetary disturbances. But Hayek contended that “experience provides no ground for assuming that such violent fluctuations in the rate of savings will occur otherwise than in consequence of crises.”
+
+The impression from reading Prices and Production is that in the absence of credit creation by the banking system, the real economy is fundamentally stable. The actions of transactors in the aggregate are not “perverse.” Increases in the propensity to save with resulting changes in the pattern of investment are not suddenly reversed. Transactors do not save in order to lure unsuspecting entrepreneurs into (ex post) foolish investments, and then withdraw their savings at the crucial moment, thus to wreak havoc on interdependent investment plans.
+
+Hayek focused on the market signals employed by savers and investors in making their decisions, which, though independently arrived at, are interdependent. He sought to demonstrate how a general inconsistency of plans could come about. As he phrased it, “We might have to distinguish between what we may call justified errors, caused by the price system, and sheer errors about the course of external events.”
+
+ He had an hypothesis: “It seems...more likely that they[entrepreneurs] may all be equally misled by following guides or symptoms which as a rule prove reliable.”
+
+The signals followed by market decision makers are relative prices, precisely because this procedure has a demonstrated survival value. However, there are times when they prove unde pendable, that is, there are periods of economic disequilibria in which relative prices function so as to discoordinate the economic activity of savers and investors. This observation neither supports the contention that decentralized decision making is inherently “irrational” nor explains why the price system can misfunction. For these explanations one must turn to capital and monetary considerations. The problem was aptly phrased by an expositor of Hayek's theories:
+
+Pricing...is...a continuous information-collecting and disseminating process, but it is the institutional framework that determines both the extent to which, and the degree of success with which, prices are enabled to perform this potential signalling or allocative function.
+
+The assumption of Prices and Production is that the capital goods industries or earlier stages of production can expand (that is, switch to more “capitalistic” methods) only at the cost of present consumption. But in the case of a monetary expansion
+
+this sacrifice is not voluntary, and is not made by those who will reap the benefit from the new investments. It is made by the consumers in general who, because of the increased competition from the entrepreneurs who have received the additional money, are forced to forego part of what they used to consume. It comes about not because they want to consume less, but because they get less goods for their money income. There can be no doubt that, if their money receipts should rise again, they would immediately attempt to expand consumption to the usual proportion.
+
+Let us assume for the moment that consumers' command over resources again increases at some point. There is no reason to expect that, once consumers' incomes rise, there will be any change in the desired consumption-saving ratio out of that level of income. But the constancy of saving necessitates a return to the previous, “less capitalistic” method of production. It is this contraction process that Hayek explained most fully in a series of articles on the Ricardo effect, an effect that we will examine in the following chapter.
+
+In terms of the investment diagram, the change to a narrower base and a heightened altitude will be reversed. But with the increased amount of money in circulation (assuming no endogenous deflation of the money stock as part of the cyclical decline in economic activity), the dollar value of goods sold in each stage will be greater. In other words, the standard long-run comparative static conclusions of the quantity theory are preserved. Indeed, once one admits that money is not neutral in the short run, and that there are relative price effects of sufficient duration that time-consuming production processes are altered, one is virtually compelled to accept the plausibility of the self-reversing features of a monetary disturbance; that is, one must so long as one believes that the absolute quantity of money is of no significance in the long run, and that the economy cannot be in neutral equilibrium for any conceivable set of relative prices.
+
+HICKS ON HAYEK
+Forced saving plays a crucial role in Hayek's malinvestment theory.
+
+ If saving, ex post, is greater than it would be at full employment, then so is investment. Hayek employed the theory of forced saving to demonstrate that under some conditions malinvestment would occur. The conclusion is hardly startling given the assumption that the rate of interest at which entrepreneurs can borrow is below the equilibrium (natural) rate of interest.
+
+Yet a number of economists have had difficulty in perceiving how Hayek arrived at this conclusion. Hicks commented that, if forced saving takes place, “there has to be a lag of consumption behind wages.” But he concluded that “obviously this lag is not acceptable.”
+
+ Where did Hicks and Hayek part company?
+
+Hicks continued to work on the problem. But their “parting of the ways was on the issue of the effects of money on decision making.” Hicks argued subsequently that Hayek's analysis “was mixed up, in that exciting work, with monetary considerations that do not really belong.”
+
+ No sense can be made of the arguments in Prices and Production if one adopts the view that the “monetary considerations...do not really belong.” Indeed, the monetary considerations probably are the most original contribution of the analysis. One could disagree with the details of the production theory and still accept the monetary theory. Prices and Production simply does not “work” without the monetary analysis—at least not as a theory of economic fluctuations. This is what Hicks in fact demonstrated in “The Hayek Story” and why the Hayek story must be retold.
+
+Without the doctrine of forced saving induced by bank credit expansion, there is no logic to the lag of consumption behind income. Hicks tried “sticky wages” (which are not in Prices and Production—at least not wages “sticky upwards”), but noted that “if one pursues this line of thought, one is led towards a theory which is more like that of Keynes, or perhaps of Robertson, than of Hayek.”
+
+Hicks finally tried to mend Prices and Production: “Suppose that one had not started with a ‘credit expansion’ but had begun with...a genuine increase in the propensity to save.”
+
+ What follows is a tortured transformation of a theory of short-run disturbances into “a forerunner of the growth theory of more recent years.”
+
+ It is no accident that only in this guise did Hicks contend “we can still make something of it [Prices and Production].”
+
+ For what Hicks outlined is a barter theory of growth-induced disturbances.
+
+
+Forced saving occurs because entrepreneurs are given the means by the banking system to appropriate a larger portion of the economy's scarce resources. It must be emphasized that Hayek never dealt with a single “one shot” increase in the money supply.
+
+ In his response to Hicks's 1967 work, Hayek emphasized that the continual injection of money was in the form of business loans:
+
+This process can evidently go on indefinitely, at least as long as we neglect changes in the manner in which expectations concerning future prices are formed. Whatever the lag between the impact effect of the new expenditures on a few prices affected immediately and the spreading of this effect to any other prices, the distortion of the “equilibrium” price structures corresponding to the “real” data must continue to exist. The extra demand which continually enters in the form of newly created money remains one of the constant data determining a price structure adjusted to this demand. However short the lag between one price change and the effect of the expenditure of the increased receipts on other prices, and as long as the process of change in the total money stream continues, the changed relationship between particular prices will also be preserved.
+
+
+Two concepts come together in Hayek's theory: the Thornton-Wicksell analysis of the effects of a divergence between the loan and equilibrium rates of interest, and the doctrine of forced saving. Hicks tried to abstract from monetary considerations in his reconstruction of Hayek's argument:
+
+The “reduction” of the market rate below the natural rate must therefore be interpreted as a disequilibrium phenomenon; a phenomenon that can only persist while the markets are out of equilibrium. As soon as equilibrium is restored, equality between market and natural rate must be restored. Thus there is no room for a prolonged discrepancy between market rate and natural rate if there is instantaneous adjustment of prices. Money prices will simply rise uniformly; and that is that.
+
+
+It was to counteract this view that Hayek wrote the previously cited passage. Hicks's argument makes sense only in terms of a “one shot” increase in the money supply. There can be a discrepancy between the two rates of interest only if markets are out of equilibrium. Furthermore, equality “must be restored” once equilibrium is restored because that is how equilibrium is defined in the Wicksellian system! That “there is no room for a prolonged discrepancy between market rate and natural rate” is precisely the issue.
+
+ The inability of Hayek and Hicks to communicate on the issue stems from Hicks's contention that the monetary considerations “do not really belong.” These considerations hold together the otherwise diverse strands of thought in the neo-Wicksellian analysis.
+
+ The process that Hicks summed up by saying “that is that” turns out to be the business cycle.
