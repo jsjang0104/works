@@ -12,8 +12,8 @@ Personal archive for coursework projects, research/study materials, and academic
 │   ├── 2026-1_klook_capstone/            # Klook x HUFS LAI prompt engineering and QE experiments
 │   └── 2026-1_teaching_assistant_aiti/   # TA material of 'AI in Translation and Interpretation'
 ├── study/
-│   ├── 2025-1_attention/                 # AI study club 'Attention' - paper reviews, reproductions, and presentations (2025 fall)
-│   └── 2025-winter_jpong-study/          # ASR and vision study presentations (2025 winter)
+│   ├── 2025-1_attention/                 # AI study club 'Attention' - paper reviews, reproductions, and presentations
+│   └── 2025-winter_jpong-study/          # ASR and vision study presentations
 └── review/
     ├── colloquium/       # colloquium attendance notes
     ├── conference/       # conference attendance notes
