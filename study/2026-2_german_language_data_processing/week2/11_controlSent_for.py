@@ -65,17 +65,16 @@ for i in range(2, 10): # 2~9까지의 숫자
 
 " 리스트 내포(List Comprehension)"
 " 리스트 내포를 사용하지 않은 경우"
-"""
+
 a = [1, 2, 3, 4]
 result = []
 for i in a:
     result.append(i * 2)
 print(result)
-"""
+
 
 " 리스트 내포를 사용한 경우"
-"""
+
 a = [1, 2, 3, 4]
 result = [i * 2 for i in a]
 print(result)
-"""

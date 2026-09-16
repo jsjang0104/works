@@ -40,30 +40,30 @@ age = 22
 # f-string을 사용하는 방법
 name = "Mina"
 age = 22
-#print(f"이름은 {name}이고, 나이는 {age}살입니다.")
+print(f"이름은 {name}이고, 나이는 {age}살입니다.")
 
 #줄바꿈과 관련된 출력
 #print("첫째 줄")
 #print("둘째 줄")
 
 #줄바꿈 없이 출력하기: end
-#print("Hello", end=" ")
-#print("Python")
+print("Hello", end=" ")
+print("Python")
 
-#print("A", end="-")
-#print("B", end="-")
-#print("C")
+print("A", end="-")
+print("B", end="-")
+print("C")
 
 # 구분자 설정: sep, 여러 값을 출력할 때 값 사이에 들어갈 문자를 바꿀 수 있다.
-#print("2026", "07", "08", sep="-")
-#print("apple", "banana", "cherry", sep=", ")
+print("2026", "07", "08", sep="-")
+print("apple", "banana", "cherry", sep=", ")
 
 # 특수문자 사용: 줄바꿈 \n
-#print("독일어\n영어\n한국어")
+print("독일어\n영어\n한국어")
 
 # 특수문자 사용: 탭 \t
-#print("이름\t점수")
-#print("Mina\t95")
+print("이름\t점수")
+print("Mina\t95")
 
 
 ## 사용자 입력
@@ -79,10 +79,10 @@ print(age + 1)
 """
 
 #올바른 예: int() 사용
-"""
+
 age = int(input("나이를 입력하세요: "))
-print(age + 1)
-"""
+print(f"내년에 님의 나이는 {age + 1}살입니다.")
+
 
 #실수를 입력받는 경우: float() 사용
 """

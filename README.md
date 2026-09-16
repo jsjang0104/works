@@ -10,8 +10,7 @@ Personal archive for coursework projects, research/study materials, and academic
 │   ├── 2025-2_book_classifier/           # Austrian Library genre classification and call number generation
 │   ├── 2026-1_german_trainer/            # German declension speaking trainer with ASR feedback
 │   ├── 2026-1_klook_capstone/            # Klook x HUFS LAI prompt engineering and QE experiments
-│   ├── 2026-1_TA_aiti/                   # TA material of 'AI in Translation and Interpretation'
-│   ├── 2026-2_german_language_data_processing/                  
+│   ├── 2026-1_TA_aiti/                   # TA material of 'AI in Translation and Interpretation'              
 │   └── 2026-2_german_reels
 ├── study/
 │   ├── 2025-1_attention/                 # AI study club 'Attention'

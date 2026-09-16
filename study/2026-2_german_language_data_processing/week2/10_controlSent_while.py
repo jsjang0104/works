@@ -3,13 +3,12 @@ Python 제어문: while
 """
 
 # 열번찍어 안 넘어가는 나무 없다
-"""
 treeHit = 0
 while treeHit < 10:
     treeHit += 1
     print(f"나무를 {treeHit}번 찍었습니다.")
 print("나무가 넘어갔습니다.")
-"""
+
 
 # while문 강제로 빠져나가기: 커피 자판기
 """
@@ -33,10 +32,9 @@ while True:
 """
 
 #while문의 맨 처음으로 돌아가기
-"""
+
 a = 0
 while a < 10:
     a += 1
     if a % 2 == 0: continue
     print(a)
-"""
