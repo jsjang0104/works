@@ -4,7 +4,7 @@
 - [x] 2026.08.12 1805 - World Models 
 - [ ] 1811 - PlaNet @@ Learning Latent Dynamics for Planning from Pixels
 - [x] 2026.08.16 1912 - Dreamer @@ Dream to Control Learning Behaviors by Latent Imagination
-- [x] 2026.08.17 2010 - DreamerV2 @@ Mastering Atari with Discrete World Models
+- [ ] 2010 - DreamerV2 @@ Mastering Atari with Discrete World Models
 - [ ] 2202 - TSSM @@ Reinforcement Learning with Transformer World Models
 - [ ] 2203 - TD-MPC @@ Temporal Difference Learning for Model Predictive Control
 - [ ] 2206 - MWM @@ Masked World Models for Visual Control
