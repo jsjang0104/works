@@ -8,7 +8,7 @@ from pathlib import Path
 import settings
 from cards import make_caption, render_card, reserve_output, save_image
 
-MANUAL_MESSAGE = "직접 독일어 문장을 입력해라"
+MANUAL_MESSAGE = "직접 독일어 문장을 입력해주세요."
 
 
 def _read(prompt: str, *, limit: int, input_fn: Callable, output_fn: Callable) -> str:
@@ -26,7 +26,10 @@ def _confirm(draft: str, label: str, input_fn: Callable, output_fn: Callable) ->
     output_fn(f"{label}: {draft}")
     while True:
         edited = unicodedata.normalize(
-            "NFC", " ".join(input_fn(f"Enter로 확정하거나 수정한 {label}을 입력하세요: ").split())
+            "NFC",
+            " ".join(
+                input_fn(f"Enter로 확정하거나 수정한 {label}을 입력하세요: ").split()
+            ),
         )
         if len(edited) <= 400:
             return edited or draft
@@ -64,7 +67,11 @@ def _image_with_recovery(
     local_path = None
     while True:
         try:
-            data = local_path.expanduser().read_bytes() if local_path else generator(prompt)
+            data = (
+                local_path.expanduser().read_bytes()
+                if local_path
+                else generator(prompt)
+            )
             # Validate while recovery options are still available.
             from io import BytesIO
 
@@ -73,7 +80,9 @@ def _image_with_recovery(
             with Image.open(BytesIO(data)) as image:
                 image.verify()
             return data
-        except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
+        except (
+            Exception
+        ) as error:  # noqa: BLE001 -- recover at the interactive boundary
             output_fn(f"이미지를 준비하지 못했습니다: {error}")
             answer = input_fn(
                 "다시 시도하려면 r, 기존 이미지 파일 경로, 건너뛰려면 Enter: "
@@ -100,7 +109,9 @@ def run(
     try:
         output_fn("독일어 단어 2개로 이미지 카드와 캡션을 만듭니다.")
         words = [
-            _read(f"단어 {index + 1}: ", limit=80, input_fn=input_fn, output_fn=output_fn)
+            _read(
+                f"단어 {index + 1}: ", limit=80, input_fn=input_fn, output_fn=output_fn
+            )
             for index in range(2)
         ]
         output_fn(
@@ -125,7 +136,9 @@ def run(
                 raise ValueError(
                     "사용할 수 있는 독일어 문장과 한국어 해석 두 쌍을 얻지 못했습니다."
                 )
-        except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
+        except (
+            Exception
+        ) as error:  # noqa: BLE001 -- recover at the interactive boundary
             output_fn(f"자동 문장 생성을 사용할 수 없습니다: {error}")
             drafts = None
         sentences, translations = [], []
@@ -151,7 +164,9 @@ def run(
                 )
         else:
             for word, draft in zip(words, drafts):
-                original = unicodedata.normalize("NFC", " ".join(draft["german"].split()))
+                original = unicodedata.normalize(
+                    "NFC", " ".join(draft["german"].split())
+                )
                 output_fn(f"[{word}]")
                 sentence = _confirm(original, "독일어 문장", input_fn, output_fn)
                 used_model = sentence == original
@@ -176,7 +191,9 @@ def run(
                 translations.append(translation)
 
         # Save both ready-to-post captions before the first network request.
-        outputs = [reserve_output(Path(root), word, make_caption(), day) for word in words]
+        outputs = [
+            reserve_output(Path(root), word, make_caption(), day) for word in words
+        ]
         output_fn(f"캡션 저장 위치: {outputs[0].caption.parent.resolve()}")
         completed = 0
         for index, (word, sentence, translation, paths) in enumerate(
@@ -193,14 +210,19 @@ def run(
                 continue
             try:
                 save_image(
-                    paths.image, render_card(data, word, sentence, translation, day.isoformat())
+                    paths.image,
+                    render_card(data, word, sentence, translation, day.isoformat()),
                 )
-            except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
+            except (
+                Exception
+            ) as error:  # noqa: BLE001 -- recover at the interactive boundary
                 output_fn(f"카드를 저장하지 못했습니다: {error}. 캡션은 보존했습니다.")
                 continue
             completed += 1
             output_fn(f"저장: {paths.image.name}, {paths.caption.name}")
-        output_fn(f"이미지 {completed}/2장, 캡션 2개 저장. 인스타그램에는 직접 업로드해 주세요.")
+        output_fn(
+            f"이미지 {completed}/2장, 캡션 2개 저장. 인스타그램에는 직접 업로드해 주세요."
+        )
         return 0 if completed == 2 else 1
     except (KeyboardInterrupt, EOFError):
         output_fn("\n입력을 취소했습니다. 이미 저장된 결과는 유지됩니다.")

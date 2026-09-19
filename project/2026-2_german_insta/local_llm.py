@@ -29,16 +29,23 @@ def choose_gpu(
     gpus: list[Gpu], occupied: set[str], visible: str | None, required_mib: int
 ) -> Gpu | None:
     allowed = (
-        None if visible is None else {part.strip() for part in visible.split(",") if part.strip()}
+        None
+        if visible is None
+        else {part.strip() for part in visible.split(",") if part.strip()}
     )
     candidates = []
     for gpu in gpus:
         if allowed is not None and not any(
-            value == str(gpu.index) or (value.startswith("GPU-") and gpu.uuid.startswith(value))
+            value == str(gpu.index)
+            or (value.startswith("GPU-") and gpu.uuid.startswith(value))
             for value in allowed
         ):
             continue
-        if gpu.uuid not in occupied and gpu.free_mib >= required_mib and gpu.utilization <= 10:
+        if (
+            gpu.uuid not in occupied
+            and gpu.free_mib >= required_mib
+            and gpu.utilization <= 10
+        ):
             candidates.append(gpu)
     return max(candidates, key=lambda gpu: gpu.free_mib, default=None)
 
@@ -57,7 +64,11 @@ def available_gpu() -> Gpu:
             timeout=10,
         )
         processes = subprocess.run(
-            ["nvidia-smi", "--query-compute-apps=gpu_uuid", "--format=csv,noheader,nounits"],
+            [
+                "nvidia-smi",
+                "--query-compute-apps=gpu_uuid",
+                "--format=csv,noheader,nounits",
+            ],
             capture_output=True,
             text=True,
             check=True,
@@ -67,11 +78,16 @@ def available_gpu() -> Gpu:
             Gpu(int(index), uuid.strip(), int(free), int(util))
             for index, uuid, free, util in csv.reader(summary.stdout.splitlines())
         ]
-        occupied = {line.strip() for line in processes.stdout.splitlines() if line.strip()}
+        occupied = {
+            line.strip() for line in processes.stdout.splitlines() if line.strip()
+        }
     except (OSError, subprocess.SubprocessError, ValueError) as error:
         raise LocalLLMUnavailable("GPU 상태를 확인할 수 없습니다.") from error
     gpu = choose_gpu(
-        gpus, occupied, os.environ.get("CUDA_VISIBLE_DEVICES"), settings.MIN_FREE_GPU_MIB
+        gpus,
+        occupied,
+        os.environ.get("CUDA_VISIBLE_DEVICES"),
+        settings.MIN_FREE_GPU_MIB,
     )
     if gpu is None:
         raise LocalLLMUnavailable("사용 가능한 GPU가 없거나 여유 메모리가 부족합니다.")
@@ -91,7 +107,9 @@ def validate_snapshot(path: Path) -> Path:
         if not shards or any(not (path / shard).is_file() for shard in shards):
             raise ValueError("Missing shards")
     except (OSError, ValueError, KeyError, TypeError) as error:
-        raise LocalLLMUnavailable("로컬 모델 가중치 캐시가 없거나 불완전합니다.") from error
+        raise LocalLLMUnavailable(
+            "로컬 모델 가중치 캐시가 없거나 불완전합니다."
+        ) from error
     return path
 
 
@@ -144,13 +162,17 @@ def parse_sentences(text: str) -> list[dict[str, str]]:
             if not isinstance(pair, dict):
                 raise TypeError("Expected German/Korean pair")
             if any(
-                not isinstance(pair.get(key), str) or not pair[key].strip() or len(pair[key]) > 400
+                not isinstance(pair.get(key), str)
+                or not pair[key].strip()
+                or len(pair[key]) > 400
                 for key in ("german", "korean")
             ):
                 raise ValueError("Missing or invalid German/Korean text")
             if not re.search(r"[가-힣]", pair["korean"]):
                 raise ValueError("Expected Korean translation")
-            pairs.append({key: " ".join(pair[key].split()) for key in ("german", "korean")})
+            pairs.append(
+                {key: " ".join(pair[key].split()) for key in ("german", "korean")}
+            )
         return pairs
     except (ValueError, TypeError) as error:
         raise LocalLLMUnavailable(
@@ -178,7 +200,9 @@ def generate_sentences(words: list[str]) -> list[dict[str, str]]:
     except subprocess.TimeoutExpired as error:
         raise LocalLLMUnavailable("로컬 모델의 응답 시간이 초과되었습니다.") from error
     except OSError as error:
-        raise LocalLLMUnavailable("로컬 모델 실행 환경을 시작할 수 없습니다.") from error
+        raise LocalLLMUnavailable(
+            "로컬 모델 실행 환경을 시작할 수 없습니다."
+        ) from error
     if result.returncode != 0:
         raise LocalLLMUnavailable(
             "로컬 모델 로딩·추론에 실패했습니다. GPU와 requirements-local.txt를 확인하세요."
@@ -190,7 +214,11 @@ def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
     # Check again before importing torch; a previously idle GPU may now be occupied.
     available_gpu()
     import torch
-    from transformers import AutoTokenizer, BitsAndBytesConfig, Gemma4ForConditionalGeneration
+    from transformers import (
+        AutoTokenizer,
+        BitsAndBytesConfig,
+        Gemma4ForConditionalGeneration,
+    )
 
     if not torch.cuda.is_available():
         raise LocalLLMUnavailable("CUDA unavailable")
@@ -236,7 +264,9 @@ def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
     input_length = inputs["input_ids"].shape[-1]
     with torch.inference_mode():
         result = model.generate(**inputs, max_new_tokens=768, do_sample=False)
-    return parse_sentences(tokenizer.decode(result[0, input_length:], skip_special_tokens=True))
+    return parse_sentences(
+        tokenizer.decode(result[0, input_length:], skip_special_tokens=True)
+    )
 
 
 if __name__ == "__main__":
@@ -247,6 +277,8 @@ if __name__ == "__main__":
         with contextlib.redirect_stdout(sys.stderr):
             sentences = _worker(Path(sys.argv[2]), words)
         print(json.dumps(sentences, ensure_ascii=False))
-    except Exception as error:  # noqa: BLE001 -- worker failures must become manual input
+    except (
+        Exception
+    ) as error:  # noqa: BLE001 -- worker failures must become manual input
         print(type(error).__name__, file=sys.stderr)
         raise SystemExit(1)

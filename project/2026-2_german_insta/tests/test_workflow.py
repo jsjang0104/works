@@ -38,7 +38,9 @@ def expected_caption():
     return f"{HASHTAGS}\n\n{BODY}\n"
 
 
-def test_busy_gpu_requests_both_languages_and_saves_manual_captions(tmp_path, monkeypatch):
+def test_busy_gpu_requests_both_languages_and_saves_manual_captions(
+    tmp_path, monkeypatch
+):
     app = subject()
     answers = iter(MANUAL_INPUT)
     output, rendered = [], []
@@ -104,7 +106,15 @@ def test_accepted_and_replaced_sentences_get_same_fixed_caption(tmp_path, monkey
     app = subject()
     # Accept both first drafts; replacing the second German sentence requires a new translation.
     answers = iter(
-        ["Haus", "Baum", "", "", "Der Baum wächst im Garten.", "", "그 나무는 정원에서 자란다."]
+        [
+            "Haus",
+            "Baum",
+            "",
+            "",
+            "Der Baum wächst im Garten.",
+            "",
+            "그 나무는 정원에서 자란다.",
+        ]
     )
     rendered = []
     original = app.render_card

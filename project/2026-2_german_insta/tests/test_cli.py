@@ -24,7 +24,12 @@ def test_cli_uses_project_date_directory_when_launched_elsewhere(tmp_path):
     )
     day_before = datetime.now(UTC).astimezone().date().isoformat()
     first = subprocess.run(
-        command, input=user_input, capture_output=True, text=True, cwd=tmp_path, check=False
+        command,
+        input=user_input,
+        capture_output=True,
+        text=True,
+        cwd=tmp_path,
+        check=False,
     )
     day_after = datetime.now(UTC).astimezone().date().isoformat()
     assert first.returncode == 0, first.stdout + first.stderr
@@ -36,9 +41,16 @@ def test_cli_uses_project_date_directory_when_launched_elsewhere(tmp_path):
     assert not (tmp_path / outputs[0].name).exists()
     initial = {path.name: path.read_bytes() for path in outputs[0].iterdir()}
     second = subprocess.run(
-        command, input=user_input, capture_output=True, text=True, cwd=tmp_path, check=False
+        command,
+        input=user_input,
+        capture_output=True,
+        text=True,
+        cwd=tmp_path,
+        check=False,
     )
     assert second.returncode == 0, second.stdout + second.stderr
     assert len(list(outputs[0].glob("*.jpg"))) == 4
     assert len(list(outputs[0].glob("*.txt"))) == 4
-    assert all((outputs[0] / name).read_bytes() == content for name, content in initial.items())
+    assert all(
+        (outputs[0] / name).read_bytes() == content for name, content in initial.items()
+    )

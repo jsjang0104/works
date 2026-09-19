@@ -7,7 +7,9 @@ import pytest
 
 
 def subject():
-    assert importlib.util.find_spec("local_llm"), "Implement GPU eligibility and local fallback"
+    assert importlib.util.find_spec(
+        "local_llm"
+    ), "Implement GPU eligibility and local fallback"
     return importlib.import_module("local_llm")
 
 
@@ -101,7 +103,9 @@ def test_no_gpu_does_not_start_worker(monkeypatch):
         llm.generate_sentences(["Haus", "Baum"])
 
 
-def test_worker_returns_both_languages_without_losing_translation(monkeypatch, tmp_path):
+def test_worker_returns_both_languages_without_losing_translation(
+    monkeypatch, tmp_path
+):
     llm = subject()
     pairs = [
         {"german": "Ich übe täglich.", "korean": "나는 매일 연습한다."},

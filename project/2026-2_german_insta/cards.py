@@ -21,9 +21,7 @@ class OutputPaths:
 
 
 def make_caption() -> str:
-    return (
-        "#한국외대독일어과 #어휘와구문B2\n\nFLUX Space MCP에 연결하여 AI 이미지를 생성하였습니다.\n"
-    )
+    return "#한국외대독일어과 #어휘와구문B2\n\nFLUX Space MCP에 연결하여 AI 이미지를 생성하였습니다.\n"
 
 
 def reserve_output(
@@ -32,7 +30,9 @@ def reserve_output(
     """Save the caption first, reserving a unique name for this card."""
     folder = Path(root) / (today or datetime.now(UTC).astimezone().date()).isoformat()
     folder.mkdir(parents=True, exist_ok=True)
-    word_slug = re.sub(r"[^\w-]+", "_", unicodedata.normalize("NFC", word))[:40].strip("_-")
+    word_slug = re.sub(r"[^\w-]+", "_", unicodedata.normalize("NFC", word))[:40].strip(
+        "_-"
+    )
     word_slug = word_slug or "wort"
     number = 1
     while True:
@@ -56,7 +56,9 @@ def save_image(path: Path, data: bytes) -> None:
     """Expose only a complete JPEG, and refuse to overwrite an existing file."""
     temporary = None
     try:
-        with tempfile.NamedTemporaryFile(dir=path.parent, suffix=".tmp", delete=False) as stream:
+        with tempfile.NamedTemporaryFile(
+            dir=path.parent, suffix=".tmp", delete=False
+        ) as stream:
             temporary = Path(stream.name)
             stream.write(data)
         os.link(temporary, path)
@@ -104,7 +106,9 @@ def _bilingual_layout(sentence: str, translation: str, width: int, height: int):
     """Fit both languages together so their blocks cannot overlap."""
     for size in range(43, 14, -1):
         german_font = ImageFont.truetype(settings.FONT_REGULAR, size)
-        korean_font = ImageFont.truetype(str(settings.FONT_KOREAN), max(15, round(size * 0.76)))
+        korean_font = ImageFont.truetype(
+            str(settings.FONT_KOREAN), max(15, round(size * 0.76))
+        )
         korean_font.set_variation_by_name("Regular")
         german_lines = wrap_text(sentence, german_font, width)
         korean_lines = wrap_text(translation, korean_font, width)
@@ -116,7 +120,9 @@ def _bilingual_layout(sentence: str, translation: str, width: int, height: int):
                 (german_font, german_lines, german_step),
                 (korean_font, korean_lines, korean_step),
             )
-    raise ValueError("문장과 해석이 카드에 들어가기에는 너무 깁니다. 짧게 수정해 주세요.")
+    raise ValueError(
+        "문장과 해석이 카드에 들어가기에는 너무 깁니다. 짧게 수정해 주세요."
+    )
 
 
 def render_card(
@@ -129,13 +135,17 @@ def render_card(
     draw.text((64, 49), "WORT & BILD", font=small, fill=green)
     draw.text((1016, 49), date_label, font=small, fill=green, anchor="ra")
     draw.line((64, 91, 1016, 91), fill="#D5DACE", width=2)
-    title, lines, step = _fit(word, bold=True, width=952, height=136, largest=68, smallest=22)
+    title, lines, step = _fit(
+        word, bold=True, width=952, height=136, largest=68, smallest=22
+    )
     for index, line in enumerate(lines):
         draw.text((64, 114 + index * step), line, font=title, fill=ink, anchor="lt")
 
     with Image.open(BytesIO(image_bytes)) as original:
         original.load()
-        photo = ImageOps.fit(ImageOps.exif_transpose(original).convert("RGB"), (952, 500))
+        photo = ImageOps.fit(
+            ImageOps.exif_transpose(original).convert("RGB"), (952, 500)
+        )
     mask = Image.new("L", photo.size, 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, 951, 499), radius=24, fill=255)
     canvas.paste(photo, (64, 270), mask)

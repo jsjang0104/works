@@ -23,7 +23,11 @@ def test_embedded_image_content_is_decoded():
     data = png()
     result = {
         "content": [
-            {"type": "image", "mimeType": "image/png", "data": base64.b64encode(data).decode()}
+            {
+                "type": "image",
+                "mimeType": "image/png",
+                "data": base64.b64encode(data).decode(),
+            }
         ]
     }
     assert mcp.extract_image(result) == data
@@ -37,7 +41,13 @@ def test_gradio_json_file_url_is_downloaded():
             {
                 "type": "text",
                 "text": json.dumps(
-                    [{"path": "/tmp/gradio/image.png", "url": "https://example.test/image.png"}, 42]
+                    [
+                        {
+                            "path": "/tmp/gradio/image.png",
+                            "url": "https://example.test/image.png",
+                        },
+                        42,
+                    ]
                 ),
             }
         ]

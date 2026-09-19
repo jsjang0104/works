@@ -12,8 +12,12 @@ def subject():
 
 def test_dated_exports_preserve_german_and_never_overwrite(tmp_path):
     cards = subject()
-    first = cards.reserve_output(tmp_path, "../größer", "Der Garten ist größer.", date(2026, 9, 19))
-    second = cards.reserve_output(tmp_path, "../größer", "Noch größer.", date(2026, 9, 19))
+    first = cards.reserve_output(
+        tmp_path, "../größer", "Der Garten ist größer.", date(2026, 9, 19)
+    )
+    second = cards.reserve_output(
+        tmp_path, "../größer", "Noch größer.", date(2026, 9, 19)
+    )
     assert first.caption.parent == tmp_path / "2026-09-19"
     assert second.caption.parent == first.caption.parent
     assert first.caption != second.caption
@@ -27,7 +31,9 @@ def test_existing_orphan_image_is_not_overwritten(tmp_path):
     folder = tmp_path / "2026-09-19"
     folder.mkdir()
     (folder / "01_Haus.jpg").write_bytes(b"keep")
-    paths = cards.reserve_output(tmp_path, "Haus", "Das Haus ist groß.", date(2026, 9, 19))
+    paths = cards.reserve_output(
+        tmp_path, "Haus", "Das Haus ist groß.", date(2026, 9, 19)
+    )
     assert paths.image.name != "01_Haus.jpg"
     assert (folder / "01_Haus.jpg").read_bytes() == b"keep"
 
@@ -53,10 +59,14 @@ def test_render_exports_portrait_jpeg_with_original_sentence():
 def test_long_compound_words_wrap_without_horizontal_overflow():
     cards = subject()
     font = ImageFont.truetype("DejaVuSans.ttf", 40)
-    lines = cards.wrap_text("Donaudampfschifffahrtsgesellschaftskapitän " * 5, font, 280)
+    lines = cards.wrap_text(
+        "Donaudampfschifffahrtsgesellschaftskapitän " * 5, font, 280
+    )
     assert len(lines) > 5
     assert all(font.getlength(line) <= 280 for line in lines)
-    assert "".join(lines).replace(" ", "") == ("Donaudampfschifffahrtsgesellschaftskapitän" * 5)
+    assert "".join(lines).replace(" ", "") == (
+        "Donaudampfschifffahrtsgesellschaftskapitän" * 5
+    )
 
 
 def test_caption_contains_only_two_hashtags_and_fixed_body():
@@ -83,7 +93,13 @@ def test_translation_is_below_german_and_date_is_at_top(monkeypatch):
 
     def capture(self, xy, text, *args, **kwargs):
         records.append(
-            (xy, text, self.textbbox(xy, text, font=kwargs["font"], anchor=kwargs.get("anchor")))
+            (
+                xy,
+                text,
+                self.textbbox(
+                    xy, text, font=kwargs["font"], anchor=kwargs.get("anchor")
+                ),
+            )
         )
         return original(self, xy, text, *args, **kwargs)
 
@@ -109,13 +125,17 @@ def test_maximum_length_bilingual_text_stays_inside_card(monkeypatch):
     original = ImageDraw.ImageDraw.text
 
     def capture(self, xy, text, *args, **kwargs):
-        boxes.append(self.textbbox(xy, text, font=kwargs["font"], anchor=kwargs.get("anchor")))
+        boxes.append(
+            self.textbbox(xy, text, font=kwargs["font"], anchor=kwargs.get("anchor"))
+        )
         return original(self, xy, text, *args, **kwargs)
 
     monkeypatch.setattr(ImageDraw.ImageDraw, "text", capture)
     source = BytesIO()
     Image.new("RGB", (500, 500), "white").save(source, "PNG")
     cards.render_card(source.getvalue(), "W" * 80, "W" * 400, "한" * 400, "2026-09-19")
-    assert all(0 <= x1 < x2 <= 1080 and 0 <= y1 < y2 <= 1350 for x1, y1, x2, y2 in boxes)
+    assert all(
+        0 <= x1 < x2 <= 1080 and 0 <= y1 < y2 <= 1350 for x1, y1, x2, y2 in boxes
+    )
     # Every body line remains above the footer divider.
     assert all(y2 < 1262 for x1, y1, x2, y2 in boxes if 700 <= y1 < 1262)
