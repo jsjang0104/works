@@ -21,7 +21,7 @@ class OutputPaths:
 
 
 def make_caption() -> str:
-    return "#한국외대독일어과 #어휘와구문B2\n\nFLUX Space MCP에 연결하여 AI 이미지를 생성하였습니다.\n"
+    return "#한국외대독일어과 #어휘와구문B2\n\nMCP를 통해 FLUX Space에 연결하여 AI 이미지를 생성하였습니다.\n"
 
 
 def reserve_output(
