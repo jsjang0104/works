@@ -248,10 +248,3 @@
 - static한 dataset: adaptive variant 생성 방안 필요
 
 - 현재 IFMTBench's scoring rule은 GROP style post training과 directly compatible함. -> future work 
-
-## 생각한 것
-- 이 논문에서 말하는 "Context (번역 맥락)"과 "Style (문체)" 이 두 가지와, 우리 연구의 차이점을 분명히 해야할 것 같습니다
-- Synthetic text 제작 과정에서 human verification이 까다로워 보입니다.
-- 뭔가 제작한 데이터셋에 대한 더 많은 통계 정보를 제공해주면 좋았을 텐데 살짝 아쉽습니다.
-- 7개 해당 언어쌍을 채택한 이유 중 하나로 language family diversity를 제시해서, 급 논문의 신뢰도가 떨어지는 그런 느낌을 살짝 받았습니다...
-- Hybrid evaluation framework의 아이디어가 왠지 wmt26 내용과 유사해보이네용ㅎㅎ

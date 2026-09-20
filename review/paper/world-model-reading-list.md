@@ -1,4 +1,7 @@
 # World Model Reading List
+
+by Goose
+
 ## World Models and Model-based RL
 
 - [x] 1805 - World Models 
