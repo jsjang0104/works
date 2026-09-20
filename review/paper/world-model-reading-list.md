@@ -1,9 +1,9 @@
 # World Model Reading List
 ## World Models and Model-based RL
 
-- [x] 2026.08.12 1805 - World Models 
+- [x] 1805 - World Models 
 - [ ] 1811 - PlaNet @@ Learning Latent Dynamics for Planning from Pixels
-- [x] 2026.08.16 1912 - Dreamer @@ Dream to Control Learning Behaviors by Latent Imagination
+- [x] 1912 - Dreamer @@ Dream to Control Learning Behaviors by Latent Imagination
 - [ ] 2010 - DreamerV2 @@ Mastering Atari with Discrete World Models
 - [ ] 2202 - TSSM @@ Reinforcement Learning with Transformer World Models
 - [ ] 2203 - TD-MPC @@ Temporal Difference Learning for Model Predictive Control
@@ -17,7 +17,7 @@
 
 ## LLM-based World Models
 
-- [ ] 2210 - ReAct @@ Synergizing Reasoning and Acting in Language Models
+- [X] 2210 - ReAct @@ Synergizing Reasoning and Acting in Language Models
 - [ ] 2302 - DEPS @@ Describe, Explain, Plan and Select_ Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents
 - [ ] 2311 - JARVIS-1 @@ JARVIS-1_ Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models
 - [ ] 2312 - MP5 @@ A Multi-modal Open-ended Embodied System in Minecraft via Active Perception
