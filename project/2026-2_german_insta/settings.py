@@ -7,7 +7,8 @@ MODEL_ID = "google/gemma-4-31B-it"
 # 다른 로컬 모델 스냅샷을 쓰려면 절대 경로를 지정합니다. None이면 HF 캐시에서 찾습니다.
 MODEL_PATH: Path | None = None
 SHARED_HF_HOME = Path("/home/shared/hf_cache")
-MIN_FREE_GPU_MIB = 24 * 1024  # 31B 모델의 4-bit 로딩과 짧은 생성에 사용할 보수적 기준
+MIN_FREE_GPU_MIB = 20 * 1024  # GPU별 여유분을 제외한 합산 모델 로딩 예산
+GPU_MEMORY_RESERVE_MIB = 2 * 1024  # GPU마다 CUDA 커널·KV 캐시·출력용으로 남길 공간
 LLM_TIMEOUT_SECONDS = 240
 MCP_URL = "https://evalstate-flux1-schnell.hf.space/gradio_api/mcp/sse"
 MCP_TOOL = "flux1_schnell_infer"

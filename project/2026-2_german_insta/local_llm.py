@@ -1,4 +1,4 @@
-"""Use an idle local GPU, with all heavyweight inference isolated in a child process."""
+"""Split inference across idle local GPUs inside an isolated child process."""
 
 import contextlib
 import csv
@@ -25,32 +25,31 @@ class Gpu:
     utilization: int
 
 
-def choose_gpu(
-    gpus: list[Gpu], occupied: set[str], visible: str | None, required_mib: int
-) -> Gpu | None:
+def choose_gpus(
+    gpus: list[Gpu],
+    occupied: set[str],
+    visible: str | None,
+    required_mib: int,
+    reserve_mib: int = 0,
+) -> list[Gpu]:
     allowed = (
-        None
-        if visible is None
-        else {part.strip() for part in visible.split(",") if part.strip()}
+        None if visible is None else {part.strip() for part in visible.split(",") if part.strip()}
     )
     candidates = []
     for gpu in gpus:
         if allowed is not None and not any(
-            value == str(gpu.index)
-            or (value.startswith("GPU-") and gpu.uuid.startswith(value))
+            value == str(gpu.index) or (value.startswith("GPU-") and gpu.uuid.startswith(value))
             for value in allowed
         ):
             continue
-        if (
-            gpu.uuid not in occupied
-            and gpu.free_mib >= required_mib
-            and gpu.utilization <= 10
-        ):
+        if gpu.uuid not in occupied and gpu.free_mib > reserve_mib and gpu.utilization <= 10:
             candidates.append(gpu)
-    return max(candidates, key=lambda gpu: gpu.free_mib, default=None)
+    if sum(gpu.free_mib - reserve_mib for gpu in candidates) < required_mib:
+        return []
+    return candidates
 
 
-def available_gpu() -> Gpu:
+def available_gpus() -> list[Gpu]:
     try:
         summary = subprocess.run(
             [
@@ -78,20 +77,33 @@ def available_gpu() -> Gpu:
             Gpu(int(index), uuid.strip(), int(free), int(util))
             for index, uuid, free, util in csv.reader(summary.stdout.splitlines())
         ]
-        occupied = {
-            line.strip() for line in processes.stdout.splitlines() if line.strip()
-        }
+        occupied = {line.strip() for line in processes.stdout.splitlines() if line.strip()}
     except (OSError, subprocess.SubprocessError, ValueError) as error:
         raise LocalLLMUnavailable("GPU 상태를 확인할 수 없습니다.") from error
-    gpu = choose_gpu(
+    selected = choose_gpus(
         gpus,
         occupied,
         os.environ.get("CUDA_VISIBLE_DEVICES"),
         settings.MIN_FREE_GPU_MIB,
+        settings.GPU_MEMORY_RESERVE_MIB,
     )
-    if gpu is None:
-        raise LocalLLMUnavailable("사용 가능한 GPU가 없거나 여유 메모리가 부족합니다.")
-    return gpu
+    if not selected:
+        raise LocalLLMUnavailable("사용 가능한 GPU가 없거나 합산 여유 메모리가 부족합니다.")
+    return selected
+
+
+def gpu_memory_budget(free_bytes: list[int]) -> dict[int | str, int]:
+    """Budget local CUDA devices, reserving room for kernels, KV cache and outputs."""
+    reserve = settings.GPU_MEMORY_RESERVE_MIB * 1024**2
+    budget = {index: max(0, free - reserve) for index, free in enumerate(free_bytes)}
+    if (
+        not budget
+        or any(value == 0 for value in budget.values())
+        or (sum(budget.values()) < settings.MIN_FREE_GPU_MIB * 1024**2)
+    ):
+        raise LocalLLMUnavailable("모델 로딩에 필요한 GPU 합산 여유 메모리가 부족합니다.")
+    budget["cpu"] = 0
+    return budget
 
 
 def validate_snapshot(path: Path) -> Path:
@@ -107,9 +119,7 @@ def validate_snapshot(path: Path) -> Path:
         if not shards or any(not (path / shard).is_file() for shard in shards):
             raise ValueError("Missing shards")
     except (OSError, ValueError, KeyError, TypeError) as error:
-        raise LocalLLMUnavailable(
-            "로컬 모델 가중치 캐시가 없거나 불완전합니다."
-        ) from error
+        raise LocalLLMUnavailable("로컬 모델 가중치 캐시가 없거나 불완전합니다.") from error
     return path
 
 
@@ -162,17 +172,13 @@ def parse_sentences(text: str) -> list[dict[str, str]]:
             if not isinstance(pair, dict):
                 raise TypeError("Expected German/Korean pair")
             if any(
-                not isinstance(pair.get(key), str)
-                or not pair[key].strip()
-                or len(pair[key]) > 400
+                not isinstance(pair.get(key), str) or not pair[key].strip() or len(pair[key]) > 400
                 for key in ("german", "korean")
             ):
                 raise ValueError("Missing or invalid German/Korean text")
             if not re.search(r"[가-힣]", pair["korean"]):
                 raise ValueError("Expected Korean translation")
-            pairs.append(
-                {key: " ".join(pair[key].split()) for key in ("german", "korean")}
-            )
+            pairs.append({key: " ".join(pair[key].split()) for key in ("german", "korean")})
         return pairs
     except (ValueError, TypeError) as error:
         raise LocalLLMUnavailable(
@@ -181,10 +187,10 @@ def parse_sentences(text: str) -> list[dict[str, str]]:
 
 
 def generate_sentences(words: list[str]) -> list[dict[str, str]]:
-    gpu = available_gpu()
+    gpus = available_gpus()
     path = find_model_path()
     environment = os.environ.copy()
-    environment["CUDA_VISIBLE_DEVICES"] = gpu.uuid
+    environment["CUDA_VISIBLE_DEVICES"] = ",".join(gpu.uuid for gpu in gpus)
     environment["TOKENIZERS_PARALLELISM"] = "false"
     # The subprocess makes failure/timeout release all model allocations before manual input.
     try:
@@ -200,9 +206,7 @@ def generate_sentences(words: list[str]) -> list[dict[str, str]]:
     except subprocess.TimeoutExpired as error:
         raise LocalLLMUnavailable("로컬 모델의 응답 시간이 초과되었습니다.") from error
     except OSError as error:
-        raise LocalLLMUnavailable(
-            "로컬 모델 실행 환경을 시작할 수 없습니다."
-        ) from error
+        raise LocalLLMUnavailable("로컬 모델 실행 환경을 시작할 수 없습니다.") from error
     if result.returncode != 0:
         raise LocalLLMUnavailable(
             "로컬 모델 로딩·추론에 실패했습니다. GPU와 requirements-local.txt를 확인하세요."
@@ -211,8 +215,9 @@ def generate_sentences(words: list[str]) -> list[dict[str, str]]:
 
 
 def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
-    # Check again before importing torch; a previously idle GPU may now be occupied.
-    available_gpu()
+    # Recheck before CUDA initialization and drop GPUs claimed since parent selection.
+    gpus = available_gpus()
+    os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(gpu.uuid for gpu in gpus)
     import torch
     from transformers import (
         AutoTokenizer,
@@ -222,9 +227,9 @@ def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
 
     if not torch.cuda.is_available():
         raise LocalLLMUnavailable("CUDA unavailable")
-    free_bytes, _ = torch.cuda.mem_get_info(0)
-    if free_bytes < settings.MIN_FREE_GPU_MIB * 1024**2:
-        raise LocalLLMUnavailable("Insufficient GPU memory")
+    max_memory = gpu_memory_budget(
+        [torch.cuda.mem_get_info(index)[0] for index in range(torch.cuda.device_count())]
+    )
     quantization = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -235,7 +240,8 @@ def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
     model = Gemma4ForConditionalGeneration.from_pretrained(
         path,
         local_files_only=True,
-        device_map={"": 0},
+        device_map="balanced",
+        max_memory=max_memory,
         dtype=torch.bfloat16,
         quantization_config=quantization,
         attn_implementation="sdpa",
@@ -260,13 +266,12 @@ def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
         return_tensors="pt",
         enable_thinking=False,
     )
-    inputs = {name: tensor.to("cuda:0") for name, tensor in inputs.items()}
+    input_device = model.get_input_embeddings().weight.device
+    inputs = {name: tensor.to(input_device) for name, tensor in inputs.items()}
     input_length = inputs["input_ids"].shape[-1]
     with torch.inference_mode():
         result = model.generate(**inputs, max_new_tokens=768, do_sample=False)
-    return parse_sentences(
-        tokenizer.decode(result[0, input_length:], skip_special_tokens=True)
-    )
+    return parse_sentences(tokenizer.decode(result[0, input_length:], skip_special_tokens=True))
 
 
 if __name__ == "__main__":
@@ -277,8 +282,6 @@ if __name__ == "__main__":
         with contextlib.redirect_stdout(sys.stderr):
             sentences = _worker(Path(sys.argv[2]), words)
         print(json.dumps(sentences, ensure_ascii=False))
-    except (
-        Exception
-    ) as error:  # noqa: BLE001 -- worker failures must become manual input
+    except Exception as error:  # noqa: BLE001 -- worker failures must become manual input
         print(type(error).__name__, file=sys.stderr)
         raise SystemExit(1)

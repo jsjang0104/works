@@ -64,8 +64,8 @@ Create a warm, detailed editorial illustration of this German sentence. No text 
 | --- | --- |
 | 로컬 모델 | 캐시된 `google/gemma-4-31B-it`; 다른 스냅샷은 `MODEL_PATH` 지정 |
 | 캐시 탐색 | `HF_HUB_CACHE`, `HF_HOME`, `/home/shared/hf_cache`, 사용자 기본 캐시 |
-| GPU | 기존 계산 작업이 없고 여유 메모리가 24 GiB 이상인 GPU 한 장 선택; `CUDA_VISIBLE_DEVICES` 존중 |
-| 모델 로딩 | 4-bit NF4, 로컬 파일만 사용; 별도 프로세스에서 최대 240초 실행 |
+| GPU | 기존 계산 작업이 없는 GPU들에 모델 분산; GPU마다 2 GiB를 남기고 합산 20 GiB 이상 필요; `CUDA_VISIBLE_DEVICES` 존중 |
+| 모델 로딩 | 4-bit NF4, `balanced`로 GPU 분산, 로컬 파일만 사용; 별도 프로세스에서 최대 240초 실행 |
 | 이미지 생성 | [evalstate/flux1_schnell](https://huggingface.co/spaces/evalstate/flux1_schnell)의 `flux1_schnell_infer` MCP 도구 |
 | 이미지 요청 | 1024×768, 4 steps; MCP 호출 제한 시간 180초 |
 | 문장·이미지 프롬프트·캡션 | 독일어 문장과 한국어 해석을 로컬 LLM으로 함께 생성; 확정된 문장으로 이미지 프롬프트를 구성하고 캡션은 고정 문구로 저장 |
