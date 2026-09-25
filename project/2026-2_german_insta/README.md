@@ -68,4 +68,4 @@ Create a warm, detailed editorial illustration of this German sentence. No text 
 | 모델 로딩 | 4-bit NF4, 로컬 파일만 사용; 별도 프로세스에서 최대 240초 실행 |
 | 이미지 생성 | [evalstate/flux1_schnell](https://huggingface.co/spaces/evalstate/flux1_schnell)의 `flux1_schnell_infer` MCP 도구 |
 | 이미지 요청 | 1024×768, 4 steps; MCP 호출 제한 시간 180초 |
-| 문장·이미지 프롬프트·캡션 | 독일어 문장과 한국어 해석을 로컬 LLM으로 함께 생성; 확정된 문장으로 이미지 프롬프트를 구성하고 캡션은 고정 문구로 저장하므로 수동 입력만으로도 진행 가능 |
+| 문장·이미지 프롬프트·캡션 | 독일어 문장과 한국어 해석을 로컬 LLM으로 함께 생성; 확정된 문장으로 이미지 프롬프트를 구성하고 캡션은 고정 문구로 저장 |
