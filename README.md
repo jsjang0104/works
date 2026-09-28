@@ -15,7 +15,8 @@ Personal archive for coursework projects, research/study materials, and academic
 ├── study/
 │   ├── 2025-1_attention/                       # AI study club 'Attention'
 │   ├── 2025-winter_jpong-study/                # ASR and vision model study
-│   └── 2026-2_german_language_data_processing  # 
+│   ├── 2026-2_europe-america-AI/               # 
+│   └── 2026-2_DE_data_processing/               # 
 └── review/
     ├── colloquium/       # colloquium attendance notes
     ├── conference/       # conference attendance notes
