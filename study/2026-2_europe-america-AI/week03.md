@@ -2,6 +2,9 @@
 
 ## 실습 1
 
+- 사용 모델: goole/gemini-3.6-flash 
+- 임시 채팅 사용
+
 ### 영어
 
 > What should I cook for my mother's birthday? Please share a recipe
