@@ -48,14 +48,6 @@ cd ~/Workspace/works/project/2026-2_german_insta
 .venv/bin/python main.py
 ```
 
-### MCP 이미지 프롬프트
-
-```text
-Create a warm, detailed editorial illustration of this German sentence. No text or lettering in the image. Never include any words, letters, captions, signs, speech bubbles, signatures, or watermarks. Scene: [확정한 독일어 문장]
-```
-
-기본 분위기는 따뜻하고 섬세한 삽화다. 생성 이미지 안에는 글자를 절대 넣지 않도록 영어로 지시하고, 자막·표지판·말풍선·서명·워터마크도 제외하도록 요청한다. 삽화의 분위기는 이 함수에서 수정할 수 있다. 카드의 단어·문장·한국어 해석·생성 날짜는 Pillow가 합성한다.
-
 ## 설정과 구성
 
 기본값은 [settings.py](settings.py)에서 수정한다.

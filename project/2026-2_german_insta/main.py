@@ -38,10 +38,10 @@ def _confirm(draft: str, label: str, input_fn: Callable, output_fn: Callable) ->
 
 def image_prompt(sentence: str) -> str:
     return (
-        "Create a warm, detailed editorial illustration of this German sentence. "
-        "No text or lettering in the image. "
+        "Create a warm, detailed editorial illustration of given German sentence. "
         "Never include any words, letters, captions, signs, speech bubbles, signatures, "
-        "or watermarks. "
+        "or watermarks in the image. "
+        "Do not include any sexually suggestive or violent scenes. "
         f"Scene: {sentence}"
     )
 

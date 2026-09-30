@@ -251,6 +251,7 @@ def _worker(path: Path, words: list[str]) -> list[dict[str, str]]:
         "Write one natural German sentence at CEFR B1–B2 level for EACH word below, "
         "in the same order. Each sentence must use its assigned word (inflection is allowed), "
         "describe an everyday situation, and contain about 12–25 words. "
+        "Do not include any sexually suggestive or violent descriptions. "
         "For each sentence, provide an accurate, natural Korean translation using Hangul. "
         "Return ONLY a JSON array of two objects with keys german and korean, "
         'like [{"german":"...", "korean":"..."}, {"german":"...", "korean":"..."}]. '
