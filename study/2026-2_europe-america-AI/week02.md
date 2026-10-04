@@ -1,5 +1,7 @@
 # Week 2
 
+- 실습 날짜: 2026.09.19
+
 ## 실습 1 
 
 [OpenAI Tokenizer](https://platform.openai.com/tokenizer)

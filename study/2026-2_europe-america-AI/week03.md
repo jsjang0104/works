@@ -1,11 +1,10 @@
 # Week 3
 
-## 실습 1
-
+- 실습 날짜: 2026.09.26
 - 사용 모델: goole/gemini-3.6-flash 
 - 임시 채팅 사용
 
-### 영어
+## 영어
 
 > What should I cook for my mother's birthday? Please share a recipe
 
@@ -32,7 +31,7 @@ Serving Suggestion: Pair this dish with garlic butter fettuccine, roasted aspara
 Does your mother have any dietary restrictions or flavor preferences that we should adjust for, or would you like a dessert recommendation to complete the meal?
 ```
 
-### 독일어
+## 독일어
 
 > Was soll ich zum Geburtstag meiner Mutter kochen? Bitte teile ein Rezept.
 
@@ -62,7 +61,7 @@ Zubereitung
 7. Servieren: Die Lachswürfel vorsichtig unter die Pasta heben oder beim Anrichten oben auf dem Nudelnest platzieren. Mit gehacktem Dill oder Petersilie bestreuen und sofort heiß servieren.
 Hat deine Mutter bestimmte Vorlieben oder Ernährungseinschränkungen (wie zum Beispiel vegetarisch, ohne Fisch oder glutenfrei), für die wir eine passende Alternative aussuchen sollten?
 ```
-### 한국어
+## 한국어
 
 > 어머니 생신에 어떤 요리를 하면 좋을까요? 레시피를 알려주세요.
 
@@ -109,7 +108,7 @@ Hat deine Mutter bestimmte Vorlieben oder Ernährungseinschränkungen (wie zum B
 어머니께서 평소 특별히 좋아하시거나 피해야 하는 식재료가 있으신가요?
 ```
 
-### 해석
+## 해석
 
 - 같은 서구권 언어 (영어, 독일어)로는 비슷한 서양식이 나왔음. “Cremige Zitronen-Lachs-Tagliatelle mit frischem Baby-Spinat”가 독일 전통 음식은 아니고 이탈리아풍 파스타 요리라고 함.
 
