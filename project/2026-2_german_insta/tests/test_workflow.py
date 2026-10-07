@@ -5,7 +5,7 @@ from io import BytesIO
 from PIL import Image
 
 HASHTAGS = "#한국외대독일어과 #어휘와구문B2"
-BODY = "FLUX Space MCP에 연결하여 AI 이미지를 생성하였습니다."
+BODY = "MCP를 통해 FLUX Space에 연결하여 AI 이미지를 생성하였습니다."
 MANUAL_INPUT = [
     "Haus",
     "Baum",
@@ -65,7 +65,7 @@ def test_busy_gpu_requests_both_languages_and_saves_manual_captions(
     )
     folder = tmp_path / "2026-09-19"
     assert result == 0
-    assert any("직접 독일어 문장을 입력해라" in line for line in output)
+    assert any("직접 독일어 문장을 입력해주세요." in line for line in output)
     assert any("한국어 해석" in line for line in output)
     assert rendered == [
         ("Haus", "Das Haus ist groß.", "그 집은 크다.", "2026-09-19"),

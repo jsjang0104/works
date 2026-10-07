@@ -33,7 +33,7 @@ def test_cli_uses_project_date_directory_when_launched_elsewhere(tmp_path):
     )
     day_after = datetime.now(UTC).astimezone().date().isoformat()
     assert first.returncode == 0, first.stdout + first.stderr
-    assert "직접 독일어 문장을 입력해라" in first.stdout
+    assert "직접 독일어 문장을 입력해주세요." in first.stdout
     assert "기존 이미지 파일 경로" in first.stdout
     outputs = list(project.glob("20??-??-??"))
     assert len(outputs) == 1

@@ -87,14 +87,21 @@ def wrap_text(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[s
     return lines
 
 
+def _latin_font(size: int, *, bold: bool = False) -> ImageFont.FreeTypeFont:
+    font_path = Path(settings.FONT_BOLD if bold else settings.FONT_REGULAR)
+    if not font_path.is_file():
+        font_path = Path(settings.FONT_KOREAN)
+    font = ImageFont.truetype(str(font_path), size)
+    if font_path == Path(settings.FONT_KOREAN):
+        font.set_variation_by_name("Bold" if bold else "Regular")
+    return font
+
+
 def _fit(
     text: str, *, bold: bool, width: int, height: int, largest: int, smallest: int
 ) -> tuple[ImageFont.FreeTypeFont, list[str], int]:
-    font_path = settings.FONT_BOLD if bold else settings.FONT_REGULAR
-    if not Path(font_path).is_file():
-        font_path = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
     for size in range(largest, smallest - 1, -1):
-        font = ImageFont.truetype(font_path, size)
+        font = _latin_font(size, bold=bold)
         lines = wrap_text(text, font, width)
         spacing = sum(font.getmetrics()) + 8
         if len(lines) * spacing <= height:
@@ -105,7 +112,7 @@ def _fit(
 def _bilingual_layout(sentence: str, translation: str, width: int, height: int):
     """Fit both languages together so their blocks cannot overlap."""
     for size in range(43, 14, -1):
-        german_font = ImageFont.truetype(settings.FONT_REGULAR, size)
+        german_font = _latin_font(size)
         korean_font = ImageFont.truetype(
             str(settings.FONT_KOREAN), max(15, round(size * 0.76))
         )
@@ -131,7 +138,7 @@ def render_card(
     canvas = Image.new("RGB", (1080, 1350), "#F6F3EB")
     draw = ImageDraw.Draw(canvas)
     ink, green = "#203B33", "#376854"
-    small = ImageFont.truetype(settings.FONT_REGULAR, 22)
+    small = _latin_font(22)
     draw.text((64, 49), "WORT & BILD", font=small, fill=green)
     draw.text((1016, 49), date_label, font=small, fill=green, anchor="ra")
     draw.line((64, 91, 1016, 91), fill="#D5DACE", width=2)

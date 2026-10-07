@@ -4,6 +4,8 @@ from io import BytesIO
 
 from PIL import Image, ImageFont
 
+import settings
+
 
 def subject():
     assert importlib.util.find_spec("cards"), "Implement dated card exports"
@@ -58,7 +60,8 @@ def test_render_exports_portrait_jpeg_with_original_sentence():
 
 def test_long_compound_words_wrap_without_horizontal_overflow():
     cards = subject()
-    font = ImageFont.truetype("DejaVuSans.ttf", 40)
+    font = ImageFont.truetype(str(settings.FONT_KOREAN), 40)
+    font.set_variation_by_name("Regular")
     lines = cards.wrap_text(
         "Donaudampfschifffahrtsgesellschaftskapitän " * 5, font, 280
     )
@@ -72,16 +75,43 @@ def test_long_compound_words_wrap_without_horizontal_overflow():
 def test_caption_contains_only_two_hashtags_and_fixed_body():
     cards = subject()
     assert cards.make_caption() == (
-        "#한국외대독일어과 #어휘와구문B2\n\nFLUX Space MCP에 연결하여 AI 이미지를 생성하였습니다.\n"
+        "#한국외대독일어과 #어휘와구문B2\n\nMCP를 통해 FLUX Space에 연결하여 AI 이미지를 생성하였습니다.\n"
     )
 
 
 def test_korean_font_has_distinct_hangul_glyphs():
-    import settings
-
     font = ImageFont.truetype(str(settings.FONT_KOREAN), 36)
     # Unsupported letters would both render as the same missing-glyph box.
     assert bytes(font.getmask("한")) != bytes(font.getmask("글"))
+
+
+def test_render_uses_bundled_regular_and_bold_when_system_fonts_are_missing(
+    monkeypatch, tmp_path
+):
+    from PIL import ImageDraw
+
+    cards = subject()
+    monkeypatch.setattr(settings, "FONT_REGULAR", tmp_path / "missing-regular.ttf")
+    monkeypatch.setattr(settings, "FONT_BOLD", tmp_path / "missing-bold.ttf")
+    fonts = {}
+    original = ImageDraw.ImageDraw.text
+
+    def capture(self, xy, text, *args, **kwargs):
+        fonts[text] = kwargs["font"].getname()
+        return original(self, xy, text, *args, **kwargs)
+
+    monkeypatch.setattr(ImageDraw.ImageDraw, "text", capture)
+    source = BytesIO()
+    Image.new("RGB", (500, 500), "white").save(source, "PNG")
+    rendered = cards.render_card(
+        source.getvalue(), "Haus", "Das Haus ist groß.", "그 집은 크다.", "2026-09-19"
+    )
+    with Image.open(BytesIO(rendered)) as image:
+        assert image.size == (1080, 1350)
+        assert image.format == "JPEG"
+    assert fonts["Haus"] == ("Noto Sans KR", "Bold")
+    assert fonts["Das Haus ist groß."] == ("Noto Sans KR", "Regular")
+    assert fonts["2026-09-19"] == ("Noto Sans KR", "Regular")
 
 
 def test_translation_is_below_german_and_date_is_at_top(monkeypatch):

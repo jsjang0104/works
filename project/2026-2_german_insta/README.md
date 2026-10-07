@@ -44,9 +44,11 @@
 ## 실행 방법
 
 ```bash
-cd ~/Workspace/works/project/2026-2_german_insta
+cd ~/Workspace/git/works/project/2026-2_german_insta
 .venv/bin/python main.py
 ```
+
+macOS에서는 독일어 문장과 한국어 해석을 직접 입력한다. NVIDIA GPU가 없으면 자동으로 직접 입력으로 전환된다.
 
 ## 설정과 구성
 
@@ -60,4 +62,5 @@ cd ~/Workspace/works/project/2026-2_german_insta
 | 모델 로딩 | 4-bit NF4, `balanced`로 GPU 분산, 로컬 파일만 사용; 별도 프로세스에서 최대 240초 실행 |
 | 이미지 생성 | [evalstate/flux1_schnell](https://huggingface.co/spaces/evalstate/flux1_schnell)의 `flux1_schnell_infer` MCP 도구 |
 | 이미지 요청 | 1024×768, 4 steps; MCP 호출 제한 시간 180초 |
+| 글꼴 | 독일어는 설정된 DejaVu Sans를 사용하고, 파일이 없으면 동봉한 Noto Sans KR의 Regular/Bold 사용; 한국어는 Noto Sans KR 사용 |
 | 문장·이미지 프롬프트·캡션 | 독일어 문장과 한국어 해석을 로컬 LLM으로 함께 생성; 확정된 문장으로 이미지 프롬프트를 구성하고 캡션은 고정 문구로 저장 |

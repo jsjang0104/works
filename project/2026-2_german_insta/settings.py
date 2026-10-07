@@ -13,6 +13,7 @@ LLM_TIMEOUT_SECONDS = 240
 MCP_URL = "https://evalstate-flux1-schnell.hf.space/gradio_api/mcp/sse"
 MCP_TOOL = "flux1_schnell_infer"
 MCP_TIMEOUT_SECONDS = 180
+# 지정한 글꼴 파일이 없으면 동봉한 FONT_KOREAN의 Regular/Bold를 사용합니다.
 FONT_REGULAR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 

@@ -80,9 +80,7 @@ def _image_with_recovery(
             with Image.open(BytesIO(data)) as image:
                 image.verify()
             return data
-        except (
-            Exception
-        ) as error:  # noqa: BLE001 -- recover at the interactive boundary
+        except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
             output_fn(f"이미지를 준비하지 못했습니다: {error}")
             answer = input_fn(
                 "다시 시도하려면 r, 기존 이미지 파일 경로, 건너뛰려면 Enter: "
@@ -136,9 +134,7 @@ def run(
                 raise ValueError(
                     "사용할 수 있는 독일어 문장과 한국어 해석 두 쌍을 얻지 못했습니다."
                 )
-        except (
-            Exception
-        ) as error:  # noqa: BLE001 -- recover at the interactive boundary
+        except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
             output_fn(f"자동 문장 생성을 사용할 수 없습니다: {error}")
             drafts = None
         sentences, translations = [], []
@@ -213,9 +209,7 @@ def run(
                     paths.image,
                     render_card(data, word, sentence, translation, day.isoformat()),
                 )
-            except (
-                Exception
-            ) as error:  # noqa: BLE001 -- recover at the interactive boundary
+            except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
                 output_fn(f"카드를 저장하지 못했습니다: {error}. 캡션은 보존했습니다.")
                 continue
             completed += 1
