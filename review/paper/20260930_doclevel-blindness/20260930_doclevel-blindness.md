@@ -143,24 +143,71 @@
 
 #### 4.4 Human Evaluation
 
+- ESA annotation protocol on the Pearmut annotation platform
+- 10 professional En->Ko translators, each annotates 706 tasks drawn randomly from three conditions (condition is blinded)
+
 #### 4.5 Automatic Metrics
 
+- Segment-level: chrF, XCOMET-XXL, METRICX-24-XXL, COMETKIWI-XXL, METRICX-24-QE-XXL, GEMBA V2
+- Document-level: d-BLEU, doc-COMET, SLIDE, FALCON, document-level variants of XCOMET-XXL and METRICX-24-XXL
+
 #### 4.6 Testing Procedure
+
+- Hypothesis testing
+
+- Behavioral measures
 
 
 ### 5. Results
 
-#### 5.1 Scores are insentive to discourse
+- 아래 figure: summarization
 
-#### 5.2 System rankings collapse 
+![alt text](image-3.png)
 
-#### 5.3 No additional errors are marked
+#### 5.1 [H1] Scores are insentive to discourse
+
+- Statistically equivalent scores
+
+- Document-level metrics react in the wrong direction
+
+#### 5.2 [H2] System rankings collapse 
+
+- Rankings converge across conditions
+
+- Statistical clusters coincide
+
+#### 5.3 [H3] No additional errors are marked
+
+- Error counts are equivalent
+
+- Error-free rates coincide
 
 #### 5.4 Mechanism: MIX is evaluated in isolation
 
+- Score recoverability
+
+- Metric-human agreement pearks under MIX
+
 #### 5.5 Behavioral analysis
+
+IAA.
+
+Annotation time.
 
 #### 5.6 Domain-wise replication
 
-
 ### 6. Conclusion
+
+### 7. Limitations
+
+- Language selection
+
+- Domain composition
+
+- Sample sizes and IAA.
+
+- Scope of conterfactual
+
+- Scope of contribution
+
+## 내 생각
