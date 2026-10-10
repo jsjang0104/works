@@ -8,9 +8,7 @@
 
 ---
 
-## 내용 요약
-
-### 1. Introduction
+## 1. Introduction
 
 - Document-level MT는 '문서 단위로 평가될 것'이라는 assumption 하에 수행되어야 한다. 
     - 하지만 현존하는 document-level evaluation protocol들은 완전히 유효하다고 검증된적이 없음.
@@ -34,22 +32,22 @@
     - 18,420개의 expert annotation 수집
 
 - Main finding:
-    1. Human ESA annotation은 통계적으로 유의하며 near-identical system rankings를 가짐. 또한 MIX와 DOC 사이에 확연한 차이를 보이는 error annotation 수행
+    1. Human ESA annotation은 통계적으로 유의하며 near-identical system rankings를 가짐. 
     2. 모든 14개의 automatic metrics는 DOC과 MIX 사이에서 same ranking을 수행한다. 오직 human evalauation에서만 slight divergence를 볼 수 있음.
     3. Annotator들이 느끼는 문제성은 **문장 사이의 관계에 있는데**, 기록하는 단위는 ESA로 각 문장 안의 오류이다. 따라서 문서 전체에서 느낀 문제를 어디에, 얼마나 감점해서 반영해야 하는지 불명확해질 수 있음. 따라서 divergence가 slight했다고 해서, 'annotator들이 context를 무시했다'라고 할 수 없으며 'score recoverability', 'agreement', 'time-on-task'등이 annotator behavior를 바꾸게 할 수 있음.
 
 - 결론: 현존 evaluation protocol에서는 document-level 평가라고 보고된 많은 것들이 그저 'segment-level signal aggregated at the document level'임. --> 더 많은 discourse-level에서의 발전 필요
 
-### 2. Related Works
+## 2. Related Works
 
-#### 2.1 Human Evaluation of Document MT
+### 2.1 Human Evaluation of Document MT
 
 - segment-level aggregation: DA (Direct Assessment)
 - error taxonomies and annotation interfaces: MQM (Multidimensional Quality Metrics), ESA (Error Span Annotation), RATE
 - 최근 document-level error category도 도입됨 (Kim, 2025a; Song et al., 2025)
 - 하지만 현존 방법론들은 모두 segment-centric: no direct evidence that the resulting annotations capture document-level quality.
 
-#### 2.2 Automatic Evaluation of Document MT
+### 2.2 Automatic Evaluation of Document MT
 
 - Context-Extended Metrics
     - full document operation: d-BLUE, doc-COMET
@@ -69,7 +67,7 @@
     - context를 진짜로 사용하는 llm system은 해당 context가 바뀌었을 때 다른 행동 양상을 보여야함.
     - 이 논문에서는 이걸 검증
 
-### 3. Methods
+## 3. Methods
 
 - The ESA protocol
     - translation system ${s}$ 에 의해 번역된 document ${d}$ 를 ${n}$ 개의 segments로 분리
@@ -97,9 +95,9 @@
         3. severity level on each span
     - 만약 ${e^{ctx,mix}_{s,k}}$ 를 정말로 ${e^{ctx}_{s,k}}$ 와 다르게 인식한다면, 점수가 더 낮아야함
 
-### 4. Experiment
+## 4. Experiment
 
-#### 4.1 Hypothesis
+### 4.1 Hypothesis
 
 - 만약 cross-segment coherence가 제대로 반영되고 있다면, 다음과 같이 세 개의 prediction을 formalize 할 수 있다.
     - ${\mu_{c}}$ -> mean segment-level score
@@ -125,7 +123,7 @@
 - 필터링 후 --> 3070개의 unique translations from 9 MT systems and one humen reference across 23 document
 - 이후 ESA annotation은 두명의 전문가가 수행
 
-#### 4.3 Manipulation checks
+### 4.3 Manipulation checks
 
 - MIX가 진짜로 의도한대로 incoheren한 문서인가?를 위한 점검
 
@@ -141,17 +139,17 @@
     - 평가자들에게 두 개의 버전을 보여주고 "어느 쪽이 일관적으로 보이는가?" 선택하게 함
     - 그 결과 87%의 판단에서 DOC가 선택됨
 
-#### 4.4 Human Evaluation
+### 4.4 Human Evaluation
 
 - ESA annotation protocol on the Pearmut annotation platform
 - 10 professional En->Ko translators, each annotates 706 tasks drawn randomly from three conditions (condition is blinded)
 
-#### 4.5 Automatic Metrics
+### 4.5 Automatic Metrics
 
 - Segment-level: chrF, XCOMET-XXL, METRICX-24-XXL, COMETKIWI-XXL, METRICX-24-QE-XXL, GEMBA V2
 - Document-level: d-BLEU, doc-COMET, SLIDE, FALCON, document-level variants of XCOMET-XXL and METRICX-24-XXL
 
-#### 4.6 Testing Procedure
+### 4.6 Testing Procedure
 
 - Hypothesis testing: 각 hypothesis를 single targeted procedure로 테스트함
     - H1: DOC와 MIX의 평균 평가 점수가 동등한가? -> Two One-Sided Tests (TOST) procedure로 ${\epsilon}$ =3일 때 DOC과 MIX score가 statiscally equivalent한지 체크
@@ -171,47 +169,69 @@
 
 ![alt text](image-4.png)
 
-### 5. Results
+## 5. Results
 
 - 아래 figure: summarization
 
 ![alt text](image-3.png)
 
-#### 5.1 [H1] Scores are insentive to discourse
+- central pattern of the section is shown on (A): DOC and MIX behave equivalently under ESA, both for human and automatic metrics 
 
-- Statistically equivalent scores
+### 5.1 [H1] Scores are insentive to discourse
 
-- Document-level metrics react in the wrong direction
+- Statistically equivalent scores: SEG, DOC, MIX 세 조건의 평가 점수가 human evaluation에서 실질적으로 동등하게 나타남
 
-#### 5.2 [H2] System rankings collapse 
+![alt text](image-5.png)
 
-- Rankings converge across conditions
+- Document-level metrics react in the wrong direction: 14개 automated metrics에서도 실질적으로 동등
 
-- Statistical clusters coincide
+### 5.2 [H2] System rankings collapse 
 
-#### 5.3 [H3] No additional errors are marked
+- Rankings converge across conditions: DOC와 MIX에서 MT system 순위가 거의 동일
 
-- Error counts are equivalent
+![alt text](image-6.png)
 
-- Error-free rates coincide
+- Statistical clusters coincide: 통계적으로 구분하기 어려운 system들을 같은 cluster로 묶었을 때도 구분이 잘 안됨
 
-#### 5.4 Mechanism: MIX is evaluated in isolation
+### 5.3 [H3] No additional errors are marked
 
-- Score recoverability
+- Error counts are equivalent: ESA에서도 (오류 개수) 통계적으로 동등함
 
-- Metric-human agreement pearks under MIX
+![alt text](image-7.png)
 
-#### 5.5 Behavioral analysis
+- Error-free rates coincide: 오류가 하나도 없다고 표시한 비율도 비슷, 또한 일관성이 깨진 지점에서 추가 오류 표시가 집중되는 현상조차 없었음
 
-IAA.
+### 5.4 Mechanism: MIX is evaluated in isolation
 
-Annotation time.
+- Score recoverability: SEG에서 얻은 점수를 이용하여 DOC과 MIX의 점수를 각각 예측하는 선형회귀분석 수행 -> MIX에서 평가자들이 전체 문서를 보고 있더라도 개별 문장의 품질을 중심을 평가하는 경향이 있다는 해석
 
-#### 5.6 Domain-wise replication
+- Metric-human agreement pearks under MIX: 모든 조건에서 MIX 조건의 agreement가 높게 나타남 -> 인간, automated metric 모두 segment-level 품질에 좌우 받는다는 해석
 
-### 6. Conclusion
+![alt text](image-8.png)
 
-### 7. Limitations
+### 5.5 Behavioral analysis
+
+- IAA. (figure 2의 (E))
+    - DOC -> document-level IAA가 높고, segment-level IAA가 낮음
+    - MIX -> segment-level IAA가 높음 
+    - 하지만 모든 알파가 낮으므로 신뢰도가 낮음
+
+- Annotation time.
+    - 평가자가 문장하나를 평가하는데 걸린 시간: SEG > DOC > MIX
+    - 즉 문서를 보여주는 방식은 평가자의 행동에 영향을 줌
+
+### 5.6 Domain-wise replication
+
+- 앞선 결과들이 특정 도메인에 한정되어있는가? -> 문맥 의존도 순서 (Literary > Social > News)
+- [H1] 도메인별 점수 차이: 문맥 의존도가 높아진다고해서 MIX의 평가 점수가 낮아지는 패턴은 관찰되지 않음
+- [H2] 도메인별 시스템 순위 일치도 (Kendall's tau): 문맥 의존도가 높을 수록 시스템 순위 일치도가 낮아짐
+- [H3] 도메인별 오류 개수 차이: 세 도메인 모두 동등성 범위 안에 있음
+
+## 6. Conclusion
+
+![alt text](image-9.png)
+
+## 7. Limitations
 
 - Language selection
 
@@ -219,8 +239,6 @@ Annotation time.
 
 - Sample sizes and IAA.
 
-- Scope of conterfactual
+- Scope of conterfactual: MIX is upper bound on consistency signal rather than as a sample of naturally occuring document-level errors
 
-- Scope of contribution
-
-## 내 생각
+- Scope of contribution: focuses on ESA (MQM 등으로 확인 필요)
