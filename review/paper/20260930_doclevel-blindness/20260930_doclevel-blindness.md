@@ -153,10 +153,23 @@
 
 #### 4.6 Testing Procedure
 
-- Hypothesis testing
+- Hypothesis testing: 각 hypothesis를 single targeted procedure로 테스트함
+    - H1: DOC와 MIX의 평균 평가 점수가 동등한가? -> Two One-Sided Tests (TOST) procedure로 ${\epsilon}$ =3일 때 DOC과 MIX score가 statiscally equivalent한지 체크
+        - TOST: 두 집단 사이에 의미 있는 차이가 없다는 것을 통계적으로 검증하는 방법
+        - 참고) 일반적인 t-test는 두 집단 사이에 의미 있는 차이가 '있다는' 것을 통계적으로 검증
+    - H2: 시스템 순위가 동등한가? -> ${\gamma_{DOC}}$ 과 ${\gamma_{MIX}}$ 사이의 Kendall's ${\tau}$ 측정 (on system-level mean scores) -> lower bound  ${\tau_{min} = 0.667}$ 과 비교
+    - H3: ESA가 동등한가? -> paired TOST on per-segment error counts with ${\epsilon_{err}=0.5}$
 
-- Behavioral measures
+- Behavioral measures (인간 annotators)
+    - Krippendorff's ${\alpha}$
+    - per-segment annotation time
 
+- **[참고]**: Pearson / Spearmen / Kendall's ${\tau}$
+    - Pearson: 두 변수의 수치가 선형적으로 함께 변하는가?
+    - Spearman: 두 변수의 순위가 비슷한가?
+    - Kendall's tau: 두 변수에서 두 대상을 짝지어 비교했을 때 순서가 일치하는가?
+
+![alt text](image-4.png)
 
 ### 5. Results
 
