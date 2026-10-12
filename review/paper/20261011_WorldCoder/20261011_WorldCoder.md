@@ -91,15 +91,64 @@
 
 - Agent는 past environment interactions로부터 dataset D를 모음. 
 - 또한 initial state ${s_0}$ 와 context of each episode ${c}$ 도 모음 -> so that it can prefer world models that can reach the goal from an initial state
+- **The learning problem**: to construct Python prgrams implementing a transition function $\hat{T}$ and reward model ${\hat{R}}$ satisfying constraints ${\phi_1}$ (fit data) and ${\phi_2}$ (optimism) -> defined below
  
+![alt text](image-2.png) 
+
+- Program synthesis problem: ${\phi_1}$ and ${\phi_2}$ 를 동시에 만족하는 world model을 construct
+    - LLM에게 random subset of D를 줘서 prompting -> asking it to propse a candidate program
+
 ### Understanding optimism under uncertainty
+
+- Optimism under uncertainty는 pervasive principle임
+
+- 이 논문에서는 그걸 logical constraint between program and planner의 principle로 씀 
+
+- formal and intuitive guides (how this logical constraint plays out in context)
+    1. Exploration guided by goal-driven behavior
+    2. Formal analysis of exploratory behavior (discrete program에서의 아래 이미지의 definition들 참고)    
+    3. Following natural-language instructions
+
+![alt text](image-3.png)
 
 ### Overall architecture
 
+![alt text](image-4.png)
+
+- 궁극적으로 downstream decision-making을 수행
+- Architecture는 위 Algorithm 1에 나와있음
+
 ### Program synthesis via refinement
+
+- program synthesis = refinement = iteratively improve and debug its initial outputs
+
+- ![alt text](image-5.png) <- 이걸 만족할때까지 repeat
+
+- *REx*라고 하는 algorithm 사용 (to determine which program to refine next)
+    - promising해 보이는 프로그램을 우선시 (which is the context of the world model learning)
+    - instantiate by defining heuristic h, which measures progress towards satisfying ![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+- 이러한 refinement process는 GPT-4를 이용하여 구현 (당시 제일 좋았음)
 
 ## Experimental Results
 
-## Related Work
+- Sokoban: puzzle-solving task where the agent pushes boxes around 2d world
+
+![alt text](image-7.png)
+
+- Minigrid: suite of grid games designed for language-control RL (includes objects such as keys, doors, walls, balls, and boxes)
+
+![alt text](image-8.png)
+
+- AlfWorld: robost task planning. Houshold robot planning environment with various objects such as microwaves, cabinets, utensils, foods, ...
+
+![alt text](image-9.png)
 
 ## Limitations and Open Directions
+
+- 해당 논문에서는 deterministic dynamics만 고려 
+- code로 표현하면 efficient하고 transfer 하지만 high cost가 듦
+    - 여기서는 symbolic and discrete하지만 real world is messy and continuous
+- 해당 논문에서는 basic mechanism만 사용 (prompting) -> 다른 방법도 있을 것
