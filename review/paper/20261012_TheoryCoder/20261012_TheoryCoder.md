@@ -43,8 +43,6 @@
     3. 마지막으로 TheoryCoder가 이렇게 나온 learned model 및 high-level abstraction을 bileval planning 알고리즘을 통해 task를 품
         - 이 떄 bilevel planner는 모호한 PDDL을 harness to contstrain search in the low-lvel state space -> 인간의 체계적인 planning 사고 과정과 유사
 
-![alt text](image.png)
-
 ## 2 Related Work
 
 ### 2.1 Theory-based RL
@@ -91,7 +89,7 @@
 - 따라서 이 논문에서도 LLM을 online program synthesis에 이용함. (specifically, synthesis of the low-level transition model)
 - 다만 차별점: two seperate levels of abstraction -> planning efficiency and learning converngece benefic
 
-### 2.3 Bilevel Planning
+### 2.3 Bilevel Planning (이중 수준 계획)
 
 - Robotics (task-and-motion-planning)에서 많이 쓰임
 - States and actions을 위해 abstract representations 사용
@@ -112,6 +110,22 @@
 ## 3 Theory Coder
 
 ### 3.1 Overview
+
+- 아래 figure: iterative cycle of hierarchical planning, acting, and model updating architecture
+
+![alt text](image.png)
+
+- 아래 figure: PDDL planner가 어떻게 high-level plans를 만드는지 -> 이후 low-lvel breadth-first search (BFS) planner에 의해 executable actions으로 바뀜 
+
+![alt text](image-1.png)
+
+- 아래 figure: BFS planner는 world model에서 transitions를 simulating함으로서 적절한 action sequence를 판별함
+
+![alt text](image-2.png)
+
+- 실패하는 경우
+    - high-level plan의 실패 -> world model undergoes refinement (correcting explicit errors or identifying discrepancies through exploratory goals)
+    - Simulation이 terminate하지 않는 경우 -> exploratory goal is initiated to uncover missing dymics in the model
 
 ### 3.2 Preliminaries
 
