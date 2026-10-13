@@ -43,6 +43,8 @@
     3. 마지막으로 TheoryCoder가 이렇게 나온 learned model 및 high-level abstraction을 bileval planning 알고리즘을 통해 task를 품
         - 이 떄 bilevel planner는 모호한 PDDL을 harness to contstrain search in the low-lvel state space -> 인간의 체계적인 planning 사고 과정과 유사
 
+![alt text](image.png)
+
 ## 2 Related Work
 
 ### 2.1 Theory-based RL
@@ -91,7 +93,21 @@
 
 ### 2.3 Bilevel Planning
 
+- Robotics (task-and-motion-planning)에서 많이 쓰임
+- States and actions을 위해 abstract representations 사용
+    - abstract states -> referred to as predicates
+    - abstract actions -> referred to as operators
+- Planning problem은 보통 PDDL로 표현됨
+
+- 근데 Abstraction들은 보통 학습보다는 hand-designed됨
+    - 이 논문의 차별점: operators를 low-level transition model의 learning을 가이드 하는데 씀. -> more granular domain mechanism capture
+
 ### 2.4 LLMs for planning and low-level policies
+
+- LLM, VLLM prompting
+    - input: text-based state representation of the domain
+    - output: plan
+- 문제: spatial reasoning issues and hallucinations
 
 ## 3 Theory Coder
 
