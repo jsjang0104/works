@@ -5,6 +5,8 @@
 - **Submission Date**: July 2025
 ---
 
+- 한줄 요약: LLM이 학습한 low-level Python world model을 주어진 high-level PDDL abstraction과 연결해 **bilevel planning**을 수행
+
 ## 1 Introduction
 
 - Video games는 좋은 testbed임
@@ -125,36 +127,57 @@
 
 - 실패하는 경우
     - high-level plan의 실패 -> world model undergoes refinement (correcting explicit errors or identifying discrepancies through exploratory goals)
-    - Simulation이 terminate하지 않는 경우 -> exploratory goal is initiated to uncover missing dymics in the model
+    - Simulation이 terminate하지 않는 경우 -> exploratory goal is initiated to uncover missing dynamics in the model
 
 ### 3.2 Preliminaries
 
+- Classifical planning problem
+    - transition function T: S X A
+    - goal of agent: find a plan (sequence of actions) ${\pi}$ that minimizes the sum of cost of taking action in state n
+        - 이 논문에서 cost c(s,a)는 constant로 취급
+    - optimal plan: shortest sequence
+- The agent has acess to an estimate ${\hat{T}=f(D)}$
+    - D: observation data
+    - f: estimation algorithm
+
 ### 3.3 Theory language
+
+- transition funciton = low-level dynamics of the environment
+    - agent는 abstract actions (operators)와 states (predicates)를 나타냄
+        - actions: mapping from an action sequence to a target state
+        - states: Boolean predicate that encodes features of the state that are important for planning
+
+- 추후 이 low-level transition fuction은 high-level abstraction이랑 combine됨
+
+- 쓰이는 언어는 두 가지
+    1. PDDL: represents the domain using high-level abstractions and handles the high-level planning for TheoryCoder
+    2. Python: represents the domain's low-level state space and handles the low-level planning in the raw state space
+
+- 여기서 잠깐! PDDL이란?
+    - Planning Domain Definition Language
+    - Agent가 목표를 달성하기 위해 "어떤 행동"을 "어떤 순서로" 수행해야하는지 계획할 수 있도록, **환경**과 **행동**을 정의하는 언어 
+    - 주로 AI Planing에서 사용됨
+    - 다음 세 가지를 정의함
+        1. Initinal State (초기 상태)
+        2. Actions (행동)
+        3. Goal State (목표 상태)
+    - 중요한 것은 각 행동에 Precondition (전제조건)과 Effect(효과)가 있다는 것
+    - 이 논문에서의 예시:
+        - PDDL: 열쇠를 획득하고 문을 여셈
+        - Python: 오른쪽 3칸 이동 -> 위쪽 2칸 이동 -> 열쇠 획득 -> 아래로 3칸 이동 -> 문 열기
 
 #### 3.3.1 High-level planning and abstractions
 
+- 먼저 Fast-Downward (Helmart, 2006)라는 PDDL planner로 high-level output을 만들어냄 (problem file and domain files are hard coded)
+- 그리고 나서 low-level에서 파이썬 최적화 하는거 ㅇㅇ
+
 #### 3.3.2 Low-level Python transition function and planning
+
+- Python versions of the predicates -> bridge between the high-level PDDL abstractions and low-level Python components
+    - bridged by function called "checker": that maps abstract states to low-level states
+    - checker function은 low-level states가 given grounded operator를 다 만족시켰는지 판정함
+- Figure 3이 그 예시
 
 ### 3.4 Learning
 
 ### 3.5 Summary
-
-## 4 Experiments
-
-### 4.1 Evaluation and Metrics
-
-### 4.2 Environments and Tasks
-
-### 4.3 Results 
-
-### 4.4 Role of Abstraction Design
-
-### 4.5 Overall Sample Efficiency and Progress Across Domains
-
-### 4.6 Behavior Comparison
-
-### 4.7 Analysis of Robustness and Failure
-
-### 4.8 Excluding Training Data Contamination
-
-## 5 Conclusion
