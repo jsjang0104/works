@@ -38,6 +38,12 @@ def test_cli_uses_project_date_directory_when_launched_elsewhere(tmp_path):
     outputs = list(project.glob("20??-??-??"))
     assert len(outputs) == 1
     assert outputs[0].name in (day_before, day_after)
+    caption = outputs[0] / f"{outputs[0].name}.txt"
+    assert list(outputs[0].glob("*.txt")) == [caption]
+    assert caption.read_text(encoding="utf-8") == (
+        "#한국외대독일어과 #어휘와구문B2\n\n"
+        "MCP를 통해 FLUX Space에 연결하여 AI 이미지를 생성하였습니다.\n"
+    )
     assert not (tmp_path / outputs[0].name).exists()
     initial = {path.name: path.read_bytes() for path in outputs[0].iterdir()}
     second = subprocess.run(
@@ -50,7 +56,13 @@ def test_cli_uses_project_date_directory_when_launched_elsewhere(tmp_path):
     )
     assert second.returncode == 0, second.stdout + second.stderr
     assert len(list(outputs[0].glob("*.jpg"))) == 4
-    assert len(list(outputs[0].glob("*.txt"))) == 4
+    assert list(outputs[0].glob("*.txt")) == [caption]
+    assert sorted(path.name for path in outputs[0].glob("*.jpg")) == [
+        "01_groß.jpg",
+        "02_helfen.jpg",
+        "03_groß.jpg",
+        "04_helfen.jpg",
+    ]
     assert all(
         (outputs[0] / name).read_bytes() == content for name, content in initial.items()
     )

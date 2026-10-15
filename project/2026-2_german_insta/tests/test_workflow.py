@@ -73,8 +73,10 @@ def test_busy_gpu_requests_both_languages_and_saves_manual_captions(
     ]
     assert len(list(folder.glob("*.jpg"))) == 2
     captions = list(folder.glob("*.txt"))
-    assert len(captions) == 2
+    assert captions == [folder / "2026-09-19.txt"]
     assert all(p.read_text(encoding="utf-8") == expected_caption() for p in captions)
+    assert sorted(p.name for p in folder.glob("*.jpg")) == ["01_Haus.jpg", "02_Baum.jpg"]
+    assert any("캡션 1개 저장" in line for line in output)
 
 
 def test_default_run_checks_llm_then_accepts_manual_input_on_failure(tmp_path):
@@ -140,8 +142,8 @@ def test_accepted_and_replaced_sentences_get_same_fixed_caption(tmp_path, monkey
         ("Der Baum wächst im Garten.", "그 나무는 정원에서 자란다."),
     ]
     folder = tmp_path / "2026-09-19"
-    assert (folder / "01_Haus.txt").read_text() == expected_caption()
-    assert (folder / "02_Baum.txt").read_text() == expected_caption()
+    assert list(folder.glob("*.txt")) == [folder / "2026-09-19.txt"]
+    assert (folder / "2026-09-19.txt").read_text() == expected_caption()
 
 
 def test_editing_only_translation_keeps_fixed_caption(tmp_path):
@@ -180,8 +182,10 @@ def test_mcp_failure_preserves_captions_and_reports_partial_result(tmp_path):
     app = subject()
     answers = iter([*MANUAL_INPUT, "", ""])
     output = []
+    captions_at_request = []
 
     def failed_image(prompt):
+        captions_at_request.append([path.read_text() for path in tmp_path.rglob("*.txt")])
         raise RuntimeError("quota exceeded")
 
     result = app.run(
@@ -192,9 +196,32 @@ def test_mcp_failure_preserves_captions_and_reports_partial_result(tmp_path):
         image_generator=failed_image,
     )
     assert result == 1
-    assert len(list(tmp_path.rglob("*.txt"))) == 2
+    assert captions_at_request == [[expected_caption()], [expected_caption()]]
+    assert len(list(tmp_path.rglob("*.txt"))) == 1
     assert not list(tmp_path.rglob("*.jpg"))
     assert any("0/2" in text for text in output)
+
+
+def test_same_word_twice_saves_two_images_and_one_daily_caption(tmp_path):
+    app = subject()
+    answers = iter(["Haus", "Haus", "", "", "", ""])
+    assert (
+        app.run(
+            root=tmp_path,
+            today=date(2026, 9, 19),
+            input_fn=lambda prompt: next(answers),
+            output_fn=lambda text: None,
+            sentence_generator=lambda words: [DRAFTS[0], DRAFTS[0]],
+            image_generator=lambda prompt: png(),
+        )
+        == 0
+    )
+    folder = tmp_path / "2026-09-19"
+    assert sorted(p.name for p in folder.iterdir()) == [
+        "01_Haus.jpg",
+        "02_Haus.jpg",
+        "2026-09-19.txt",
+    ]
 
 
 def test_keyboard_interrupt_is_clean(tmp_path):

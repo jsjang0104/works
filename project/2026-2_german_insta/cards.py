@@ -4,7 +4,6 @@ import os
 import re
 import tempfile
 import unicodedata
-from dataclasses import dataclass
 from datetime import UTC, date, datetime
 from io import BytesIO
 from pathlib import Path
@@ -14,22 +13,26 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 import settings
 
 
-@dataclass(frozen=True)
-class OutputPaths:
-    image: Path
-    caption: Path
-
-
 def make_caption() -> str:
     return "#한국외대독일어과 #어휘와구문B2\n\nMCP를 통해 FLUX Space에 연결하여 AI 이미지를 생성하였습니다.\n"
 
 
-def reserve_output(
-    root: Path, word: str, caption_text: str, today: date | None = None
-) -> OutputPaths:
-    """Save the caption first, reserving a unique name for this card."""
-    folder = Path(root) / (today or datetime.now(UTC).astimezone().date()).isoformat()
+def save_daily_caption(root: Path, today: date | None = None) -> Path:
+    """Save one fixed caption per day, reusing it on later runs."""
+    day = (today or datetime.now(UTC).astimezone().date()).isoformat()
+    folder = Path(root) / day
     folder.mkdir(parents=True, exist_ok=True)
+    caption = folder / f"{day}.txt"
+    try:
+        with caption.open("x", encoding="utf-8") as stream:
+            stream.write(make_caption())
+    except FileExistsError:
+        pass
+    return caption
+
+
+def next_image_path(folder: Path, word: str) -> Path:
+    """Choose the next image number after earlier cards have been saved."""
     word_slug = re.sub(r"[^\w-]+", "_", unicodedata.normalize("NFC", word))[:40].strip(
         "_-"
     )
@@ -38,18 +41,11 @@ def reserve_output(
     while True:
         stem = f"{number:02d}_{word_slug}"
         image = folder / f"{stem}.jpg"
-        caption = folder / f"{stem}.txt"
         # Sequence numbers are shared by all words and all runs that day.
         if any(folder.glob(f"{number:02d}_*")):
             number += 1
             continue
-        try:
-            with caption.open("x", encoding="utf-8") as stream:
-                stream.write(caption_text)
-        except FileExistsError:
-            number += 1
-            continue
-        return OutputPaths(image, caption)
+        return image
 
 
 def save_image(path: Path, data: bytes) -> None:

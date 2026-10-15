@@ -12,20 +12,28 @@ def subject():
     return importlib.import_module("cards")
 
 
-def test_dated_exports_preserve_german_and_never_overwrite(tmp_path):
+def test_daily_caption_is_shared_and_created_once_per_date(tmp_path):
     cards = subject()
-    first = cards.reserve_output(
-        tmp_path, "../größer", "Der Garten ist größer.", date(2026, 9, 19)
-    )
-    second = cards.reserve_output(
-        tmp_path, "../größer", "Noch größer.", date(2026, 9, 19)
-    )
-    assert first.caption.parent == tmp_path / "2026-09-19"
-    assert second.caption.parent == first.caption.parent
-    assert first.caption != second.caption
-    assert "Der Garten ist größer." in first.caption.read_text(encoding="utf-8")
-    assert first.image.suffix == ".jpg"
-    assert ".." not in first.image.name
+    first = cards.save_daily_caption(tmp_path, date(2026, 9, 19))
+    original_stat = first.stat()
+    second = cards.save_daily_caption(tmp_path, date(2026, 9, 19))
+    following_day = cards.save_daily_caption(tmp_path, date(2026, 9, 20))
+    assert first == second == tmp_path / "2026-09-19" / "2026-09-19.txt"
+    assert first.read_text(encoding="utf-8") == cards.make_caption()
+    assert first.stat().st_mtime_ns == original_stat.st_mtime_ns
+    assert following_day == tmp_path / "2026-09-20" / "2026-09-20.txt"
+    assert following_day.read_text(encoding="utf-8") == cards.make_caption()
+    assert len(list(tmp_path.rglob("*.txt"))) == 2
+
+
+def test_image_names_preserve_german_and_never_overwrite(tmp_path):
+    cards = subject()
+    first = cards.next_image_path(tmp_path, "../größer")
+    cards.save_image(first, b"keep")
+    second = cards.next_image_path(tmp_path, "../größer")
+    assert first.name == "01_größer.jpg"
+    assert second.name == "02_größer.jpg"
+    assert first.read_bytes() == b"keep"
 
 
 def test_existing_orphan_image_is_not_overwritten(tmp_path):
@@ -33,10 +41,8 @@ def test_existing_orphan_image_is_not_overwritten(tmp_path):
     folder = tmp_path / "2026-09-19"
     folder.mkdir()
     (folder / "01_Haus.jpg").write_bytes(b"keep")
-    paths = cards.reserve_output(
-        tmp_path, "Haus", "Das Haus ist groß.", date(2026, 9, 19)
-    )
-    assert paths.image.name != "01_Haus.jpg"
+    path = cards.next_image_path(folder, "Haus")
+    assert path.name == "02_Haus.jpg"
     assert (folder / "01_Haus.jpg").read_bytes() == b"keep"
 
 

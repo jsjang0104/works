@@ -6,7 +6,7 @@ from datetime import UTC, date, datetime
 from pathlib import Path
 
 import settings
-from cards import make_caption, render_card, reserve_output, save_image
+from cards import next_image_path, render_card, save_daily_caption, save_image
 
 MANUAL_MESSAGE = "직접 독일어 문장을 입력해주세요."
 
@@ -186,14 +186,12 @@ def run(
                 sentences.append(sentence)
                 translations.append(translation)
 
-        # Save both ready-to-post captions before the first network request.
-        outputs = [
-            reserve_output(Path(root), word, make_caption(), day) for word in words
-        ]
-        output_fn(f"캡션 저장 위치: {outputs[0].caption.parent.resolve()}")
+        # Keep the shared daily caption even when image generation fails.
+        caption = save_daily_caption(Path(root), day)
+        output_fn(f"캡션 저장 위치: {caption.resolve()}")
         completed = 0
-        for index, (word, sentence, translation, paths) in enumerate(
-            zip(words, sentences, translations, outputs)
+        for index, (word, sentence, translation) in enumerate(
+            zip(words, sentences, translations)
         ):
             output_fn(f"[{index + 1}/2] {word}: 이미지를 준비합니다.")
             data = _image_with_recovery(
@@ -201,21 +199,22 @@ def run(
             )
             if data is None:
                 output_fn(
-                    f"이미지 생성을 건너뛰었습니다. 캡션은 저장되어 있습니다: {paths.caption.name}"
+                    f"이미지 생성을 건너뛰었습니다. 캡션은 저장되어 있습니다: {caption.name}"
                 )
                 continue
             try:
+                image_path = next_image_path(caption.parent, word)
                 save_image(
-                    paths.image,
+                    image_path,
                     render_card(data, word, sentence, translation, day.isoformat()),
                 )
             except Exception as error:  # noqa: BLE001 -- recover at the interactive boundary
                 output_fn(f"카드를 저장하지 못했습니다: {error}. 캡션은 보존했습니다.")
                 continue
             completed += 1
-            output_fn(f"저장: {paths.image.name}, {paths.caption.name}")
+            output_fn(f"저장: {image_path.name}")
         output_fn(
-            f"이미지 {completed}/2장, 캡션 2개 저장. 인스타그램에는 직접 업로드해 주세요."
+            f"이미지 {completed}/2장, 캡션 1개 저장. 인스타그램에는 직접 업로드해 주세요."
         )
         return 0 if completed == 2 else 1
     except (KeyboardInterrupt, EOFError):
