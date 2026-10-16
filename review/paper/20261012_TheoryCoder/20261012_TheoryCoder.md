@@ -180,4 +180,24 @@
 
 ### 3.4 Learning
 
+- Planning 전: TheoryCoder는 최대 10회까지의 랜덤 액션을 취함 -> to gather a replay buffer of experience
+- LLM의 Planning: 
+    1. 먼저 initial state, low-level executable action space, replay buffer of random actions, description of the domain in narutral languages를 포함하는 쿼리로 프롬프팅됨 
+    2. 만약 결과가 별로면 revision 수행
+    3. 그래도 안되면 exploratory plans를 나열 
+
+![alt text](image-7.png)
+- 아래 사진: (위) Initial prompt, (아래) Revision prompt 
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+
 ### 3.5 Summary
+
+TheoryCoder는 TBRL (Theory-Based RL) framework의 사례로서 LLM을 이용하여 Python-based world model을 구현한다. 
+반면 이전 연구 (EMPA 등)에서는 theory 표현을 bayesian inference 기반으로 VGDL (게임 특수 목적 언어) 표현으로 나타내어 한계가 있었다. 
+이 논문의 연구에서는 iterative iteraction loop를 통해 월드 모델을 개선해 나간다. 
+
+![alt text](image-8.png)
