@@ -1,0 +1,5 @@
+gut|ADJA	0.3716	gute,gutem,guten,guter,gutes
+wunderbar|ADJA	0.7234	wunderbare,wunderbarem,wunderbaren,wunderbarer,wunderbares
+toll|ADJA	0.5066	tolle,tollem,tollen,toller,tolles
+fantastisch|ADJA	0.3319	fantastische,fantastischem,fantastischen,fantastischer,fantastisches
+empfehlen|VVINF	0.0040	empfehle,empfiehlst,empfiehlt,empfehlen,empfehlt

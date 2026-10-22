@@ -1,0 +1,3 @@
+schlecht|ADJA	-0.7706	schlechte,schlechtem,schlechten,schlechter,schlechtes
+furchtbar|ADJA	-0.3042	furchtbare,furchtbarem,furchtbaren,furchtbarer,furchtbares
+langweilig|ADJA	-0.0228	langweilige,langweiligem,langweiligen,langweiliger,langweiliges
