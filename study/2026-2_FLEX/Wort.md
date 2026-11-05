@@ -557,7 +557,7 @@ Lob 중성 칭찬
 loben 칭찬하다
 lösen 해결하다
 losfahren 출발하다
-machen sich Sorgen rjrwjdgkek
+machen sich Sorgen 걱정하다
 Machtposition 권력이 있는 지위 
 Mangel an etwas 3격의 부족
 mangelhaft 부족한
@@ -580,3 +580,177 @@ militärisch 군사적인
 Mindestlohn 남성 최저임금
 mit aller Mühe 최선을 다해 
 mit etwas rechnen 3격을 기대하다
+mitteilen 통보하다
+mittlerweile 그 사이에
+Moschee 여성 이슬람 사원
+nach Angaben 누구의 진술에 따르면
+nachbohren 캐묻다
+nachdenken 심사숙고하다
+nachhaltig 지속가능한
+nachschauen 확인하다
+nachteilig 단점인
+nachvollziehen 공감하다
+Nahe Osten 남성 중동
+namens 뭐뭐라는 이름의
+namentlich 특히
+Nebenwirkung 부작용
+Nettobetrag 남성 세전금액
+Neubürger 신규 주민
+Neuveröffentlichung 신제품 출기
+Nichtinanspruchnahme 여성 미요구
+nimmer 결고 뭐뭐않는
+Nischendasein 중성 미미한 존재, 틈새 시장
+Notdienst 남성 응급진료
+Notfall 남성 응급상황
+Notrufdienst 남성 경찰신고번호
+notwendig 필요한
+nützen 도움이 되다
+Nutzer 사용자
+Obst 중성 과일
+offen sein 결정되지 않은 상태이다
+Ohnmacht 여성 기절상태
+ordentlich 정돈된
+Ordnungsamt 중성 행정질서과
+Orientierung 안내, 방향설정
+ortsunabhängig 장소의 영향을 받지 않는
+Osterferien 복수 부활절 방학
+Paket 중성 우편
+Paketverfolgungsnummer 송장번호
+Pandamie 여성 팬데믹
+Partei 여성 정당
+passieren 발생하다
+Pastor 목사
+pensionniert 퇴직한
+Personalabteilung 인사과
+persönlich nehmen 감정적으로 받아들디가, 모욕으로 여기다
+Pfeiler 남성 기둥
+Pflegeheim 중성 구호시설, 요양원
+pflegen 돌보다
+Pille 여성 알약
+Plastiktüte 여성 비닐봉지
+Polizeistreife 여성 경찰차
+Polizei 여성 경찰
+Polizist 남성 경찰
+Praktikumsplatz 남성 실습직
+Präventionsmaßnahme 여성 예방대책
+Praxis 여성 개인병원
+Preis 상, 대가
+Preisnachlass 남성 하할인
+Presse 여성 언론
+Produktlinie 여성 상품라인
+Produktprobe 여성 제품 샘플
+profitieren 이익을 보다
+prominent 유명한
+Publikumsmagnet 남성 관객을 끌어들이는 곳
+punkten 포인트를 적립하다 
+qualifiziert 자격을 갖춘
+Rabatt 남성 할인
+reagieren 반응하다
+Rechnungsbetrag 남성 총액
+Recht haben 옳다
+rechtfertigen 정당화하다
+Rechtsberatung 법률자문
+Rechtsanwalt 변호사
+Rechtslage 법률 규정
+regelrecht 완연한
+Regierungsangabe 정부 발표
+reif 성숙한
+rein 순수한
+Reis 남성 쌀
+Reklamation 여성 이의, 항의
+Rennauto 중성 레이싱카
+renovieren 보수하다
+Rente 여성 연금
+Reparaturannahme 여성 수리 접수
+Richtung 방향
+rötlich 붉은
+Rückfrage 여성 추가문의
+Rückgang 남성 하락, 감소
+Rückmeldung 회신
+Rehestand 남성 은퇴
+Sammelbezeichnung 여성 집합명칭
+scannen 유심히 살피다
+Schaden 남성 피해
+Schadenersatz 남성 피해보상
+Schadenfall 남성 손해 사고
+schaffen 창출하다
+Schauer 남성 소나기
+Schein 남성 증명서
+scheitern 실패하다
+schenken 선물하다
+schick 멋진
+schiefgehen 실패하다
+schimpfen 꾸짖다
+Schlag 남성 타격
+schlechter Laune sein 기분이 좋지 않다
+Schloss 중성 성
+schlucken 삼키다
+Schlüssel 남성 열쇠
+Schlusslicht 중성 최하위 
+Schriftsprache 여성 글말
+Schuchhaus 중성 신발가게
+Schuld an etwas haben 3격에 대해 책임이 있다
+Schutz 남성 보호
+schützen 보호하다
+schwach 연한
+Schwere 여성 무게
+Sehenswürdigkeit 명소
+sehnsüchtig 애타게
+Selbstmordattentäter 자살테러범
+selbststängdig 독립적인, 자립한
+selbstverständlich 당연한
+Selbstvertrauen 중성 자신감
+seltsam 기이한
+Sendung 배송
+sensibel 예민한
+Sicherheitskraft 안전요원
+sichern 확보하다
+Siegel 중성 인증
+Silvester 중성 12월 31일
+simulieren 시뮬레이션하다
+Sinn 남성 의미, 의의
+sitzen 앉아있다
+solange der Vorrat reicht 재고가 있는 한
+Soldat 군인
+Sonderaktion 특별할인행사
+Sozialamt 사회복지국
+Sparangebot 중성 할인상품
+spätestens 늦어도
+spenden 기부하다
+sperren 차단하다
+spielen 연기하다
+spinnen 제정신이 아니다
+Sprotverein 남성 스포츠클럽
+Sprache 여성 언어
+Sprechzeiten 복수 진료시간
+Staatsanwaltschaft 여성 검살
+Staatschef 국가원수
+Staatverwaltung 시 관할
+Stadtwerk 중성 시운영시설
+Standort 남성 입지, 근무지
+Starkregen 남성 강한비
+Stellenausschreibung 채용공고
+Stellungsnahmen 입장표명
+Stempel 남성 도장
+Stern 남성 별
+steuern 제어하다
+Stimmungsaufhellung 분위기 개선
+stornieren 주문을 취소하다
+Stornierung 쉬고
+Stornokosten 복수 취소비용
+Strafe 여성 처벌
+Straßenverkehrsordnung 도로교통법
+Streichelzoo 남성 만질수있는 동물원
+Sturmböe 돌풍
+Supermarktkette 여성 대형마트체인
+symphatisch 호감이가는
+synchronisieren 동기화시키다
+Tablette 여성 알약
+Tabelt 중성 태블릿
+Tag der öffenen Tür 개방의 날
+Tageskasse 여성 일일매표소
+talentiert 재능이 있는 
+Tarifsystem 중성 임금체계
+Taste 여성 버튼
+tätig 활동하는, 수행하는
+Tätigkiet 일, 활동
