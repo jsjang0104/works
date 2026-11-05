@@ -484,4 +484,78 @@ in Urlaub fahren 휴가를 떠나다
 in Zusammemhang mit etwas stehen 3격과 관련이 있다
 indisch 인도의
 infolgedessen 그 결과로
-informieren sich über etwas 
+informieren sich über etwas 4격에 대해 알아보다
+Initiative 여성 캠페인
+Innovation 여성 혁신
+insbesondere 특히
+Verbindung 여성 연결
+Zugang 남성 접근
+Investition 여성 투자
+irgendwann 언젠가
+irisch 아일랜드의
+ironisch 아이러니한
+islamisch 이슬람의
+jemanden für etwas haftbar machen 4격에게 책임(4격)을 지우다
+jemanden für etwas verantworlich machen 4격에게 책임(4격)을 지우다
+jede Menge 매우 많은
+jemand zur Verfügug stehen 누구의 뜻대로 되다
+Kalorie 여성 칼로리
+Kanzlei 여성 변호사 사무실 
+Kanzleramt 중성 총리청
+Kapitel 중성 챕터, 의미있는 추억
+kaputt 망가진, 완전히 지친
+Kaufkraft 여성 구매력
+käuflich 살 수 있는
+Kaufvertrag 남성 구매계약
+keineswegs 결고 뭐뭐하지 않다
+Kenntnisstand 남성 인식상태
+Kfz-Haftpflichtversicherung 자동차보험
+kinderleicht 매우 쉬운
+Kirche 여성 교회
+klaglos 불평을 안하는
+Kleid 중성 옷
+klettern 오르다
+Klimaanlage 여성 에어컨
+klimaneutral 기후 중립적인
+Klimawandel 남성 기후변화
+knapp 모자란
+knapp vorbeigehen 아슬아슬하게 빗나가다
+Knopfdruck 남성 버튼터치
+Kommode 여성 서랍장
+Konferenz 여성 회의
+Konflikt 남성 갈등
+Konsumverhalten 중성 소비행태
+Korn 중성 곡물
+kostenlos 무료의
+kränken 상처를 주다
+Krankenschein 남성 진단서
+Krawatte 여성 넥타이
+Küche 부엌
+kümmern sich um etwas 4격을 돌보다
+Kundenservice 남성 고객서비스
+kündigen 해고되다
+Kunst 여성 예술
+Kurator 큐레이터
+kurzfirstig 단기적인
+kuscheln 꼭 안아주다 
+Lageplan 남성 지도
+Landgericht 중성 지방법원
+Laterne 여성 랜턴
+Lautstärke 여성 볼륨, 소리
+lebendig 생동감있는
+leiden thsgofmf dlqek
+leisten 행하다
+Leistung 성과, 서비스, 실행
+leistungsfähig 성능이 좋은
+Leiter 단장
+Lesung 낭독회 
+Lieferdatum 중성 배송 날짜
+Lieferschein 남성 배송증
+Lieferung 배송
+Linse 여성 렌즈, 렌틸콩
+Lob 중성 칭찬
+loben 칭찬하다
+lösen 해결하다
+losfahren 출발하다
+machen sich Sorgen rjrwjdgkek
+Machtposition 권력이 있는 지위
