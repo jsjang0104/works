@@ -166,3 +166,56 @@ Beseitigung 제거
 Besprechung 회의
 bestätigen 확인하다
 bestehen 합격하다
+Bestellung 주문
+Besuch 남성 방문
+Betrag 남성 금액
+Betreiber 남성 운영자
+Betriebshob 남성 폐기물 관리소
+Betriebssystem 중성 운영체제
+Betriebsurlaub 남성 매장휴무
+Betriebsversammlung 종업원 총회
+bewaffnet 무장한
+bewerben sich 지원하다
+Bewerbung 지원
+bewusst 의식적
+bewusstlosigkeit 무의식
+Bezeichnung 명칭
+Bezirk 남성 구역 
+Bezug 남성 침대나 소파의 커버
+BGB 민법
+Bild 중성 그림
+Bio-Qualität 유기농 품질
+bitten um etwas 4격을 요청하다, 부탁하다
+bläulich 파란색의
+Blüte 여성 꽃
+Boardrestaurant 중성 기차식당칸
+Boden 남성 바닥
+Bonus 남성 혜택
+Botschaft 여성 대사관
+Branchentreffen 중성 분야 행사
+brauchen 필요하다
+brechen sich 팔, 다리 등이 부러지다
+Brückentag 징검다리 휴일 사이에 낀 근로일
+Buchhandlung 서점
+Bundespresseamt 중성 정보의 홍보실
+Bundestagswahlen 복수 독일연방의회선거
+Bürgerinitiative 여성 시민운동단체
+Bürgermeister 시장
+Büro 중성 사무실
+Büromöbel 중성 사무실의 가구
+Caterer 남성 출장요리사
+Chinesische Maer 만리장성
+da 이므로
+da drüben
+Daheimgebliebene 남성 집에 머무는 사람
+darüber hinaus 그밖에
+das ist doch Käse 그건 바보 같은 일이다
+Dauerregen 남성 장마
+Demenz 여성 치매
+derzeitig 현재의
+die Arme entgegenstrecken 팔을 뻗다
+die Nase voll haben 아주 질려버리다
+Dieb 남성 도둑
+Dienstreise 여성 출장
+diesmal 이번에
+diplomatisch 외교적
