@@ -754,3 +754,187 @@ Tarifsystem 중성 임금체계
 Taste 여성 버튼
 tätig 활동하는, 수행하는
 Tätigkiet 일, 활동
+tätsächlich 실제로
+Teezubereitung 차 달이기
+Teilkasko 남성 부분 자차보험
+Teilnahme 여성 참여
+Telefonat 중성 전화통화
+therapeutisch 치료의
+Tief 중성 저기압
+Tiefgarage 여성 지하주차장
+Tiefstwert 남성 최저온도
+Tiergarten 남성 동물원
+Tierhaltung 동물 사육
+Title 남성 우승
+Tor schießen 골을 넣다
+Torture 여성 고문
+Totenmesse 여성 장례식
+Tracking 중성 추적
+Tragekomfort 남성 편안한착용
+trennen 헤어지다
+übermäßig 과도한
+übernehmen 부담하다
+überraschen 놀라게하다
+übersichtlich 명료한
+übertragbar 양도 가능한
+überwachen 감시하다, 관리하다
+überwiegend 대체로
+überzeugen 납득시키다
+übrig sein 남아있다
+um die Ecke 모퉁이를 돌아서
+Umsatzsteuer 여성 부가세
+umsteigen 환승하다
+umziehen 이사하다
+Unannehmlichkeit 불편함
+unauffällig 눈에 띄지 않는
+unbeschwert 문제없이
+unbewusst 무의식의 
+ungewöhnlich 믿을 수 없는
+unglaublich 믿을 수 없는
+unkooperativ 비협조적
+unpersönlich 개성이 없는, 개인적이지 않은, 성의가 없는
+unter anderem 특히
+unter Einsatz von etwas 3격에 투입
+unter Umständen 경우에 따라
+unterbringen 수용하다, 묵게 하다
+Unterdrückte 여성 억압받는 여자
+unterhalten sich mit jemandem 3격과 대화를 하다
+Unterlagen 복수 서류
+unterlassen 중단하다
+Unternehmen 중성 기업
+Unterschrift 여성 서명
+unterstützen 지지하다
+untersuchen 연구하다 
+unterwegs sein 이동 중이다, 외출 중이다
+unübertroffen 비교하기 힘든, 능가하기 어려운
+Unwetter 중성 악천후
+Stimmung 분위기
+Urteil 중성 판결
+Veranstaltung 행사
+Verantwortungsbewusstsein 중성 책임의식
+verbergen 숨기다
+verbinden 연결하다
+Verbindung ist schlecht 통화연결 상태가 나쁘다
+verbrauchen 소비하다
+verbreiten 퍼뜨리다
+verdanken 누구누구 덕분이다
+verdienen 돈을 벌다
+Verdienst 남성 공로
+vereinbaren 합의하다
+Vereinbarkeit 양립, 호환성
+Vereinbarung 합의
+Verfahren 중성 정차
+verfügbar 사용가능한
+vergeben 양도하다, 수여하다
+vergeblich 헛된
+Verhältnis 중성 관계
+Verkehr 남성 교통
+verkehrren 변하게 하다
+Verlangen 중성 요구
+verlassen 떠나다
+vergessen 잊다
+verlegen 미루다
+vermuten 추측하다
+verneinen 거절하다, 부정하다
+Vernissage 여성 개막식
+verpassen 놓치다, 실패하다
+verpflichtet sein 의무가 있다
+Versand 낭성 배송
+Versandbestätigung 배송 확인서
+verschicken 보내다
+verschieben 옮기다
+versenden 배송하다
+versprechen 약속하다
+Vertrauen 중성 신뢰
+vertrauen 신뢰하다
+Vertriebsmanager 영업팀장
+verursachen 유발하다
+verurteilen 선고하다
+Verwarnung 경고장
+verwundern 놀라다
+verzögern sich 지연되다
+Verzögerung 지연
+Vielfalt an etwas 3격의 다양성
+Viertelstunde 15분
+virtuell 가상의
+Vollkasko 남성 완전 자차보험
+Vollzeit 전일근무
+von einem Vertrag zurücktreten 계약을 파기하다
+vor allem 무엇보다
+vor Ort 현장에
+vorab 사전에
+voraussichtlich 예측건대
+vorbehalten 결정권을 갖다
+vorbeigehen 지나가다
+vorhaben 계획하다
+vorhersagen 예견하다
+Vorrang haben 우위를 차지하다
+Vorschlag 남성 제안
+Vorschrift 여성 규정
+Vorstellungsgespräch 남성 면접
+Vortrag 남성 강연
+Vorurteil 중성 선입견
+Vorverkauf 남성 사전예약판매
+vorzeigen 제시하다
+wahr 사실의
+wahrscheinlich 십중팔구는
+wandern 트래킹하다
+Wappentier 문장동물
+Was ist aus ... geworden? 요즘 뭐해?
+Wasserkocher 남성 전기주전가
+Wasserspiel 중성 물놀이
+Wegwerfbecher 남성 일회용컵
+Wappen 중성 가문, 국가 등의 문장
+weich 부드러운
+weißlich 부드러운
+weiterverkaufen 중고로 판매하다
+weltoffen 개방된
+wenn auch 뭐뭐 할지라도
+Werbung 광고
+Werktag 근무일
+Werk 중성 작품
+Wert 남성 가치
+Wettervorhersage 여성 일기예보
+Widereinstieg 남성 직업 복귀
+wiederum 이와 달리
+wiederverwendbar 재활용이 가능한
+willig 온순한
+Wirren 중성 혼란, 소동
+wissenschaftlich 과학적으로
+Wohnanlage 여성 주거지
+Wohnungsbesichtigung 여성 집구경
+Wunsch 남성 소망, 희망
+wünschen 소망하다, 원하다
+Würde 여성 존엄
+Zeitfenster 중성 기간
+Zeitgenosse 남성 동시대인
+zeitgenössisch 동시애의
+Zeitungsanzeige 여성 신문광고
+Zerrbild 중성 캐리커쳐
+Zeugenaussage 여성 증인진술
+Zielgruppe 여성 목표집단
+Zollinhaltserklärung 세관신고
+zu diesem Ziel 그 목적으로
+zu Recht 당연하게, 정당하게
+zu sich kommen 정신차리다
+zu sich nehmen 섭취하다
+zu wünschen übrig lassen 불만속스럽다
+zubereiten 조리하다
+Zug 남성 행렬
+Zugang 남성 접근
+zuhören 경청하다
+zum Glück 다행스럽게
+zur Seite stehen 도와주다
+zur Welt kommen 태어나다
+zurückschreiben 회신하다
+Zusage 여성 승낙
+zusammenstelen 모아두다
+zusätzlich 추가로, 그 외
+zuschicken 발송하다, 보내다
+zustande bringen 완수하다
+Zuständigkeit 소관
+Zustelldatum 중성 배송날짜
+Zusteller 배송인
+Zustellort 남성 배송장소
+Zustelltag 배송일
+zwingen 강요하다
