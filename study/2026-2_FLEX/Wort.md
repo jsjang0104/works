@@ -558,4 +558,25 @@ loben 칭찬하다
 lösen 해결하다
 losfahren 출발하다
 machen sich Sorgen rjrwjdgkek
-Machtposition 권력이 있는 지위
+Machtposition 권력이 있는 지위 
+Mangel an etwas 3격의 부족
+mangelhaft 부족한
+Marktforschung 시장조사
+maßlos 과도한
+Maßstab 남성 척도, 기준
+Medikament 중성 약, 약물
+Medizinrecht 중성 의료법
+Meerblick 남성 오션뷰
+weniger als im Vorjahreszeitraum 젼년 동기간 대비 낮은
+Mehrweg 남성 재활용
+Menge 여성 수량
+Menschmenge 여성 군중
+Messe 여성 박람회
+Messegelände 중성 박람회장
+Miete 여성 임대료
+Mieter 임차인
+Migrant 이주자
+militärisch 군사적인
+Mindestlohn 남성 최저임금
+mit aller Mühe 최선을 다해 
+mit etwas rechnen 3격을 기대하다
