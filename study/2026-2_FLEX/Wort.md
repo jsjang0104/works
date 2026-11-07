@@ -1,940 +1,940 @@
-ab sofort 즉시
-Abfahrt 여성 출구
-Abgaswert 남성 배기가스수치
-abgrenzen 경계를 정하다, 구분하다
-abhängen 좌우되다
-abnehmen 제거하다
-Abreise 여성 체크아웃
-abriegeln 폐쇄하다
-Absage 여성 거절
-Abschied 남성 이별
-abschließen 계약을 쳬결하다, 종료하다
-absichtlich 의도적으로
-absolut 전혀, 절대적으로
-absprechen 합의하다
-abstellen 세우다
-Abteilungsleiter 남성 과장, 부장
-abwehren 방어하다, 막다
-abweisen 거절하다, 기각하다
-abziehen 제외시키다, 빼다
-abziehend 물러나는
-Achtung 주의, 참고
-AG 여성 학교동아리
-Aktie 주식
-Aktivität 활동
-aktuell 현재
-allerdings 다만
-alles Gute 모든 일에 행운이 깃들길 빕니다
-als allererstes 최우선적으로
-Altersarmut 여성 노인빈곤
-Altkanzler 전 총리
-Ambulanz 여성 구급차
-amtlich 공적인
-anbieten 제공하다
-anderweitig 타인의
-androhen 협박하다
-Anerkennung 인정
-anfahren 시작하다
-Angabe 여성 진술, 신고
-Angebot 중성 제안
-angebracht sein 적절하다
-angesichts 고려하여
-angestellt 고용된
-angreifen 공격하다
-Angreifer 공격자
-Angst 여성 두려움
-Ankündigung 예고
-Anlass 남성 계기, 기회
-anleinen 줄에 매다
-annehmen 받아들이다
-Anreise 여성 체크인
-Anrufbeantworter 남성 자동응답기
-Anschlag 남성 공격
-Anschrift 여성 주소
-Ansehen 중성 명성
-ansehen 관람하다
-ansprechen 논의하다
-anspruchslos 검소한
-anstehen 일정 등이 다가오다
-anstrengen sich 노력하다
-Antrag 남성 신청서
-Arbeitnehmer 피고용인
-ärgerlich 짜증스러운
-ärgern sich über etwas 4격에 대해 짜증내다
-Assistent 남자 비서, 보조 직원
-Athlet 남자 운동선수
-Attentat 남자 테러
-Attraktivität 호감
-auf den Beinen sein 서 있다, 이동하다
-auf den Grund gehen 원인을 면밀하게 조사하여 밝혀내다
-auf die Idee kommen 생각에 이르다
-auf den Markt bringen 시장에 출시하다
-auf einen Blick 한눈에
-auf etwas achten 4격을 주의하다
-auf etwas hinauswollen 4격을 의도하다
-auf etwas verzichten 4격을 포기하다
-auf Geschäftsreise sein 출장 중이다
-auf jemanden kommen 4격에게 귀속되다, 4격에게 돌아가다
-auf jeden Fall 아무튼, 무조건
-auf Wiederhören 통화를 마칠 때 하는 인사말
-auffordern 요구하다
-aufführen 공연하다
-aufgeben 단념하다
-aufladen 충전하다
-Aufmerksamkeit bringen 어그로를 끌다
-Aufmerksamkeit erregen 어그로를 끌다
-aufnehmen 들어 올리다, 받아들이다, 시작하다
-aufschreiben 적어주다
-aufstehen 일어나다, 기상하다
-Aufstieg 남성 상승, 성장
-Auftrag 남성 구매, 주문
-aufwaschen 성장하다
-Aufwendung 비용
-aus der Sicht 누구의 관점에서
-aus etwas stammen 3격에서 유래하다
-ausbilden 견습하다
-Ausbreitung 확산
-Auseinandersetzung 분쟁
-Ausfuhr 여성 수출
-ausfüllen 작성하다
-Ausgabe 여성 지출
-ausgebucht sein 예약이 차 있다
-ausgehen 외출하다
-ausgehen sich als etwas 4격이라고 허위주장하다
-auskennen sich 잘 알고 있다
-Auskunft 여성 정보
-auslassen 빠뜨리다
-Auslauf 남성 배출구
-Auslieferung 여성 송환
-auslösen 유발하다
-ausnahmsweise 예외적으로
-aussehen 무엇인것처럼 보이다
-aussprechen 표명하다
-Ausstellung 전시회
-austauschen 교환하다, 논의하다
-ausverkauft 매진된, 완판된
-Auswahlprezess 남성 채용절차
-ausweichen 피하다
-Ausweis 남성 신분증
-Auszeit 여성 휴식기
-Auszubildende 남성 남자직업교육생
-authentisch 진정한
-Bäckerei 여성 빵집
-Bad 중성 욕실
-Badekleidung 여성 수영복
-Bahn 여성 기차
-Bande 여성 범죄조직
-Bankangestellte 남자 은행원
-Bankeinzug 체크카드
-Banker 남자 은행원
-Bär 남성 곰
-Bauer 농부
-Beamte 공무원
-Becher 남성 컵
-bedanken sich im Voraus 미리 감사 인사하다
-Bedenken 중성 고민
-bedenken 고민하다
-bedürfen 필요하다
-beeilen sich 서두르다
-beeindruckend 인상적인
-befahren 차량이 다니다
-befördern 승진시키다
-Beförderung 승진
-Befragte 설문조사 대상자
-Befürworter 찬성자, 옹호자
-begegnen 우연히 만나다
-begehen 범하다
-begeistern 감격시키다
-beherbergen 어디에 지내게 하다
-Beilage 여성 반찬
-Beistrich 남성 쉼표
-Beitrag 남성 기여, 포스팅
-bekämpfen 싸우다
-Belang 남성 이해, 관심사
-belastbar 뺑이 칠 수 있는
-berechtigen 권리를 부여하다
-bereitliegen 준비되어 놓여있다
-bergsteigen 등산하다
-Berichterstattung 보도
-beruhigen 진정시키다
-beschäftigen 채용하다
-Bescheid sagen 연락하다
-beschalgnahmen 압수하다
-beschreiben 설명하다
-beschweren sich 항의하다
-Beseitigung 제거
-Besprechung 회의
-bestätigen 확인하다
-bestehen 합격하다
-Bestellung 주문
-Besuch 남성 방문
-Betrag 남성 금액
-Betreiber 남성 운영자
-Betriebshob 남성 폐기물 관리소
-Betriebssystem 중성 운영체제
-Betriebsurlaub 남성 매장휴무
-Betriebsversammlung 종업원 총회
-bewaffnet 무장한
-bewerben sich 지원하다
-Bewerbung 지원
-bewusst 의식적
-bewusstlosigkeit 무의식
-Bezeichnung 명칭
-Bezirk 남성 구역 
-Bezug 남성 침대나 소파의 커버
-BGB 민법
-Bild 중성 그림
-Bio-Qualität 유기농 품질
-bitten um etwas 4격을 요청하다, 부탁하다
-bläulich 파란색의
-Blüte 여성 꽃
-Boardrestaurant 중성 기차식당칸
-Boden 남성 바닥
-Bonus 남성 혜택
-Botschaft 여성 대사관
-Branchentreffen 중성 분야 행사
-brauchen 필요하다
-brechen sich 팔, 다리 등이 부러지다
-Brückentag 징검다리 휴일 사이에 낀 근로일
-Buchhandlung 서점
-Bundespresseamt 중성 정보의 홍보실
-Bundestagswahlen 복수 독일연방의회선거
-Bürgerinitiative 여성 시민운동단체
-Bürgermeister 시장
-Büro 중성 사무실
-Büromöbel 중성 사무실의 가구
-Caterer 남성 출장요리사
-Chinesische Maer 만리장성
-da 이므로
-da drüben
-Daheimgebliebene 남성 집에 머무는 사람
-darüber hinaus 그밖에
-das ist doch Käse 그건 바보 같은 일이다
-Dauerregen 남성 장마
-Demenz 여성 치매
-derzeitig 현재의
-die Arme entgegenstrecken 팔을 뻗다
-die Nase voll haben 아주 질려버리다
-Dieb 남성 도둑
-Dienstreise 여성 출장
-diesmal 이번에
-diplomatisch 외교적
-Diversität 다양성
-Dokument 중성 문서, 서류
-doppelt 두 배의
-dotieren 상금을 지급하다
-drängen sich 몰려들다
-Drehort 남성 촬영 장소
-Drehtermin 남성 촬영 예정일
-Drogengeld 중성 마약자금
-Drogenkriminalität 중성 마약범죄
-drohen 닥쳐오다, 위협하다
-Druckerei 여성 인쇄소
-Druckschrift 여성 인쇄체 
-dünn 묽은, 연한
-durch 잘 익힌
-durcheinander 뒤죽박죽인
-durchfallen 시험에 불합격하다
-durchführen 실행에 옮기다
-durchsetzen 전역으로 퍼지다
-durchsuchen 수색하다
-Effekt 남성 효과
-Ehrengastland 중성 주빈국
-ein Formular ausfüllen 서류를 작성하다
-ein Interview führen 인터뷰를 진행하다
-ein Konto eröffnen 계좌를 개설하다
-ein Leben führen 생활을 하다
-eindringen 침입하다
-eine Unmenge 매우 많은
-einen Betrag zu etwas leisten 3격에 기여하다
-einfließen 흘러늘다, 녹아들다
-Einfluss 남성 영향
-Einfluss haben 영향을 미치다 
-einführen 도입하다
-einkaufen 장을 보다 
-einlösen 되찾다, 구하다
-einnehmen 복용하다
-Einsamkeit 외로움
-Einsamkeitsgefühl 여성 외로움
-Einsatz geben 투입하다, 매진하다
-einschließlich 포함하고 있는
-einsetzbar 적용가능한
-einstellen 중단하다
-eintreffen 도착하다
-eintreten 나타나타, 시작되다
-Eintritt 남성 입장
-einwenden 이의를 제기하다
-Einwohner 주민
-Einzelpreis 단가
-Einzelzimmer 원룸
-Eiszeit 여성 빙하기
-Elternzeit 여성 육아휴직
-Empörung 공격
-engagiert 열의가 있는
-Enkelkind 중성 손주
-entführen 데려가다
-entgehen 피하다
-entlohnen 보수를주다
-entscheiden 결정하다
-entschließen sich 결정하다
-entsorgen 치우다
-entsprechen 해당하다, 부합하다
-Entwicklung 발전
-Erbrecht 중성 상속법
-erbringen 도출하다, 실현하다
-Ereignis 중성 사건
-erfahren 경험 있는, 숙련된
-erfassen 치다
-erforderlich 요구되는
-erfreuen 기쁘게 하다
-Ergebnis 중성 결과
-erhalten 얻다
-erheblich 현저하게
-erholen sich 회복하다
-Erlebnis 중성 경험
-erledigen 완수하다
-erleichtern 부담을 줄이다
-erlösen 구원하다
-Ermäßigung 할인
-erreichbar sein 연락 가능하다
-erschöpft 녹초가 된
-erste Schritte gehen 첫걸음을 걷다
-erwachen 깨어나다
-erwerben 취득하다
-erwerbstätig 일자리가 있는
-Erzieher 유치원선생님
-es handelt sich um etwas 4격과 관련하여
-es steht 경기 점수가 뭐뭐이다
-etwas aus dem Text hervorgehen 1격이 글에서 드러나다
-etwas geltend machen 4격을 요구하다
-etwas hinter sich lassen 4격을 벗어나다, 4격을 능다하다
-etwas in Gang setzen 4격을 시작하다
-etwas in Rechnung stellen 4격을 비용에 포함하다 
-etwas vor Augen haben 4격을 상상하다
-etwas vor Sprache bringen 4격을 이야기하다
-exklusiv 유일하게, 단독으로
-Export-Firma 여성 수출기업
-Fabrikhalle 여성 공사현장
-Facette 여성 측면
-Fachanwalt 남성 전문변호사
-fahnden nach etwas 3격을 수배하다
-Fahrenschutzversicherung 운전자 보험
-Fahrradmitnahme 자전거 동반
-Fahrschule 여성 면허학원
-Fahrzeug 중성 차량
-fahrzeuggebundene Einstiegshilfe 탑승 보조장치
-Fahrzeughalter 차량소유자
-fallen lassen 포기하다
-falls 만약 뭐뭐라면
-Familienrecht 중성 가정법, 가사법
-Farbe 여성 색깔
-faul 게으른
-federleicht 깃털처럼 가벼운
-fehlen 부족하다
-Ferien 복수 방학
-Fernseher 남성 텔레비전
-Fernsehen 중성 텔레비전 시청
-festlegen 약속하다
-feststellen 규명하다
-Filiale 여성 지점
-Finanzkrise 여성 금융위기
-Fleisch 중성 고기
-flüchten 피신하다
-Flüchtling 남성 난민
-folgen 따라가다
-fordern 요구하다
-fördern 지원하다, 도모하다
-forschen 연구하다
-Forschungssemester 중성 연구학기
-forsetzen 지속하다
-Fototapete 여성 사진도배
-Frankierung 우편요금선불
-Freihandelsabkommen 중성 자유무역협적
-Freizeitpark 남성 놀이공원
-freuen 기쁘게 하다
-freuen 기뻐하다
-Fristablauf 남성 기한 만료
-firstgerecht 기한 내의 
-fröhlich 기분이 좋은
-frühzeitig 조기의
-fühlen sich 느끼다
-führen 인도하다
-Führerschein 남성 운전면허증
-Führerscheinprüfung 운전면허시험
-fünfeinhalb 5와 이분의 일
-für etwas aufkommen 4격에 대해 비용을 부담하다
-für etwas verantwortlich sein 4격에 책임을 지다
-Fußballspiel 중성 축구 경기
-Branche 여성 분야
-Ganztagstätigkeit 종일 근무
-Gardine 여성 커튼
-gastfreundlich 손님을 환대하는
-Gastgeber 남성 초대인
-Gebäude 중성 건물
-Gebühr 여성 요금
-Geschenk 중성 선물
-gedenken 추모하다
-gefährden 위태롭게 하다
-Geflüchtete 여자난민
-gefragt 수요가 많은
-Gengner 반대자
-Geheimgesellschaft 비밀결사
-Geldbeutel 남성 지갑
-Geldgeber 남성 후원자
-Gelegenheit 기회
-Geldstrafe 여성 벌금
-gelingen 성공하다
-gemäß 뭐뭐에 따라서, 뭐뭐에 의거하여
-Gemeinde 여성 공동체
-Gemüse 중성 야채
-Gemütlichkeit 편안함
-genauer gesagt 정확히 말해
-genehmigen 수락하다
-Genehmigung 허가
-genussvoll 맘껏 즐길 수 있는
-gereizt sein 예민하다
-gering 적은
-Gesamtpreis 남성 총액
-Geschäft 중성 영업, 매장
-Geschäftaufgabe 여성 폐업
-Geschäftsreise 여성 출장
-Geschichtsbuch 중성 역사책
-Geschwindigkeit 속도
-Gesetz 중성 법
-gesetzlich 법적인
-Geste 여성 제스처
-Gesundheitsministerium 보건복지부
-gewähren 보장하다
-gewährleisten 보장하다
-Gewicht 중성 무게
-Gewitter 중성 악천후
-Gewohnheit 습관
-gierig 욕심이 많은
-Glalubwürdigkeitsverlust 남성 신뢰도 손실
-Gleis 중성 선로
-glücken 성공하다, 적중하다
-glücklich 행복한
-goldenen Boden haben 돈을 잘 버는
-gönnen sich 허용하다
-Gotteshaus 중성 사원
-gratis 무료
-greifbar 체감할 수 있는
-Saison 여성 시즌
-Grippe 여성 독감
-Größe 여성 크기, 키
-großartig 뛰어난
-Grund für etwas sein 4격에 대한 원인
-Grundlage 여성 기반
-Grundstückseigentümer 토지 주인
-grüßen 인사하다
-Haftung 책임
-Hagel 남성 우박
-Halbtagsgehalt 중성 반나절 월급
-Halter 주인
-Haltestelle 여성 정거장
-Handelskette 마트 체인점
-Handschrift 여성 손글씨
-Handwerk 중성 수공업
-Nummber 여성 번호
-harsch 거친
-Heilmittel 중성 치료제
-Heilpraktiker 민간 요법 치료사
-heimlich 비밀리에
-herausfinden 인식하다
-herauskristallisieren sich 드러나다, 분명해지다
-herunterladen 내려받다
-hervortreten 두드러지다
-Herzchirurg 심장외과의사 
-Hilfeleistung 도움
-hinnehmen 감내하다
-hingegen 이와 달리 
-Hinterlassenschaft 여성 배설물
-Höchstwert 남성 최고 온도
-hochwertig 높은 가치의
-hohe Hürde darstellen 큰 장애물이다
-Hotelverpflegung 호텔 음식
-Hundehalter 견주
-Hundehaufen 개 배설물
-Hütte 여성 오두막 
-IBAN 국제은행 계좌번호
-im Allgeminen 보편적으로
-im Alter von etwas 3격 연령의
-im Einzelnen 구체적으로
-im Schritt 평균적으로
-in aller Offenheit sein 공히 알려져 있다
-in Atem halten 긴장시키다
-in Betrieb sein 운영되고 있다
-in den Keller fallen 바닥으로 떨어지다
-in den Keller gehen 하락하다
-in der Tasche haben 소유하다
-in der Tat 실제로
-in die Berge fahren 산에 가다
-in die Rente gehen 은퇴하다
-in Folge 연이어
-in Höhe von etwas 상당한 3격의
-in jedem Fall 분명히
-in Kauf nahmen 감수하다
-in Kraft treten 효력을 발생하다
-in Kürze 빠른 시일 내에 
-in letzter Zeit 최근에
-in Model sein 유행하고있는
-in naher Umgebung rmsrzdp
-in Sekundenschnelle 신속하게, 간단하게
-in Urlaub fahren 휴가를 떠나다
-in Zusammemhang mit etwas stehen 3격과 관련이 있다
-indisch 인도의
-infolgedessen 그 결과로
-informieren sich über etwas 4격에 대해 알아보다
-Initiative 여성 캠페인
-Innovation 여성 혁신
-insbesondere 특히
-Verbindung 여성 연결
-Zugang 남성 접근
-Investition 여성 투자
-irgendwann 언젠가
-irisch 아일랜드의
-ironisch 아이러니한
-islamisch 이슬람의
-jemanden für etwas haftbar machen 4격에게 책임(4격)을 지우다
-jemanden für etwas verantworlich machen 4격에게 책임(4격)을 지우다
-jede Menge 매우 많은
-jemand zur Verfügug stehen 누구의 뜻대로 되다
-Kalorie 여성 칼로리
-Kanzlei 여성 변호사 사무실 
-Kanzleramt 중성 총리청
-Kapitel 중성 챕터, 의미있는 추억
-kaputt 망가진, 완전히 지친
-Kaufkraft 여성 구매력
-käuflich 살 수 있는
-Kaufvertrag 남성 구매계약
-keineswegs 결고 뭐뭐하지 않다
-Kenntnisstand 남성 인식상태
-Kfz-Haftpflichtversicherung 자동차보험
-kinderleicht 매우 쉬운
-Kirche 여성 교회
-klaglos 불평을 안하는
-Kleid 중성 옷
-klettern 오르다
-Klimaanlage 여성 에어컨
-klimaneutral 기후 중립적인
-Klimawandel 남성 기후변화
-knapp 모자란
-knapp vorbeigehen 아슬아슬하게 빗나가다
-Knopfdruck 남성 버튼터치
-Kommode 여성 서랍장
-Konferenz 여성 회의
-Konflikt 남성 갈등
-Konsumverhalten 중성 소비행태
-Korn 중성 곡물
-kostenlos 무료의
-kränken 상처를 주다
-Krankenschein 남성 진단서
-Krawatte 여성 넥타이
-Küche 부엌
-kümmern sich um etwas 4격을 돌보다
-Kundenservice 남성 고객서비스
-kündigen 해고되다
-Kunst 여성 예술
-Kurator 큐레이터
-kurzfirstig 단기적인
-kuscheln 꼭 안아주다 
-Lageplan 남성 지도
-Landgericht 중성 지방법원
-Laterne 여성 랜턴
-Lautstärke 여성 볼륨, 소리
-lebendig 생동감있는
-leiden thsgofmf dlqek
-leisten 행하다
-Leistung 성과, 서비스, 실행
-leistungsfähig 성능이 좋은
-Leiter 단장
-Lesung 낭독회 
-Lieferdatum 중성 배송 날짜
-Lieferschein 남성 배송증
-Lieferung 배송
-Linse 여성 렌즈, 렌틸콩
-Lob 중성 칭찬
-loben 칭찬하다
-lösen 해결하다
-losfahren 출발하다
-machen sich Sorgen 걱정하다
-Machtposition 권력이 있는 지위 
-Mangel an etwas 3격의 부족
-mangelhaft 부족한
-Marktforschung 시장조사
-maßlos 과도한
-Maßstab 남성 척도, 기준
-Medikament 중성 약, 약물
-Medizinrecht 중성 의료법
-Meerblick 남성 오션뷰
-weniger als im Vorjahreszeitraum 젼년 동기간 대비 낮은
-Mehrweg 남성 재활용
-Menge 여성 수량
-Menschmenge 여성 군중
-Messe 여성 박람회
-Messegelände 중성 박람회장
-Miete 여성 임대료
-Mieter 임차인
-Migrant 이주자
-militärisch 군사적인
-Mindestlohn 남성 최저임금
-mit aller Mühe 최선을 다해 
-mit etwas rechnen 3격을 기대하다
-mitteilen 통보하다
-mittlerweile 그 사이에
-Moschee 여성 이슬람 사원
-nach Angaben 누구의 진술에 따르면
-nachbohren 캐묻다
-nachdenken 심사숙고하다
-nachhaltig 지속가능한
-nachschauen 확인하다
-nachteilig 단점인
-nachvollziehen 공감하다
-Nahe Osten 남성 중동
-namens 뭐뭐라는 이름의
-namentlich 특히
-Nebenwirkung 부작용
-Nettobetrag 남성 세전금액
-Neubürger 신규 주민
-Neuveröffentlichung 신제품 출기
-Nichtinanspruchnahme 여성 미요구
-nimmer 결고 뭐뭐않는
-Nischendasein 중성 미미한 존재, 틈새 시장
-Notdienst 남성 응급진료
-Notfall 남성 응급상황
-Notrufdienst 남성 경찰신고번호
-notwendig 필요한
-nützen 도움이 되다
-Nutzer 사용자
-Obst 중성 과일
-offen sein 결정되지 않은 상태이다
-Ohnmacht 여성 기절상태
-ordentlich 정돈된
-Ordnungsamt 중성 행정질서과
-Orientierung 안내, 방향설정
-ortsunabhängig 장소의 영향을 받지 않는
-Osterferien 복수 부활절 방학
-Paket 중성 우편
-Paketverfolgungsnummer 송장번호
-Pandamie 여성 팬데믹
-Partei 여성 정당
-passieren 발생하다
-Pastor 목사
-pensionniert 퇴직한
-Personalabteilung 인사과
-persönlich nehmen 감정적으로 받아들디가, 모욕으로 여기다
-Pfeiler 남성 기둥
-Pflegeheim 중성 구호시설, 요양원
-pflegen 돌보다
-Pille 여성 알약
-Plastiktüte 여성 비닐봉지
-Polizeistreife 여성 경찰차
-Polizei 여성 경찰
-Polizist 남성 경찰
-Praktikumsplatz 남성 실습직
-Präventionsmaßnahme 여성 예방대책
-Praxis 여성 개인병원
-Preis 상, 대가
-Preisnachlass 남성 하할인
-Presse 여성 언론
-Produktlinie 여성 상품라인
-Produktprobe 여성 제품 샘플
-profitieren 이익을 보다
-prominent 유명한
-Publikumsmagnet 남성 관객을 끌어들이는 곳
-punkten 포인트를 적립하다 
-qualifiziert 자격을 갖춘
-Rabatt 남성 할인
-reagieren 반응하다
-Rechnungsbetrag 남성 총액
-Recht haben 옳다
-rechtfertigen 정당화하다
-Rechtsberatung 법률자문
-Rechtsanwalt 변호사
-Rechtslage 법률 규정
-regelrecht 완연한
-Regierungsangabe 정부 발표
-reif 성숙한
-rein 순수한
-Reis 남성 쌀
-Reklamation 여성 이의, 항의
-Rennauto 중성 레이싱카
-renovieren 보수하다
-Rente 여성 연금
-Reparaturannahme 여성 수리 접수
-Richtung 방향
-rötlich 붉은
-Rückfrage 여성 추가문의
-Rückgang 남성 하락, 감소
-Rückmeldung 회신
-Rehestand 남성 은퇴
-Sammelbezeichnung 여성 집합명칭
-scannen 유심히 살피다
-Schaden 남성 피해
-Schadenersatz 남성 피해보상
-Schadenfall 남성 손해 사고
-schaffen 창출하다
-Schauer 남성 소나기
-Schein 남성 증명서
-scheitern 실패하다
-schenken 선물하다
-schick 멋진
-schiefgehen 실패하다
-schimpfen 꾸짖다
-Schlag 남성 타격
-schlechter Laune sein 기분이 좋지 않다
-Schloss 중성 성
-schlucken 삼키다
-Schlüssel 남성 열쇠
-Schlusslicht 중성 최하위 
-Schriftsprache 여성 글말
-Schuchhaus 중성 신발가게
-Schuld an etwas haben 3격에 대해 책임이 있다
-Schutz 남성 보호
-schützen 보호하다
-schwach 연한
-Schwere 여성 무게
-Sehenswürdigkeit 명소
-sehnsüchtig 애타게
-Selbstmordattentäter 자살테러범
-selbststängdig 독립적인, 자립한
-selbstverständlich 당연한
-Selbstvertrauen 중성 자신감
-seltsam 기이한
-Sendung 배송
-sensibel 예민한
-Sicherheitskraft 안전요원
-sichern 확보하다
-Siegel 중성 인증
-Silvester 중성 12월 31일
-simulieren 시뮬레이션하다
-Sinn 남성 의미, 의의
-sitzen 앉아있다
-solange der Vorrat reicht 재고가 있는 한
-Soldat 군인
-Sonderaktion 특별할인행사
-Sozialamt 사회복지국
-Sparangebot 중성 할인상품
-spätestens 늦어도
-spenden 기부하다
-sperren 차단하다
-spielen 연기하다
-spinnen 제정신이 아니다
-Sprotverein 남성 스포츠클럽
-Sprache 여성 언어
-Sprechzeiten 복수 진료시간
-Staatsanwaltschaft 여성 검살
-Staatschef 국가원수
-Staatverwaltung 시 관할
-Stadtwerk 중성 시운영시설
-Standort 남성 입지, 근무지
-Starkregen 남성 강한비
-Stellenausschreibung 채용공고
-Stellungsnahmen 입장표명
-Stempel 남성 도장
-Stern 남성 별
-steuern 제어하다
-Stimmungsaufhellung 분위기 개선
-stornieren 주문을 취소하다
-Stornierung 쉬고
-Stornokosten 복수 취소비용
-Strafe 여성 처벌
-Straßenverkehrsordnung 도로교통법
-Streichelzoo 남성 만질수있는 동물원
-Sturmböe 돌풍
-Supermarktkette 여성 대형마트체인
-symphatisch 호감이가는
-synchronisieren 동기화시키다
-Tablette 여성 알약
-Tabelt 중성 태블릿
-Tag der öffenen Tür 개방의 날
-Tageskasse 여성 일일매표소
-talentiert 재능이 있는 
-Tarifsystem 중성 임금체계
-Taste 여성 버튼
-tätig 활동하는, 수행하는
-Tätigkiet 일, 활동
-tätsächlich 실제로
-Teezubereitung 차 달이기
-Teilkasko 남성 부분 자차보험
-Teilnahme 여성 참여
-Telefonat 중성 전화통화
-therapeutisch 치료의
-Tief 중성 저기압
-Tiefgarage 여성 지하주차장
-Tiefstwert 남성 최저온도
-Tiergarten 남성 동물원
-Tierhaltung 동물 사육
-Title 남성 우승
-Tor schießen 골을 넣다
-Torture 여성 고문
-Totenmesse 여성 장례식
-Tracking 중성 추적
-Tragekomfort 남성 편안한착용
-trennen 헤어지다
-übermäßig 과도한
-übernehmen 부담하다
-überraschen 놀라게하다
-übersichtlich 명료한
-übertragbar 양도 가능한
-überwachen 감시하다, 관리하다
-überwiegend 대체로
-überzeugen 납득시키다
-übrig sein 남아있다
-um die Ecke 모퉁이를 돌아서
-Umsatzsteuer 여성 부가세
-umsteigen 환승하다
-umziehen 이사하다
-Unannehmlichkeit 불편함
-unauffällig 눈에 띄지 않는
-unbeschwert 문제없이
-unbewusst 무의식의 
-ungewöhnlich 믿을 수 없는
-unglaublich 믿을 수 없는
-unkooperativ 비협조적
-unpersönlich 개성이 없는, 개인적이지 않은, 성의가 없는
-unter anderem 특히
-unter Einsatz von etwas 3격에 투입
-unter Umständen 경우에 따라
-unterbringen 수용하다, 묵게 하다
-Unterdrückte 여성 억압받는 여자
-unterhalten sich mit jemandem 3격과 대화를 하다
-Unterlagen 복수 서류
-unterlassen 중단하다
-Unternehmen 중성 기업
-Unterschrift 여성 서명
-unterstützen 지지하다
-untersuchen 연구하다 
-unterwegs sein 이동 중이다, 외출 중이다
-unübertroffen 비교하기 힘든, 능가하기 어려운
-Unwetter 중성 악천후
-Stimmung 분위기
-Urteil 중성 판결
-Veranstaltung 행사
-Verantwortungsbewusstsein 중성 책임의식
-verbergen 숨기다
-verbinden 연결하다
-Verbindung ist schlecht 통화연결 상태가 나쁘다
-verbrauchen 소비하다
-verbreiten 퍼뜨리다
-verdanken 누구누구 덕분이다
-verdienen 돈을 벌다
-Verdienst 남성 공로
-vereinbaren 합의하다
-Vereinbarkeit 양립, 호환성
-Vereinbarung 합의
-Verfahren 중성 정차
-verfügbar 사용가능한
-vergeben 양도하다, 수여하다
-vergeblich 헛된
-Verhältnis 중성 관계
-Verkehr 남성 교통
-verkehrren 변하게 하다
-Verlangen 중성 요구
-verlassen 떠나다
-vergessen 잊다
-verlegen 미루다
-vermuten 추측하다
-verneinen 거절하다, 부정하다
-Vernissage 여성 개막식
-verpassen 놓치다, 실패하다
-verpflichtet sein 의무가 있다
-Versand 낭성 배송
-Versandbestätigung 배송 확인서
-verschicken 보내다
-verschieben 옮기다
-versenden 배송하다
-versprechen 약속하다
-Vertrauen 중성 신뢰
-vertrauen 신뢰하다
-Vertriebsmanager 영업팀장
-verursachen 유발하다
-verurteilen 선고하다
-Verwarnung 경고장
-verwundern 놀라다
-verzögern sich 지연되다
-Verzögerung 지연
-Vielfalt an etwas 3격의 다양성
-Viertelstunde 15분
-virtuell 가상의
-Vollkasko 남성 완전 자차보험
-Vollzeit 전일근무
-von einem Vertrag zurücktreten 계약을 파기하다
-vor allem 무엇보다
-vor Ort 현장에
-vorab 사전에
-voraussichtlich 예측건대
-vorbehalten 결정권을 갖다
-vorbeigehen 지나가다
-vorhaben 계획하다
-vorhersagen 예견하다
-Vorrang haben 우위를 차지하다
-Vorschlag 남성 제안
-Vorschrift 여성 규정
-Vorstellungsgespräch 남성 면접
-Vortrag 남성 강연
-Vorurteil 중성 선입견
-Vorverkauf 남성 사전예약판매
-vorzeigen 제시하다
-wahr 사실의
-wahrscheinlich 십중팔구는
-wandern 트래킹하다
-Wappentier 문장동물
-Was ist aus ... geworden? 요즘 뭐해?
-Wasserkocher 남성 전기주전가
-Wasserspiel 중성 물놀이
-Wegwerfbecher 남성 일회용컵
-Wappen 중성 가문, 국가 등의 문장
-weich 부드러운
-weißlich 부드러운
-weiterverkaufen 중고로 판매하다
-weltoffen 개방된
-wenn auch 뭐뭐 할지라도
-Werbung 광고
-Werktag 근무일
-Werk 중성 작품
-Wert 남성 가치
-Wettervorhersage 여성 일기예보
-Widereinstieg 남성 직업 복귀
-wiederum 이와 달리
-wiederverwendbar 재활용이 가능한
-willig 온순한
-Wirren 중성 혼란, 소동
-wissenschaftlich 과학적으로
-Wohnanlage 여성 주거지
-Wohnungsbesichtigung 여성 집구경
-Wunsch 남성 소망, 희망
-wünschen 소망하다, 원하다
-Würde 여성 존엄
-Zeitfenster 중성 기간
-Zeitgenosse 남성 동시대인
-zeitgenössisch 동시애의
-Zeitungsanzeige 여성 신문광고
-Zerrbild 중성 캐리커쳐
-Zeugenaussage 여성 증인진술
-Zielgruppe 여성 목표집단
-Zollinhaltserklärung 세관신고
-zu diesem Ziel 그 목적으로
-zu Recht 당연하게, 정당하게
-zu sich kommen 정신차리다
-zu sich nehmen 섭취하다
-zu wünschen übrig lassen 불만속스럽다
-zubereiten 조리하다
-Zug 남성 행렬
-Zugang 남성 접근
-zuhören 경청하다
-zum Glück 다행스럽게
-zur Seite stehen 도와주다
-zur Welt kommen 태어나다
-zurückschreiben 회신하다
-Zusage 여성 승낙
-zusammenstelen 모아두다
-zusätzlich 추가로, 그 외
-zuschicken 발송하다, 보내다
-zustande bringen 완수하다
-Zuständigkeit 소관
-Zustelldatum 중성 배송날짜
-Zusteller 배송인
-Zustellort 남성 배송장소
-Zustelltag 배송일
-zwingen 강요하다
+übrig sein | 남아있다 | Nach der Sonderaktion sind noch Produktproben übrig.
+Altkanzler | 전 총리 | Der Altkanzler gibt heute ein Interview.
+Vorrang haben | 우선권이 있다 | Bei dieser Tätigkeit hat der Schutz der Kinder Vorrang.
+ordentlich | 정돈된 | Die Küche ist sauber und ordentlich.
+Einfluss haben | 영향을 미치다 | Das Wetter hat Einfluss auf unsere Anreise.
+zum Glück | 다행스럽게 | Zum Glück ist das Paket schon eingetroffen.
+aus dem Text hervorgehen | 글에서 드러나다 | Aus dem Text geht seine Angst hervor.
+Aktie | 주식 | Ich kaufe heute eine Aktie.
+Ambulanz | 여성 구급차 | Die Ambulanz bringt ihn ins Krankenhaus.
+genussvoll | 즐거움을 만끽하는, 음미하는 | Sie trinkt ihren Tee langsam und genussvoll.
+unübertroffen | 비교하기 힘든, 능가하기 어려운 | Der Tragekomfort dieser Schuhe ist unübertroffen.
+die Arme entgegenstrecken | 팔을 뻗다 | Das Kind streckt seiner Mutter die Arme entgegen.
+Beseitigung | 제거 | Die Beseitigung des Schadens dauert lange.
+Geheimgesellschaft | 비밀결사 | Die Geheimgesellschaft trifft sich heimlich im Schloss.
+Befürworter | 찬성자, 옹호자 | Er ist ein Befürworter der neuen Initiative.
+vorzeigen | 제시하다 | Bitte zeigen Sie Ihren Ausweis vor.
+Nischendasein | 중성 눈에 띄지 않는 존재, 제한된 분야에 머무는 상태 | Diese Kunst führt noch immer ein Nischendasein.
+Bundespresseamt | 중성 연방정부 공보실 | Das Bundespresseamt bestätigt die Angaben.
+Sozialamt | 사회복지국 | Das Sozialamt unterstützt die neuen Einwohner.
+anbieten | 제공하다 | Die Bäckerei bietet frisches Brot an.
+Angabe | 여성 진술, 신고 | Bitte bestätigen Sie Ihre Angaben im Formular.
+Angebot | 중성 제안 | Ihr Angebot ist wirklich sehr gut.
+Ankündigung | 예고 | Die Ankündigung der Ausstellung freut mich.
+Antrag | 남성 신청서 | Bitte füllen Sie den Antrag aus.
+aktuell | 현재 | Die aktuelle Ausstellung ist sehr gut.
+derzeitig | 현재의 | Der derzeitige Bürgermeister ist sehr engagiert.
+Zeitgenosse | 남성 동시대인 | Der Pastor war ein Zeitgenosse meines Großvaters.
+zeitgenössisch | 동시대의 | Die Ausstellung zeigt Werke zeitgenössischer Kunst.
+Saison | 여성 시즌 | In dieser Saison ist das Hotel ausgebucht.
+Bande | 여성 범죄조직 | Die Polizei sucht nach der Bande.
+beschlagnahmen | 압수하다 | Die Polizei beschlagnahmt das Drogengeld.
+Dieb | 남성 도둑 | Der Dieb hat meinen Geldbeutel mitgenommen.
+Drogengeld | 중성 마약자금 | Die Polizei hat das Drogengeld beschlagnahmt.
+Drogenkriminalität | 여성 마약범죄 | Die Polizei will die Drogenkriminalität bekämpfen.
+Rennauto | 중성 레이싱카 | Das rote Rennauto ist besonders schnell.
+Strafe | 여성 처벌 | Für diesen Schaden droht eine hohe Strafe.
+als Allererstes | 최우선적으로 | Als Allererstes fülle ich den Antrag aus.
+Stadtverwaltung | 시 행정 기관 | Die Stadtverwaltung genehmigt die neue Wohnanlage.
+erledigen | 완수하다 | Ich erledige die Bestellung heute.
+vergessen | 잊다 | Ich habe leider meinen Schlüssel vergessen.
+verpassen | 놓치다 | Wegen des Telefonats habe ich den Vortrag verpasst.
+zustande bringen | 완수하다 | Wir bringen heute eine Vereinbarung zustande.
+Verkehr | 남성 교통 | Der Verkehr ist heute ungewöhnlich stark.
+verkehren | 뒤바꾸다, 반대로 바꾸다 | Seine Antwort verkehrt alles ins Gegenteil.
+Stadtwerk | 중성 시영 공익사업체 | Das Stadtwerk gehört der Gemeinde.
+Was ist aus ... geworden? | …은 어떻게 되었는가? | Was ist aus deinem Vorschlag geworden?
+irisch | 아일랜드의 | Unser Gastgeber ist ein irischer Pastor.
+ironisch | 아이러니한 | Seine Antwort war leider ironisch gemeint.
+aus der Sicht | 누구의 관점에서 | Aus der Sicht der Arbeitnehmer ist das schlecht.
+doppelt | 두 배의 | Der Einzelpreis ist jetzt doppelt so hoch.
+Glaubwürdigkeitsverlust | 남성 신뢰도 손실 | Die Finanzkrise verursacht einen großen Glaubwürdigkeitsverlust.
+Selbstvertrauen | 중성 자신감 | Nach dem Lob hat er mehr Selbstvertrauen.
+Vertrauen | 중성 신뢰 | Diese Vereinbarung schafft Vertrauen zwischen den Parteien.
+vertrauen | 신뢰하다 | Ich vertraue dem Urteil meines Rechtsanwalts.
+exklusiv | 유일하게, 단독으로 | Diese Ausstellung ist exklusiv für unsere Gäste.
+Konflikt | 남성 갈등 | Das Gespräch hat den Konflikt gelöst.
+auslösen | 유발하다 | Die Ankündigung löst große Empörung aus.
+Grund für etwas sein | 4격에 대한 원인 | Der Dauerregen ist ein Grund für die Absage.
+verursachen | 유발하다 | Das Unwetter verursacht eine erhebliche Verzögerung.
+Betriebssystem | 중성 운영체제 | Das neue Betriebssystem ist sehr schnell.
+Fernseher | 남성 텔레비전 | Der Fernseher steht auf der Kommode.
+Fernsehen | 중성 텔레비전 시청 | Beim Fernsehen esse ich gern Obst.
+herunterladen | 내려받다 | Du kannst den Lageplan kostenlos herunterladen.
+synchronisieren | 동기화시키다 | Ich synchronisiere mein Tablet mit dem Computer.
+Tablet | 중성 태블릿 | Dieses Tablet ist leicht und leistungsfähig.
+Gesundheitsministerium | 보건부 | Das Gesundheitsministerium informiert über die Nebenwirkungen.
+fortsetzen | 지속하다 | Wir setzen die Konferenz morgen fort.
+Bär | 남성 곰 | Der Bär lebt im Tiergarten.
+Bauer | 농부 | Der Bauer verkauft frisches Gemüse.
+sich Sorgen machen | 걱정하다 | Ich mache mir Sorgen um meine Mutter.
+Druckschrift | 여성 인쇄체 | Bitte füllen Sie das Formular in Druckschrift aus.
+Handschrift | 여성 손글씨 | Deine Handschrift kann ich gut lesen.
+Schriftsprache | 여성 글말 | Wir lernen heute die deutsche Schriftsprache.
+Unterschrift | 여성 서명 | Auf dem Kaufvertrag fehlt Ihre Unterschrift.
+ab sofort | 즉시 | Wir arbeiten ab sofort im neuen Büro.
+begegnen | 우연히 만나다 | Ich begegne dem Bürgermeister im Büro.
+da drüben | 저쪽에 | Die Bäckerei ist gleich da drüben.
+Erbrecht | 중성 상속법 | Der Fachanwalt erklärt mir das Erbrecht.
+Ereignis | 중성 사건 | Alle sprechen heute über dieses Ereignis.
+Ergebnis | 중성 결과 | Das Ergebnis steht im neuen Dokument.
+Erlebnis | 중성 경험 | Die Reise war ein schönes Erlebnis.
+Anerkennung | 인정 | Seine Arbeit findet endlich Anerkennung.
+Bezeichnung | 명칭 | Diese Bezeichnung steht auf dem Dokument.
+Sammelbezeichnung | 여성 집합명칭 | Obst ist eine Sammelbezeichnung für Äpfel und Bananen.
+Verantwortungsbewusstsein | 중성 책임의식 | Für die Tätigkeit braucht man hohes Verantwortungsbewusstsein.
+Vereinbarkeit | 양립, 호환성 | Die Vereinbarkeit von Beruf und Familie ist wichtig.
+Würde | 여성 존엄 | Dieses Gesetz schützt die Würde der Menschen.
+Höchstwert | 남성 최고 온도 | Heute liegt der Höchstwert bei dreißig Grad.
+Tief | 중성 저기압 | Ein Tief bringt Regen und starke Sturmböen.
+Tiefstwert | 남성 최저온도 | Heute liegt der Tiefstwert bei null Grad.
+vorhersagen | 예견하다 | Die Marktforschung sagt einen Rückgang der Kaufkraft vorher.
+Wettervorhersage | 여성 일기예보 | Die Wettervorhersage sagt für morgen Schauer vorher.
+Boden | 남성 바닥 | Der Becher liegt auf dem Boden.
+goldenen Boden haben | 돈을 잘 버는 | Handwerk hat noch immer goldenen Boden.
+Grundlage | 여성 기반 | Vertrauen ist die Grundlage unserer Vereinbarung.
+Grundstückseigentümer | 토지 주인 | Der Grundstückseigentümer lässt die Hütte renovieren.
+scannen | 유심히 살피다 | Die Sicherheitskraft scannt die Menschenmenge.
+in Betrieb sein | 운영되고 있다 | Die neue Klimaanlage ist schon in Betrieb.
+tätig | 활동하는, 수행하는 | Sie ist als Rechtsanwältin in dieser Kanzlei tätig.
+fallen lassen | 포기하다 | Nach der Absage ließ sie ihren Plan fallen.
+absprechen | 합의하다 | Wir sprechen den Termin morgen ab.
+ansprechen | 논의하다 | Ich spreche das Problem morgen an.
+aussprechen | 표명하다 | Die Gäste sprechen ihren Dank aus.
+entsprechen | 해당하다, 부합하다 | Dieser Betrag entspricht dem Einzelpreis.
+versprechen | 약속하다 | Der Vertriebsmanager verspricht eine frühzeitige Lieferung.
+Zollinhaltserklärung | 세관신고서 | Für das Paket brauchen Sie eine Zollinhaltserklärung.
+herausfinden | 알아내다 | Die Polizei will seinen Namen herausfinden.
+Auslieferung | 여성 송환 | Der Dieb wartet auf seine Auslieferung.
+Lieferdatum | 중성 배송 날짜 | Bitte bestätigen Sie das genaue Lieferdatum.
+Lieferschein | 남성 배송증 | Der Lieferschein liegt oben im Paket.
+Lieferung | 배송 | Die Lieferung verzögert sich um einen Tag.
+Zustelldatum | 중성 배송날짜 | Das Zustelldatum steht in der Versandbestätigung.
+Zusteller | 배송인 | Der Zusteller bringt das Paket zur Wohnanlage.
+Zustellort | 남성 배송장소 | Bitte teilen Sie uns den gewünschten Zustellort mit.
+Zustelltag | 배송일 | Der nächste Werktag ist der gewünschte Zustelltag.
+Versandbestätigung | 배송 확인서 | Die Paketverfolgungsnummer steht in der Versandbestätigung.
+sitzen | 앉아있다 | Der Rechtsanwalt sitzt schon im Büro.
+sich trennen | 헤어지다 | Nach dem Konflikt haben sie sich getrennt.
+Sehenswürdigkeit | 명소 | Das Schloss ist die bekannteste Sehenswürdigkeit hier.
+gedenken | 추모하다 | Die Gemeinde gedenkt der Toten.
+anleinen | 줄에 매다 | Bitte leinen Sie Ihren Hund an.
+Halter | 주인 | Der Halter muss seinen Hund anleinen.
+Hinterlassenschaft | 여성 배설물 | Der Hundehalter entsorgt die Hinterlassenschaft seines Hundes.
+Hundehalter | 견주 | Der Hundehalter sucht seinen Geldbeutel.
+Hundehaufen | 개 배설물 | Vor der Haltestelle liegt ein Hundehaufen.
+Tierhaltung | 동물 사육 | Die Vorschriften zur Tierhaltung schützen die Tiere.
+in der Tat | 실제로 | Das Geschenk ist in der Tat großartig.
+tatsächlich | 실제로 | Die Sendung ist tatsächlich schon eingetroffen.
+voraussichtlich | 예측건대 | Die Sendung kommt voraussichtlich am Freitag an.
+wahr | 사실의 | Die Zeugenaussage ist tatsächlich wahr.
+wahrscheinlich | 십중팔구는 | Wahrscheinlich müssen wir die Veranstaltung verschieben.
+einfließen | 흘러들다, 녹아들다 | Ihre Vorschläge fließen in die Entwicklung ein.
+spielen | 연기하다 | Der Rechtsanwalt spielt in dem Film einen Soldaten.
+Umsatzsteuer | 여성 부가세 | Bitte bezahlen Sie den Preis einschließlich Umsatzsteuer.
+durchsuchen | 수색하다 | Die Polizei durchsucht das Büro.
+forschen | 연구하다 | Sie forscht seit Jahren an einem neuen Medikament.
+Forschungssemester | 중성 연구학기 | Im Forschungssemester schreibt sie ein Geschichtsbuch.
+untersuchen | 연구하다 | Wir untersuchen den Einfluss der Werbung.
+wissenschaftlich | 과학적으로 | Wir untersuchen das Konsumverhalten wissenschaftlich.
+aufladen | 충전하다 | Ich lade mein Handy im Büro auf.
+ausnahmsweise | 예외적으로 | Heute arbeite ich ausnahmsweise zu Hause.
+Grippe | 여성 독감 | Wegen der Grippe bleibt sie daheim.
+anderweitig | 다른 곳에서, 다른 방식으로 | Ich muss das Geld anderweitig verdienen.
+Reparaturannahme | 여성 수리 접수 | Die Reparaturannahme öffnet heute um neun.
+zuhören | 경청하다 | Bitte hören Sie dem Vortrag zu.
+Vortrag | 남성 강연 | Im Vortrag beschreibt sie zeitgenössische Kunst.
+Bürgerinitiative | 여성 시민운동단체 | Die Bürgerinitiative fordert mehr Schutz für Kinder.
+bedürfen | 필요하다 | Die Ausfuhr bedarf einer amtlichen Genehmigung.
+brauchen | 필요하다 | Ich brauche für die Reise einen Ausweis.
+erforderlich | 요구되는 | Für die Ausfuhr ist eine Genehmigung erforderlich.
+notwendig | 필요한 | Eine Genehmigung ist für diese Veranstaltung notwendig.
+Gebäude | 중성 건물 | Die Kanzlei ist in diesem Gebäude.
+allerdings | 다만 | Das Zimmer ist schön, allerdings sehr klein.
+Abteilungsleiter | 남성 과장, 부장 | Der Abteilungsleiter bestätigt meinen Antrag.
+Assistent | 남자 비서, 보조 직원 | Der Assistent schreibt das Dokument.
+Leiter | 단장 | Der Leiter begrüßt die neuen Mitarbeiter.
+Vertriebsmanager | 영업팀장 | Der Vertriebsmanager spricht mit dem neuen Kunden.
+pflegen | 돌보다 | Sie pflegt ihren kranken Vater daheim.
+Verhältnis | 중성 관계 | Ich habe ein gutes Verhältnis zum Abteilungsleiter.
+Geschichtsbuch | 중성 역사책 | Das Geschichtsbuch liegt neben dem Fernseher.
+Auslauf | 남성 배출구 | Das Wasser kommt aus dem Auslauf.
+Eiszeit | 여성 빙하기 | In der Eiszeit war es sehr kalt.
+Klimaanlage | 여성 에어컨 | Im Büro ist die Klimaanlage kaputt.
+zusätzlich | 추가로, 그 외 | Zusätzlich erhalten Sie eine kostenlose Produktprobe.
+Vielfalt an etwas | 3격의 다양성 | Die Ausstellung bietet eine Vielfalt an Werken.
+Auseinandersetzung | 분쟁 | Die Auseinandersetzung mit dem Betreiber ist vorbei.
+auf etwas hinauswollen | 4격을 의도하다 | Worauf wollen Sie mit dieser Frage hinaus?
+Paketverfolgungsnummer | 송장번호 | Bitte teilen Sie mir die Paketverfolgungsnummer mit.
+gastfreundlich | 손님을 환대하는 | Unsere Gastgeber sind sehr gastfreundlich.
+Gastgeber | 남성 초대인 | Der Gastgeber bietet uns Tee an.
+sympathisch | 호감이 가는 | Der neue Abteilungsleiter ist sehr sympathisch.
+weltoffen | 개방된 | Unsere Gemeinde ist weltoffen und gastfreundlich.
+Geldbeutel | 남성 지갑 | Mein Geldbeutel liegt noch im Fahrzeug.
+Geldgeber | 남성 후원자 | Der Geldgeber unterstützt die neue Initiative.
+Geldstrafe | 여성 벌금 | Der Hundehalter muss eine Geldstrafe bezahlen.
+Besuch | 남성 방문 | Wir freuen uns auf deinen Besuch.
+seltsam | 기이한 | Seine Antwort auf die Zusage war seltsam.
+ungewöhnlich | 평범하지 않은, 특이한 | Diese ungewöhnliche Werbung hat mich überrascht.
+unglaublich | 믿을 수 없는 | Der Preisnachlass ist wirklich unglaublich hoch.
+Drehtermin | 남성 촬영 예정일 | Der Drehtermin wurde wegen Dauerregens verschoben.
+um die Ecke | 모퉁이를 돌아서 | Die Bäckerei liegt gleich um die Ecke.
+Handwerk | 중성 수공업 | Im Handwerk sind leistungsfähige Mitarbeiter gefragt.
+Maßstab | 남성 척도, 기준 | Dieses Werk setzt einen neuen Maßstab.
+Knopfdruck | 남성 버튼 누르기 | Mit einem Knopfdruck können Sie den Fernseher anmachen.
+Lautstärke | 여성 볼륨, 음량 | Bitte ändern Sie die Lautstärke des Fernsehers.
+steuern | 제어하다 | Mit dieser Taste steuern Sie die Klimaanlage.
+Taste | 여성 버튼 | Drücken Sie bitte die grüne Taste.
+Vorurteil | 중성 선입견 | Diese Werbung verbreitet ein altes Vorurteil.
+erwachen | 깨어나다 | Ich erwache jeden Morgen um sechs.
+passieren | 발생하다 | Das ist direkt vor der Haltestelle passiert.
+Diversität | 다양성 | Diversität ist für unsere Firma wichtig.
+Nichtinanspruchnahme | 여성 미이용, 미청구 | Die Nichtinanspruchnahme muss dem Betreiber mitgeteilt werden.
+hinnehmen | 감내하다 | Wir müssen die Verzögerung leider hinnehmen.
+in Kauf nehmen | 감수하다 | Für den Meerblick nehmen wir hohe Kosten in Kauf.
+bestätigen | 확인하다 | Bitte bestätigen Sie mir den Termin.
+festlegen | 정하다, 확정하다 | Wir legen das Lieferdatum heute fest.
+vereinbaren | 합의하다 | Wir vereinbaren einen Termin für das Vorstellungsgespräch.
+Vereinbarung | 합의 | Unsere Vereinbarung tritt ab sofort in Kraft.
+beherbergen | 어디에 지내게 하다 | Unser Hotel beherbergt heute viele Gäste.
+Hotelverpflegung | 호텔 음식 | Wir bezahlen die Hotelverpflegung bei der Abreise.
+unterbringen | 수용하다, 묵게 하다 | Die Gemeinde bringt Flüchtlinge in diesem Gebäude unter.
+spinnen | 제정신이 아니다 | Du spinnst doch, das ist viel zu teuer!
+Fristablauf | 남성 기한 만료 | Nach Fristablauf ist die Anmeldung nicht mehr möglich.
+fristgerecht | 기한 내의 | Bitte verschicken Sie den Antrag fristgerecht.
+kurzfristig | 단기적인 | Das Unternehmen bietet nur kurzfristige Verträge an.
+stornieren | 주문을 취소하다 | Ich möchte meine Bestellung sofort stornieren.
+Stornierung | 취소 | Die Stornierung verursacht zusätzliche Gebühren.
+Stornokosten | 복수 취소비용 | Bei einer Stornierung gibt es keine Stornokosten.
+Teilnahme | 여성 참여 | Die Teilnahme an der Veranstaltung ist kostenlos.
+einlösen | 되찾다, 교환하여 사용하다 | Den Rabatt können Sie im Geschäft einlösen.
+erlösen | 구원하다 | Der Arzt erlöste ihn von den Schmerzen.
+da | 이므로 | Da es regnet, bleiben wir zu Hause.
+Laterne | 여성 랜턴 | Vor der Hütte hängt eine Laterne.
+abhängen | 좌우되다 | Das Ergebnis hängt vom Wetter ab.
+Blüte | 여성 꽃 | Die Blüte ist klein und weißlich.
+aufführen | 공연하다 | Die AG führt heute ein Stück auf.
+durchführen | 실행에 옮기다 | Wir führen heute das Interview durch.
+einführen | 도입하다 | Die Firma führt ein neues Betriebssystem ein.
+entführen | 납치하다 | Die Bande hat den Banker entführt.
+führen | 인도하다 | Der Leiter führt uns durch das Gebäude.
+sich über etwas informieren | 4격에 대해 알아보다 | Ich informiere mich über die Fahrradmitnahme.
+im Schnitt | 평균적으로 | Im Schnitt kostet die Lieferung fünf Euro.
+befördern | 승진시키다 | Die Firma befördert ihn zum Abteilungsleiter.
+Beförderung | 승진 | Ich freue mich über meine Beförderung.
+beschäftigen | 채용하다 | Der Betrieb beschäftigt zehn Arbeitnehmer.
+kündigen | 해고하다, 사직하다, 계약을 해지하다 | Sie kündigt ihren Vertrag noch fristgerecht.
+Schlag | 남성 타격 | Der Schlag hat großen Schaden verursacht.
+Tracking | 중성 추적 | Das Tracking zeigt den Standort der Sendung.
+sich als etwas ausgeben | 4격이라고 허위 주장하다 | Der Dieb gab sich als Banker aus.
+fahnden nach etwas | 3격을 수배하다 | Die Polizei fahndet nach dem Angreifer.
+Polizeistreife | 여성 순찰 경찰, 경찰 순찰대 | Die Polizeistreife sucht nach dem Dieb.
+Polizei | 여성 경찰 | Die Polizei hat das Fahrzeug durchsucht.
+Polizist | 남성 경찰 | Der Polizist bittet um meinen Ausweis.
+abstellen | 세우다 | Bitte stellen Sie das Fahrrad hier ab.
+unterwegs sein | 이동 중이다, 외출 중이다 | Der Zusteller ist heute schon früh unterwegs.
+einnehmen | 복용하다 | Bitte nehmen Sie die Tablette morgens ein.
+Medikament | 중성 약, 약물 | Bitte nehmen Sie das Medikament nach dem Essen.
+Pille | 여성 알약 | Sie nimmt die Pille mit Wasser ein.
+schlucken | 삼키다 | Bitte schlucken Sie die Tablette mit Wasser.
+Tablette | 여성 알약 | Nehmen Sie die Tablette mit Wasser ein.
+zu sich nehmen | 섭취하다 | Bitte nehmen Sie genügend Wasser zu sich.
+mitteilen | 통보하다 | Bitte teilen Sie uns das Lieferdatum mit.
+kränken | 상처를 주다 | Seine Worte haben mich sehr gekränkt.
+Sprechzeiten | 복수 진료시간 | Die Sprechzeiten der Praxis stehen im Internet.
+frühzeitig | 조기의 | Bitte melden Sie sich frühzeitig an.
+entgehen | 피하다 | Der Angreifer ist der Polizei entgangen.
+überzeugen | 납득시키다 | Der Rechtsanwalt überzeugt mich mit seinen Vorschlägen.
+abnehmen | 제거하다 | Bitte nehmen Sie die Bilder ab.
+aufnehmen | 들어 올리다, 받아들이다, 시작하다 | Wir nehmen morgen unsere Arbeit wieder auf.
+Präventionsmaßnahme | 여성 예방대책 | Die Gemeinde plant eine neue Präventionsmaßnahme.
+Fabrikhalle | 여성 공장 건물, 공장 작업장 | Die Fabrikhalle ist seit gestern geschlossen.
+Kanzleramt | 중성 총리청 | Der Bürgermeister besucht morgen das Kanzleramt.
+auf jeden Fall | 아무튼, 무조건 | Ich komme auf jeden Fall morgen.
+falls | 만약 뭐뭐라면 | Falls es regnet, bleiben wir daheim.
+in jedem Fall | 분명히 | In jedem Fall brauchen wir eine Genehmigung.
+unter Umständen | 경우에 따라 | Unter Umständen müssen wir die Veranstaltung verschieben.
+wenn auch | 뭐뭐 할지라도 | Der Vortrag war gut, wenn auch etwas kurz.
+amtlich | 공적인 | Die Angaben im Dokument sind amtlich.
+Freizeitpark | 남성 놀이공원 | Am Sonntag besuchen wir einen Freizeitpark.
+grüßen | 인사하다 | Der Polizist grüßt den neuen Nachbarn.
+Kundenservice | 남성 고객서비스 | Der Kundenservice hilft Ihnen bei Rückfragen.
+auslassen | 빠뜨리다 | Bitte lassen Sie keine Angaben aus.
+schwach | 연한 | Der Tee ist mir zu schwach.
+Sinn | 남성 의미, 의의 | Ich verstehe den Sinn dieser Vorschrift.
+Enkelkind | 중성 손주 | Mein Enkelkind kommt morgen zu Besuch.
+angebracht sein | 적절하다 | Eine kurze Auszeit wäre jetzt angebracht.
+Lageplan | 남성 지도 | Auf dem Lageplan finden Sie das Messegelände.
+Orientierung | 안내, 방향설정 | Der Lageplan erleichtert die Orientierung auf dem Messegelände.
+Richtung | 방향 | Wir gehen in Richtung Schloss.
+Standort | 남성 입지, 근무지 | Das Unternehmen sucht einen neuen Standort.
+vor Ort | 현장에 | Die Sicherheitskraft untersucht den Schaden vor Ort.
+bewusst | 의식적 | Ich habe mich bewusst dafür entschieden.
+Bewusstlosigkeit | 의식불명 | Die Bewusstlosigkeit dauerte nur wenige Minuten.
+Ohnmacht | 여성 기절상태 | Nach der Ohnmacht kam sie wieder zu sich.
+unbewusst | 무의식의 | Er machte die Geste ganz unbewusst.
+zu sich kommen | 정신차리다 | Nach der Ohnmacht kommt sie langsam zu sich.
+erfahren | 경험 있는, 숙련된 | Der Bankangestellte ist freundlich und erfahren.
+erfassen | 치다 | Das Auto hat den Dieb erfasst.
+erhalten | 얻다 | Ich habe heute eine Auskunft erhalten.
+erwerben | 취득하다 | Sie möchte ein neues Fahrzeug erwerben.
+Ehrengastland | 중성 주빈국 | Deutschland ist dieses Jahr das Ehrengastland.
+flüchten | 피신하다 | Die Menschen flüchten vor dem Gewitter.
+Flüchtling | 남성 난민 | Der Flüchtling sucht eine neue Wohnung.
+Geflüchtete | 여자난민 | Die Geflüchtete besucht einen Sprachkurs.
+Migrant | 이주자 | Der Migrant sucht einen Praktikumsplatz.
+Neubürger | 신규 주민 | Der Bürgermeister begrüßt die Neubürger vor dem Gebäude.
+Empörung | 분노, 격분 | Die Absage löst große Empörung aus.
+Anlass | 남성 계기, 기회 | Der Besuch war Anlass für eine Besprechung.
+Facette | 여성 측면 | Das Dokument zeigt viele Facetten des Problems.
+diesmal | 이번에 | Diesmal reise ich mit der Bahn.
+Fahrerschutzversicherung | 운전자 보험 | Die Fahrerschutzversicherung ist für den Fahrer wichtig.
+Kfz-Haftpflichtversicherung | 자동차 배상책임보험 | Die Kfz-Haftpflichtversicherung übernimmt den Schaden am anderen Fahrzeug.
+Schaden | 남성 피해 | Das Unwetter hat großen Schaden verursacht.
+Schadenersatz | 남성 피해보상 | Der Fahrzeughalter fordert Schadenersatz für sein Auto.
+Schadenfall | 남성 손해 사고 | Bitte melden Sie jeden Schadenfall sofort.
+Teilkasko | 여성 부분 자차보험 | Bei diesem Schaden zahlt die Teilkasko.
+Vollkasko | 여성 완전 자차보험 | Die Vollkasko übernimmt den Schaden am Fahrzeug.
+hochwertig | 높은 가치의 | Dieses Geschäft verkauft hochwertige Möbel.
+heimlich | 비밀리에 | Sie legt das Geschenk heimlich auf den Tisch.
+hervortreten | 두드러지다 | Seine Angst tritt im Gespräch hervor.
+unauffällig | 눈에 띄지 않는 | Der Polizist trägt unauffällige Kleidung.
+verbergen | 숨기다 | Er kann seine schlechte Laune kaum verbergen.
+Berichterstattung | 보도 | Die Berichterstattung über die Ausstellung beginnt heute.
+Ordnungsamt | 중성 행정질서과 | Das Ordnungsamt informiert über die neue Vorschrift.
+Silvester | 중성 12월 31일 | An Silvester feiern wir mit unseren Freunden.
+Fahrschule | 여성 면허학원 | Meine Schwester besucht jetzt eine Fahrschule.
+Partei | 여성 정당 | Die Partei fordert einen höheren Mindestlohn.
+vorab | 사전에 | Bitte schicken Sie uns die Unterlagen vorab.
+Hilfeleistung | 도움 | Im Notfall ist schnelle Hilfeleistung notwendig.
+bergsteigen | 등산하다 | Im Urlaub wollen wir jeden Tag bergsteigen.
+Lesung | 낭독회 | Die Lesung beginnt bald in der Buchhandlung.
+auf Geschäftsreise sein | 출장 중이다 | Der Abteilungsleiter ist heute auf Geschäftsreise.
+Dienstreise | 여성 출장 | Morgen fahre ich auf Dienstreise.
+Geschäftsreise | 여성 출장 | Mein Vater ist gerade auf Geschäftsreise.
+in Urlaub fahren | 휴가를 떠나다 | Im August fahren wir in Urlaub.
+Hütte | 여성 오두막 | Die Hütte liegt in den Bergen.
+Drehort | 남성 촬영 장소 | Der Drehort liegt neben dem Tiergarten.
+klimaneutral | 기후 중립적인 | Unser Unternehmen will klimaneutral werden.
+Klimawandel | 남성 기후변화 | Der Klimawandel gefährdet auch unsere Gemeinde.
+Mehrweg | 남성 재사용, 다회용 방식 | Mehrweg ist in dieser Branche gefragt.
+nachhaltig | 지속가능한 | Wir wollen ab sofort nachhaltig einkaufen.
+Wegwerfbecher | 남성 일회용컵 | Wir verzichten bei der Veranstaltung auf Wegwerfbecher.
+wiederverwendbar | 재사용이 가능한 | Diese Becher sind leicht und wiederverwendbar.
+Tarifsystem | 중성 임금체계 | Die Arbeitnehmer werden nach dem neuen Tarifsystem entlohnt.
+Ausstellung | 전시회 | Die Ausstellung zeigt Bilder aus China.
+Kurator | 큐레이터 | Der Kurator führt uns durch die Ausstellung.
+Messe | 여성 박람회 | Auf der Messe treffen wir neue Geldgeber.
+Messegelände | 중성 박람회장 | Das Messegelände ist mit der Bahn erreichbar.
+Publikumsmagnet | 남성 관객을 끌어들이는 곳 | Der Tiergarten ist ein beliebter Publikumsmagnet.
+Vernissage | 여성 전시회 개막식 | Die Vernissage beginnt am Freitag um sechs.
+Bankangestellte | 남자 은행원 | Der Bankangestellte hilft mir beim Formular.
+Bankeinzug | 계좌 자동이체 | Die Miete wird durch Bankeinzug bezahlt.
+Banker | 남자 은행원 | Der Banker erklärt mir den Kaufvertrag.
+ein Konto eröffnen | 계좌를 개설하다 | Ich möchte heute ein Konto eröffnen.
+IBAN | 국제은행 계좌번호 | Bitte geben Sie Ihre IBAN an.
+Machtposition | 권력이 있는 지위 | Er will seine Machtposition im Unternehmen sichern.
+schick | 멋진 | Deine neue Krawatte sieht schick aus.
+Werktag | 근무일 | Die Sendung kommt am nächsten Werktag.
+Wappentier | 문장동물 | Der Bär ist das Wappentier der Stadt.
+Wappen | 중성 가문, 국가 등의 문장 | Im Wappen der Gemeinde steht ein Bär.
+Bezirk | 남성 구역 | In diesem Bezirk gibt es eine Bäckerei.
+Aufmerksamkeit auf sich ziehen | 어그로를 끌다 | Die Anzeige zieht viel Aufmerksamkeit auf sich.
+Aufmerksamkeit erregen | 어그로를 끌다 | Die Ausstellung erregt in der Stadt Aufmerksamkeit.
+beeindruckend | 인상적인 | Die Ausstellung ist wirklich beeindruckend.
+großartig | 뛰어난 | Deine Leistung bei der Prüfung war großartig.
+Presse | 여성 언론 | Die Presse schreibt über die Konferenz.
+erleichtern | 부담을 줄이다 | Die Klimaanlage erleichtert die Arbeit im Sommer.
+wandern | 트레킹하다 | Am Wochenende wandern wir in den Bergen.
+eindringen | 침입하다 | Der Dieb dringt in das Gebäude ein.
+Krankenschein | 남성 진단서 | Bitte schicken Sie den Krankenschein ins Büro.
+Osterferien | 복수 부활절 방학 | In den Osterferien besuchen wir unsere Gastgeber.
+Gemeinde | 여성 공동체 | Die Gemeinde baut ein neues Pflegeheim.
+zurückschreiben | 회신하다 | Bitte schreiben Sie mir spätestens morgen zurück.
+mit etwas rechnen | 3격을 기대하다 | Wir rechnen mit einer Verzögerung der Lieferung.
+Fachanwalt | 남성 전문변호사 | Der Fachanwalt bietet eine Rechtsberatung an.
+Kanzlei | 여성 변호사 사무실 | Die Kanzlei bietet kostenlose Rechtsberatung an.
+Recht haben | 옳다 | Mit dieser Aussage hast du Recht.
+rechtfertigen | 정당화하다 | Der Schaden rechtfertigt eine hohe Strafe.
+Rechtsberatung | 법률자문 | Die Kanzlei bietet kostenlose Rechtsberatung an.
+Rechtsanwalt | 변호사 | Der Rechtsanwalt untersucht den Kaufvertrag genau.
+Rechtslage | 법적 상황 | Der Fachanwalt erklärt die aktuelle Rechtslage.
+einer Sache auf den Grund gehen | 원인을 면밀하게 조사하여 밝혀내다 | Wir gehen dem Problem auf den Grund.
+anstehen | 일정 등이 다가오다 | Morgen steht eine wichtige Besprechung an.
+aufstehen | 일어나다, 기상하다 | Ich stehe jeden Morgen früh auf.
+unterstützen | 지지하다 | Die Bürgerinitiative unterstützt den neuen Vorschlag.
+Nebenwirkung | 부작용 | Bitte achten Sie auf die Nebenwirkungen.
+in Kraft treten | 효력이 발생하다 | Das Gesetz tritt im Januar in Kraft.
+begeistern | 감격시키다 | Die Ausstellung begeistert die ganze Familie.
+Betriebsurlaub | 남성 매장휴무 | Die Bäckerei hat ab Montag Betriebsurlaub.
+Betriebsversammlung | 종업원 총회 | Die Betriebsversammlung ist morgen im Büro.
+Filiale | 여성 지점 | Diese Filiale bleibt in den Osterferien geschlossen.
+Handelskette | 마트 체인점 | Die Handelskette eröffnet eine neue Filiale.
+Supermarktkette | 여성 대형마트체인 | Die Supermarktkette eröffnet eine neue Filiale.
+hingegen | 이와 달리 | Er bestellt Fleisch, ich hingegen Gemüse.
+regelrecht | 규정에 맞는, 그야말로 | Nach der Absage war er regelrecht erschöpft.
+Chinesische Mauer | 만리장성 | Die Chinesische Mauer ist sehr lang.
+in Folge | 연이어 | Die Filiale bleibt drei Tage in Folge geschlossen.
+verbreiten | 퍼뜨리다 | Die Presse verbreitet die Regierungsangaben sofort.
+ein Formular ausfüllen | 서류를 작성하다 | Bitte füllen Sie zuerst ein Formular aus.
+Viertelstunde | 15분 | Das Telefonat dauert nur eine Viertelstunde.
+federleicht | 깃털처럼 가벼운 | Dieses Kleid ist weich und federleicht.
+Gewicht | 중성 무게 | Das Paket hat ein geringes Gewicht.
+Größe | 여성 크기, 키 | Haben Sie das Kleid in meiner Größe?
+kinderleicht | 매우 쉬운 | Mit diesem Lageplan ist die Orientierung kinderleicht.
+Schwere | 여성 무게 | Ich fühle die Schwere des Pakets.
+beruhigen | 진정시키다 | Die Mutter beruhigt ihr Kind.
+Kenntnisstand | 남성 지식수준, 파악하고 있는 정보 | Nach meinem Kenntnisstand ist die Filiale geschlossen.
+sich mit jemandem unterhalten | 3격과 대화를 하다 | Ich unterhalte mich mit dem Vertriebsmanager.
+unkooperativ | 비협조적 | Der Fahrzeughalter war im Gespräch mit der Polizei unkooperativ.
+Fahrzeug | 중성 차량 | Das Fahrzeug steht vor dem Gebäude.
+Kaufkraft | 여성 구매력 | Die Finanzkrise gefährdet die Kaufkraft der Menschen.
+käuflich | 살 수 있는 | Dieses Bild ist leider nicht käuflich.
+weiterverkaufen | 되팔다, 전매하다 | Ich möchte mein altes Tablet weiterverkaufen.
+bitten um etwas | 4격을 요청하다, 부탁하다 | Ich bitte Sie um Ihre Anschrift.
+Auftrag | 남성 의뢰, 주문 | Der Caterer hat einen neuen Auftrag erhalten.
+eintreten | 나타나다, 시작되다 | Der gewünschte Effekt tritt bald ein.
+bereitliegen | 준비되어 놓여있다 | Die Unterlagen liegen im Büro bereit.
+einsetzbar | 적용가능한 | Dieses Fahrzeug ist auch im Winter einsetzbar.
+jemandem zur Verfügung stehen | 3격이 이용할 수 있다, 3격을 도울 준비가 되어 있다 | Der Assistent steht Ihnen immer zur Verfügung.
+verfügbar | 사용가능한 | Die Produktprobe ist ab sofort verfügbar.
+Tätigkeit | 일, 활동 | Für diese Tätigkeit braucht man viel Verantwortungsbewusstsein.
+Verlangen | 중성 요구 | Auf Verlangen müssen Sie den Ausweis vorzeigen.
+Bescheid sagen | 연락하다 | Bitte sagen Sie mir morgen Bescheid.
+verpflichtet sein | 의무가 있다 | Alle Arbeitnehmer sind zur Teilnahme verpflichtet.
+abwehren | 방어하다, 막다 | Die Polizei wehrt den Angreifer ab.
+angreifen | 공격하다 | Der Bär greift den Mann an.
+Angreifer | 공격자 | Die Polizei sucht den Angreifer.
+Anschlag | 남성 공격 | Nach dem Anschlag kam die Polizei.
+Attentat | 중성 테러 | Nach dem Attentat wurde die Straße gesperrt.
+bewaffnet | 무장한 | Der Angreifer war mit einem Messer bewaffnet.
+Selbstmordattentäter | 자살테러범 | Die Polizei sucht nach einem Selbstmordattentäter.
+renovieren | 보수하다 | Wir renovieren die Küche im Sommer.
+Ferien | 복수 방학 | In den Ferien fahren wir ans Meer.
+dotieren | 상금을 책정하다 | Der Preis ist mit tausend Euro dotiert.
+Beitrag | 남성 기여, 포스팅 | Ihr Beitrag zur Besprechung war sehr gut.
+Betrag | 남성 금액 | Der Betrag steht auf der Rechnung.
+einen Beitrag zu etwas leisten | 3격에 기여하다 | Jeder kann einen Beitrag zum Schutz der Tiere leisten.
+Einzelpreis | 단가 | Der Einzelpreis steht auf dem Becher.
+Gesamtpreis | 남성 총액 | Der Gesamtpreis ist im Kaufvertrag festgelegt.
+Nettobetrag | 남성 순액(세금·공제액 등을 뺀 금액) | Der Nettobetrag steht auf der Rechnung.
+Rechnungsbetrag | 남성 총액 | Bitte bezahlen Sie den Rechnungsbetrag bis Freitag.
+ausfüllen | 작성하다 | Bitte füllen Sie das Formular hier aus.
+übertragbar | 양도 가능한 | Die Eintrittskarte ist auf andere Personen übertragbar.
+im Allgemeinen | 보편적으로 | Im Allgemeinen ist die Fahrradmitnahme hier kostenlos.
+im Einzelnen | 구체적으로 | Der Leiter beschreibt den Kaufvertrag im Einzelnen.
+insbesondere | 특히 | Insbesondere Kinder freuen sich auf die Ferien.
+namentlich | 특히 | Namentlich die Mieter haben Bedenken.
+unter anderem | 그 밖에도, 여러 가지 중에서 | Die Messe zeigt unter anderem virtuelle Kunst.
+vor allem | 무엇보다 | Vor allem brauchen wir Ihre Unterschrift.
+sich im Voraus bedanken | 미리 감사 인사하다 | Ich bedanke mich im Voraus für Ihre Hilfe.
+Unterdrückte | 여성 억압받는 여자 | Die Unterdrückte braucht unseren Schutz.
+sich auskennen | 잘 알고 있다 | Ich kenne mich in diesem Bezirk aus.
+weniger als im Vorjahreszeitraum | 전년 동기간 대비 낮은 | Wir verdienen weniger als im Vorjahreszeitraum.
+erreichbar sein | 연락 가능하다 | Ich bin morgen im Büro erreichbar.
+Geschwindigkeit | 속도 | Das Fahrzeug fährt mit geringer Geschwindigkeit.
+Zeitfenster | 중성 기간 | Für die Lieferung haben wir ein kurzes Zeitfenster.
+Beilage | 여성 반찬 | Als Beilage gibt es Reis.
+Fleisch | 중성 고기 | Heute gibt es Gemüse statt Fleisch.
+Gemüse | 중성 야채 | Ich kaufe Obst und Gemüse ein.
+Korn | 중성 곡물 | Der Bauer verkauft sein Korn auf dem Markt.
+Linse | 여성 렌즈, 렌틸콩 | Die Linse der Kamera ist kaputt.
+Obst | 중성 과일 | Zum Frühstück esse ich gern Obst.
+bekämpfen | 싸우다 | Die Polizei bekämpft die Drogenkriminalität.
+harsch | 거친 | Der Leiter reagierte harsch auf die Rückfrage.
+Auszeit | 여성 휴식기 | Nach der Dienstreise brauche ich eine Auszeit.
+sich erholen | 회복하다 | Ich erhole mich von der Grippe.
+erschöpft | 녹초가 된 | Nach der Dienstreise bin ich erschöpft.
+kaputt | 망가진, 완전히 지친 | Unsere Klimaanlage ist seit gestern kaputt.
+Stimmungsaufhellung | 분위기 개선 | Der Ausflug führt zu einer Stimmungsaufhellung.
+Ermäßigung | 할인 | Gibt es eine Ermäßigung für Kinder?
+Preisnachlass | 남성 할인 | Das Geschäft gewährt einen Preisnachlass von zehn Euro.
+Rabatt | 남성 할인 | Auf dieses Tablet gibt es Rabatt.
+Sonderaktion | 특별할인행사 | Die Supermarktkette bietet heute eine Sonderaktion an.
+Sparangebot | 중성 할인상품 | Dieses Sparangebot ist nur bis Silvester verfügbar.
+militärisch | 군사적인 | Der Konflikt wurde militärisch gelöst.
+in letzter Zeit | 최근에 | In letzter Zeit fahre ich oft Fahrrad.
+Bild | 중성 그림 | Dieses Bild gefällt meinem Enkelkind sehr.
+Kunst | 여성 예술 | Die Ausstellung zeigt zeitgenössische Kunst.
+Werk | 중성 작품 | Dieses Werk gehört zur zeitgenössischen Kunst.
+Wert | 남성 가치 | Der Wert des Werks ist im Kaufvertrag festgelegt.
+Zerrbild | 중성 왜곡된 모습, 풍자화 | Die Werbung zeigt ein Zerrbild unserer Gemeinde.
+Elternzeit | 여성 육아휴직 | Ich gehe ab Montag in Elternzeit.
+Ganztagstätigkeit | 종일 근무 | Die Ganztagstätigkeit lässt wenig Zeit für Freizeit.
+Halbtagsgehalt | 중성 반일 근무 급여 | Mit dem Halbtagsgehalt kann sie die Miete bezahlen.
+Vollzeit | 전일근무 | Nach der Elternzeit arbeitet sie wieder in Vollzeit.
+Wiedereinstieg | 남성 직업 복귀 | Nach der Elternzeit plant sie ihren Wiedereinstieg.
+nachteilig | 불리한 | Die Verzögerung ist für das Unternehmen nachteilig.
+darüber hinaus | 그밖에 | Darüber hinaus brauchen wir noch Ihre Unterschrift.
+schenken | 선물하다 | Ich schenke dir einen neuen Wasserkocher.
+entscheiden | 결정하다 | Wir entscheiden heute über Ihren Antrag.
+sich entschließen | 결정하다 | Ich entschließe mich zu einer Auszeit.
+sich etwas vorbehalten | ~에 대한 권리를 유보하다 | Wir behalten uns eine Stornierung vor.
+vorhaben | 계획하다 | Wir haben vor, die Küche zu renovieren.
+erste Schritte gehen | 첫걸음을 걷다 | Das Enkelkind geht seine ersten Schritte.
+auf jemanden entfallen | 4격에게 귀속되다, 4격에게 돌아가다 | Auf jeden Einwohner entfallen zehn Euro.
+Schuhhaus | 중성 신발가게 | Das Schuhhaus bietet heute einen Rabatt.
+Nutzer | 사용자 | Die Nutzer können den Lageplan kostenlos herunterladen.
+ausgehen | 외출하다 | Wir gehen heute Abend zusammen aus.
+Tortur | 여성 고문 | Die lange Fahrt war eine Tortur.
+solange der Vorrat reicht | 재고가 있는 한 | Das Sparangebot ist verfügbar, solange der Vorrat reicht.
+offen sein | 결정되지 않은 상태이다 | Das genaue Lieferdatum ist noch offen.
+Angst | 여성 두려움 | Das Kind hat Angst vor dem Bären.
+übernehmen | 부담하다 | Das Unternehmen übernimmt die gesamten Stornokosten.
+überraschen | 놀라게 하다 | Die frühe Zusage hat mich überrascht.
+überwachen | 감시하다, 관리하다 | Die Sicherheitskraft überwacht den Zugang zum Gebäude.
+verwundern | 놀라게 하다 | Seine unpersönliche Rückmeldung hat mich verwundert.
+auf den Markt bringen | 시장에 출시하다 | Die Firma bringt neue Produkte auf den Markt.
+Neuveröffentlichung | 신간 발행, 신작 출시 | Die Buchhandlung bietet viele Neuveröffentlichungen an.
+Produktlinie | 여성 상품라인 | Das Unternehmen stellt eine neue Produktlinie vor.
+Produktprobe | 여성 제품 샘플 | Im Paket liegt eine kostenlose Produktprobe.
+entsorgen | 치우다 | Bitte entsorgen Sie die alten Medikamente.
+fahrzeuggebundene Einstiegshilfe | 탑승 보조장치 | Die fahrzeuggebundene Einstiegshilfe ist jetzt in Betrieb.
+absolut | 전혀, 절대적으로 | Das Ergebnis ist absolut richtig.
+keineswegs | 결코 뭐뭐하지 않다 | Die Reparatur ist keineswegs kinderleicht.
+nimmer | 결코 뭐뭐않는 | Diesen Ort werde ich nimmer vergessen.
+auf etwas achten | 4격에 주의하다 | Bitte achten Sie auf die Kinder.
+Gemütlichkeit | 편안함 | Die Hütte bietet Ruhe und Gemütlichkeit.
+Bonus | 남성 혜택 | Die Firma zahlt einen Bonus.
+klettern | 오르다 | Die Kinder klettern auf einen Baum.
+überwiegend | 대체로 | Die Einwohner sind überwiegend erwerbstätig.
+Attraktivität | 매력 | Die Attraktivität des Angebots ist sehr hoch.
+Einzelzimmer | 1인실 | Ich möchte ein Einzelzimmer mit Bad.
+Meerblick | 남성 오션뷰 | Das Einzelzimmer bietet einen großartigen Meerblick.
+Miete | 여성 임대료 | Die Miete ist im Januar wieder gestiegen.
+Mieter | 임차인 | Der Mieter hat den Vertrag gekündigt.
+Wohnanlage | 여성 주거지 | Die neue Wohnanlage liegt neben dem Tiergarten.
+Wohnungsbesichtigung | 여성 집구경 | Die Wohnungsbesichtigung dauert ungefähr eine Viertelstunde.
+aufwachsen | 성장하다 | Mein Enkelkind wächst in Berlin auf.
+leiden | 손해를 입다, 고통받다 | Das Geschäft leidet unter der Finanzkrise.
+Bedenken | 중성 고민 | Ich habe bei diesem Angebot Bedenken.
+bedenken | 고민하다 | Bitte bedenken Sie auch die Stornokosten.
+einkaufen | 장을 보다 | Ich kaufe heute in der Bäckerei ein.
+etwas hinter sich lassen | 4격을 벗어나다, 4격을 능가하다 | Sie möchte die Einsamkeit hinter sich lassen.
+für etwas aufkommen | 4격에 대해 비용을 부담하다 | Der Halter kommt für den Schaden auf.
+für etwas verantwortlich sein | 4격에 책임을 지다 | Der Kurator ist für die Ausstellung verantwortlich.
+Haftung | 책임 | Die Haftung ist im Kaufvertrag festgelegt.
+jemanden für etwas haftbar machen | 4격에게 책임(4격)을 지우다 | Der Mieter macht den Halter für den Schaden haftbar.
+jemanden für etwas verantwortlich machen | 4격에게 책임(4격)을 지우다 | Sie macht den Leiter für den Fehler verantwortlich.
+Schuld an etwas haben | 3격에 대해 책임이 있다 | Wer hat Schuld an dieser Verzögerung?
+nach Angaben | 누구의 진술에 따르면 | Nach Angaben der Polizei ist das Gebäude leer.
+beschreiben | 설명하다 | Bitte beschreiben Sie den Dieb.
+Beamte | 공무원 | Die Beamten arbeiten im neuen Gebäude.
+Daheimgebliebene | 남성 집에 머무는 사람 | Der Daheimgebliebene kümmert sich um den Hund.
+ärgerlich | 짜증스러운 | Die Verzögerung ist für uns ärgerlich.
+sich über etwas ärgern | 4격에 대해 짜증내다 | Ich ärgere mich über die Verzögerung.
+gereizt sein | 예민하다 | Nach dem Konflikt ist er gereizt.
+schlechter Laune sein | 기분이 좋지 않다 | Nach der Absage bin ich schlechter Laune.
+sensibel | 예민한 | Er reagiert sensibel auf solche Vorurteile.
+durcheinander | 뒤죽박죽인 | Die Unterlagen sind hier ganz durcheinander.
+Ausgabe | 여성 지출 | Diese Ausgabe war für die Firma notwendig.
+Veranstaltung | 행사 | Die Teilnahme an dieser Veranstaltung ist kostenlos.
+engagiert | 열의가 있는 | Der Erzieher ist freundlich und engagiert.
+in Rente gehen | 은퇴하다 | Mein Vater geht nächstes Jahr in Rente.
+pensioniert | 퇴직한 | Unser Nachbar ist seit Januar pensioniert.
+Rente | 여성 연금 | Seine Rente reicht für die Miete.
+Ruhestand | 남성 은퇴 | Im Ruhestand möchte er mehr wandern.
+Stellungnahmen | 입장표명 | Die Presse erhält Stellungnahmen von allen Parteien.
+Pandemie | 여성 팬데믹 | Wegen der Pandemie wurde die Messe abgesagt.
+Ansehen | 중성 명성 | Sein Ansehen in der Gemeinde ist groß.
+ansehen | 관람하다 | Wir sehen uns heute die Ausstellung an.
+aussehen | 무엇인 것처럼 보이다 | Das Bild sieht sehr schön aus.
+sehnsüchtig | 애타게 | Sie wartet sehnsüchtig auf seine Rückmeldung.
+austauschen | 교환하다, 논의하다 | Wir tauschen unsere Telefonnummern aus.
+Entwicklung | 발전 | Die Entwicklung des Betriebssystems kostet viel Geld.
+Finanzkrise | 여성 금융위기 | Die Finanzkrise gefährdet viele Unternehmen.
+Innovation | 여성 혁신 | Diese Innovation erleichtert die Arbeit erheblich.
+Investition | 여성 투자 | Die Investition fördert die Entwicklung des Unternehmens.
+aus etwas stammen | 3격에서 유래하다 | Viele Wörter stammen aus anderen Sprachen.
+zusammenstellen | 모아두다 | Ich stelle die Unterlagen für den Antrag zusammen.
+vergeben | 양도하다, 수여하다 | Die Gemeinde vergibt einen Preis für nachhaltige Kunst.
+Druckerei | 여성 인쇄소 | Die Druckerei ist gleich um die Ecke.
+Badekleidung | 여성 수영복 | Bitte bringen Sie Ihre Badekleidung mit.
+in Mode sein | 유행하고 있는 | Diese Farbe ist gerade in Mode.
+Kleid | 중성 원피스, 드레스 | Mein blaues Kleid hängt neben der Gardine.
+Krawatte | 여성 넥타이 | Zum Vorstellungsgespräch trägt er eine blaue Krawatte.
+Tragekomfort | 남성 착용감 | Die weichen Schuhe bieten einen hohen Tragekomfort.
+durchsetzen | 관철하다, 시행하다 | Der Bürgermeister setzt seinen Vorschlag durch.
+Aufstieg | 남성 상승, 성장 | Sein Aufstieg im Unternehmen war schnell.
+in den Keller fallen | 바닥으로 떨어지다 | Nach der Finanzkrise fiel der Preis in den Keller.
+in den Keller gehen | 하락하다 | Die Preise gehen gerade in den Keller.
+Rückgang | 남성 하락, 감소 | Die Marktforschung zeigt einen erheblichen Rückgang.
+befahren | 차량이 다니다 | Diese Straße wird von vielen Autos befahren.
+Verfahren | 중성 절차 | Der Rechtsanwalt erklärt mir das Verfahren.
+Gesetz | 중성 법 | Das neue Gesetz tritt morgen in Kraft.
+gesetzlich | 법적인 | Der Mindestlohn ist gesetzlich festgelegt.
+Straßenverkehrsordnung | 도로교통규정 | Jeder Fahrzeughalter muss die Straßenverkehrsordnung kennen.
+Vorschrift | 여성 규정 | Alle Fahrzeughalter müssen auf diese Vorschrift achten.
+sich fühlen | 느끼다 | Nach den Ferien fühle ich mich großartig.
+Zuständigkeit | 소관 | Die Tierhaltung fällt in die Zuständigkeit des Ordnungsamts.
+vermuten | 추측하다 | Die Polizei vermutet einen Zusammenhang mit dem Attentat.
+reagieren | 반응하다 | Der Kundenservice reagiert auf meine Reklamation.
+Einwohner | 주민 | Unser Bezirk hat zehntausend Einwohner.
+Athlet | 남자 운동선수 | Der Athlet ist nach dem Fußballspiel erschöpft.
+Fußballspiel | 중성 축구 경기 | Das Fußballspiel beginnt um acht Uhr.
+knapp vorbeigehen | 아슬아슬하게 빗나가다 | Der Ball ging knapp am Tor vorbei.
+Sportverein | 남성 스포츠클럽 | Unser Sportverein bietet Aktivitäten für Kinder an.
+Titel | 남성 우승 | Unser Sportverein hat den Titel gewonnen.
+ein Tor schießen | 골을 넣다 | Der Athlet schießt ein Tor für unseren Sportverein.
+Landgericht | 중성 지방법원 | Das Landgericht hat ihn zu einer Geldstrafe verurteilt.
+Staatsanwaltschaft | 여성 검찰 | Die Staatsanwaltschaft untersucht das Attentat genau.
+Urteil | 중성 판결 | Das Landgericht hat heute ein Urteil gesprochen.
+verurteilen | 선고하다 | Das Landgericht verurteilt den Dieb zu einer Geldstrafe.
+Zeugenaussage | 여성 증인진술 | Die Zeugenaussage ist für das Urteil wichtig.
+Nummer | 여성 번호 | Bitte schreiben Sie Ihre Nummer auf.
+Wirren | 복수 혼란, 소동 | In diesen Wirren brauchen die Flüchtlinge Schutz.
+indisch | 인도의 | Heute kochen wir ein indisches Gericht.
+Stern | 남성 별 | Am Himmel steht ein heller Stern.
+verbrauchen | 소비하다 | Die Klimaanlage verbraucht viel Strom.
+Bäckerei | 여성 빵집 | Die Bäckerei bietet auch Kaffee an.
+Caterer | 남성 출장요리사 | Der Caterer bringt Reis und Gemüse mit.
+Küche | 부엌 | In der Küche steht ein Wasserkocher.
+Teezubereitung | 차 달이기 | Für die Teezubereitung brauche ich den Wasserkocher.
+Wasserkocher | 남성 전기주전자 | Für die Teezubereitung brauchen wir einen Wasserkocher.
+zubereiten | 조리하다 | Ich bereite Reis und Gemüse zu.
+diplomatisch | 외교적 | Die diplomatische Konferenz ist heute im Büro.
+Verwarnung | 경고장 | Der Fahrzeughalter hat eine Verwarnung erhalten.
+leisten | 행하다 | Die Gemeinde leistet Hilfe im Notfall.
+Leistung | 성과, 서비스, 실행 | Der Leiter lobt ihre großartige Leistung.
+leistungsfähig | 성능이 좋은 | Die neue Klimaanlage ist sehr leistungsfähig.
+Lob | 중성 칭찬 | Für seine Leistung erhält er viel Lob.
+loben | 칭찬하다 | Der Gastgeber lobt das indische Essen.
+verlassen | 떠나다 | Bitte verlassen Sie das Gebäude sofort.
+Gelegenheit | 기회 | Die Messe bietet eine Gelegenheit zum Einkaufen.
+sperren | 차단하다 | Die Polizei sperrt den Zugang zum Schloss.
+Ausweis | 남성 신분증 | Bitte zeigen Sie Ihren Ausweis vor.
+ein Leben führen | 생활을 하다 | Sie führt ein Leben ohne Angst.
+Einfluss | 남성 영향 | Sein Einfluss auf die Gemeinde ist groß.
+Geste | 여성 제스처 | Das Geschenk war eine freundliche Geste.
+schaffen | 창출하다 | Das Unternehmen schafft neue Praktikumsplätze.
+etwas in Rechnung stellen | 4격을 비용에 포함하다 | Die Firma stellt den Versand in Rechnung.
+talentiert | 재능이 있는 | Der talentierte Athlet spielt in unserem Sportverein.
+absichtlich | 의도적으로 | Er hat die Tür absichtlich offen gelassen.
+angesichts | 고려하여 | Angesichts des Dauerregens bleiben wir zu Hause.
+Auskunft | 여성 정보 | Der Assistent gibt Ihnen gerne Auskunft.
+wiederum | 이와 달리 | Sie arbeitet gern, er wiederum ist faul.
+prominent | 유명한 | Ein prominenter Athlet besucht die Ausstellung.
+zur Seite stehen | 도와주다 | Der Rechtsanwalt steht mir zur Seite.
+islamisch | 이슬람의 | Wir besuchen ein islamisches Gotteshaus.
+in die Berge fahren | 산에 가다 | In den Ferien fahren wir in die Berge.
+abriegeln | 폐쇄하다 | Die Polizei riegelt das Gebäude ab.
+sich etwas brechen | 팔, 다리 등이 부러지다 | Er hat sich das Bein gebrochen.
+nützen | 도움이 되다 | Deine Hilfe nützt uns sehr.
+Botschaft | 여성 대사관 | Die Botschaft ist heute leider geschlossen.
+das ist doch Käse | 그건 바보 같은 일이다 | Das ist doch Käse, ich komme mit!
+Konsumverhalten | 중성 소비행태 | Die Marktforschung untersucht das Konsumverhalten der Kunden.
+Marktforschung | 시장조사 | Die Marktforschung soll das Konsumverhalten der Kunden untersuchen.
+Werbung | 광고 | Diese Werbung ist für eine junge Zielgruppe.
+Zeitungsanzeige | 여성 신문광고 | In der Zeitungsanzeige steht die Stellenausschreibung.
+Zielgruppe | 여성 목표집단 | Junge Arbeitnehmer sind die Zielgruppe dieser Werbung.
+aufgeben | 단념하다 | Ich gebe die Arbeit nicht auf.
+Rückfrage | 여성 추가문의 | Bei einer Rückfrage hilft der Kundenservice.
+sich beeilen | 서두르다 | Ich beeile mich auf dem Weg zur Bahn.
+namens | 뭐뭐라는 이름의 | Ein Polizist namens Peter hilft uns.
+in aller Offenheit | 아주 솔직하게 | Er spricht in aller Offenheit über seine Sorgen.
+einstellen | 중단하다 | Die Druckerei stellt den Betrieb morgen ein.
+begehen | 범하다 | Der Angreifer hat ein Attentat begangen.
+fünfeinhalb | 5와 이분의 일 | Die Fahrt dauert fünfeinhalb Stunden.
+unpersönlich | 개성이 없는, 개인적이지 않은, 성의가 없는 | Die Rückmeldung war kurz und unpersönlich.
+in naher Umgebung | 근처에 | In naher Umgebung gibt es eine Bäckerei.
+gefragt | 수요가 많은 | Heilpraktiker sind in dieser Gemeinde sehr gefragt.
+Initiative | 여성 캠페인 | Die Initiative fordert mehr Schutz für Flüchtlinge.
+kuscheln | 꼭 안아주다 | Das Enkelkind kuschelt mit seiner Oma.
+Stempel | 남성 도장 | Auf dem Dokument fehlt noch der Stempel.
+abschließen | 계약을 체결하다, 종료하다 | Wir schließen heute den Kaufvertrag ab.
+Kaufvertrag | 남성 구매계약 | Bitte lesen Sie den Kaufvertrag genau.
+von einem Vertrag zurücktreten | 계약을 파기하다 | Ich möchte von einem Vertrag zurücktreten.
+Bundestagswahlen | 복수 독일연방의회선거 | Die Bundestagswahlen sind am Sonntag.
+Bad | 중성 욕실 | Das Bad ist neben der Küche.
+erfreuen | 기쁘게 하다 | Dieses Geschenk wird meine Mutter erfreuen.
+freuen | 기쁘게 하다 | Dein Geschenk freut mich sehr.
+sich freuen | 기뻐하다 | Ich freue mich auf die Ferien.
+fröhlich | 기분이 좋은 | Der Gastgeber grüßt uns fröhlich.
+glücklich | 행복한 | Nach der Prüfung ist sie glücklich.
+Soldat | 군인 | Der Soldat schützt den Zugang zum Gebäude.
+Rückmeldung | 회신 | Ich freue mich auf Ihre Rückmeldung.
+bestehen | 합격하다 | Sie hat die Führerscheinprüfung endlich bestanden.
+durchfallen | 시험에 불합격하다 | Er ist bei der Führerscheinprüfung durchgefallen.
+gelingen | 성공하다 | Mit deiner Hilfe gelingt mir die Teezubereitung.
+glücken | 성공하다, 적중하다 | Die Reparatur ist ihm endlich geglückt.
+scheitern | 실패하다 | Die Vereinbarung scheitert am fehlenden Vertrauen.
+schiefgehen | 실패하다 | Bei der Lieferung kann etwas schiefgehen.
+Personalabteilung | 인사과 | Die Personalabteilung hat meine Bewerbung erhalten.
+Gebühr | 여성 요금 | Für die Lieferung bezahlen wir eine Gebühr.
+gratis | 무료 | Den Lageplan gibt es hier gratis.
+kostenlos | 무료의 | Die Lieferung ist für Sie kostenlos.
+infolgedessen | 그 결과로 | Die Filiale schließt; infolgedessen verlieren viele ihre Arbeit.
+Pflegeheim | 중성 요양원 | Meine Großmutter lebt in einem Pflegeheim.
+gewähren | 허용하다, 제공하다 | Das Geschäft gewährt uns einen Preisnachlass.
+gewährleisten | 보장하다 | Das Gesetz gewährleistet den Schutz der Mieter.
+feststellen | 규명하다 | Die Polizei stellte einen Schaden am Fahrzeug fest.
+Tag der offenen Tür | 개방의 날 | Am Tag der offenen Tür besuchen wir die Fahrschule.
+selbstverständlich | 당연한 | Für uns ist kostenlose Rechtsberatung selbstverständlich.
+verlegen | 미루다 | Wir verlegen die Veranstaltung auf nächsten Freitag.
+verschieben | 옮기다 | Bitte verschieben Sie die Kommode in die Ecke.
+sich verzögern | 지연되다 | Wegen des Unwetters verzögert sich die Lieferung.
+Verzögerung | 지연 | Die Verzögerung verursacht zusätzliche Kosten.
+mittlerweile | 그 사이에 | Mittlerweile ist die neue Filiale eröffnet.
+Unannehmlichkeit | 불편함 | Die Verzögerung verursacht eine große Unannehmlichkeit.
+auf die Idee kommen | 생각에 이르다 | Wie bist du auf die Idee gekommen?
+Stimmung | 분위기 | Beim Vortrag war die Stimmung sehr gut.
+Bürgermeister | 시장 | Der Bürgermeister spricht mit den Einwohnern.
+etwas in Gang setzen | 4격을 시작하다 | Der Bürgermeister setzt die Entwicklung in Gang.
+Naher Osten | 남성 중동 | Der Nahe Osten hat eine lange Geschichte.
+Preis | 상, 대가 | Für seine Kunst erhielt er einen Preis.
+Aufwendung | 비용 | Die Aufwendungen für die Dienstreise sind hoch.
+etwas vor Augen haben | 4격을 상상하다 | Ich habe den Drehort vor Augen.
+im Alter von etwas | 3격 연령의 | Sie ging im Alter von sechzig in Rente.
+Fahrzeughalter | 차량소유자 | Der Fahrzeughalter muss die Gebühr bezahlen.
+umziehen | 이사하다 | Wir ziehen bald in die neue Wohnanlage um.
+in Atem halten | 긴장시키다 | Der Notfall hält die Polizei in Atem.
+Aktivität | 활동 | Diese Aktivität macht den Kindern Spaß.
+übersichtlich | 명료한 | Der Lageplan ist übersichtlich und sehr genau.
+Tiergarten | 남성 동물원 | Am Sonntag besuchen wir den Tiergarten.
+ortsunabhängig | 장소의 영향을 받지 않는 | In dieser Branche kann man ortsunabhängig arbeiten.
+Erzieher | 유치원선생님 | Der Erzieher spielt mit den Kindern.
+sich etwas gönnen | 자신에게 무언가를 허락하다, 즐기다 | Nach der Arbeit gönne ich mir eine Auszeit.
+Schutz | 남성 보호 | Die Flüchtlinge brauchen Hilfe und Schutz.
+schützen | 보호하다 | Diese Vorschrift soll die Arbeitnehmer schützen.
+Sicherheitskraft | 안전요원 | Die Sicherheitskraft sichert den Zugang zum Gebäude.
+sichern | 확보하다 | Wir sichern uns einen Platz im Vorverkauf.
+qualifiziert | 자격을 갖춘 | Das Unternehmen sucht qualifizierte Arbeitnehmer.
+spenden | 기부하다 | Die Gemeinde spendet Geld für Flüchtlinge.
+Schein | 남성 증명서 | Ich brauche einen Schein vom Arzt.
+die Nase voll haben | 아주 질려버리다 | Ich habe die Nase voll von Dauerregen.
+lebendig | 생동감있는 | Sein Vortrag war lebendig und interessant.
+Wunsch | 남성 소망, 희망 | Mein größter Wunsch ist eine eigene Wohnung.
+wünschen | 소망하다, 원하다 | Ich wünsche Ihnen viel Glück beim Vorstellungsgespräch.
+zu diesem Zweck | 그 목적으로 | Zu diesem Zweck haben wir Geld gespendet.
+zu wünschen übrig lassen | 불만족스럽다 | Der Kundenservice lässt leider zu wünschen übrig.
+zwingen | 강요하다 | Niemand kann mich zu dieser Arbeit zwingen.
+sich beschweren | 항의하다 | Der Gast beschwert sich beim Betreiber.
+gemäß | 뭐뭐에 따라서, 뭐뭐에 의거하여 | Gemäß dem Gesetz ist die Anmeldung erforderlich.
+Frankierung | 우편요금선불 | Bitte achten Sie auf die richtige Frankierung.
+Streichelzoo | 남성 동물을 만질 수 있는 동물원 | Die Kinder besuchen heute den Streichelzoo.
+in Höhe von etwas | 3격에 해당하는 금액의 | Er erhielt eine Geldstrafe in Höhe von hundert Euro.
+Tiefgarage | 여성 지하주차장 | Mein Fahrzeug steht in der Tiefgarage.
+Anrufbeantworter | 남성 자동응답기 | Bitte sprechen Sie auf den Anrufbeantworter.
+auf Wiederhören | 통화를 마칠 때 하는 인사말 | Auf Wiederhören, ich rufe morgen wieder an.
+Sprache | 여성 언어 | Ihre Sprache ist für mich ungewöhnlich.
+Telefonat | 중성 전화통화 | Nach dem Telefonat schicke ich die Unterlagen.
+es handelt sich um etwas | 4격에 관한 것이다 | Es handelt sich um eine amtliche Auskunft.
+Kalorie | 여성 칼로리 | Dieser Becher Tee hat nur wenige Kalorien.
+erheblich | 현저하게 | Der Preis ist erheblich gestiegen.
+vergeblich | 헛된 | Die Polizei suchte vergeblich nach dem Dieb.
+Reklamation | 여성 이의, 항의 | Der Kundenservice erhält heute meine Reklamation.
+dünn | 묽은, 연한 | Der Tee ist mir zu dünn.
+Vorschlag | 남성 제안 | Dein Vorschlag hat mich tatsächlich überzeugt.
+Gotteshaus | 중성 사원 | Die Gemeinde renoviert das alte Gotteshaus.
+Kirche | 여성 교회 | Die Kirche steht neben dem alten Schloss.
+Moschee | 여성 이슬람 사원 | Die Moschee steht neben der Schule.
+Pastor | 목사 | Der Pastor begrüßt die Gemeinde.
+Totenmesse | 여성 위령 미사 | Der Pastor hält die Totenmesse in der Kirche.
+Absage | 여성 거절 | Er hat eine Absage erhalten.
+abweisen | 거절하다, 기각하다 | Die Bank weist meinen Antrag ab.
+annehmen | 받아들이다 | Wir nehmen Ihr Angebot gerne an.
+verneinen | 부정하다, 부인하다 | Der Rechtsanwalt verneint die Frage nach der Haftung.
+Zusage | 여성 승낙 | Nach dem Vorstellungsgespräch erhielt ich eine Zusage.
+einschließlich | 포함하여 | Alle kommen, einschließlich des Abteilungsleiters.
+Auswahlprozess | 남성 선발 절차 | Der Auswahlprozess beginnt mit einem Vorstellungsgespräch.
+sich bewerben | 지원하다 | Ich bewerbe mich um den Praktikumsplatz.
+Bewerbung | 지원 | Meine Bewerbung liegt schon im Büro.
+Praktikumsplatz | 남성 실습직 | Sie sucht einen Praktikumsplatz in einer Kanzlei.
+Stellenausschreibung | 채용공고 | Die Stellenausschreibung steht in der Zeitungsanzeige.
+Vorstellungsgespräch | 중성 면접 | Das Vorstellungsgespräch beginnt um zehn Uhr.
+Bahn | 여성 기차 | Ich fahre mit der Bahn zur Arbeit.
+Bordrestaurant | 중성 기차식당칸 | Wir essen heute im Bordrestaurant.
+Fahrradmitnahme | 자전거 동반 | Die Fahrradmitnahme ist in diesem Zug kostenlos.
+Gleis | 중성 선로 | Unser Zug fährt heute von Gleis drei.
+Haltestelle | 여성 정거장 | Die Haltestelle liegt direkt vor dem Gebäude.
+umsteigen | 환승하다 | An dieser Haltestelle müssen wir umsteigen.
+Zug | 남성 행렬 | Der Zug der Soldaten geht durch die Gemeinde.
+Dauerregen | 남성 지속적으로 내리는 비 | Wegen des Dauerregens bleiben wir im Haus.
+Gewitter | 중성 뇌우 | Wegen des Gewitters bleiben wir daheim.
+Hagel | 남성 우박 | Der Hagel hat einen Schaden am Fahrzeug verursacht.
+Schauer | 남성 소나기 | Nach dem Schauer gehen wir wandern.
+Starkregen | 남성 강한비 | Wegen des Starkregens ist die Tiefgarage gesperrt.
+Sturmböe | 돌풍 | Eine Sturmböe verursacht einen großen Schaden.
+Unwetter | 중성 악천후 | Das Unwetter hat große Schäden verursacht.
+sich anstrengen | 노력하다 | Ich muss mich heute sehr anstrengen.
+Einsatz zeigen | 열의를 보이다, 매진하다 | Die Arbeitnehmer zeigen bei der Arbeit großen Einsatz.
+mit aller Mühe | 최선을 다해 | Mit aller Mühe erreichte er die Hütte.
+unter Einsatz von etwas | 3격을 투입하여, 사용하여 | Unter Einsatz von Fahrzeugen sucht die Polizei den Dieb.
+Wasserspiel | 중성 분수 쇼 | Das Wasserspiel vor dem Schloss ist beeindruckend.
+zu Recht | 당연하게, 정당하게 | Die Gemeinde fordert zu Recht Schadenersatz.
+sich um etwas kümmern | 4격을 돌보다 | Der Pastor kümmert sich um die Gemeinde.
+Betreiber | 남성 운영자 | Der Betreiber schließt die Filiale morgen.
+Branchentreffen | 중성 분야 행사 | Das Branchentreffen ist heute im neuen Gebäude.
+Branche | 여성 분야 | Er arbeitet seit Jahren in dieser Branche.
+Geschäft | 중성 영업, 매장 | Das Geschäft bietet hochwertige Kleidung an.
+Geschäftsaufgabe | 여성 폐업 | Die Geschäftsaufgabe wurde dem Ordnungsamt mitgeteilt.
+Unternehmen | 중성 기업 | Das Unternehmen bietet qualifizierten Arbeitnehmern eine Tätigkeit.
+Besprechung | 회의 | Die Besprechung beginnt heute um neun.
+ein Interview führen | 인터뷰를 진행하다 | Die Zeitung führt ein Interview mit dem Bürgermeister.
+etwas zur Sprache bringen | 4격을 이야기하다 | Bitte bringen Sie das Problem zur Sprache.
+Konferenz | 여성 회의 | Die Konferenz beginnt in einer Viertelstunde.
+auf etwas verzichten | 4격을 포기하다 | Ich verzichte heute auf das Auto.
+androhen | 협박하다 | Der Betreiber droht ihm eine Geldstrafe an.
+drohen | 닥쳐오다, 위협하다 | Dem Betrieb droht eine hohe Geldstrafe.
+folgen | 따라가다 | Bitte folgen Sie mir zum Ausgang.
+fordern | 요구하다 | Die Mieter fordern eine geringere Miete.
+fördern | 지원하다, 도모하다 | Die Gemeinde fördert Kunst und Handwerk.
+abziehen | 제외시키다, 빼다 | Wir ziehen den Rabatt vom Preis ab.
+abziehend | 물러나는 | Die abziehenden Soldaten gehen nach Hause.
+in der Tasche haben | 확보하다, 손에 넣다 | Sie hat den Praktikumsplatz schon in der Tasche.
+Brückentag | 징검다리 휴일 사이에 낀 근로일 | Am Brückentag bleibt unser Büro geschlossen.
+Effekt | 남성 효과 | Die Werbung hat einen großen Effekt.
+anspruchslos | 검소한 | Der Gast ist freundlich und anspruchslos.
+belastbar | 뺑이 칠 수 있는 | Für diese Tätigkeit müssen Sie belastbar sein.
+faul | 게으른 | Heute bin ich zu faul zum Kochen.
+gierig | 욕심이 많은 | Der Hund schaut gierig auf das Fleisch.
+klaglos | 불평을 안하는 | Sie nimmt die Verzögerung klaglos hin.
+willig | 온순한 | Der Hund ist willig und sehr ruhig.
+Ausbreitung | 확산 | Die Ausbreitung der Grippe macht mir Angst.
+Geschenk | 중성 선물 | Das Geschenk liegt auf der Kommode.
+fehlen | 부족하다 | Im Paket fehlt noch ein Geschenk.
+gering | 적은 | Die Gebühr für die Fahrradmitnahme ist gering.
+knapp | 모자란 | Das Geld reicht nur noch knapp.
+Mangel an etwas | 3격의 부족 | Der Mangel an Arbeitnehmern verzögert die Lieferung.
+mangelhaft | 부족한 | Die Lieferung ist leider mangelhaft.
+es steht | 경기 점수가 뭐뭐이다 | Es steht zwei zu null für uns.
+Bestellung | 주문 | Die Bestellung ist gestern eingetroffen.
+authentisch | 진정한 | Das Essen schmeckt wirklich authentisch.
+Notdienst | 남성 응급진료 | Am Sonntag hilft Ihnen der Notdienst.
+Notfall | 남성 응급상황 | Im Notfall rufen Sie bitte die Polizei.
+Notrufdienst | 남성 긴급 신고 접수 서비스 | Der Notrufdienst ist immer erreichbar.
+Abfahrt | 여성 출발 | Die Abfahrt ist morgen um acht Uhr.
+Abreise | 여성 출발, 떠남 | Unsere Abreise ist morgen um zehn Uhr.
+anfahren | 시작하다 | Die Bahn fährt langsam an.
+Anreise | 여성 도착, 도착을 위한 여행 | Die Anreise mit der Bahn ist einfach.
+eintreffen | 도착하다 | Der Zug trifft um acht Uhr ein.
+losfahren | 출발하다 | Unser Zug fährt in Kürze los.
+lösen | 해결하다 | Wir müssen den Konflikt zusammen lösen.
+in Sekundenschnelle | 순식간에 | Der Fernseher war in Sekundenschnelle kaputt.
+Praxis | 여성 개인병원 | Die Praxis bleibt während der Osterferien geschlossen.
+genauer gesagt | 정확히 말해 | Ich komme morgen, genauer gesagt um acht.
+alles Gute | 모든 일에 행운이 깃들길 빕니다 | Alles Gute für Ihre neue Arbeit!
+Bio-Qualität | 유기농 품질 | Das Gemüse hat Bio-Qualität.
+Anschrift | 여성 주소 | Bitte schreiben Sie Ihre Anschrift hier auf.
+schimpfen | 꾸짖다 | Die Mutter schimpft mit ihrem Kind.
+einwenden | 이의를 제기하다 | Ich möchte gegen diesen Vorschlag etwas einwenden.
+Sendung | 배송물 | Die Sendung kommt voraussichtlich am nächsten Werktag an.
+Versand | 남성 배송 | Der Versand ist für diese Bestellung kostenlos.
+verschicken | 보내다 | Wir verschicken die Unterlagen noch heute.
+versenden | 배송하다 | Das Unternehmen versendet die Produktproben morgen.
+zuschicken | 발송하다, 보내다 | Bitte schicken Sie mir den Kaufvertrag zu.
+genehmigen | 허가하다, 승인하다 | Der Bürgermeister genehmigt die Veranstaltung.
+Genehmigung | 허가 | Für die Veranstaltung brauchen wir eine Genehmigung.
+Becher | 남성 컵 | Mein Becher steht auf dem Tisch.
+Bezug | 남성 침대나 소파의 커버 | Der Bezug auf dem Sofa ist weich.
+Büromöbel | 중성 사무실의 가구 | Die neuen Büromöbel sind schon angekommen.
+Fototapete | 여성 사진 벽지 | Die Fototapete zeigt die Chinesische Mauer.
+Gardine | 여성 커튼 | Die weiße Gardine hängt am Fenster.
+Kommode | 여성 서랍장 | Der Schlüssel liegt auf der Kommode.
+Gegner | 반대자 | Die Gegner des Gesetzes haben große Bedenken.
+BGB | 민법 | Im BGB steht etwas über das Erbrecht.
+Familienrecht | 중성 가정법, 가사법 | Die Kanzlei informiert mich über das Familienrecht.
+Medizinrecht | 중성 의료법 | Diese Kanzlei bietet Rechtsberatung im Medizinrecht an.
+Plastiktüte | 여성 비닐봉지 | Wir verzichten beim Einkaufen auf Plastiktüten.
+Belang | 남성 이해, 관심사 | Die Belange der Arbeitnehmer sind uns wichtig.
+Schloss | 중성 성 | Das alte Schloss ist eine Sehenswürdigkeit.
+Schlüssel | 남성 열쇠 | Der Schlüssel liegt neben dem Geldbeutel.
+Schlusslicht | 중성 최하위 | Unser Sportverein ist wieder das Schlusslicht.
+durch | 잘 익힌 | Ist das Fleisch schon ganz durch?
+irgendwann | 언젠가 | Irgendwann fahren wir zusammen in Urlaub.
+auffordern | 요구하다 | Die Polizei fordert ihn zum Gehen auf.
+Führerschein | 남성 운전면허증 | Ohne Führerschein darfst du nicht fahren.
+Siegel | 중성 인장, 인증 마크 | Das Siegel bestätigt die Bio-Qualität der Produktprobe.
+simulieren | 시뮬레이션하다 | Wir simulieren den Verkehr am neuen Standort.
+Befragte | 설문조사 대상자 | Die Befragten sprechen über ihre Arbeit.
+vorbeigehen | 지나가다 | Wir gehen an der neuen Wohnanlage vorbei.
+reif | 성숙한 | Für diese Tätigkeit ist sie reif genug.
+rein | 순수한 | In dem Becher ist reines Wasser.
+Reis | 남성 쌀 | Wir bereiten Reis mit Gemüse zu.
+gefährden | 위태롭게 하다 | Das Gewitter gefährdet die Veranstaltung.
+in Kürze | 빠른 시일 내에 | Die Lieferung trifft in Kürze ein.
+Führerscheinprüfung | 운전면허시험 | Sie hat die Führerscheinprüfung bestanden.
+punkten | 포인트를 적립하다 | Bei jedem Einkauf können Sie punkten.
+etwas geltend machen | 4격을 요구하다 | Sie macht ihr Recht auf Elternzeit geltend.
+unbeschwert | 걱정 없이 | Die Kinder spielen unbeschwert im Tiergarten.
+auf den Beinen sein | 서 있다, 이동하다 | Ich bin seit sechs auf den Beinen.
+Betriebshof | 남성 사업소, 차량 기지 | Die Fahrzeuge stehen auf dem Betriebshof.
+persönlich nehmen | 감정적으로 받아들이다, 모욕으로 여기다 | Bitte nimm meine Rückfrage nicht persönlich.
+Buchhandlung | 서점 | Die Buchhandlung ist gleich um die Ecke.
+eine hohe Hürde darstellen | 큰 장애물이다 | Die Gebühr stellt eine hohe Hürde dar.
+spätestens | 늦어도 | Bitte schicken Sie die Unterlagen spätestens morgen.
+greifbar | 체감할 수 있는 | Die Ergebnisse der Marktforschung sind schon greifbar.
+Regierungsangabe | 정부 발표 | Nach Regierungsangaben ist der Standort gefährdet.
+ausgebucht sein | 예약이 차 있다 | Das Hotel ist für morgen ausgebucht.
+ausverkauft | 매진된, 완판된 | Die Bücher sind leider schon ausverkauft.
+Eintritt | 남성 입장 | Der Eintritt zur Ausstellung ist kostenlos.
+Tageskasse | 여성 당일 매표소 | An der Tageskasse erhalten Sie eine Ermäßigung.
+Vorverkauf | 남성 사전예약판매 | Im Vorverkauf erhalten Sie einen Rabatt.
+Heilmittel | 중성 치료제 | Dieses Heilmittel nützt mir bei der Grippe.
+Heilpraktiker | 민간 요법 치료사 | Der Heilpraktiker nimmt sich Zeit für mich.
+Herzchirurg | 심장외과의사 | Der Herzchirurg arbeitet heute im Notdienst.
+therapeutisch | 치료의 | Das Heilmittel hat einen therapeutischen Effekt.
+entlohnen | 보수를 주다 | Die Firma entlohnt ihre Arbeitnehmer gut.
+Mindestlohn | 남성 최저임금 | Das Gesetz legt den Mindestlohn fest.
+verdanken | 누구누구 덕분이다 | Diese Gelegenheit verdanke ich dem Abteilungsleiter.
+verdienen | 돈을 벌다 | Als Vertriebsmanager verdient er sehr gut.
+Verdienst | 중성 공로 | Die neue Wohnanlage ist allein ihr Verdienst.
+eine Unmenge | 매우 많은 | Auf dem Boden liegt eine Unmenge Papier.
+jede Menge | 매우 많은 | Auf der Messe gibt es jede Menge Geschenke.
+maßlos | 과도한 | Sein Verlangen nach Geld ist maßlos.
+Menge | 여성 수량 | Eine große Menge Gemüse liegt in der Küche.
+Menschenmenge | 여성 군중 | Vor dem Gotteshaus wartet eine große Menschenmenge.
+übermäßig | 과도한 | Übermäßige Werbung kann die Kunden ärgern.
+auf einen Blick | 한눈에 | Der Lageplan zeigt alles auf einen Blick.
+abgrenzen | 경계를 정하다, 구분하다 | Wir grenzen Arbeit und Freizeit klar ab.
+sich herauskristallisieren | 드러나다, 분명해지다 | Im Gespräch kristallisiert sich ein Konflikt heraus.
+Pfeiler | 남성 기둥 | Der Pfeiler steht vor dem Gebäude.
+selbstständig | 독립적인, 자립한 | Sie arbeitet selbstständig und verdient gut.
+profitieren | 이익을 보다 | Sie möchte von der Sonderaktion profitieren.
+Büro | 중성 사무실 | Unser Büro liegt neben der Bank.
+Abgaswert | 남성 배기가스 수치 | Der Abgaswert dieses Fahrzeugs ist zu hoch.
+Paket | 중성 소포 | Dein Geschenk liegt noch in diesem Paket.
+Unterlagen | 복수 서류 | Bitte schicken Sie uns die notwendigen Unterlagen.
+unterlassen | 하지 않다, 삼가다 | Bitte unterlassen Sie jede Werbung in der Praxis.
+erbringen | 도출하다, 실현하다 | Das Unternehmen erbringt wichtige Leistungen.
+ausweichen | 피하다 | Der Fahrer weicht dem Bären aus.
+Kapitel | 중성 장, (인생·역사의) 한 시기 | Das letzte Kapitel beschreibt die Finanzkrise.
+Altersarmut | 여성 노인빈곤 | Altersarmut ist für viele Menschen ein Problem.
+Demenz | 여성 치매 | Meine Großmutter lebt mit Demenz.
+Einsamkeit | 외로움 | Die Einsamkeit macht mir oft Angst.
+Einsamkeitsgefühl | 중성 외로움 | Mein Einsamkeitsgefühl ist seit gestern stärker.
+Beistrich | 남성 쉼표 | Nach diesem Wort fehlt ein Beistrich.
+angestellt | 고용된 | Sie ist bei einer Bank angestellt.
+Arbeitnehmer | 피고용인 | Viele Arbeitnehmer wünschen sich mehr Freizeit.
+ausbilden | 직업 교육을 하다 | Der Betrieb bildet junge Menschen aus.
+Auszubildende | 남성 남자직업교육생 | Der Auszubildende arbeitet heute im Büro.
+erwerbstätig | 일자리가 있는 | Meine Eltern sind beide noch erwerbstätig.
+virtuell | 가상의 | Die virtuelle Wohnungsbesichtigung ist ab sofort verfügbar.
+sich drängen | 몰려들다 | Die Gäste drängen sich vor der Tür.
+bläulich | 푸르스름한 | Das Wasser sieht heute bläulich aus.
+Farbe | 여성 색깔 | Die Gardine hat eine schöne Farbe.
+rötlich | 붉은 | Das Licht der Laterne ist rötlich.
+weich | 부드러운 | Der Bezug auf dem Sofa ist weich.
+weißlich | 희끄무레한 | Die Blüten sind weißlich und sehr klein.
+Ausfuhr | 여성 수출 | Die Ausfuhr von Medikamenten braucht eine Genehmigung.
+Export-Firma | 여성 수출기업 | Mein Bruder arbeitet bei einer Export-Firma.
+Freihandelsabkommen | 중성 자유무역협정 | Das Freihandelsabkommen fördert die Entwicklung.
+Verbindung | 여성 연결 | Die Verbindung zwischen den Gemeinden ist gut.
+Zugang | 남성 접근 | Der Zugang zum Gebäude ist kostenlos.
+verbinden | 연결하다 | Diese Bahn verbindet die beiden Gemeinden.
+Verbindung ist schlecht | 통화연결 상태가 나쁘다 | Die Verbindung ist schlecht, ich höre dich kaum.
+Zugang | 남성 접근 | Die Sicherheitskraft sperrt den Zugang zum Gebäude.
+AG | 여성 학교동아리 | Unsere AG trifft sich jeden Dienstag.
+zur Welt kommen | 태어나다 | Mein Enkelkind ist gestern zur Welt gekommen.
+Achtung | 주의, 참고 | Achtung, hier fahren viele Autos!
+in Zusammenhang mit etwas stehen | 3격과 관련이 있다 | Der Schaden steht in Zusammenhang mit dem Gewitter.
+Staatschef | 국가원수 | Der Staatschef besucht heute die Veranstaltung.
+nachbohren | 캐묻다 | Sie bohrt nach, aber er sagt nichts.
+nachdenken | 심사숙고하다 | Ich denke über deinen Vorschlag nach.
+nachschauen | 확인하다 | Ich schaue kurz im Lageplan nach.
+nachvollziehen | 공감하다 | Ich kann deine Sorgen gut nachvollziehen.
+Abschied | 남성 이별 | Der Abschied von meiner Familie war schwer.
+Gewohnheit | 습관 | Aus Gewohnheit trinke ich morgens Tee.
+Dokument | 중성 문서, 서류 | Bitte bringen Sie dieses Dokument mit.
+berechtigen | 권리를 부여하다 | Der Ausweis berechtigt Sie zum Eintritt.
+aufschreiben | 적어주다 | Bitte schreiben Sie den Betrag auf.

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FLEX 독일어 단어와 예문을 익히는 나만의 단어장">
+  <title>Wort · FLEX 독일어</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+  <script type="module" src="/static/app.mjs"></script>
+</head>
+<body>
+  <main class="workspace">
+    <header class="masthead">
+      <a class="brand" href="/" aria-label="Wort 홈">Wort<span class="brand-dot">.</span></a>
+      <span class="course">FLEX · DEUTSCH</span>
+      <button id="reset" class="text-button" disabled>처음부터</button>
+    </header>
+
+    <section class="intro">
+      <div><p class="eyebrow">DEIN WORTSCHATZ</p><h1>조금씩, 확실하게.</h1>
+      <p class="intro-copy">단어와 예문을 읽고, 뜻을 떠올려 보세요.</p></div>
+      <span class="study-tag"><span class="status-dot"></span> 나의 독일어 공부</span>
+    </section>
+
+    <div id="notice" class="notice" role="status" hidden></div>
+    <div id="loading" class="loading" role="status">단어장을 불러오고 있어요…</div>
+
+    <section id="study" hidden aria-label="단어 퀴즈">
+      <div class="session-bar">
+        <div><span id="cycle" class="cycle-tag"></span><span id="position" class="position"></span></div>
+        <span id="counts" class="counts"></span>
+      </div>
+      <progress id="progress" max="1" value="0" aria-label="사이클 진행률"></progress>
+      <article class="flashcard">
+        <div class="card-top"><span id="phase-label" class="eyebrow">WORT</span><span id="card-number" class="card-number"></span></div>
+        <h2 id="term" lang="de"></h2>
+        <div class="example"><span class="example-mark" aria-hidden="true">“</span><div><p class="eyebrow">BEISPIEL</p><p id="sentence" lang="de"></p></div></div>
+        <div id="answer" class="answer" hidden><p class="eyebrow">BEDEUTUNG</p><p id="meaning"></p></div>
+        <div id="prompt" class="prompt">어떤 뜻인지 기억나나요?</div>
+      </article>
+      <div class="actions">
+        <button id="reveal" class="button primary">뜻 확인하기 <span aria-hidden="true">↵</span></button>
+        <div id="grading" class="grading" hidden>
+          <button id="failure" class="button failure">실패 <span>다시 익힐게요</span></button>
+          <button id="success" class="button success">성공 <span>기억하고 있어요</span></button>
+        </div>
+      </div>
+      <p id="keyboard-help" class="keyboard-help">Space 또는 Enter로 뜻 확인</p>
+    </section>
+
+    <section id="summary" class="summary" hidden tabindex="-1" aria-live="polite">
+      <div class="summary-icon" aria-hidden="true">✓</div><p id="summary-cycle" class="eyebrow"></p>
+      <h2 id="summary-title"></h2><p id="summary-copy"></p>
+      <div class="result-stats"><div><strong id="summary-passed"></strong><span>성공</span></div><div><strong id="summary-failed"></strong><span>실패</span></div></div>
+      <button id="continue" class="button primary"></button>
+    </section>
+
+    <details class="audio-panel">
+      <summary><span>♫</span> 단어장 MP3 듣기 <span class="audio-hint">독일어 · 한국어 · 예문</span></summary>
+      <audio id="audio" controls preload="none" src="/Wort.mp3">MP3 재생을 지원하는 브라우저를 사용해 주세요.</audio>
+      <p id="audio-error" hidden>MP3가 아직 없어요. README의 음성 생성 방법을 확인해 주세요.</p>
+      <a href="/Wort.mp3" download>MP3 내려받기 ↗</a>
+    </details>
+    <footer><span>FLEX UP 독일어 · 어휘와 표현</span><span>진행 상황은 이 브라우저에 저장돼요.</span></footer>
+  </main>
+</body>
+</html>

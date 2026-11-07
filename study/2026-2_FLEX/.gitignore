@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.tts-cache/
+*.part
+server.log
+server.pid
