@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-WORD_FILE = ROOT / 'Wort.md'
+WORD_FILE = ROOT.parent / 'Wort.md'
 
 
 def vocabulary_version(path=WORD_FILE):
