@@ -3,7 +3,7 @@
 -----------------------------
 - 실습 날짜 (검색일): 2026.11.09
 - 검색 경로:
-    - Tasks: semantic
+    - Tasks: sentiment
     - Language filter: 각각 English, German, Korean
     - 정렬 기준: Most downloads
 -----------------------------
@@ -15,4 +15,4 @@
 - 기록: 건 마다 출처와 날짜 적기
 
 
-51:51
+51:51~
