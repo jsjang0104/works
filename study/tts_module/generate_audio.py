@@ -1,4 +1,4 @@
-"""Generate a German/Korean MP3 from a vocabulary file, reusing cached clips."""
+"""Generate study audio from vocabulary, Markdown, or plain text, reusing cached clips."""
 
 import argparse
 import asyncio
@@ -10,9 +10,11 @@ from dataclasses import dataclass
 from pathlib import Path
 
 if __package__:
-    from .vocabulary import load_vocabulary, vocabulary_version
+    from .documents import load_material
+    from .vocabulary import vocabulary_version
 else:
-    from vocabulary import load_vocabulary, vocabulary_version
+    from documents import load_material
+    from vocabulary import vocabulary_version
 
 ROOT = Path(__file__).resolve().parent
 SAMPLE_RATE = 24000
@@ -31,20 +33,26 @@ class AudioSettings:
 def build_segments(cards, settings):
     segments = []
     for row, card in enumerate(cards):
-        fields = ['term', 'meaning', 'sentence']
-        if card.get('sentence_translation'):
-            fields.append('sentence_translation')
-        for field in fields:
-            korean = field in ('meaning', 'sentence_translation')
+        if 'text' in card:
+            fields = [('text', card['language'])]
+        else:
+            names = ['term', 'meaning', 'sentence']
+            if card.get('sentence_translation'):
+                names.append('sentence_translation')
+            names = card.get('speech_fields', names)
+            fields = [(name, 'ko' if name in ('meaning', 'sentence_translation') else 'de')
+                      for name in names]
+        for field, language in fields:
+            korean = language == 'ko'
             voice = settings.ko_voice if korean else settings.de_voice
             rate = settings.ko_rate if korean else settings.de_rate
             text = card[field]
             key = hashlib.sha256(json.dumps([text, voice, rate], ensure_ascii=False).encode()).hexdigest()
-            last_field = field == fields[-1]
+            last_field = field == fields[-1][0]
             gap = settings.row_gap_ms if last_field else settings.field_gap_ms
             if row == len(cards) - 1 and last_field:
                 gap = 0
-            segments.append(dict(row=row, field=field, text=text, voice=voice,
+            segments.append(dict(row=row, field=field, text=text, language=language, voice=voice,
                                  rate=rate, gap_ms=gap, key=key))
     return segments
 
@@ -137,18 +145,19 @@ def assemble(cards, segments, cache, output, source_version, settings):
     process = subprocess.Popen([
         ffmpeg, '-hide_banner', '-loglevel', 'error', '-y', '-f', 's16le',
         '-ar', str(SAMPLE_RATE), '-ac', '1', '-i', 'pipe:0', '-codec:a', 'libmp3lame',
-        '-b:a', '128k', '-metadata', f'title={output.stem} — Deutsch / 한국어',
+        '-b:a', '128k', '-metadata', f'title={output.stem}',
         '-f', 'mp3', str(temporary)], stdin=subprocess.PIPE)
     try:
         for index, segment in enumerate(segments):
             pcm = decode_pcm(cache / (segment['key'] + '.mp3'))
             row = rows[segment['row']]
             start = samples_written / SAMPLE_RATE
-            if segment['field'] == 'term':
+            if index == 0 or segments[index - 1]['row'] != segment['row']:
                 row['start'] = round(start, 4)
             process.stdin.write(pcm)
             samples_written += len(pcm) // 2
             row['fields'].append(dict(field=segment['field'], text=segment['text'],
+                                      language=segment['language'], voice=segment['voice'], rate=segment['rate'],
                                       start=round(start, 4), end=round(samples_written / SAMPLE_RATE, 4)))
             last_in_row = index + 1 == len(segments) or segments[index + 1]['row'] != segment['row']
             if last_in_row:
@@ -183,6 +192,10 @@ def assemble(cards, segments, cache, output, source_version, settings):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=Path, required=True)
+    parser.add_argument('--format', choices=('auto', 'vocabulary', 'markdown', 'text'), default='auto',
+                        help='입력 형식 (기본값: auto)')
+    parser.add_argument('--language', choices=('all', 'de', 'ko'), default='all',
+                        help='낭독할 언어 (기본값: all)')
     parser.add_argument('--output', type=Path, help='기본값: 입력 파일 옆의 같은 이름 MP3')
     parser.add_argument('--cache-dir', type=Path, default=ROOT / '.tts-cache')
     parser.add_argument('--de-voice', default='de-DE-KatjaNeural')
@@ -200,13 +213,14 @@ def main():
     settings = AudioSettings(args.de_voice, args.ko_voice, args.de_rate, args.ko_rate,
                              args.field_gap_ms, args.row_gap_ms)
     source_version = vocabulary_version(args.input)
-    cards = load_vocabulary(args.input)
+    cards = load_material(args.input, input_format=args.format, language=args.language)
     segments = build_segments(cards, settings)
     cache = args.cache_dir.resolve()
+    output = (args.output or args.input.with_suffix('.mp3')).resolve()
+    output.parent.mkdir(parents=True, exist_ok=True)
     asyncio.run(synthesize(segments, cache, args.concurrency))
     if vocabulary_version(args.input) != source_version:
         raise RuntimeError('생성 중 단어장이 바뀌었습니다. 다시 실행하세요. 캐시는 보존됩니다.')
-    output = (args.output or args.input.with_suffix('.mp3')).resolve()
     assemble(cards, segments, cache, output, source_version, settings)
 
 

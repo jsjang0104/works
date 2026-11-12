@@ -4,6 +4,47 @@ from generate_audio import AudioSettings, build_segments, silence_pcm, trim_pcm
 
 
 class AudioTests(unittest.TestCase):
+    def test_markdown_cli_outputs_only_german_to_audio_directory(self):
+        import json
+        import subprocess
+        import sys
+        import tempfile
+        from pathlib import Path
+
+        import imageio_ffmpeg
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / 'Reading.md'
+            source.write_text('# 9. Der Weg\n> 길\n## I.\n'
+                              'Das Wasser fließt.\n> 물이 흐른다.\n', encoding='utf-8')
+            output = root / 'audio' / 'Reading.mp3'
+            cache = root / 'cache'
+            cache.mkdir()
+            clip = root / 'tone.mp3'
+            subprocess.run([
+                imageio_ffmpeg.get_ffmpeg_exe(), '-v', 'error', '-f', 'lavfi',
+                '-i', 'sine=frequency=440:duration=0.2', str(clip)], check=True)
+            cards = [dict(id=str(i), term=text, text=text, language='de')
+                     for i, text in enumerate(['Der Weg', 'Das Wasser fließt.'])]
+            for segment in build_segments(cards, AudioSettings()):
+                (cache / (segment['key'] + '.mp3')).write_bytes(clip.read_bytes())
+            result = subprocess.run([
+                sys.executable, str(Path(__file__).with_name('generate_audio.py')),
+                '--input', str(source), '--output', str(output),
+                '--format', 'markdown', '--language', 'de', '--cache-dir', str(cache)],
+                capture_output=True, text=True, timeout=20)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertGreater(output.stat().st_size, 100)
+            manifest = json.loads(output.with_suffix('.timings.json').read_text())
+            fields = [field for row in manifest['rows'] for field in row['fields']]
+            self.assertEqual([field['text'] for field in fields],
+                             ['Der Weg', 'Das Wasser fließt.'])
+            self.assertTrue(all(field['language'] == 'de' for field in fields))
+            self.assertTrue(all(field['voice'] == 'de-DE-KatjaNeural' for field in fields))
+            self.assertEqual(manifest['rows'][0]['start'], 0)
+            self.assertEqual(manifest['duration_seconds'], manifest['rows'][-1]['end'])
+
     def test_cli_saves_audio_beside_input_using_explicit_cache(self):
         import json
         import subprocess

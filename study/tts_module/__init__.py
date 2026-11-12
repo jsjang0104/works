@@ -1,1 +1,1 @@
-"""Reusable German/Korean vocabulary audio generation."""
+"""Reusable speech generation for study documents and vocabulary."""
