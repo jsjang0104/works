@@ -12,5 +12,5 @@
 - 7,8,9
 
 ## 오디오 출처
-- Lektion 2,4 - 21 홍준기
+- Lektion 2,4 - 21 홍준기 직접 녹음
 - Lektion 7,8,9 - ../tts_module
