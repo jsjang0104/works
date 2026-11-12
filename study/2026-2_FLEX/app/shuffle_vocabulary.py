@@ -172,10 +172,20 @@ def arrange(cards, seed=None):
     return [cards[index] for block in blocks for index in block]
 
 
+def format_vocabulary(cards):
+    lines = []
+    for card in cards:
+        fields = [card['term'], card['meaning'], card['sentence']]
+        if card.get('sentence_translation'):
+            fields.append(card['sentence_translation'])
+        lines.append(' | '.join(fields) + '\n')
+    return ''.join(lines)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--seed', type=int)
     args = parser.parse_args()
     cards = arrange(load_vocabulary(), args.seed)
-    WORD_FILE.write_text(''.join(f"{c['term']} | {c['meaning']} | {c['sentence']}\n" for c in cards), encoding='utf-8')
+    WORD_FILE.write_text(format_vocabulary(cards), encoding='utf-8')
     print(f'{len(cards)}개 항목을 유사 어휘 그룹 단위로 섞었습니다.')

@@ -1,6 +1,7 @@
 """Local FLEX quiz server. Start with: .venv/bin/python server.py"""
 
 import argparse
+from pathlib import Path
 
 from flask import Flask, jsonify, send_from_directory
 
@@ -31,7 +32,8 @@ def create_app(word_file=WORD_FILE):
 
     @app.get('/Wort.mp3')
     def audio():
-        return send_from_directory(ROOT, 'Wort.mp3', conditional=True)
+        audio_file = Path(word_file).resolve().with_suffix('.mp3')
+        return send_from_directory(audio_file.parent, audio_file.name, conditional=True)
 
     @app.after_request
     def headers(response):

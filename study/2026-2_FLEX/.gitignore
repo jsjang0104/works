@@ -1,6 +1,5 @@
 .venv/
 __pycache__/
-.tts-cache/
 # Generated audio and timing metadata
 Wort.mp3
 Wort.timings.json
