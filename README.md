@@ -12,6 +12,7 @@ Personal archive of coursework projects, research/study materials, and academic 
 │   └── 2026-2_german_insta/
 ├── research/
 │   └── WMT26/
+│   └── EACL2027_SRW/
 ├── review/
 │   ├── book/            
 │   ├── colloquium/     
