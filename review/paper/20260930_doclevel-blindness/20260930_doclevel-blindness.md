@@ -1,11 +1,8 @@
 # The Blindness of Document-Level Translation Evaluation
 
 - **저자**: Ahrii Kim, Vilem Zouhar, Chanjun Park, Seong-heum Kim
-- **arXiv**: https://arxiv.org/abs/2504.07583
-- **발표**: -
-- **분류**: 
-- **Reviewed by**: Jisoo Jang
-
+- **arXiv**: https://arxiv.org/abs/2609.05949
+- **발표**: EMNLP 2026 main
 ---
 
 ## 1. Introduction
