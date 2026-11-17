@@ -16,7 +16,7 @@ Und die Bosheit nahm an Kräften wieder einmal zu.
 > 악함은 또다시 기세를 더해 가고 있었으므로.
 
 Und er gürtete den Schuh.
-> 그리하여 그는 신발 끈을 동여맸다.
+> 그리하여 그는 신발 끈을 동여맸다. (떠날 준비를 하였다.)
 
 ## II.
 
@@ -38,7 +38,7 @@ Weißbrot nach dem Augenmaß.
 ## III.
 
 Freute sich des Tals noch einmal und vergaß es
-> 골짜기를 다시 한번 즐기고는 잊었다
+> 스승은 골짜기를 다시 한번 즐기고는 잊었다
 
 Als er ins Gebirg den Weg einschlug.
 > 산으로 난 길에 접어들면서.
@@ -47,10 +47,10 @@ Und sein Ochse freute sich des frischen Grases
 > 그의 소도 싱싱한 풀을 즐겼다
 
 Kauend, während er den Alten trug.
-> 노인을 등에 태우고 가면서 풀을 씹으며.
+> 스승을 등에 태우고 가면서 풀을 씹으며.
 
 Denn dem ging es schnell genug.
-> 그 정도면 노인에게는 충분히 빠른 걸음이었으니.
+> 그 정도면 스승에게는 충분히 빠른 걸음이었으니.
 
 ## IV.
 
@@ -58,21 +58,21 @@ Doch am vierten Tag im Felsgesteine
 > 그러나 나흘째 되는 날, 바위투성이 길에서
 
 Hat ein Zöllner ihm den Weg verwehrt:
-> 한 세관원이 그의 앞길을 가로막았다:
+> 한 세관원(세금 공무원)이 스승의 앞길을 가로막았다:
 
 „Kostbarkeiten zu verzollen?“ – „Keine.“
-> “관세 낼 귀중품은 있소?” — “없소.”
+> “관세 낼 귀중품이 있소?” — “없소.”
 
 Und der Knabe, der den Ochsen führte, sprach: „Er hat gelehrt.“
 > 그러자 소를 끌던 소년이 말했다. “이분은 가르치는 일을 하셨습니다.”
 
 Und so war auch das erklärt.
-> 그리하여 그것도 설명이 되었다.
+> 그리고 그것 역시 규명이 되었다. (스승이라 추가적인 질문 (당신이 뭔데, 왜 그런게 없죠 등)이 없었던 것.)
 
 ## V.
 
 Doch der Mann in einer heitren Regung
-> 하지만 사내는 흥이 난 김에
+> 하지만 세관원은 흥이 난 김에
 
 Fragte noch: „Hat er was rausgekriegt?“
 > 이어 물었다. “그래, 뭘 알아내기는 했나?”
@@ -89,27 +89,27 @@ Du verstehst, das Harte unterliegt.“
 ## VI.
 
 Dass er nicht das letzte Tageslicht verlöre
-> 마지막 남은 햇빛마저 놓치지 않으려고
+> 소년은 마지막 남은 햇빛을 잃지 않기 위해서
 
 Trieb der Knabe nun den Ochsen an
-> 소년은 이제 소를 재촉했다
+> 이제 소를 재촉했다
 
 Und die drei verschwanden schon um eine schwarze Föhre
 > 셋이 이미 검은 소나무 뒤로 사라져 가는데
 
 Da kam plötzlich Fahrt in unsern Mann
-> 그때 우리의 사내에게 갑자기 활기가 돌더니
+> 그때 우리의 사내(세관원)에게 갑자기 어떠한 생각이 떠올라
 
 Und er schrie: „He, du! Halt an!
-> 그는 외쳤다. “이봐, 거기! 멈춰!
+> 그는 외쳤다. “이보시오, 거기! 멈추시오!
 
 ## VII.
 
 Was ist das mit diesem Wasser, Alter?“
-> 그 물 이야기가 대체 뭐요, 노인장?”
+> 그 물 이야기가 대체 뭐요, 노인이여?”
 
 Hielt der Alte: „Interessiert es dich?“
-> 노인이 멈췄다. “자네도 관심이 있나?”
+> 스승이 멈췄다. “자네도 관심이 있나?”
 
 Sprach der Mann: „Ich bin nur Zollverwalter
 > 사내가 말했다. “나는 그저 세관원일 뿐이지만
@@ -118,7 +118,7 @@ Doch wer wen besiegt, das interessiert auch mich.
 > 누가 누구를 이기는지는 나도 궁금하오.
 
 Wenn du’s weißt, dann sprich!
-> 그걸 안다면 말해 주시오!
+> 그걸 안다면 말해 주십시오!
 
 ## VIII.
 
@@ -126,16 +126,16 @@ Schreib mir’s auf! Diktier es diesem Kinde!
 > 나를 위해 적어 주시오! 이 아이가 받아쓰게 불러 주시오!
 
 So was nimmt man doch nicht mit sich fort.
-> 그런 것을 그대로 가지고 떠나서는 안 되지 않소.
+> 그런 지식은 혼자 가지고 떠나서는 안 되지 않소.
 
 Da gibt’s doch Papier bei uns und Tinte
-> 우리한테는 종이도 있고 잉크도 있소
+> 우리한테는 종이도 있고 먹도 있소
 
 Und ein Nachtmahl gibt es auch: ich wohne dort.
 > 저녁밥도 있소. 나는 저기 살고 있소.
 
 Nun, ist das ein Wort?“
-> 자, 이만하면 좋지 않소?”
+> 자, 약속된 것 입니다?”
 
 ## IX.
 
@@ -146,24 +146,24 @@ Auf den Mann: Flickjoppe. Keine Schuh.
 > 그 사내를. 기워 입은 웃옷. 신발은 없었다.
 
 Und die Stirne eine einzige Falte.
-> 그리고 이마에는 온통 주름 하나.
+> 그리고 이마에는 주름이 하나밖에 없었다. (그만큼 공부랑 거리가 먼)
 
 Ach, kein Sieger trat da auf ihn zu.
-> 아, 그를 향해 다가온 이는 승리자가 아니었다.
+> 아, 그 남자의 모습에서는 승자의 모습이 보이지 않았다.
 
 Und er murmelte: „Auch du?“
-> 그는 중얼거렸다. “자네도?”
+> 스승은 중얼거렸다. “자네도?” (자네같은 사람도 지식을 얻고 싶어 하는가)
 
 ## X.
 
 Eine höfliche Bitte abzuschlagen
-> 정중한 부탁을 물리치기에는
+> 그 정중한 부탁을 거절하기에는
 
 War der Alte, wie es schien, zu alt.
-> 노인은, 보아하니, 너무 늙어 있었다.
+> 스승은, 보아하니, 너무 늙어 있었다.
 
 Denn er sagte laut: „Die etwas fragen
-> 그가 큰 소리로 이렇게 말했기 때문이다. “무언가 묻는 이들은
+> 스승이 큰 소리로 이렇게 말했기 때문이다. “무언가 묻는 이들은
 
 Die verdienen Antwort.“ Sprach der Knabe: „Es wird auch schon kalt.“
 > 대답을 받을 자격이 있지.” 소년이 말했다. “벌써 날도 추워지네요.”
@@ -174,16 +174,16 @@ Die verdienen Antwort.“ Sprach der Knabe: „Es wird auch schon kalt.“
 ## XI.
 
 Und von seinem Ochsen stieg der Weise
-> 그러고는 현자가 소 등에서 내렸다
+> 그러고는 스승은 소 등에서 내렸다
 
 Sieben Tage schrieben sie zu zweit.
-> 그들은 둘이서 이레 동안 글을 썼다.
+> 그들은 7일 동안 글을 썼다.
 
 Und der Zöllner brachte Essen (und er fluchte nur noch leise
-> 세관원은 먹을 것을 가져왔다 (그리고 이제 욕설도 나직이만 했다
+> 세관원은 먹을 것을 가져다 주었다 (그리고 이제 욕설도 나직이만 했다
 
 Mit den Schmugglern in der ganzen Zeit).
-> 그동안 내내 밀수꾼들을 상대할 때에도).
+> 그 시간 동안 밀수꾼들을 상대할 때에도).
 
 Und dann war’s soweit.
 > 마침내 다 되었다.
