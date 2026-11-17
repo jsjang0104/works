@@ -1,6 +1,8 @@
 # 7. Philosophie des Frühstücks
 > 7. 아침 식사의 철학
 
+## 1.
+
 „Ich denke, also bin ich“, heißt es bei René Descartes.
 > 르네 데카르트는 “나는 생각한다. 그러므로 존재한다”라고 말한다.
 
@@ -22,6 +24,9 @@ Nein!
 Ich esse, also bin ich!
 > 나는 먹는다. 그러므로 존재한다!
 
+
+## 2.
+
 Ludwig Feuerbach hat das erkannt.
 > 루트비히 포이어바흐는 이 사실을 깨달았다.
 
@@ -36,6 +41,9 @@ Die Frage lautet nicht nur, wie der Mensch sein soll.
 
 Wir müssen auch fragen, was er essen muss, um so zu werden.
 > 그런 존재가 되려면 무엇을 먹어야 하는지도 물어야 한다.
+
+
+## 3.
 
 Bei der Frage einer Philosophie der Ernährung spielt gerade das Frühstück eine besondere Rolle.
 > 먹는 일의 철학을 논할 때에는 특히 아침 식사가 중요한 역할을 한다.
@@ -52,6 +60,9 @@ Ein hartes Frühstücksei, ein verbrannter Toast verderben die Laune.
 Bezeichnenderweise heißt es im Volksmund „er hat schlecht gefrühstückt“, wenn jemand schlecht gelaunt ist.
 > 누군가 기분이 좋지 않으면 흔히 “아침을 잘못 먹었나 보다”라고 말하는 것도 의미심장하다.
 
+
+## 4.
+
 So mag man denn einwenden, man müsse zwar essen, aber nicht unbedingt frühstücken, um zu sein.
 > 그러니 누군가는 존재하려면 먹기는 해야겠지만 반드시 아침을 먹을 필요는 없다고 반박할 수 있겠다.
 
@@ -60,6 +71,8 @@ Doch festhalten lässt sich die Einsicht: Ich frühstücke gut, also bin ich gl�
 
 Aber was ist ein gutes Frühstück?
 > 그런데 좋은 아침 식사란 무엇일까?
+
+## 5.
 
 Kaffee oder Tee zum Frühstück?
 > 아침 식사에는 커피일까, 차일까?
@@ -72,6 +85,8 @@ Es ist ein philosophisches Problem.
 
 Die Wahl des Getränkes beruht auf unserem Verhältnis zur Zeit.
 > 어떤 음료를 선택하느냐는 우리가 시간과 맺는 관계에 달려 있다.
+
+## 6.
 
 Wer Kaffee trinkt, für den ist die Zeit ein Pfeil.
 > 커피를 마시는 사람에게 시간은 화살이다.
@@ -121,6 +136,8 @@ Die Zeit ist ein Pfeil.
 Der heutige Tag kehrt nie zurück.
 > 오늘은 다시는 돌아오지 않는다.
 
+## 7.
+
 Die Tasse Tee am Morgen dagegen ist ein Ritual.
 > 반면 아침의 차 한 잔은 하나의 의식이다.
 
@@ -169,11 +186,5 @@ Alles ist gut.
 Also besteht kein Grund zur Eile.
 > 그러니 서두를 이유가 없다.
 
-<!-- tts:skip:start -->
-
 (Nach: Udo Marquardt, Spaziergänge mit Sokrates. Große Denker und die kleinen Dinge des Lebens. München 2000, S. 83–87)
 > 우도 마르크바르트, 『소크라테스와 함께하는 산책: 위대한 사상가들과 일상의 작은 것들』, 뮌헨, 2000년, 83–87쪽을 바탕으로.
-
-교정 메모: 첫 문장의 끊어진 연결을 두 문장으로 정리하고, René, gemacht, gefrühstückt, gutes Frühstück, beruht, beim Schopf, Wiederholung의 표기와 필요한 문장부호를 바로잡았다. 본문의 생략 표시는 유지했다.
-
-<!-- tts:skip:end -->

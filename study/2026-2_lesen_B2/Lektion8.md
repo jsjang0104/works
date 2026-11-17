@@ -1,6 +1,9 @@
 # 8. Krieg in Gaza und im Internet
 > 8. 가자와 인터넷에서의 전쟁
 
+
+## 1.
+
 Das Internet ist ein Medium, dessen Macht wächst.
 > 인터넷은 영향력이 커지고 있는 매체다.
 
@@ -19,11 +22,15 @@ Portale wie YouTube, flickr oder Facebook zeigen nicht nur, was im Gaza-Streifen
 Sie werden auch zu Werkzeugen, die man gut zu Propagandazwecken einsetzen kann.
 > 이들은 선전 목적으로 유용하게 활용할 수 있는 도구가 되기도 한다.
 
+## 2.
+
 Portale, die ursprünglich für den Austausch von Musikvideos, für die Fachgespräche von Fotografen und Designern oder für das Wiederfinden alter Freunde geschaffen wurden, werden seit Kriegsbeginn von Kriegsbildern überflutet.
 > 원래 뮤직비디오 공유, 사진가와 디자이너들의 전문적인 의견 교환, 또는 옛 친구 찾기를 위해 만들어진 포털들이 전쟁이 시작된 뒤로 전쟁 이미지들로 넘쳐 나고 있다.
 
 Sich aus den hunderttausendfachen Bildern und Kommentaren ein Bild zu machen, das der Wahrheit entspricht, ist fast unmöglich.
 > 수십만 개의 이미지와 댓글을 바탕으로 진실에 부합하는 상황을 파악하기란 거의 불가능하다.
+
+## 3.
 
 Am Anfang waren es vor allem einzelne Eindrücke von den Kampfhandlungen, die hochgeladen wurden.
 > 처음에는 주로 전투 현장을 단편적으로 담은 영상들이 업로드되었다.
@@ -36,6 +43,9 @@ Die israelische Außenministerin Zipi Livni hat sich vor einigen Tagen über Ber
 
 Doch die israelischen Berichte sind ebenfalls sehr propagandistisch.
 > 그러나 이스라엘의 보도 역시 매우 선전적이다.
+
+
+## 4.
 
 Hat YouTube in der letzten Woche noch Kriegsvideos, die gezielt vom israelischen Verteidigungsministerium dort veröffentlicht wurden, aus dem Netz genommen, so geschieht das inzwischen nicht mehr.
 > 지난주까지만 해도 유튜브는 이스라엘 국방부가 의도적으로 그곳에 게시한 전쟁 동영상을 인터넷에서 삭제했지만, 이제는 더 이상 그렇게 하지 않는다.
@@ -52,6 +62,9 @@ Und die angeblichen Terroristen waren einfache Zivilisten, die ihr Hab und Gut i
 Der Angriff tötete acht Menschen.
 > 그 공격으로 여덟 명이 사망했다.
 
+
+# 5.
+
 Gibt man bei den einzelnen Suchmaschinen Wörter wie „Gaza“ oder „Israel“ ein, finden sich Hunderte solcher vermeintlicher Kriegsberichte, die oft gezielt von israelischer Seite mit Informationen unterfüttert werden.
 > 각종 검색엔진에 “가자”나 “이스라엘” 같은 단어를 입력하면, 이런 식으로 전쟁 보도라고 여겨지는 자료를 수백 건 찾을 수 있는데, 이스라엘 측이 의도적으로 제공한 정보로 뒷받침되는 경우가 많다.
 
@@ -60,6 +73,8 @@ Sie sollen die Zerstörung von Hamas-Tunnelsystemen, Waffenlagern und Raketen ze
 
 Der Beweis fehlt oft.
 > 하지만 증거는 없는 경우가 많다.
+
+## 6.
 
 Auch in Diskussionsforen werden Unwahrheiten verbreitet und Meinungen gezielt beeinflusst.
 > 토론 게시판에서도 거짓이 퍼지고 사람들의 의견이 의도적으로 좌우된다.
@@ -73,6 +88,9 @@ Die israelische Armee ist die einzige weltweit, die einen eigenen YouTube-Channe
 Die israelische Botschaft in New York sendet außerdem aus einem Twitter-„Pressezentrum“.
 > 뉴욕의 이스라엘 대사관은 트위터 “프레스센터”를 통해서도 소식을 전한다.
 
+
+## 7.
+
 Bei der Hamas hat in den vergangenen Tagen die Internetpräsenz ebenfalls deutlich zugenommen.
 > 하마스 역시 지난 며칠 동안 인터넷상에서의 존재감이 뚜렷하게 커졌다.
 
@@ -85,17 +103,13 @@ Darüber hinaus werden Hacker beauftragt.
 Sie sollen die israelischen Internetportale zerstören.
 > 이들에게 맡겨진 임무는 이스라엘의 인터넷 포털을 파괴하는 것이다.
 
+## 8.
+
 Auch unter den Nutzern, die den virtuellen Krieg verfolgen, verhärten sich die Fronten.
 > 가상 전쟁을 지켜보는 이용자들 사이에서도 대립의 골이 깊어지고 있다.
 
 Unzumutbare Kommentare wie „Drecksjuden“ oder Vergleiche mit Nazigräueltaten unter diversen YouTube-Videos zeigen dies.
 > 여러 유튜브 동영상 아래에 달린 “더러운 유대인들” 같은 용납할 수 없는 댓글이나 나치의 잔학행위에 빗댄 표현들이 이를 보여 준다.
 
-<!-- tts:skip:start -->
-
 (Nach einem Artikel von Christian Weiss, ZEIT ONLINE, 02.01.2009)
 > 크리스티안 바이스가 2009년 1월 2일자 차이트 온라인(ZEIT ONLINE)에 쓴 기사를 바탕으로.
-
-교정 메모: Propagandazwecken, Musikvideos, Kommentaren, Inzwischen, letzten, Waffenlagern, zeigen, unter의 철자와 띄어쓰기를 바로잡았다. 본문의 시간 표현과 서술은 2009년 기사 시점을 유지했다.
-
-<!-- tts:skip:end -->
