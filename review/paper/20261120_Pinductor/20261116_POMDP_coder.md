@@ -1,8 +1,8 @@
-# POMDP Coder: LLM-Guided Probabilisstic Program Induction for POMDP Model Estimation
-
-- **저자**: Aidan Curtis, Hao Tang, Thiago Veloso, Kevin Ellis, Joshua Tenenbaum, Tomas Lozano-Perez, Leslie Pack Kaelbling
-- **arXiv**: https://arxiv.org/pdf/2505.02216
-- **Submission Date**: May 2025
+# Learning POMDP World Models from Observations with Language-Model Priors
+- **저자**: Valentin Six1*, Frederik Panse*, Mathis Fajeau*, Lancelot Da Costa*, Mridul Sharma †, Alfonso Amayuelas †, Tim Z. Xiao, David Hyland,
+Philipp Hennig, Bernhard Schölkopf
+- **arXiv**: https://arxiv.org/pdf/2605.13740
+- **Submission Date**: Nov 2026
 ---
 
 - 한줄 요약: 
@@ -12,12 +12,24 @@
 
 ## 2. Related Work
 
-## 3. Background
+## 3. Background on POMDPs
 
-## 4. POMDP Coder
+## 4. Methodology
+
+### 4.1 Problem formulation
+
+### 4.2 Model proposal
+
+### 4.3 Belief-based model evaluation
+
+### 4.4 Feedback and refinement
+
+### 4.5 Planning and online interaction
 
 ## 5. Experiments
 
-## 6. Discussion
+### 5.1 Experimental setup
 
-## 7. Limitation
+### 5.2 Main results
+
+## 6. Conclusions and Limitations
