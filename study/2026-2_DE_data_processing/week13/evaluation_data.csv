@@ -1,0 +1,11 @@
+﻿text,true_label,pred_label
+Das Buch ist interessant.,positive,positive
+Der Film war langweilig.,negative,negative
+Ich liebe diese Musik.,positive,positive
+Das Essen schmeckt nicht.,negative,positive
+Der Unterricht ist hilfreich.,positive,positive
+Das Wetter ist schlecht.,negative,negative
+Dieser Roman gefällt mir.,positive,negative
+Die Aufgabe ist schwierig.,negative,negative
+Das Konzert war wunderbar.,positive,positive
+Ich bin mit dem Service unzufrieden.,negative,negative
