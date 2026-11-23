@@ -28,6 +28,9 @@
 
 ### 2.1 POMDP Model Learning
 
+- challenge of learning POMDP models from experience: estimating the parameters of certain HMM is computationally intractable in general.
+
+- Bayesian methods (such as Bayes-Adaptive POMDPs): 
 
 ### 2.2 Probabilistic Program Induction
 
