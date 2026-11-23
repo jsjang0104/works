@@ -19,14 +19,47 @@
     - Candidate probebilistic programs are evaluated against empirical observations and iteratively refined through LLM generated feedback.
     - 실험 결과, 논문에서 제시한 방법론이 significantly enhances sample efficiency compared to traditional tabular model or behavior learning methods and achieves greater accuracy than directly querying an LLM.
      
+
 ## 2. Related Work
+
+- 여기서 집중하는 것: 
+    1. methods that emphasize **extreme data efficiency** through the use of explicit models and representations
+    2. methods that **use LLMs** to synthesize and refine these models
+
+### 2.1 POMDP Model Learning
+
+
+### 2.2 Probabilistic Program Induction
+
+### 2.3 LLM Model Learning for Decision-Making
+
 
 ## 3. Background
 
+### 3.1 POMDPs
+
+### 3.2 Probabilistic Programs
+
+### 3.3 POMDP Solvers
+
+
 ## 4. POMDP Coder
+
+### 4.1 Learning Models
+
 
 ## 5. Experiments
 
+### 5.1 Simulated Experiments
+
+### 5.2 Baselines
+
+### 5.3 Simulation Results
+
+### 5.4 Real Robot Experiments
+
+
 ## 6. Discussion
+
 
 ## 7. Limitation
