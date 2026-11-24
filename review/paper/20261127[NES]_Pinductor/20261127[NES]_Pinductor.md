@@ -1,5 +1,5 @@
 # Learning POMDP World Models from Observations with Language-Model Priors
-- **저자**: Valentin Six1*, Frederik Panse*, Mathis Fajeau*, Lancelot Da Costa*, Mridul Sharma †, Alfonso Amayuelas †, Tim Z. Xiao, David Hyland,
+- **저자**: Valentin Six*, Frederik Panse*, Mathis Fajeau*, Lancelot Da Costa*, Mridul Sharma †, Alfonso Amayuelas †, Tim Z. Xiao, David Hyland,
 Philipp Hennig, Bernhard Schölkopf
 - **arXiv**: https://arxiv.org/pdf/2605.13740
 - **Submission Date**: Nov 2026
