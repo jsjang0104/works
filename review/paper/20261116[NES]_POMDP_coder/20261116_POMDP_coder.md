@@ -96,12 +96,62 @@
     - 예시 2: POUCT (Partially Observable  Upper Confidence Trees)
     - 이 연구에서는 determinized belief space planning을 선택 
         - 이유: computational efficiency
-        - belief space planners는 stochastic nature of the problem을 deterministic하게 바꿈 ->
+        - belief space planners는 stochastic nature of the problem을 deterministic하게 바꿈
 
 ## 4. POMDP Coder
 
+- Problem은 두 가지 메이저 components로 구성
+    1. **learning the probabilistic models** that define the POMDP 
+        - initial state, transition, observation, reward fuction을 위한 candidate probabilistic program을 생성/수정/검증하는데 LLM 사용
+    2. using the learned models for **online planning**.
+        - 위에서 배운 model을 현재의 belief와 함께 online POMDP solver로 사용
+
+- Assume: 
+    - agent에게 인간이 생성해낸 10개의 **demonstration ${D}$** 를 제공하는 것을 가정 
+        - 각 D는 (s_t, a_t, o_t, s_{t+1}) transitions를 지니고 있음
+    - **post-hoc full observability** 가정
+        - 각 episode가 끝난 후 그 판의 매 순간 실제 상태가 어땠는지 확인할 수 있다는 가정
+
+- POMDP coder에게는 structure of state, action, observation space에 대한 code-based API를 제공받음.
+    - 아래는 호랭이 문 상황에서의 예시
+
+![alt text](image-2.png)
+
+- 아래의 <알고리즘 1>으로 POMDP 코더가 작동함.
+    1. the coder proposes an initial set of models that comprise POMDP problem
+    2. initial set of models가 정해지고 나면, 이 모델들이 POMDP solver에게로 전달됨
+        - 이 때 initial belief도 주어지고, 환경에서 취할 optimal first action을 탐색 시작
+    3. 행동을 취하고 나서 observation을 받으면, belief를 update (using particle filtering)
+
+- 이러한 알고리즘 과정은 episode terminate 또는 time out까지 반복됨
+- 에피소드 끝에는 해당 trajectory가 dataset에 추가되고, learning process repairs 
+
+![alt text](image-3.png)
+
 ### 4.1 Learning Models
 
+![alt text](image-4.png)
+
+- POMDP의 네 가지 core components를 학습시키는 것이 목표임
+    1. initial state distribution ${P(s_0)}$
+    2. transition model ${P(s_{t+1} | a_t)}$
+    3. observation model ${P(o_{t+1} | s_{t+1}, a_t)}$
+    4. reward model ${R(s_t, a_t, s_{t+1})}$
+
+- learning procedure의 목적 함수: **dataset coverage metric**을 최대화
+    - coverage란?: 실제 데이터에 기록된 결과 중에서, LLM이 만든 world model이 '실제로 발생할 수 있다'고 인정하는건 몇 %인가 (조금이라도 확률을 주면 1, 확률을 0으로 두면 0) ![alt text](image-6.png)
+    - 이 metric이 선택된 이유: 코드를 어떻게 고칠지 LLM에게 알려주기 쉽기 때문에
+        - 실제로 호랑이가 오른쪽에 있었고, 오른쪽 소리 2번 + 왼쪽 1번 소리로 기록이 된 상황에서
+        - LLM의 첫번째 코드는 "항상 호랑이가 있는 쪽에서 소리가 난다" 
+        - 근데 위 코드는 첫 두 기록은 설명이 되지만 왼쪽 소리 기록은 설명할 수 없음 -> coverage 2/3
+        - 연구진은 LLM에게 실제 기록을 보여줌 -> LLM이 코드를 고침 "대부분 호랑이 쪽에서 들리지만, 가끔은 호랑이가 없는 쪽에서도 들린다"
+        - 고친 코드는 현상을 설명할 수 있음 -> coverage 3/3
+
+![alt text](image-5.png)
+
+- 논문의 learning strategy는 두 가지 operation 사용
+    1. LLM program **proposal** given a model function template and a set of examples from the database
+    2. LLM program **repair** given a previous model and set of examples that the previous model failed to cover.
 
 ## 5. Experiments
 
