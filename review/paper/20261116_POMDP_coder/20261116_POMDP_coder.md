@@ -46,18 +46,57 @@
 
 ### 2.2 Probabilistic Program Induction
 
+- 정의: concise, symbolic representation을 이용하여 복잡한 시스템을 모델링 
+- 장점: can lead to markedely improved data efficiency and enable few-shot learning (in stark contrast to more data-intensive conventional methods)
+- 단점: the vast search space inherent to probabilistic programs can be a major computational bottleneck -> 최근 연구에는 여기에 LLM을 결합함으로서 human priors를 infuse
 
 ### 2.3 LLM Model Learning for Decision-Making
 
+- Prior Works
+    1. fully observable settings: transition dynamics and reward structures are represented using frameworks such as PDDL or code-based models
+    2. other approaches: utitilized code-based representations as constraints or as part of optimization frameworks
+
+- 이 연구에서 POMDP setting에서 LLM을 이용한 world-moeling for decision making이 처음임 
 
 ## 3. Background
 
 ### 3.1 POMDPs
 
+- POMDP is defined by the tuple ![alt text](image.png) 
+    - S,A,O: state, action, observation space
+    - 이 연구에서는 이러한 space들이 discrete하다고 가정하지만, 보통 POMDP는 continuous space임
+    - ${T(s_{t+1} | s_t, a_t)}$ : districution over next states expeted when taking action in state
+    - ${Z(o_t | s_{t+1} | a_t)}$ : observation model
+        - represents the distribution over observations expected when executing action a_t resulting in a subsequent state s_t+1
+    - ${R(s_t, a_t. s_{t+1})}$ : reward function
+    - ${\gamma}$ : 0 또는 1. Discount factor
+        - weighs the value of current rewards over future ones
+
+- POMDP에서는 실제 true state s_t을 모르므로, **belief ${b_{t}(s)}$ 또는 probability distribution over possible states**를 maintain 해야됨
+    - 이때 새 observation에 따른 새 action이 취해진 후에는 항상 probability distribution 또는 belief를 업데이트 해야됨 
+    - 이때 업데이트 할 떄 쓰는게 *particle filtering*: 실제 상태에 대한 여러 추측을 갖고 있다가, 새로 관측한 단서에 맞춰 각 추측의 **비중**을 바꾸는 방법. Particle 하나는 가능한 상태를 하나 뽑은 샘플이며, 이 입자들을 모아서 논문이 말하는 belief를 계산
+
+- The objective of POMDP: is to find a policy ${\pi}$ that maximizes the expected discounted reward (익숙하쥬,,)
+
+![alt text](image-1.png)
+
 ### 3.2 Probabilistic Programs
+
+- 이 연구에서 POMDP의 각 component들은 short probabilistic program으로 encoding됨
+    - 이때 이 component에는 initial state model, transition dynamics, observation function, reward structure 포함
+- 이 때 사용하는 프로그래밍 프레임워크가 *Pyro*
+    - stochastic behavior를 띄는 generative model을 작성할 수 있게 해줌
 
 ### 3.3 POMDP Solvers
 
+- Offline solvers (traditional): high-dimensional or continuous environments으로 확장하려고 할 때 scalability challenge를 맞이하게 됨.
+
+- Online solvers: focus on finding a solution from a specific initial belief and replan after every step as new observations become available.
+    - 예시 1: POMCP (Partially Observable Monte Carlo Planning) 
+    - 예시 2: POUCT (Partially Observable  Upper Confidence Trees)
+    - 이 연구에서는 determinized belief space planning을 선택 
+        - 이유: computational efficiency
+        - belief space planners는 stochastic nature of the problem을 deterministic하게 바꿈 ->
 
 ## 4. POMDP Coder
 
