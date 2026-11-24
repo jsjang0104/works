@@ -5,7 +5,7 @@
 - **Submission Date**: May 2025
 ---
 
-- 한줄 요약: 
+- 한줄 요약: 명시적인 **belief state**를 두는 POMDP **처음** 사용
 
 
 ## 1. Introduction
