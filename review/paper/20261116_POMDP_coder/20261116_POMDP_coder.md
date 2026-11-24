@@ -30,9 +30,22 @@
 
 - challenge of learning POMDP models from experience: estimating the parameters of certain HMM is computationally intractable in general.
 
-- Bayesian methods (such as Bayes-Adaptive POMDPs): 
+- Bayesian methods (such as Bayes-Adaptive POMDPs)
+    - 방법: incorporate model uncertainty directly into decision-making by unifying *model learning, information gathering, and exploitation*
+    - 단점: POMDP의 overall complexity를 증가시킴
+
+- Optimism-based exploration algorithm
+    - 장점: yields theoretical guarantees for efficient learning in specific POMDP subclasses
+    - 단점: challenging to apply directly to real-world, complex domains
+
+- Apprenticeship learning (도제 학습): 전문가의 시연을 보고 "어떤 환경이라면 저 순간에 저 행동을 하는 게 합리적일까?"를 거꾸로 추론하는 방법
+    - estimate POMDP parameters by leveraging expert demonstrations
+    - assumes that expert behavior encapsulates informative state-transition dynamics
+    - 장점: helps reducing the burden of exploration
+    - 단점: sensitive to the quality of the expert demonstrations
 
 ### 2.2 Probabilistic Program Induction
+
 
 ### 2.3 LLM Model Learning for Decision-Making
 
