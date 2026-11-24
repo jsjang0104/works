@@ -157,7 +157,18 @@
 
 ### 5.1 Simulated Experiments
 
+1. classical POMDP problems - tiger problem, rock sample problem
+2. MiniGrid tasks - 5가지 환경에서 실험
+
+![alt text](image-7.png)
+
 ### 5.2 Baselines
+
+- **oracle**: hardcoded to excatly match the true dynamics of the environment. (upper bound 역할)
+- **direct LLM**: POMDP coder랑 같은 정보를 제공받는 다이렉트 프롬프트 LLM
+- **behavior cloning**: a policy is constructed by mapping states to actions using a dictionary learned from the demonstration dataset.
+- **offline only ablation POMPD Coder**: only human demonstrations
+- **online only ablation POMPD Coder**: only from own experiences 
 
 ### 5.3 Simulation Results
 
