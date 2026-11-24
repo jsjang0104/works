@@ -172,10 +172,28 @@
 
 ### 5.3 Simulation Results
 
+![alt text](image-8.png)
+
 ### 5.4 Real Robot Experiments
 
+- Boston Dynamics Spot robot
+- The goal is for the robot to find an pick up an apple placed within the scene
+- map of the empty room by scanning it with PolyCam
+    - 이 scan은 used to construct a scene representation that includes an object-centric scene graph, encoding "on" relationships derived from geometric cues and an occupancy grid 
+    - 방 종류는 2개
+        1. small, closed-off room with few tables, chairs, and drawer cabinets
+        2. large, open lobby area with more than twenty pieces of furniture
 
-## 6. Discussion
+![alt text](image-9.png)
 
+![alt text](image-10.png)
 
 ## 7. Limitation
+
+1. relies on human expertise data
+
+2. post-hoc observability assumption
+
+3. particle filter does not scale well to arbitrarily large state spaces
+
+4. only discrete 
